@@ -962,11 +962,19 @@
   box-shadow: var(--shadow-md);
 }
 
+.svg-stage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1120 / 520;
+  overflow: hidden;
+}
+
 .febris-svg {
+  position: absolute;
+  inset: 0;
   display: block;
   width: 100%;
-  height: auto;
-  min-height: 280px;
+  height: 100%;
 }
 
 .svg-title {
@@ -983,12 +991,13 @@
   position: absolute;
   inset: 0;
   pointer-events: none;
+  z-index: 3;
 }
 
 .hotspot-dot {
   position: absolute;
-  width: 34px;
-  height: 34px;
+  width: 30px;
+  height: 30px;
   transform: translate(-50%, -50%);
   border: 2px solid #fff;
   border-radius: 50%;
@@ -998,7 +1007,12 @@
   font-weight: 900;
   cursor: pointer;
   pointer-events: auto;
+  touch-action: manipulation;
   box-shadow: var(--shadow-md);
+}
+
+.hotspot-dot span {
+  pointer-events: none;
 }
 
 .hotspot-dot:focus-visible,
@@ -1311,6 +1325,37 @@
   line-height: 1.88;
 }
 
+.prompt3-clinical-kicker {
+  display: inline-block;
+  margin: 0 0 12px;
+  color: var(--prompt3-accent, #0f766e);
+  font-size: var(--text-xs);
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.prompt3-reading-card h3 {
+  margin: 0 0 14px;
+  color: var(--text-primary);
+  font-size: clamp(1.18rem, 1vw + .95rem, 1.45rem);
+  line-height: 1.25;
+}
+
+.prompt3-reading-card h3:not(:first-of-type) {
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid var(--prompt3-line);
+}
+
+.prompt3-reading-card .prompt3-turning-point {
+  margin: 22px 0;
+  padding: 4px 0 4px 16px;
+  border-left: 4px solid var(--prompt3-accent, #0f766e);
+  color: var(--text-primary);
+}
+
+
 .prompt3-reading-card p:last-child { margin-bottom: 0; }
 .prompt3-reading-card strong { color: var(--text-primary); }
 
@@ -1388,14 +1433,18 @@
 }
 
 .prompt3-hotspot {
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
   border-color: rgba(255,255,255,.88);
   background: color-mix(in srgb, var(--prompt3-accent, #0f766e) 78%, #0f172a);
   font-size: 1rem;
 }
 
 .prompt3-hotspot:hover {
+  transform: translate(-50%, -50%) scale(1.08);
+}
+
+.prompt3-hotspot:focus-visible {
   transform: translate(-50%, -50%) scale(1.08);
 }
 
@@ -1455,8 +1504,9 @@
   }
 
   .prompt3-hotspot {
-    width: 34px;
-    height: 34px;
+    width: 22px;
+    height: 22px;
+    font-size: .78rem;
   }
 }
 

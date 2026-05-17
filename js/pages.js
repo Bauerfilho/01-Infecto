@@ -39,7 +39,7 @@ function bodyText(text) {
 }
 
 function styledList(items) {
-  return `<ul class="styled-list">${items.map(i => `<li>${i}</li>`).join('')}</ul>`;
+  return `<ul class="styled-list">${items.map(i => `<li>${escapeHtml(i)}</li>`).join('')}</ul>`;
 }
 
 function dataPage(id) {
@@ -54,9 +54,9 @@ function tableHtml(table) {
   if (!table) return '';
   return `<div class="table-wrap mb-24">
     <table class="premium-table">
-      <caption>${table.title}</caption>
-      <thead><tr>${table.headers.map(h => `<th>${h}</th>`).join('')}</tr></thead>
-      <tbody>${table.rows.map(row => `<tr>${row.map(cell => `<td>${cell}</td>`).join('')}</tr>`).join('')}</tbody>
+      <caption>${escapeHtml(table.title)}</caption>
+      <thead><tr>${table.headers.map(h => `<th>${escapeHtml(h)}</th>`).join('')}</tr></thead>
+      <tbody>${table.rows.map(row => `<tr>${row.map(cell => `<td>${escapeHtml(cell)}</td>`).join('')}</tr>`).join('')}</tbody>
     </table>
   </div>`;
 }
@@ -120,11 +120,12 @@ const PROMPT3_PROFILES = {
   'lei-13': ['simulação', 'fechamento do calazar', 'perder o padrão infeccioso crônico', 'tempo + baço + policlonal + endemia', 'Como pensar este caso', 'mental', 'Mapa mental final do calazar', 'simulation']
 };
 
+
 function prompt3Profile(page, module) {
   const raw = PROMPT3_PROFILES[page.id] || [
     'leitura forte',
     module.thesis,
-    page.trap,
+    page.trap || 'fechar hipótese por um dado isolado',
     page.hotspots[0] || page.title,
     'Raciocínio clínico guiado',
     'mental',
@@ -144,35 +145,252 @@ function prompt3Profile(page, module) {
   };
 }
 
-function layoutPoints(type, labels) {
-  const layouts = {
-    tree: [[18, 52], [34, 28], [34, 72], [52, 22], [52, 50], [52, 78], [72, 38], [72, 66]],
-    cycle: [[50, 17], [72, 28], [80, 52], [67, 74], [43, 79], [22, 62], [23, 35], [38, 25]],
-    immune: [[19, 33], [34, 56], [50, 37], [63, 57], [78, 32], [81, 71], [44, 78], [25, 72]],
-    vessel: [[18, 52], [34, 41], [45, 61], [56, 42], [68, 64], [80, 47], [72, 78], [31, 75]],
-    timeline: [[14, 66], [26, 47], [38, 33], [50, 47], [62, 33], [74, 47], [86, 66], [50, 75]],
-    body: [[50, 19], [43, 38], [57, 38], [50, 52], [41, 66], [59, 66], [35, 79], [65, 79]],
-    ladder: [[20, 75], [31, 66], [42, 57], [53, 48], [64, 39], [75, 30], [86, 21], [48, 75]],
-    shock: [[24, 35], [43, 30], [61, 35], [78, 45], [69, 68], [48, 73], [28, 62], [50, 51]],
-    lab: [[16, 31], [34, 31], [52, 31], [70, 31], [88, 31], [28, 69], [52, 69], [76, 69]],
-    arm: [[28, 48], [39, 55], [50, 61], [61, 55], [72, 48], [44, 37], [57, 37], [50, 75]],
-    flow: [[17, 50], [32, 31], [32, 69], [50, 31], [50, 69], [68, 31], [68, 69], [84, 50]],
-    radar: [[50, 18], [75, 35], [72, 66], [50, 80], [28, 66], [25, 35], [50, 50], [82, 77]],
-    mental: [[50, 50], [50, 18], [74, 30], [81, 58], [65, 79], [35, 79], [19, 58], [26, 30]],
-    organ: [[32, 38], [50, 31], [68, 38], [40, 63], [60, 63], [50, 78], [25, 70], [75, 70]],
-    balance: [[29, 36], [71, 36], [50, 31], [42, 66], [58, 66], [19, 72], [81, 72], [50, 79]],
-    map: [[32, 31], [48, 43], [62, 35], [38, 63], [58, 66], [75, 54], [26, 75], [70, 78]],
-    macrophage: [[49, 50], [38, 42], [61, 42], [44, 61], [57, 62], [27, 37], [73, 35], [50, 80]]
+function normalizeHotspotLabel(label) {
+  return String(label || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+}
+
+function point(x, y, zone) {
+  return { x, y, zone };
+}
+
+function pointFromRows(idx, rows, zone = 'fallback') {
+  const pos = rows[idx % rows.length];
+  return point(pos[0], pos[1], zone);
+}
+
+function semanticPoint(type, label, idx) {
+  const l = normalizeHotspotLabel(label);
+
+  if (type === 'tree') {
+    if (/febre sem foco|ictericia|calazar|nome|entrada/.test(l)) return point(14, 52, 'raiz');
+    if (/sem disuria|topografia|hepatocelular|chagasi|infantum|pista/.test(l)) return point(34, 32, 'ramo-superior');
+    if (/dor retro|plaqueta|canalicular|visceral|protozoario|diferencial/.test(l)) return point(52, 52, 'ramo-central');
+    if (/dor abdominal|grupo c|hemolitico|tegumentar|braziliensis/.test(l)) return point(78, 73, 'ramo-inferior');
+    if (/decis|conduta|erro|alarme|foco/.test(l)) return point(78, 52, 'decisao');
+    return pointFromRows(idx, [[14, 52], [34, 32], [34, 73], [52, 32], [52, 52], [52, 73], [78, 52], [78, 73]], 'arvore');
+  }
+
+  if (type === 'cycle') {
+    if (/aedes|haemagogus|sabethes|lutzomyia|flebotomineo|mosquito|vetor|transmite/.test(l)) return point(50, 22, 'vetor');
+    if (/humano|viajante|acidental|limpeza urbana|trabalho|exposicao/.test(l)) return point(64, 52, 'humano');
+    if (/agua|enchente|esgoto|urina|ambiente|epidemia|epizootia|urbano|1942/.test(l)) return point(50, 82, 'ambiente');
+    if (/macaco|sentinela|rato|camundongo|raposa|cao|reservatorio/.test(l)) return point(36, 52, 'reservatorio');
+    if (/incubacao|arbovirose|leptospira|espiroqueta|agente/.test(l)) return point(50, 50, 'centro-do-ciclo');
+    return pointFromRows(idx, [[50, 22], [64, 52], [50, 82], [36, 52], [62, 29], [62, 75], [38, 75], [38, 29]], 'ciclo');
+  }
+
+  if (type === 'immune') {
+    if (/flavivirus|rna|flavi|praga|dengue|vacina|reurbanizacao/.test(l)) return point(50, 30, 'virus-central');
+    if (/denv-?1|celular/.test(l)) return point(32, 50, 'resposta-celular');
+    if (/denv-?2|humoral/.test(l)) return point(41, 66, 'resposta-humoral');
+    if (/denv-?3|globulina|policlonal/.test(l)) return point(60, 50, 'anticorpos');
+    if (/denv-?4|monoclonal/.test(l)) return point(70, 66, 'clones');
+    if (/sorotipo 5|1942|inversao/.test(l)) return point(78, 38, 'detalhe-lateral');
+    if (/halstead|anticorpos nao|facilitacao|imunofacilitacao/.test(l)) return point(50, 78, 'ponte-imunologica');
+    return pointFromRows(idx, [[50, 30], [32, 50], [41, 66], [60, 50], [70, 66], [78, 38], [50, 78], [24, 38]], 'imune');
+  }
+
+  if (type === 'vessel') {
+    if (/endotelio|intravascular/.test(l)) return point(28, 48, 'parede-vascular');
+    if (/plasma|extravas|fora|liquido|terceiro/.test(l)) return point(42, 75, 'terceiro-espaco');
+    if (/hemoconcentracao|ht subindo|hematocrito|hemacias/.test(l)) return point(76, 52, 'hemoconcentracao');
+    if (/plaqueta/.test(l)) return point(32, 58, 'conteudo-vascular');
+    if (/choque|hipoperfusao/.test(l)) return point(86, 62, 'desfecho-hemodinamico');
+    if (/caindo|piora|sangramento/.test(l)) return point(62, 74, 'queda-com-piora');
+    return pointFromRows(idx, [[28, 48], [42, 75], [76, 52], [32, 58], [86, 62], [62, 74], [52, 56]], 'vaso');
+  }
+
+  if (type === 'timeline') {
+    if (/dia 1|inicio|febre|dias$|aguda/.test(l)) return point(13, 62, 'inicio');
+    if (/mialgia|dia 2|2.?3|pico/.test(l)) return point(27, 48, 'pico');
+    if (/dor retro|meses|arrastada|consumo/.test(l)) return point(41, 56, 'virada');
+    if (/rash|prurido|3.?6|defervescencia|risco|baço/.test(l)) return point(55, 69, 'fase-critica');
+    if (/vomitos|igm|exame|pancitopenia|hematologia/.test(l)) return point(71, 61, 'exame-risco');
+    if (/persistente|sintese|infecção crônica|cronica/.test(l)) return point(85, 46, 'fechamento');
+    return pointFromRows(idx, [[13, 62], [27, 48], [41, 56], [55, 69], [71, 61], [85, 46], [50, 78]], 'linha-tempo');
+  }
+
+  if (type === 'body') {
+    if (/letargia|irritabilidade|meningite/.test(l)) return point(48, 29, 'cabeca');
+    if (/mucosa|sufusao|secrecao/.test(l)) return point(55, 29, 'olhos-mucosa');
+    if (/vomitos/.test(l)) return point(42, 56, 'estomago');
+    if (/dor abdominal/.test(l)) return point(50, 67, 'abdome-dor');
+    if (/liquidos|acumulo/.test(l)) return point(59, 71, 'terceiro-espaco');
+    if (/hepatomegalia|figado/.test(l)) return point(62, 60, 'hipocondrio-direito');
+    if (/hipotensao|lipotimia|panturrilha/.test(l)) return point(38, 81, 'membros-inferiores');
+    if (/ht|hematocrito|vasculite|anicterica/.test(l)) return point(50, 49, 'centro-sistemico');
+    return pointFromRows(idx, [[50, 28], [57, 36], [50, 61], [58, 54], [40, 78], [60, 78], [43, 46], [57, 46]], 'corpo');
+  }
+
+  if (type === 'ladder') {
+    if (/comum|leve|pet[eé]quias|faget/.test(l)) return point(21, 78, 'degrau-1');
+    if (/aten[cç][aã]o|mucosa|1.*8|forma leve/.test(l)) return point(34, 67, 'degrau-2');
+    if (/alarme|moderada|500|sangramento grave/.test(l)) return point(47, 57, 'degrau-3');
+    if (/grave|grupo c|oliguria|conduta/.test(l)) return point(60, 45, 'degrau-4');
+    if (/grupo d|uti|tifoide|legionella|brucelose/.test(l)) return point(73, 34, 'degrau-5');
+    return pointFromRows(idx, [[21, 78], [34, 67], [47, 57], [60, 45], [73, 34], [84, 25], [48, 78]], 'escada');
+  }
+
+  if (type === 'shock') {
+    if (/choque/.test(l)) return point(50, 53, 'choque-central');
+    if (/pa|100|convergente/.test(l)) return point(34, 38, 'pressao');
+    if (/pulso/.test(l)) return point(58, 36, 'pulso');
+    if (/tec|extremidade|perfusao/.test(l)) return point(70, 68, 'perfusao');
+    if (/sangramento/.test(l)) return point(28, 67, 'sangramento');
+    if (/disfuncao|organica/.test(l)) return point(78, 46, 'orgao');
+    return pointFromRows(idx, [[50, 53], [34, 38], [58, 36], [70, 68], [28, 67], [78, 46], [50, 76]], 'choque');
+  }
+
+  if (type === 'lab') {
+    if (/bd|bilirrubina direta|dia 1|montenegro|imunofluorescencia/.test(l)) return point(16, 51, 'lab-1');
+    if (/fa|ggt|ate 5|rk39|canalicular/.test(l)) return point(33, 51, 'lab-2');
+    if (/ast|alt|ns1|parasitologico|creatinina$/.test(l)) return point(50, 51, 'lab-3');
+    if (/cr\/k|creatinina|k baixo|tubulopatia|igm|hiv|bi/.test(l)) return point(67, 51, 'lab-4');
+    if (/cpk|igg|imunossupressao|diferencial/.test(l)) return point(84, 51, 'lab-5');
+    if (/leucocitose|isolamento|pcr|perda|visceral/.test(l)) return point(28, 77, 'lab-baixo-1');
+    if (/microaglutinacao|nao exclui|camadas|tegumentar/.test(l)) return point(50, 77, 'lab-baixo-2');
+    if (/imunidade|pos-tratamento|exame/.test(l)) return point(72, 77, 'lab-baixo-3');
+    return pointFromRows(idx, [[16, 51], [33, 51], [50, 51], [67, 51], [84, 51], [28, 77], [50, 77], [72, 77]], 'laboratorio');
+  }
+
+  if (type === 'arm') {
+    if (/manguito|media|pas|pad|adulto|crianca|tempo|min/.test(l)) return point(36, 43, 'manguito');
+    if (/quadrado/.test(l)) return point(53, 60, 'quadrado');
+    if (/petequia|≥|>=|20|10/.test(l)) return point(62, 60, 'petequias');
+    if (/grupo b|nao confirma|confirm/.test(l)) return point(75, 70, 'interpretacao');
+    return pointFromRows(idx, [[36, 43], [53, 60], [62, 60], [75, 70], [44, 43], [58, 43], [50, 75]], 'prova-laco');
+  }
+
+  if (type === 'flow') {
+    if (/^a$|entrada|60 ml|doxiciclina|glucantime/.test(l)) return point(17, 51, 'entrada');
+    if (/^b$|risco|1\/3|amoxicilina|qt/.test(l)) return point(41, 35, 'risco');
+    if (/^c$|reavaliar|pediatria|cristalina|torsades|ecg/.test(l)) return point(41, 71, 'reavaliacao');
+    if (/^d$|conduta|20 ml\/kg 2h|ceftriaxona|lipossomal|grave|gestante/.test(l)) return point(66, 35, 'conduta');
+    if (/alerta|choque|20 ml\/kg 20min|benzatina|dialise|insuficiencia|50/.test(l)) return point(66, 71, 'alerta');
+    if (/aine|aas|fechamento|alcool/.test(l)) return point(84, 51, 'fechamento');
+    return pointFromRows(idx, [[17, 51], [41, 35], [41, 71], [66, 35], [66, 71], [84, 51], [29, 51], [54, 51]], 'fluxo');
+  }
+
+  if (type === 'radar' || type === 'mental') {
+    if (/tempo|febre|suspeita|hepatocelular|arrastada/.test(l)) return point(50, 25, 'eixo-tempo');
+    if (/laboratorio|alarme|canalicular|baço|pancitopenia/.test(l)) return point(68, 43, 'eixo-lab');
+    if (/risco|grupo|hemolitico|policlonal/.test(l)) return point(63, 72, 'eixo-risco');
+    if (/conduta|exame|febre amarela|macrofago|medula|gs|is/.test(l)) return point(37, 72, 'eixo-conduta');
+    if (/diferencial|leptospirose|hepatite|malaria|dengue grave|retorno/.test(l)) return point(32, 43, 'eixo-diferencial');
+    if (/hidrata|medicamento|sintese|fechamento/.test(l)) return point(50, 58, 'centro');
+    return pointFromRows(idx, [[50, 25], [68, 43], [63, 72], [37, 72], [32, 43], [50, 58], [76, 77], [24, 77]], 'mapa-mental');
+  }
+
+  if (type === 'organ') {
+    if (/figado|ast|alt|hepat|coagulopatia|ictericia|albumina|globulina|policlonal/.test(l)) return point(30, 50, 'figado');
+    if (/rim|ira|creatinina|oliguria|diurese|medula|aspirado|preferencial|pancitopenia/.test(l)) return point(50, 54, 'rim-medula');
+    if (/pulmao|hemoptise|alveolar|baço|baco|esplenica|sensivel|sangramento/.test(l)) return point(72, 52, 'pulmao-baco');
+    if (/macrofago|amastigota|promastigota|parasit/.test(l)) return point(38, 68, 'parasita-tecido');
+    if (/letalidade|viremia|igm|suporte|uti|fechamento/.test(l)) return point(82, 70, 'desfecho');
+    return pointFromRows(idx, [[30, 50], [50, 54], [72, 52], [50, 78], [38, 68], [82, 70], [22, 70], [62, 34]], 'orgao');
+  }
+
+  if (type === 'balance') {
+    if (/neoplasia|mieloma|monoclonal|febre amarela|ictericia insuficiente/.test(l)) return point(32, 69, 'prato-esquerdo');
+    if (/calazar|lepto|leptospirose|limpeza|sufusao|canalicular|k baixo|hemoptise|policlonal|baço|pancitopenia/.test(l)) return point(68, 69, 'prato-direito');
+    if (/dado|leucocitose|diagnostico/.test(l)) return point(50, 31, 'fulcro');
+    return pointFromRows(idx, [[32, 69], [68, 69], [50, 31], [29, 42], [71, 42], [50, 76]], 'balanca');
+  }
+
+  if (type === 'map') {
+    if (/crato|ceara|bahia|minas|territorio|endemia/.test(l)) return point(49, 54, 'territorio');
+    if (/urbanizacao|periurbanizacao|exposicao/.test(l)) return point(65, 68, 'expansao');
+    if (/probabilidade|risco/.test(l)) return point(72, 50, 'probabilidade');
+    return pointFromRows(idx, [[35, 42], [49, 54], [61, 44], [38, 66], [58, 68], [72, 50], [28, 72]], 'mapa');
+  }
+
+  if (type === 'macrophage') {
+    if (/macrofago/.test(l)) return point(31, 52, 'macrofago');
+    if (/reticuloendotelial|sistema/.test(l)) return point(50, 53, 'sistema');
+    if (/figado/.test(l)) return point(67, 39, 'figado');
+    if (/baço|baco/.test(l)) return point(73, 54, 'baco');
+    if (/medula/.test(l)) return point(60, 75, 'medula');
+    if (/pancitopenia/.test(l)) return point(50, 80, 'citopenias');
+    if (/consumo/.test(l)) return point(82, 70, 'consumo');
+    return pointFromRows(idx, [[31, 52], [50, 53], [67, 39], [73, 54], [60, 75], [50, 80], [82, 70]], 'macrofago');
+  }
+
+  return pointFromRows(idx, [[50, 50], [50, 25], [68, 43], [63, 72], [37, 72], [32, 43], [50, 78], [76, 77]], 'fallback');
+}
+
+function spreadPoint(base, slot, total) {
+  if (total <= 1) return base;
+  const offsets = [
+    [0, 0],
+    [3.2, -2.6],
+    [-3.2, 2.6],
+    [3.2, 2.6],
+    [-3.2, -2.6],
+    [0, -4.2],
+    [4.2, 0],
+    [0, 4.2],
+    [-4.2, 0],
+    [5.2, -3.2],
+    [-5.2, 3.2]
+  ];
+  const offset = offsets[slot % offsets.length];
+  return {
+    ...base,
+    x: Math.min(92, Math.max(8, base.x + offset[0])),
+    y: Math.min(88, Math.max(16, base.y + offset[1]))
   };
-  const base = layouts[type] || layouts.mental;
-  return labels.map((label, idx) => {
-    const pos = base[idx % base.length];
-    return { label, x: pos[0], y: pos[1] };
+}
+
+function deconflictPoints(points, type = 'default') {
+  const placed = [];
+  points.forEach((pointData, idx) => {
+    let next = { ...pointData };
+    let attempt = 0;
+    const minDistance = type === 'body' ? 5.6 : 8.8;
+    while (placed.some(prev => Math.hypot(prev.x - next.x, prev.y - next.y) < minDistance) && attempt < 14) {
+      const angle = ((idx + 1) * 137.5 + attempt * 41) * Math.PI / 180;
+      const radius = 4.2 + attempt * 0.9;
+      next = {
+        ...pointData,
+        x: Math.min(92, Math.max(8, pointData.x + Math.cos(angle) * radius)),
+        y: Math.min(88, Math.max(16, pointData.y + Math.sin(angle) * radius))
+      };
+      attempt += 1;
+    }
+    placed.push(next);
   });
+  return placed;
+}
+
+function layoutPoints(type, labels) {
+  const raw = labels.map((label, idx) => ({
+    label,
+    ...semanticPoint(type, label, idx)
+  }));
+  const counts = {};
+  raw.forEach(pointData => {
+    counts[pointData.zone] = (counts[pointData.zone] || 0) + 1;
+  });
+  const seen = {};
+  const spread = raw.map(pointData => {
+    const slot = seen[pointData.zone] || 0;
+    seen[pointData.zone] = slot + 1;
+    return spreadPoint(pointData, slot, counts[pointData.zone]);
+  });
+  return deconflictPoints(spread, type);
 }
 
 function svgLabel(text, x, y, anchor = 'middle') {
   return `<text x="${x}" y="${y}" text-anchor="${anchor}" class="svg-concept-label">${escapeHtml(text)}</text>`;
+}
+
+function svgShortLabel(text, limit = 18) {
+  const clean = String(text || '').replace(/\s+/g, ' ').trim();
+  if (clean.length <= limit) return clean;
+  return `${clean.slice(0, limit - 1).replace(/\s+\S*$/, '')}…`;
 }
 
 function svgScene(type, page, accent, profile) {
@@ -198,6 +416,19 @@ function svgScene(type, page, accent, profile) {
       ${svgLabel('vetor', 560, 119)}${svgLabel('humano', 718, 277)}${svgLabel('ambiente', 560, 435)}${svgLabel('reservatório', 402, 277)}`;
   }
 
+  if (type === 'immune') {
+    return `${common}
+      <circle cx="560" cy="155" r="46" fill="#fff" stroke="${accent}" stroke-width="4"></circle>
+      <circle cx="355" cy="260" r="58" fill="#fff" stroke="${accent}" stroke-width="4"></circle>
+      <circle cx="460" cy="345" r="44" fill="rgba(255,255,255,.72)" stroke="${accent}" stroke-width="4"></circle>
+      <circle cx="670" cy="260" r="58" fill="#fff" stroke="${accent}" stroke-width="4"></circle>
+      <circle cx="780" cy="345" r="44" fill="rgba(255,255,255,.72)" stroke="${accent}" stroke-width="4"></circle>
+      <path d="M560 202 C548 264 532 318 560 386 C588 318 572 264 560 202Z" fill="rgba(255,255,255,.52)" stroke="${accent}" stroke-width="4"></path>
+      <path d="M560 386 L510 440 M560 386 L610 440 M560 386 V450" ${line} opacity=".62"></path>
+      <path d="M404 260 H612 M505 345 H725" ${line} opacity=".35"></path>
+      ${svgLabel('vírus', 560, 163)}${svgLabel('celular', 355, 268)}${svgLabel('humoral', 460, 353)}${svgLabel('anticorpos', 670, 268)}${svgLabel('clones', 780, 353)}${svgLabel('Halstead', 560, 468)}`;
+  }
+
   if (type === 'vessel') {
     return `${common}
       <path d="M130 230 C300 158 500 158 990 230 L990 318 C650 392 354 386 130 318 Z" fill="rgba(255,255,255,.58)" stroke="${accent}" stroke-width="5"></path>
@@ -216,10 +447,30 @@ function svgScene(type, page, accent, profile) {
 
   if (type === 'body') {
     return `${common}
-      <circle cx="560" cy="145" r="44" fill="#fff" stroke="${accent}" stroke-width="4"></circle>
-      <path d="M560 192 C490 210 462 292 486 392 C508 470 612 470 634 392 C658 292 630 210 560 192Z" fill="rgba(255,255,255,.58)" stroke="${accent}" stroke-width="5"></path>
-      <path d="M510 280 H610 M518 333 H602 M540 390 H580" ${line} opacity=".5"></path>
-      ${svgLabel('sinais no corpo', 560, 466)}${svgLabel('risco sistêmico', 560, 282)}`;
+      <circle cx="560" cy="150" r="60" fill="#fff" stroke="${accent}" stroke-width="5"></circle>
+      <path d="M560 224 C352 232 252 316 286 426 C320 520 484 504 560 456 C636 504 800 520 834 426 C868 316 768 232 560 224Z" fill="rgba(255,255,255,.58)" stroke="${accent}" stroke-width="6"></path>
+      <path d="M302 326 C214 354 190 426 254 462" ${line} opacity=".42"></path>
+      <path d="M818 326 C906 354 930 426 866 462" ${line} opacity=".42"></path>
+      <ellipse cx="560" cy="258" rx="122" ry="42" fill="rgba(255,255,255,.56)" stroke="${accent}" stroke-width="4"></ellipse>
+      <ellipse cx="470" cy="302" rx="78" ry="42" fill="rgba(255,255,255,.70)" stroke="${accent}" stroke-width="4"></ellipse>
+      <path d="M640 304 C720 286 770 328 734 386 C666 394 620 358 640 304Z" fill="#fbbf24" opacity=".78" stroke="${accent}" stroke-width="4"></path>
+      <ellipse cx="560" cy="362" rx="146" ry="62" fill="rgba(255,255,255,.52)" stroke="${accent}" stroke-width="4"></ellipse>
+      <path d="M492 436 C462 470 448 496 440 512 M628 436 C658 470 672 496 680 512" ${line} opacity=".5"></path>
+      <circle cx="538" cy="144" r="6" fill="${accent}" opacity=".65"></circle>
+      <circle cx="582" cy="144" r="6" fill="${accent}" opacity=".65"></circle>
+      ${svgLabel('sinais no corpo', 560, 474)}${svgLabel('risco sistêmico', 560, 268)}`;
+  }
+
+  if (type === 'shock') {
+    return `${common}
+      <circle cx="560" cy="270" r="86" fill="#fff" stroke="${accent}" stroke-width="5"></circle>
+      <path d="M510 270 H610 M560 220 V320" ${line} opacity=".48"></path>
+      <rect x="300" y="168" width="175" height="108" rx="24" fill="#fff" stroke="${accent}" stroke-width="4"></rect>
+      <path d="M328 226 H448 M352 198 H424" ${line} opacity=".55"></path>
+      <path d="M666 168 C742 150 804 204 790 282 C730 308 660 272 666 168Z" fill="#fff" stroke="${accent}" stroke-width="4"></path>
+      <path d="M748 342 C820 356 876 414 846 464 C768 464 704 424 748 342Z" fill="#fff" stroke="${accent}" stroke-width="4"></path>
+      <path d="M260 350 C330 334 382 378 360 438 C286 448 226 410 260 350Z" fill="rgba(255,255,255,.68)" stroke="${accent}" stroke-width="4"></path>
+      ${svgLabel('PA', 387, 258)}${svgLabel('choque', 560, 278)}${svgLabel('pulso', 724, 234)}${svgLabel('perfusão', 790, 428)}${svgLabel('sangramento', 310, 414)}`;
   }
 
   if (type === 'ladder') {
@@ -229,9 +480,22 @@ function svgScene(type, page, accent, profile) {
   }
 
   if (type === 'lab') {
+    const top = page.hotspots.slice(0, 5);
+    const bottom = page.hotspots.slice(5, 8);
     return `${common}
       ${[0, 1, 2, 3, 4].map((i) => `<rect x="${100 + i * 190}" y="170" width="150" height="190" rx="22" fill="#fff" stroke="${accent}" stroke-width="4"></rect><path d="M125 ${310 - i * 22} H225" stroke="${accent}" stroke-width="${10 + i * 2}" opacity=".65"></path>`).join('')}
-      ${['BD', 'FA/GGT', 'AST/ALT', 'Cr/K', 'CPK'].map((t, i) => svgLabel(t, 175 + i * 190, 392)).join('')}`;
+      ${top.map((t, i) => svgLabel(svgShortLabel(t, 13), 175 + i * 190, 392)).join('')}
+      ${bottom.map((t, i) => `<rect x="${245 + i * 260}" y="408" width="190" height="46" rx="18" fill="rgba(255,255,255,.66)" stroke="${accent}" stroke-width="3"></rect>${svgLabel(svgShortLabel(t, 16), 340 + i * 260, 438)}`).join('')}`;
+  }
+
+  if (type === 'arm') {
+    return `${common}
+      <path d="M248 225 C392 198 570 218 806 258 C874 270 902 334 856 374 C686 350 508 328 286 354 C220 362 194 258 248 225Z" fill="rgba(255,255,255,.62)" stroke="${accent}" stroke-width="5"></path>
+      <rect x="325" y="178" width="182" height="132" rx="26" fill="#fff" stroke="${accent}" stroke-width="5"></rect>
+      <rect x="540" y="282" width="122" height="86" rx="14" fill="rgba(255,255,255,.72)" stroke="${accent}" stroke-width="4"></rect>
+      ${[575, 604, 632].map((x, i) => `<circle cx="${x}" cy="${[318, 342, 310][i]}" r="9" fill="${accent}" opacity=".72"></circle>`).join('')}
+      <path d="M416 178 V144 M416 310 V346 M662 324 H792" ${line} opacity=".48"></path>
+      ${svgLabel('manguito', 416, 252)}${svgLabel('2,5 cm', 601, 392)}${svgLabel('petéquias', 730, 332)}${svgLabel('interpretação', 810, 416)}`;
   }
 
   if (type === 'flow') {
@@ -263,13 +527,26 @@ function svgScene(type, page, accent, profile) {
       ${['tempo', 'laboratório', 'risco', 'conduta', 'diferencial'].map((t, i) => svgLabel(t, [560, 760, 710, 410, 360][i], [118, 220, 424, 424, 220][i])).join('')}${svgLabel('síntese', 560, 308)}`;
   }
 
-  if (type === 'organ' || type === 'macrophage') {
+  if (type === 'organ') {
     return `${common}
-      <circle cx="350" cy="270" r="92" fill="#fff" stroke="${accent}" stroke-width="5"></circle>
+      <path d="M260 220 C332 156 438 190 454 270 C404 334 300 338 246 284 C228 258 236 236 260 220Z" fill="#fff" stroke="${accent}" stroke-width="5"></path>
+      <path d="M548 184 C618 184 666 250 638 322 C586 356 508 330 506 264 C504 222 518 194 548 184Z" fill="rgba(255,255,255,.68)" stroke="${accent}" stroke-width="5"></path>
+      <path d="M764 196 C842 206 914 270 900 344 C780 378 710 332 728 254 C734 226 746 206 764 196Z" fill="#fff" stroke="${accent}" stroke-width="5"></path>
+      <rect x="476" y="384" width="178" height="54" rx="22" fill="rgba(255,255,255,.70)" stroke="${accent}" stroke-width="4"></rect>
+      <path d="M454 270 H506 M638 282 H728 M565 330 V384" ${line} opacity=".44"></path>
+      ${svgLabel('fígado', 336, 274)}${svgLabel('rim/medula', 574, 270)}${svgLabel('pulmão/baço', 812, 292)}${svgLabel('tecido', 565, 420)}`;
+  }
+
+  if (type === 'macrophage') {
+    return `${common}
+      <circle cx="350" cy="270" r="104" fill="#fff" stroke="${accent}" stroke-width="5"></circle>
+      ${[315, 350, 386, 342].map((x, i) => `<circle cx="${x}" cy="${[244, 290, 252, 224][i]}" r="13" fill="${accent}" opacity=".58"></circle>`).join('')}
       <ellipse cx="560" cy="275" rx="118" ry="86" fill="rgba(255,255,255,.58)" stroke="${accent}" stroke-width="5"></ellipse>
-      <path d="M770 202 C850 210 916 274 900 352 C780 382 704 338 726 254 C733 228 748 211 770 202Z" fill="#fff" stroke="${accent}" stroke-width="5"></path>
-      <path d="M350 270 H442 M678 275 H728" ${line} opacity=".5"></path>
-      ${svgLabel(type === 'macrophage' ? 'macrófago' : 'órgão-alvo', 350, 278)}${svgLabel('sistema', 560, 282)}${svgLabel('risco', 812, 296)}`;
+      <path d="M730 176 C792 152 866 180 882 244 C828 288 742 278 708 224 C698 204 708 186 730 176Z" fill="#fff" stroke="${accent}" stroke-width="4"></path>
+      <path d="M760 286 C838 298 916 352 894 428 C782 446 704 396 724 328 C730 308 742 294 760 286Z" fill="#fff" stroke="${accent}" stroke-width="4"></path>
+      <rect x="610" y="382" width="156" height="52" rx="20" fill="rgba(255,255,255,.70)" stroke="${accent}" stroke-width="4"></rect>
+      <path d="M454 270 H442 M678 275 H728 M618 330 L674 382" ${line} opacity=".5"></path>
+      ${svgLabel('macrófago', 350, 278)}${svgLabel('sistema', 560, 282)}${svgLabel('fígado', 794, 224)}${svgLabel('baço', 812, 370)}${svgLabel('medula', 688, 418)}`;
   }
 
   if (type === 'map') {
@@ -286,22 +563,27 @@ function svgScene(type, page, accent, profile) {
 }
 
 function hotspotTeaching(label, profile) {
-  return `${label}: este ponto pesa porque aproxima ${profile.reasoning}, evita a armadilha "${profile.trap}" e pode mudar hipótese, risco ou conduta.`;
+  return `${label}: pese este achado dentro de ${profile.reasoning}. Ele evita a armadilha "${profile.trap}" e pode mudar hipótese, risco ou conduta.`;
 }
 
 function hotspotSvg(page, accent, profile = prompt3Profile(page, { thesis: '' })) {
   const points = layoutPoints(profile.svgType, page.hotspots);
 
   return `<div class="svg-hotspot-wrap prompt3-svg-card" data-svg-type="${profile.svgType}" aria-label="${escapeAttr(profile.visualMetaphor)}">
-    <svg class="febris-svg prompt3-svg" viewBox="0 0 1120 520" role="img" aria-label="${escapeAttr(profile.visualMetaphor)}">
-      ${svgScene(profile.svgType, page, accent, profile)}
-    </svg>
-    <div class="hotspot-layer" aria-hidden="false">
-      ${points.map((p, idx) => `
-        <button class="hotspot-dot prompt3-hotspot" style="left:${p.x}%;top:${p.y}%"
-          data-hotspot="${escapeAttr(hotspotTeaching(p.label, profile))}" aria-label="Hotspot: ${escapeAttr(p.label)}">
-          <span aria-hidden="true">${idx === 0 ? '◆' : '•'}</span>
-        </button>`).join('')}
+    <div class="svg-stage">
+      <svg class="febris-svg prompt3-svg" viewBox="0 0 1120 520" preserveAspectRatio="xMidYMid meet" role="img" aria-label="${escapeAttr(profile.visualMetaphor)}">
+        ${svgScene(profile.svgType, page, accent, profile)}
+      </svg>
+      <div class="hotspot-layer" aria-hidden="false">
+        ${points.map((p, idx) => `
+          <button class="hotspot-dot prompt3-hotspot" style="left:${p.x}%;top:${p.y}%"
+            data-hotspot="${escapeAttr(hotspotTeaching(p.label, profile))}"
+            data-hotspot-label="${escapeAttr(p.label)}"
+            data-hotspot-zone="${escapeAttr(p.zone || profile.svgType)}"
+            aria-label="Hotspot: ${escapeAttr(p.label)}">
+            <span aria-hidden="true">${idx === 0 ? '◆' : '•'}</span>
+          </button>`).join('')}
+      </div>
     </div>
     <div class="hotspot-feedback" data-hotspot-feedback tabindex="-1" aria-live="polite">
       Selecione um ponto do diagrama para ver a consequência clínica e de prova.
@@ -581,6 +863,89 @@ function cleanSentence(text) {
   return /[.!?]$/.test(value) ? value : `${value}.`;
 }
 
+function compactSentence(text) {
+  return cleanSentence(String(text || '').replace(/\s+/g, ' '));
+}
+
+function joinSentences(items) {
+  return items.map(compactSentence).filter(Boolean).join(' ');
+}
+
+function rhythmInstruction(profile) {
+  const instructions = {
+    case: 'Comece pela história antes de procurar nomes de doença: o caso dá tempo, exposição, achados negativos e um ponto de virada que impede alta automática.',
+    map: 'Aqui, epidemiologia não é decoração: território, vetor, reservatório e exposição mudam a probabilidade pré-teste antes mesmo do exame específico.',
+    concept: 'O conceito precisa virar mecanismo mental; decore menos a sigla e acompanhe como ela altera risco, janela diagnóstica ou gravidade.',
+    physiology: 'A fisiopatologia explica a conduta: quando o mecanismo fica claro, o laboratório deixa de ser número solto e passa a indicar risco real.',
+    timeline: 'O tempo é dado semiológico. Dia de doença, duração da febre e momento de piora mudam hipótese, exame e retorno.',
+    decision: 'Leia a página como triagem: identifique o achado que reclassifica o paciente e defina o que muda no destino clínico.',
+    lab: 'O laboratório deve ser lido em padrão, não em peça isolada: enzimas, frações, citopenias e função renal precisam formar uma história coerente.',
+    procedure: 'A técnica só tem valor se for interpretada corretamente; procedimento mal lido produz grupo errado e falsa segurança.',
+    treatment: 'A conduta nasce da gravidade, do grupo e do risco individual. Fórmula sem reavaliação vira atalho perigoso.',
+    compare: 'O diferencial não é uma lista bonita: é uma disputa de hipóteses em que cada pista faz uma doença subir e outra descer.',
+    simulation: 'No fechamento, integre clínica, laboratório, epidemiologia e consequência prática como se estivesse diante do paciente.'
+  };
+  return instructions[profile.rhythm] || instructions.case;
+}
+
+function moduleConsequence(module, profile) {
+  const consequences = {
+    Dengue: `Na dengue, o erro perigoso é acertar a suspeita e parar cedo: ${profile.pivot} deve empurrar o aluno para classificação A/B/C/D, hidratação, retorno e vigilância de alarme.`,
+    'Febre ictérica': `Na síndrome febril ictérica, o raciocínio precisa separar hepatocelular, canalicular/colestático, hemolítico e pulmão-rim; ${profile.pivot} define qual hipótese muda tratamento agora.`,
+    Leishmaniose: `No calazar, a cronologia arrastada, o baço grande, a pancitopenia e a resposta policlonal precisam vencer a ancoragem em hematologia; ${profile.pivot} recoloca a infecção crônica no centro.`
+  };
+  return consequences[module.short] || `${module.thesis} ${profile.pivot} é o dado que muda a leitura da página.`;
+}
+
+function tableNarrative(page, profile) {
+  if (!page.table || !page.table.rows || !page.table.rows.length) return '';
+  const fragments = page.table.rows.slice(0, 4).map(row => {
+    const head = row[0];
+    const body = row.slice(1).join(' / ');
+    return `${head}: ${body}`;
+  });
+  return `Na interpretação prática, ${fragments.join('; ')}. O objetivo é transformar o padrão em decisão, não decorar uma coluna isolada.`;
+}
+
+function notConfuseNarrative(page, profile) {
+  const items = (page.notConfuse || []).filter(Boolean);
+  if (!items.length) return '';
+  return `Mantenha o diagnóstico diferencial ativo: ${items.join('; ')}. Essa comparação previne a armadilha central da página: ${profile.trap}.`;
+}
+
+function clinicalParagraphs(page, module, profile) {
+  const core = (page.core || []).map(compactSentence).filter(Boolean);
+  const paragraphs = [
+    guidedOpening(page, module, profile),
+    rhythmInstruction(profile),
+    joinSentences(core.slice(0, 2)),
+    joinSentences(core.slice(2, 4)),
+    joinSentences(core.slice(4)),
+    moduleConsequence(module, profile),
+    tableNarrative(page, profile),
+    notConfuseNarrative(page, profile)
+  ].filter(Boolean);
+
+  return paragraphs;
+}
+
+function readingTitleByRhythm(profile) {
+  const titles = {
+    case: 'Como pensar este caso',
+    map: 'Como a epidemiologia muda a hipótese',
+    concept: 'Do conceito ao risco',
+    physiology: 'Do mecanismo à conduta',
+    timeline: 'Como o tempo muda o risco',
+    decision: 'O achado que reclassifica',
+    lab: 'O que o laboratório está dizendo',
+    procedure: 'Técnica, interpretação e armadilha',
+    treatment: 'O que muda a conduta',
+    compare: 'Como separar diagnósticos parecidos',
+    simulation: 'Integração para prova e plantão'
+  };
+  return titles[profile.rhythm] || profile.readingTitle;
+}
+
 function guidedOpening(page, module, profile) {
   const moduleOpenings = {
     Dengue: 'O primeiro passo não é perguntar apenas se o quadro parece dengue; é decidir se existe risco suficiente para mudar observação, hidratação ou alta.',
@@ -591,18 +956,19 @@ function guidedOpening(page, module, profile) {
 }
 
 function guidedReadingHtml(page, module, profile, accent) {
-  const firstHalf = page.core.slice(0, Math.ceil(page.core.length / 2)).map(cleanSentence).join(' ');
-  const secondHalf = page.core.slice(Math.ceil(page.core.length / 2)).map(cleanSentence).join(' ');
-
+  const paragraphs = clinicalParagraphs(page, module, profile);
   return `<section class="anim-fade-up prompt3-reading-block">
-    ${sectionHeader('1', profile.readingTitle, accent)}
+    ${sectionHeader('1', readingTitleByRhythm(profile), accent)}
     <article class="prompt3-reading-card">
-      <p>${escapeHtml(guidedOpening(page, module, profile))}</p>
-      <p>${escapeHtml(firstHalf)}</p>
-      <p>${escapeHtml(secondHalf)} <strong>O ponto de virada é ${escapeHtml(profile.pivot)}</strong>: quando esse dado aparece, o aluno deve trocar o atalho por uma decisão clínica estruturada.</p>
+      <span class="prompt3-clinical-kicker">${escapeHtml(profile.category)} · ${escapeHtml(profile.readingTitle)}</span>
+      <h3>Raciocínio clínico guiado</h3>
+      ${paragraphs.slice(0, 5).map(text => `<p>${escapeHtml(text)}</p>`).join('')}
+      <p class="prompt3-turning-point"><strong>Dado que vira a chave:</strong> ${escapeHtml(profile.pivot)}. Quando esse dado aparece, o atalho diagnóstico deve ceder lugar a uma decisão clínica estruturada.</p>
+      <h3>Como a banca tenta confundir</h3>
+      ${paragraphs.slice(5).map(text => `<p>${escapeHtml(text)}</p>`).join('')}
     </article>
     <details class="prompt3-preserved-points">
-      <summary>Marcadores clínicos da página</summary>
+      <summary>Conteúdo do roteiro preservado nesta página</summary>
       ${styledList(page.core)}
     </details>
   </section>`;
@@ -614,9 +980,10 @@ function visualReadingHtml(page, profile, accent) {
     <div class="prompt3-visual-grid">
       ${hotspotSvg(page, accent, profile)}
       <aside class="prompt3-visual-note">
-        <h3>Como ler o diagrama</h3>
-        <p>O desenho não é decorativo: ele organiza ${escapeHtml(profile.reasoning)} e posiciona os hotspots sobre o achado que muda hipótese, risco ou conduta.</p>
+        <h3>Leitura clínica do diagrama</h3>
+        <p>Depois da base textual, use o mapa para localizar onde cada achado pesa no raciocínio de ${escapeHtml(profile.reasoning)}.</p>
         <p><strong>Armadilha evitada:</strong> ${escapeHtml(profile.trap)}.</p>
+        <p><strong>Consequência prática:</strong> ${escapeHtml(profile.pivot)} pode mudar hipótese, risco, exame, destino ou conduta.</p>
       </aside>
     </div>
   </section>`;
@@ -632,9 +999,9 @@ function decisionSupportHtml(page, profile, accent) {
 
 function strategicInteractionHtml(page, profile, accent) {
   return `<section class="anim-fade-up delay-2 prompt3-interaction-block">
-    ${sectionHeader('4', profile.rhythm === 'simulation' ? 'Simulação clínica' : 'Interação estratégica', accent)}
+    ${sectionHeader('4', profile.rhythm === 'simulation' ? 'Simulação clínica' : 'Treino ativo do ponto de virada', accent)}
     <div class="prompt3-interaction-intro">
-      A interação abaixo fica proporcional ao conceito: ela treina ${escapeHtml(profile.pivot)}, sem substituir a leitura guiada.
+      Treine ${escapeHtml(profile.pivot)} depois de ler a explicação: a resposta correta deve nascer do raciocínio clínico, não de um clique por tentativa.
     </div>
     ${interactionHtml(page)}
   </section>`;
@@ -648,6 +1015,7 @@ function proofSynthesisHtml(page, profile, accent) {
         <h3>Síntese de prova</h3>
         <p>${escapeHtml(page.trap)}</p>
         <p><strong>Dado que muda o raciocínio:</strong> ${escapeHtml(profile.pivot)}.</p>
+        <p><strong>Consequência prática:</strong> ${escapeHtml(moduleConsequence({ short: page.id.startsWith('den-') ? 'Dengue' : page.id.startsWith('feb-') ? 'Febre ictérica' : 'Leishmaniose' }, profile))}</p>
       </article>
       <article class="prompt3-proof-card prompt3-dont-confuse">
         <h3>Não confunda</h3>
@@ -741,7 +1109,7 @@ GO_RENDER.home = function(el, page) {
         <h1>Síndromes Febris:<br><span class="accent">Da Febre Aguda</span><br>à Febre Arrastada</h1>
         <p class="hero-sub">Tempo, laboratório e epidemiologia mudam o diagnóstico.</p>
         <div class="hero-stats">
-          <div class="hero-stat"><div class="hero-stat-number">45</div><div class="hero-stat-label">Rotas</div></div>
+          <div class="hero-stat"><div class="hero-stat-number">46</div><div class="hero-stat-label">Rotas</div></div>
           <div class="hero-stat"><div class="hero-stat-number">40</div><div class="hero-stat-label">Páginas principais</div></div>
           <div class="hero-stat"><div class="hero-stat-number">40+</div><div class="hero-stat-label">SVGs com hotspots</div></div>
           <div class="hero-stat"><div class="hero-stat-number">9</div><div class="hero-stat-label">Casos globais</div></div>
@@ -753,6 +1121,11 @@ GO_RENDER.home = function(el, page) {
           <div class="module-card-top"><span class="module-dot"></span><span>Integração</span></div>
           <h3>Simulador Febre em Decisão</h3>
           <p>Classifique o eixo correto antes de escolher hipótese, exame e tratamento.</p>
+        </button>
+        <button class="module-card card-hover global pwa-install-card" data-goto="instalar-app">
+          <div class="module-card-top"><span class="module-dot"></span><span>PWA</span></div>
+          <h3>Como instalar o app</h3>
+          <p>Acesso em tela cheia, atalho no dispositivo e uso offline após o primeiro carregamento.</p>
         </button>
       </div>
     </div>

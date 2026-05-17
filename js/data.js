@@ -8,6 +8,7 @@ const GO_PAGES = [
   { id: 'simulador-global', block: 'integracao', icon: '▣', label: 'Simulador Febre em Decisão', grad: 'revisao' },
   { id: 'revisao-global', block: 'integracao', icon: '✓', label: 'Revisão Global', grad: 'revisao' },
   { id: 'matriz-global', block: 'integracao', icon: '≋', label: 'Matriz Comparativa Global', grad: 'revisao' },
+  { id: 'instalar-app', block: 'integracao', icon: '⇩', label: 'Como instalar o app', grad: 'revisao' },
 
   { id: 'den-01', block: 'dengue', icon: '1', label: 'Febre sem foco e caso-guia', grad: 'dengue' },
   { id: 'den-02', block: 'dengue', icon: '2', label: 'Arboviroses e Aedes aegypti', grad: 'dengue' },
@@ -403,16 +404,18 @@ const MODULE_DATA = {
         objective: 'Fixar técnica, valores e interpretação operacional.',
         core: [
           'A prova do laço usa quadrado de 2,5 cm e tempo de até 5 minutos no adulto ou até 3 minutos na criança.',
+          'A pressão insuflada é calculada pela média aritmética simples entre PAS e PAD; não é a PAM usada em UTI.',
           'Adulto: positiva com 20 ou mais petéquias; criança: 10 ou mais.',
           'Prova positiva pode colocar paciente sem alarme em grupo B.',
           'Prova positiva não confirma dengue e não transforma automaticamente em grupo C.',
           'A técnica precisa respeitar tempo e contagem para não gerar decisão errada.'
         ],
-        hotspots: ['quadrado 2,5 cm', 'adulto 5 min', 'criança 3 min', 'adulto ≥20', 'criança ≥10', 'grupo B', 'não confirma'],
+        hotspots: ['quadrado 2,5 cm', 'média PAS/PAD', 'adulto 5 min', 'criança 3 min', 'adulto ≥20', 'criança ≥10', 'grupo B', 'não confirma'],
         table: {
           title: 'Prova do laço: adulto × criança',
           headers: ['Paciente', 'Tempo', 'Positiva se'],
           rows: [
+            ['Pressão do manguito', '(PAS + PAD) / 2', 'Não usar PAM de UTI'],
             ['Adulto', 'Até 5 min', '≥20 petéquias em 2,5 cm'],
             ['Criança', 'Até 3 min', '≥10 petéquias em 2,5 cm'],
             ['Sem alarme + positiva', 'Interpretação de risco', 'Grupo B'],
@@ -459,17 +462,19 @@ const MODULE_DATA = {
         objective: 'Preservar volumes-chave, medicamentos e raciocínio do AAS crônico.',
         core: [
           'Grupo A: 60 ml/kg/dia; 1/3 como SRO e 2/3 como outros líquidos.',
+          'A orientação precisa ser executável: solução de reidratação, água, sucos e alimentos líquidos contam; álcool não conta como hidratação.',
           'Pediatria: até 10 kg = 130 ml/kg/dia; 10–20 kg = 100 ml/kg/dia; acima de 20 kg = 80 ml/kg/dia; 13 anos ou mais = 60 ml/kg/dia.',
           'Grupo C: 20 ml/kg em 2 horas, repetir até 3 vezes; depois manutenção 25 ml/kg em 6–8 horas.',
           'Grupo D: 20 ml/kg em 20 minutos, repetir até 3 vezes, monitorando sobrecarga; noradrenalina/albumina podem entrar conforme resposta crítica.',
           'Dipirona/paracetamol são opções sintomáticas; AINE/AAS são contraindicados na suspeita aguda. AAS crônico exige decisão por plaquetas: >50.000, 30.000–50.000, <30.000.'
         ],
-        hotspots: ['60 ml/kg/dia', '1/3 SRO', 'pediatria', 'C 20 ml/kg 2h', 'D 20 ml/kg 20min', 'AINE/AAS', 'AAS crônico'],
+        hotspots: ['60 ml/kg/dia', '1/3 SRO', 'álcool não conta', 'pediatria', 'C 20 ml/kg 2h', 'D 20 ml/kg 20min', 'AINE/AAS', 'AAS crônico'],
         table: {
           title: 'Hidratação e medicamentos',
           headers: ['Situação', 'Conduta didática', 'Alerta'],
           rows: [
             ['Grupo A', '60 ml/kg/dia', 'Orientar retorno'],
+            ['Hidratação oral', '1/3 SRO + 2/3 outros líquidos', 'Álcool não conta'],
             ['Grupo C', '20 ml/kg em 2h, até 3 vezes', 'Internação'],
             ['Grupo D', '20 ml/kg em 20min, até 3 vezes', 'UTI e sobrecarga'],
             ['Dor/febre', 'Dipirona ou paracetamol', 'Evitar AINE/AAS agudo'],
@@ -813,10 +818,11 @@ const MODULE_DATA = {
           'Síndrome de Weil é forma grave, cerca de 10% dos casos conforme o conteúdo-base.',
           'Icterícia rubínica, insuficiência renal, hemorragia e alterações pulmonares compõem a gravidade.',
           'Síndrome pulmão-rim aparece quando hemoptise/hemorragia alveolar e IRA coexistem.',
+          'Goodpasture e granulomatose com poliangiite entram como diferenciais conceituais de pulmão-rim, mas o caso com esgoto, sufusão e tubulopatia puxa leptospirose.',
           'Plaquetopenia pode ocorrer, mas o eixo é vasculite, rim, pulmão e padrão canalicular.',
           'A conduta passa a lembrar antibiótico EV, suporte intensivo e diálise precoce quando indicada.'
         ],
-        hotspots: ['Weil 10%', 'icterícia rubínica', 'IRA', 'hemoptise', 'hemorragia alveolar', 'pulmão-rim', 'suporte intensivo'],
+        hotspots: ['Weil 10%', 'icterícia rubínica', 'IRA', 'hemoptise', 'hemorragia alveolar', 'pulmão-rim', 'Goodpasture/GPA', 'suporte intensivo'],
         table: {
           title: 'Febre amarela grave × leptospirose grave',
           headers: ['Eixo', 'Febre amarela', 'Leptospirose'],
@@ -870,6 +876,7 @@ const MODULE_DATA = {
           'Na forma leve, doxiciclina ou amoxicilina entram como opções lembradas.',
           'Na forma grave, o tratamento central é penicilina cristalina EV; ceftriaxona pode ser alternativa.',
           'Penicilina benzatina é erro para leptospirose grave.',
+          'O antibiótico é idealmente precoce, mas suspeita tardia com gravidade ainda exige tratamento e suporte.',
           'Diálise precoce deve ser lembrada quando indicada no contexto de IRA grave.',
           'O caso fecha como leptospirose grave/síndrome de Weil pelo conjunto clínico-laboratorial.'
         ],
@@ -1191,16 +1198,18 @@ const MODULE_DATA = {
         objective: 'Separar amastigotas, aspirado de medula, punção esplênica e sensibilidade.',
         core: [
           'A forma procurada em tecido é amastigota dentro de macrófagos.',
+          'Promastigota é a forma flagelada lembrada no vetor/cultura; amastigota é a forma intracelular que o aluno deve procurar no tecido.',
           'Aspirado de medula é método preferencial por equilíbrio entre utilidade e segurança; sensibilidade em torno de 70% se esse número for usado.',
           'Punção esplênica é mais sensível, mas tem risco de sangramento.',
           'Método preferencial e método mais sensível não são a mesma coisa.',
           'O diagnóstico deve respeitar risco, recurso e probabilidade pré-teste.'
         ],
-        hotspots: ['amastigotas', 'macrófago', 'aspirado de medula', 'preferencial', 'punção esplênica', 'mais sensível', 'sangramento'],
+        hotspots: ['amastigotas', 'promastigota', 'macrófago', 'aspirado de medula', 'preferencial', 'punção esplênica', 'mais sensível', 'sangramento'],
         table: {
           title: 'Aspirado de medula × punção esplênica × sorologia',
           headers: ['Método', 'Vantagem', 'Limite'],
           rows: [
+            ['Amastigota', 'Forma intracelular em tecido', 'Não confundir com promastigota'],
             ['Aspirado de medula', 'Preferencial e mais seguro', 'Sensibilidade menor que baço'],
             ['Punção esplênica', 'Mais sensível', 'Risco de sangramento'],
             ['Sorologias', 'Apoio diagnóstico', 'Cautela em imunossuprimido'],
@@ -1249,11 +1258,12 @@ const MODULE_DATA = {
         core: [
           'Antimonial pentavalente/Glucantime é custo-efetivo em cenário populacional, mas exige atenção a toxicidade.',
           'Cardiotoxicidade com QT prolongado pode evoluir para torsades de pointes e fibrilação ventricular; ECG seriado é cautela didática.',
+          'Macrolídeos, hidroxicloroquina e distúrbios eletrolíticos também podem pesar no QT e devem ser lembrados na decisão de segurança.',
           'Anfotericina B lipossomal ganha preferência em grupos de maior risco.',
           'Gs e Is: grave, gestante; imunossupressão/HIV/imunossupressores, idade <1 ano, idade >50 anos, insuficiência hepática, cardíaca ou renal, intolerância, insucesso/falha ou efeitos adversos.',
           'Não inventar dose: o eixo é indicação e segurança.'
         ],
-        hotspots: ['Glucantime', 'QT prolongado', 'torsades', 'ECG', 'lipossomal', 'grave', 'gestante', '<1 e >50', 'insuficiências'],
+        hotspots: ['Glucantime', 'QT prolongado', 'torsades', 'ECG', 'macrolídeos/hidroxicloroquina', 'lipossomal', 'grave', 'gestante', '<1 e >50', 'insuficiências'],
         table: {
           title: 'Antimonial × anfotericina lipossomal',
           headers: ['Opção', 'Quando pesa', 'Alerta'],

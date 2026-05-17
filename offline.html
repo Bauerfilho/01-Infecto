@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Você está offline — Síndromes Febris</title>
+  <meta name="theme-color" content="#0f766e" />
+  <style>
+    :root {
+      --bg: #eef2f7;
+      --card: rgba(255,255,255,0.82);
+      --text: #0b1220;
+      --muted: #64748b;
+      --accent: #0f766e;
+      --border: rgba(15,23,42,0.08);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #07090f;
+        --card: rgba(20,27,45,0.86);
+        --text: #f1f5f9;
+        --muted: #94a3b8;
+        --accent: #5eead4;
+        --border: rgba(255,255,255,0.08);
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      padding: max(24px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) max(24px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
+      background:
+        radial-gradient(900px 500px at 15% 0%, rgba(15,118,110,0.18), transparent 60%),
+        radial-gradient(700px 420px at 100% 100%, rgba(99,102,241,0.16), transparent 58%),
+        var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    main {
+      width: min(100%, 620px);
+      padding: clamp(24px, 6vw, 42px);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      background: var(--card);
+      box-shadow: 0 24px 70px rgba(15,23,42,0.18);
+      backdrop-filter: blur(22px) saturate(160%);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(15,118,110,0.12);
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 18px 0 12px;
+      font-size: clamp(2rem, 8vw, 3.4rem);
+      line-height: 0.95;
+      letter-spacing: -0.03em;
+    }
+
+    p {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+
+    a {
+      display: inline-flex;
+      margin-top: 14px;
+      padding: 12px 16px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, #0f766e, #14b8a6);
+      color: #fff;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 14px 32px rgba(15,118,110,0.28);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="badge">Modo offline</span>
+    <h1>Você está offline.</h1>
+    <p>Parte da plataforma pode continuar disponível.</p>
+    <p>Reconecte-se para atualizar o conteúdo.</p>
+    <a href="./">Voltar ao app</a>
+  </main>
+</body>
+</html>

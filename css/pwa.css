@@ -1,0 +1,173 @@
+/* =========================================
+   SINDROMES FEBRIS — CAMADA PWA
+   ========================================= */
+
+.pwa-install-card {
+  --module-accent: #0f766e;
+}
+
+.pwa-install-shell {
+  display: grid;
+  gap: 18px;
+}
+
+.pwa-status-card {
+  display: grid;
+  gap: 14px;
+  padding: 22px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  background: var(--bg-card-strong, var(--bg-card));
+  box-shadow: var(--shadow-md);
+}
+
+.pwa-status-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.pwa-status-pill,
+.pwa-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  padding: 8px 12px;
+  border-radius: var(--radius-full);
+  background: rgba(15, 118, 110, 0.12);
+  color: #0f766e;
+  font-size: var(--text-xs);
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+[data-theme="dark"] .pwa-status-pill,
+[data-theme="dark"] .pwa-pill {
+  color: #5eead4;
+  background: rgba(94, 234, 212, 0.12);
+}
+
+.pwa-install-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.pwa-step-card {
+  padding: 20px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  background: var(--bg-card);
+  box-shadow: var(--shadow-sm);
+}
+
+.pwa-step-card h3 {
+  margin: 0 0 10px;
+  color: var(--text-primary);
+  font-size: var(--text-lg);
+}
+
+.pwa-step-card ol,
+.pwa-step-card ul {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--text-secondary);
+  line-height: 1.65;
+}
+
+.pwa-step-card li + li {
+  margin-top: 6px;
+}
+
+.pwa-install-button,
+.pwa-header-install-btn {
+  appearance: none;
+  border: 0;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #0f766e, #14b8a6);
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 900;
+  box-shadow: 0 14px 30px rgba(15, 118, 110, 0.26);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+.pwa-install-button {
+  width: fit-content;
+  padding: 12px 16px;
+}
+
+.pwa-header-install-btn {
+  padding: 9px 12px;
+  font-size: var(--text-xs);
+}
+
+.pwa-install-button:hover,
+.pwa-header-install-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 18px 36px rgba(15, 118, 110, 0.32);
+}
+
+.pwa-install-button:disabled,
+.pwa-header-install-btn:disabled {
+  cursor: default;
+  opacity: 0.68;
+  transform: none;
+}
+
+.pwa-update-button {
+  position: fixed;
+  right: max(18px, env(safe-area-inset-right));
+  bottom: max(18px, env(safe-area-inset-bottom));
+  z-index: 600;
+  padding: 13px 16px;
+  border: 1px solid rgba(255,255,255,0.20);
+  border-radius: var(--radius-full);
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  font-size: var(--text-sm);
+  font-weight: 950;
+  box-shadow: 0 18px 48px rgba(22, 163, 74, 0.34), 0 0 0 1px rgba(255,255,255,0.18) inset;
+  transition: transform 0.2s ease, opacity 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pwa-update-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 24px 58px rgba(22, 163, 74, 0.42), 0 0 0 1px rgba(255,255,255,0.22) inset;
+}
+
+.pwa-update-button:focus-visible,
+.pwa-install-button:focus-visible,
+.pwa-header-install-btn:focus-visible {
+  outline: 3px solid rgba(34, 197, 94, 0.38);
+  outline-offset: 3px;
+}
+
+.pwa-update-button[hidden],
+.pwa-header-install-btn[hidden] {
+  display: none !important;
+}
+
+@media (max-width: 720px) {
+  .pwa-install-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pwa-update-button {
+    right: max(12px, env(safe-area-inset-right));
+    bottom: calc(max(12px, env(safe-area-inset-bottom)) + 2px);
+    max-width: calc(100vw - 28px);
+    white-space: nowrap;
+  }
+
+  .pwa-header-install-btn {
+    display: none !important;
+  }
+}
