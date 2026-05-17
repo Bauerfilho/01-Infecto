@@ -1,0 +1,1280 @@
+/* =========================================
+   GO PREMIUM — REFINO VISUAL (TEMPLATE BASE)
+   theme.css — Tokens, Sidebar, Header, Cards
+   Carregar APÓS style.css e components.css.
+   Sobrescreve apenas o necessário para elevar
+   o template ao padrão das referências.
+   ========================================= */
+
+/* ─────────────────────────────────────────
+   1. TOKENS PREMIUM (claro)
+───────────────────────────────────────── */
+:root {
+  /* Neutros refinados — nunca branco estourado, nunca cinza chapado */
+  --bg-primary: #eef2f7;
+  --bg-secondary: #ffffff;
+  --bg-elevated: #f8fafc;
+  --bg-card: rgba(255,255,255,0.72);
+  --bg-card-strong: rgba(255,255,255,0.86);
+  --bg-glass: rgba(255,255,255,0.55);
+
+  --text-primary: #0b1220;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --text-faint: #cbd5e1;
+
+  --border-color: rgba(15,23,42,0.08);
+  --border-light: rgba(15,23,42,0.04);
+  --border-strong: rgba(15,23,42,0.14);
+
+  /* Sidebar premium — agora translúcida, em formato de painel */
+  --sidebar-bg: linear-gradient(180deg, rgba(13,18,32,0.96) 0%, rgba(15,23,42,0.96) 50%, rgba(11,16,28,0.97) 100%);
+  --sidebar-text: #e2e8f0;
+  --sidebar-text-soft: rgba(226,232,240,0.6);
+  --sidebar-text-faint: rgba(226,232,240,0.32);
+  --sidebar-accent: #38bdf8;
+  --sidebar-divider: rgba(255,255,255,0.06);
+  --sidebar-hover: rgba(255,255,255,0.06);
+  --sidebar-active: rgba(255,255,255,0.10);
+  --sidebar-width: 280px;
+  --sidebar-width-compact: 76px;
+  --sidebar-radius: 22px;
+  --sidebar-margin: 12px;
+
+  /* Header premium — card flutuante */
+  --header-bg: rgba(255,255,255,0.72);
+  --header-border: rgba(15,23,42,0.06);
+  --header-height: 64px;
+  --header-radius: 18px;
+
+  /* Sombras elevadas e refinadas */
+  --shadow-xs: 0 1px 2px rgba(15,23,42,0.04);
+  --shadow-sm: 0 2px 8px rgba(15,23,42,0.05), 0 1px 2px rgba(15,23,42,0.04);
+  --shadow-md: 0 8px 24px rgba(15,23,42,0.08), 0 2px 6px rgba(15,23,42,0.05);
+  --shadow-lg: 0 18px 48px rgba(15,23,42,0.10), 0 6px 16px rgba(15,23,42,0.06);
+  --shadow-xl: 0 32px 80px rgba(15,23,42,0.14), 0 8px 24px rgba(15,23,42,0.08);
+  --shadow-glow: 0 0 0 1px rgba(255,255,255,0.5), 0 12px 40px rgba(56,189,248,0.18);
+  --shadow-sidebar: 0 24px 60px rgba(15,23,42,0.18), 0 8px 24px rgba(15,23,42,0.12);
+
+  /* Bordas suaves */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-2xl: 30px;
+
+  /* Aurora — gradientes premium para acentos */
+  --aurora-blue:    linear-gradient(135deg, #60a5fa 0%, #38bdf8 50%, #22d3ee 100%);
+  --aurora-violet:  linear-gradient(135deg, #a78bfa 0%, #818cf8 50%, #38bdf8 100%);
+  --aurora-rose:    linear-gradient(135deg, #fb7185 0%, #f472b6 50%, #c084fc 100%);
+  --aurora-amber:   linear-gradient(135deg, #fbbf24 0%, #fb923c 50%, #f87171 100%);
+  --aurora-teal:    linear-gradient(135deg, #5eead4 0%, #22d3ee 50%, #60a5fa 100%);
+  --aurora-medical: linear-gradient(135deg, #0ea5e9 0%, #6366f1 45%, #a855f7 100%);
+
+  /* Halo / glow por seção (preparação para Endocardite + ITU) */
+  --section-accent: #0ea5e9;
+  --section-accent-soft: rgba(14,165,233,0.18);
+  --section-glow: 0 0 0 1px rgba(14,165,233,0.18), 0 12px 40px rgba(14,165,233,0.18);
+
+  /* Transições refinadas */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --transition-fast: 0.18s var(--ease-out);
+  --transition-base: 0.28s var(--ease-out);
+  --transition-slow: 0.5s var(--ease-out);
+}
+
+/* ─────────────────────────────────────────
+   2. TOKENS PREMIUM (escuro) — sem preto chapado
+───────────────────────────────────────── */
+[data-theme="dark"] {
+  --bg-primary: #07090f;
+  --bg-secondary: #0e1322;
+  --bg-elevated: #131a2c;
+  --bg-card: rgba(20,27,45,0.72);
+  --bg-card-strong: rgba(22,29,48,0.88);
+  --bg-glass: rgba(15,21,38,0.55);
+
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --text-faint: #475569;
+
+  --border-color: rgba(255,255,255,0.08);
+  --border-light: rgba(255,255,255,0.04);
+  --border-strong: rgba(255,255,255,0.14);
+
+  --sidebar-bg: linear-gradient(180deg, rgba(8,11,20,0.96) 0%, rgba(11,16,28,0.96) 50%, rgba(7,10,18,0.97) 100%);
+  --sidebar-text: #e2e8f0;
+  --sidebar-divider: rgba(255,255,255,0.05);
+  --sidebar-hover: rgba(255,255,255,0.05);
+  --sidebar-active: rgba(255,255,255,0.09);
+
+  --header-bg: rgba(14,19,34,0.72);
+  --header-border: rgba(255,255,255,0.07);
+
+  --shadow-xs: 0 1px 2px rgba(0,0,0,0.4);
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.35), 0 1px 2px rgba(0,0,0,0.3);
+  --shadow-md: 0 8px 24px rgba(0,0,0,0.45), 0 2px 6px rgba(0,0,0,0.3);
+  --shadow-lg: 0 18px 48px rgba(0,0,0,0.55), 0 6px 16px rgba(0,0,0,0.35);
+  --shadow-xl: 0 32px 80px rgba(0,0,0,0.65), 0 8px 24px rgba(0,0,0,0.4);
+  --shadow-glow: 0 0 0 1px rgba(56,189,248,0.18), 0 12px 40px rgba(56,189,248,0.22);
+  --shadow-sidebar: 0 24px 60px rgba(0,0,0,0.6), 0 8px 24px rgba(0,0,0,0.4);
+}
+
+/* ─────────────────────────────────────────
+   3. ACENTOS POR SEÇÃO (data-section / data-block)
+   Preparação para Endocardite + ITU + temas futuros
+───────────────────────────────────────── */
+[data-section="endocardite"],
+body[data-block="endocardite"] {
+  --section-accent: #be123c;
+  --section-accent-soft: rgba(190,18,60,0.18);
+  --section-glow: 0 0 0 1px rgba(190,18,60,0.2), 0 16px 48px rgba(190,18,60,0.22);
+}
+[data-section="itu"],
+body[data-block="itu"] {
+  --section-accent: #0284c7;
+  --section-accent-soft: rgba(2,132,199,0.18);
+  --section-glow: 0 0 0 1px rgba(2,132,199,0.2), 0 16px 48px rgba(2,132,199,0.22);
+}
+[data-section="diagnostico"] { --section-accent: #1d4ed8; --section-accent-soft: rgba(29,78,216,0.18); }
+[data-section="tratamento"]  { --section-accent: #0d9488; --section-accent-soft: rgba(13,148,136,0.18); }
+[data-section="prova"]       { --section-accent: #d97706; --section-accent-soft: rgba(217,119,6,0.18); }
+
+body[data-block="tireoide"] { --section-accent: #0891b2; --section-accent-soft: rgba(8,145,178,0.18); }
+body[data-block="reumato"]  { --section-accent: #9333ea; --section-accent-soft: rgba(147,51,234,0.18); }
+body[data-block="cardio"]   { --section-accent: #e11d48; --section-accent-soft: rgba(225,29,72,0.18); }
+body[data-block="hepato"]   { --section-accent: #d97706; --section-accent-soft: rgba(217,119,6,0.18); }
+body[data-block="itu"]      { --section-accent: #0284c7; --section-accent-soft: rgba(2,132,199,0.18); }
+body[data-block="revisao"]  { --section-accent: #0f766e; --section-accent-soft: rgba(15,118,110,0.18); }
+body[data-block="entrada"]  { --section-accent: #6366f1; --section-accent-soft: rgba(99,102,241,0.18); }
+
+/* ─────────────────────────────────────────
+   4. BACKGROUND GLOBAL — luz natural / aurora
+───────────────────────────────────────── */
+body {
+  background:
+    radial-gradient(1200px 600px at 0% -10%, rgba(99,102,241,0.10), transparent 60%),
+    radial-gradient(1000px 500px at 100% 0%, rgba(56,189,248,0.10), transparent 55%),
+    radial-gradient(900px 600px at 50% 110%, rgba(168,85,247,0.08), transparent 60%),
+    var(--bg-primary);
+  background-attachment: fixed;
+}
+
+[data-theme="dark"] body {
+  background:
+    radial-gradient(1200px 600px at 0% -10%, rgba(99,102,241,0.18), transparent 60%),
+    radial-gradient(1000px 500px at 100% 0%, rgba(14,165,233,0.16), transparent 55%),
+    radial-gradient(900px 600px at 50% 110%, rgba(168,85,247,0.14), transparent 60%),
+    var(--bg-primary);
+  background-attachment: fixed;
+}
+
+/* Reduzir o gradiente de fundo "page-bg" para integrar com a aurora global */
+.page-bg { opacity: 0.20 !important; }
+[data-theme="dark"] .page-bg { opacity: 0.28 !important; }
+
+/* ─────────────────────────────────────────
+   5. SIDEBAR PREMIUM — painel/card flutuante
+───────────────────────────────────────── */
+.sidebar {
+  background: var(--sidebar-bg);
+  -webkit-backdrop-filter: blur(28px) saturate(190%);
+  backdrop-filter: blur(28px) saturate(190%);
+  border-right: none;
+  /* Card flutuante com margem */
+  top: var(--sidebar-margin);
+  bottom: var(--sidebar-margin);
+  left: var(--sidebar-margin);
+  height: calc(100vh - calc(var(--sidebar-margin) * 2));
+  border-radius: var(--sidebar-radius);
+  box-shadow: var(--shadow-sidebar);
+  width: var(--sidebar-width);
+  transition:
+    width 0.36s var(--ease-out),
+    transform 0.36s var(--ease-out),
+    box-shadow 0.36s var(--ease-out);
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+/* Brilho interno sutil — luz natural */
+.sidebar::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(380px 200px at 50% -10%, rgba(99,102,241,0.18), transparent 70%),
+    radial-gradient(420px 320px at 50% 110%, rgba(14,165,233,0.10), transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+.sidebar > * { position: relative; z-index: 1; }
+
+/* Logo refinada */
+.sidebar-logo {
+  padding: 22px 20px 16px;
+  border-bottom: 1px solid var(--sidebar-divider);
+  gap: 12px;
+}
+
+.logo-badge {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: var(--aurora-medical);
+  background-size: 200% 200%;
+  animation: auroraShift 14s ease-in-out infinite;
+  box-shadow:
+    0 6px 18px rgba(14,165,233,0.45),
+    0 0 0 1px rgba(255,255,255,0.10) inset;
+  position: relative;
+}
+.logo-badge::after {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  border-radius: 11px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.22), transparent 50%);
+  pointer-events: none;
+}
+
+@keyframes auroraShift {
+  0%, 100% { background-position: 0% 50%; }
+  50%      { background-position: 100% 50%; }
+}
+
+.logo-go { font-size: 1.05rem; }
+.logo-title { font-size: 0.88rem; letter-spacing: -0.01em; }
+.logo-sub { font-size: 0.66rem; color: var(--sidebar-text-faint); letter-spacing: 0.06em; }
+
+/* Nav scroll */
+.sidebar-nav {
+  padding: 14px 12px 8px;
+}
+
+/* Bloco / grupo */
+.nav-group { margin-bottom: 4px; }
+
+.nav-group-header {
+  padding: 9px 10px 7px;
+  border-radius: var(--radius-sm);
+  gap: 10px;
+}
+
+.nav-group-header:hover { background: var(--sidebar-hover); }
+
+.nav-group-dot {
+  width: 9px;
+  height: 9px;
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.04), 0 0 12px currentColor;
+}
+
+.nav-group-title {
+  font-size: 0.70rem;
+  letter-spacing: 0.14em;
+  color: var(--sidebar-text-faint);
+}
+
+.nav-group-toggle {
+  font-size: 0.65rem;
+  color: var(--sidebar-text-faint);
+}
+
+/* Cards de página dentro da sidebar */
+.nav-page-card {
+  padding: 9px 10px;
+  border-radius: var(--radius-sm);
+  gap: 11px;
+}
+
+.nav-page-card::before {
+  width: 0;
+  left: -1px;
+  background: var(--nav-accent, var(--sidebar-accent));
+  box-shadow: 0 0 12px var(--nav-accent, var(--sidebar-accent));
+  transition: width 0.25s var(--ease-out);
+}
+
+.nav-page-card:hover {
+  background: var(--sidebar-hover);
+  border-color: rgba(255,255,255,0.06);
+  transform: translateX(2px);
+}
+.nav-page-card:hover::before { width: 3px; }
+
+.nav-page-card.active {
+  background: linear-gradient(90deg, var(--nav-accent-soft, rgba(56,189,248,0.18)) 0%, rgba(255,255,255,0.04) 70%);
+  border-color: rgba(255,255,255,0.10);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.05);
+}
+
+.nav-page-card.active::before {
+  width: 3px;
+  background: var(--nav-accent, var(--sidebar-accent));
+}
+
+.nav-page-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 9px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.04);
+  font-size: 0.95rem;
+  transition: var(--transition-base);
+}
+
+.nav-page-card:hover .nav-page-icon {
+  background: rgba(255,255,255,0.10);
+  transform: scale(1.05);
+}
+
+.nav-page-card.active .nav-page-icon {
+  background: var(--nav-accent-soft, rgba(56,189,248,0.22));
+  border-color: var(--nav-accent, rgba(56,189,248,0.4));
+  box-shadow: 0 0 18px var(--nav-accent-soft, rgba(56,189,248,0.3));
+}
+
+.nav-page-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: rgba(226,232,240,0.62);
+}
+
+.nav-page-card.active .nav-page-label,
+.nav-page-card:hover .nav-page-label { color: #f1f5f9; }
+
+/* Footer da sidebar — botão de tema + botão compactar */
+.sidebar-footer {
+  padding: 12px 14px 16px;
+  border-top: 1px solid var(--sidebar-divider);
+  gap: 8px;
+}
+
+.sidebar-footer-label {
+  font-size: 0.66rem;
+  color: var(--sidebar-text-faint);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  flex: 1;
+}
+
+.theme-toggle {
+  width: 38px; height: 38px;
+  border-radius: 11px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.05);
+  transition: var(--transition-base);
+}
+.theme-toggle:hover {
+  background: rgba(255,255,255,0.12);
+  border-color: rgba(255,255,255,0.18);
+  transform: scale(1.06) rotate(-8deg);
+}
+
+/* Botão "compactar sidebar" (novo) */
+.sidebar-collapse-btn {
+  width: 38px; height: 38px;
+  border-radius: 11px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.05);
+  color: #e2e8f0;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1rem;
+  transition: var(--transition-base);
+  flex-shrink: 0;
+}
+.sidebar-collapse-btn:hover {
+  background: rgba(255,255,255,0.12);
+  border-color: rgba(255,255,255,0.18);
+  transform: scale(1.06);
+}
+.sidebar-collapse-btn .icon { transition: transform 0.3s var(--ease-out); display: inline-block; }
+
+/* ─────────────────────────────────────────
+   6. SIDEBAR COMPACTA — só ícones
+───────────────────────────────────────── */
+body.sidebar-compact .sidebar {
+  width: var(--sidebar-width-compact);
+}
+
+body.sidebar-compact .logo-text,
+body.sidebar-compact .nav-group-title,
+body.sidebar-compact .nav-group-toggle,
+body.sidebar-compact .nav-page-label,
+body.sidebar-compact .sidebar-footer-label {
+  opacity: 0;
+  transform: translateX(-6px);
+  pointer-events: none;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: opacity 0.18s var(--ease-out), transform 0.18s var(--ease-out);
+}
+
+body.sidebar-compact .sidebar-logo {
+  justify-content: center;
+  padding: 22px 12px 16px;
+}
+
+body.sidebar-compact .nav-group-header {
+  justify-content: center;
+  padding: 9px 8px;
+}
+
+body.sidebar-compact .nav-pages {
+  max-height: 800px !important; /* sempre aberto em modo compacto */
+  opacity: 1 !important;
+  padding: 0 0 4px 0;
+}
+
+body.sidebar-compact .nav-page-card {
+  justify-content: center;
+  padding: 8px 6px;
+}
+
+body.sidebar-compact .nav-page-info { display: none; }
+
+body.sidebar-compact .sidebar-footer {
+  flex-direction: column;
+  gap: 8px;
+}
+
+body.sidebar-compact .sidebar-collapse-btn .icon { transform: rotate(180deg); }
+
+/* Tooltip nos itens da sidebar compacta */
+body.sidebar-compact .nav-page-card { position: relative; }
+body.sidebar-compact .nav-page-card::after {
+  content: attr(aria-label);
+  position: absolute;
+  left: calc(100% + 14px);
+  top: 50%;
+  transform: translateY(-50%) translateX(-6px);
+  background: rgba(15,23,42,0.96);
+  color: #f1f5f9;
+  font-size: 0.74rem;
+  font-weight: 600;
+  padding: 7px 12px;
+  border-radius: 8px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s var(--ease-out), transform 0.18s var(--ease-out);
+  box-shadow: var(--shadow-md);
+  border: 1px solid rgba(255,255,255,0.08);
+  z-index: 300;
+}
+body.sidebar-compact .nav-page-card:hover::after {
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
+}
+
+/* Ajustar header e main quando compacto */
+body.sidebar-compact .header {
+  left: calc(var(--sidebar-width-compact) + var(--sidebar-margin) + var(--sidebar-margin));
+}
+body.sidebar-compact .main-content {
+  margin-left: calc(var(--sidebar-width-compact) + var(--sidebar-margin) + var(--sidebar-margin));
+}
+
+/* ─────────────────────────────────────────
+   7. AJUSTE DO LAYOUT PRINCIPAL — espaço p/ sidebar flutuante
+───────────────────────────────────────── */
+.header {
+  left: calc(var(--sidebar-width) + var(--sidebar-margin) + var(--sidebar-margin));
+  right: var(--sidebar-margin);
+  top: var(--sidebar-margin);
+  height: var(--header-height);
+  background: var(--header-bg);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid var(--header-border);
+  border-radius: var(--header-radius);
+  box-shadow: var(--shadow-md);
+  padding: 0 18px 0 14px;
+  gap: 14px;
+  transition:
+    left 0.36s var(--ease-out),
+    transform 0.36s var(--ease-out),
+    background 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.header.hidden { transform: translateY(calc(-100% - var(--sidebar-margin) - 4px)); }
+
+.main-content {
+  margin-left: calc(var(--sidebar-width) + var(--sidebar-margin) + var(--sidebar-margin));
+  margin-top: calc(var(--header-height) + var(--sidebar-margin) + 8px);
+  min-height: calc(100vh - var(--header-height) - var(--sidebar-margin) - 8px);
+  padding-right: var(--sidebar-margin);
+  transition: margin-left 0.36s var(--ease-out);
+}
+
+.page-container {
+  max-width: 1180px;
+  padding: 28px 24px 80px;
+}
+
+/* ─────────────────────────────────────────
+   8. HEADER PREMIUM — breadcrumb + ações
+───────────────────────────────────────── */
+.header-breadcrumb {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: -0.005em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-breadcrumb::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--section-accent, #38bdf8);
+  box-shadow: 0 0 12px var(--section-accent, #38bdf8);
+  flex-shrink: 0;
+}
+
+.hamburger {
+  width: 38px; height: 38px;
+  border-radius: 11px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  transition: var(--transition-base);
+}
+.hamburger:hover {
+  background: rgba(15,23,42,0.06);
+}
+[data-theme="dark"] .hamburger:hover { background: rgba(255,255,255,0.08); }
+
+.hamburger span {
+  transition: transform 0.32s var(--ease-out), opacity 0.2s var(--ease-out);
+  transform-origin: center;
+}
+.hamburger.is-open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.hamburger.is-open span:nth-child(2) { opacity: 0; transform: scaleX(0.2); }
+.hamburger.is-open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+.progress-btn {
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-card-strong);
+  font-weight: 700;
+  font-size: 0.82rem;
+  gap: 8px;
+  transition: var(--transition-base);
+  position: relative;
+  overflow: hidden;
+}
+.progress-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--aurora-medical);
+  opacity: 0;
+  transition: opacity 0.3s var(--ease-out);
+  z-index: 0;
+}
+.progress-btn > * { position: relative; z-index: 1; }
+.progress-btn:hover {
+  border-color: transparent;
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 22px rgba(99,102,241,0.32);
+}
+.progress-btn:hover::before { opacity: 1; }
+
+/* ─────────────────────────────────────────
+   9. CARDS PREMIUM — glassmorphism refinado
+───────────────────────────────────────── */
+.glass-card,
+.simulator-card,
+.quiz-card,
+.calc-card,
+.classifier,
+.diagram-wrap,
+.mindmap-wrap,
+.axis-diagram,
+.parto-card,
+.versus-card,
+.score-display {
+  background: var(--bg-card);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition:
+    transform 0.32s var(--ease-out),
+    box-shadow 0.32s var(--ease-out),
+    border-color 0.32s var(--ease-out);
+  position: relative;
+}
+
+/* Brilho de luz natural no topo dos cards */
+.glass-card::after,
+.simulator-card::after,
+.quiz-card::after,
+.calc-card::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 14%; right: 14%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.6), transparent);
+  border-radius: 1px;
+  pointer-events: none;
+}
+
+[data-theme="dark"] .glass-card::after,
+[data-theme="dark"] .simulator-card::after,
+[data-theme="dark"] .quiz-card::after,
+[data-theme="dark"] .calc-card::after {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.12), transparent);
+}
+
+.glass-card:hover,
+.simulator-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--border-strong);
+}
+
+/* HERO da página */
+.page-hero {
+  padding: 44px 40px;
+  border-radius: var(--radius-2xl);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-md);
+}
+
+.page-hero::before {
+  opacity: 0.55;
+}
+
+.page-hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(600px 300px at 80% -20%, rgba(255,255,255,0.45), transparent 60%),
+    radial-gradient(500px 280px at 0% 110%, rgba(255,255,255,0.18), transparent 60%);
+  z-index: 0;
+  pointer-events: none;
+  border-radius: inherit;
+}
+[data-theme="dark"] .page-hero::after {
+  background:
+    radial-gradient(600px 300px at 80% -20%, rgba(255,255,255,0.10), transparent 60%),
+    radial-gradient(500px 280px at 0% 110%, rgba(99,102,241,0.18), transparent 60%);
+}
+
+.page-hero-tag {
+  background: rgba(255,255,255,0.55);
+  border: 1px solid rgba(255,255,255,0.7);
+  color: rgba(15,23,42,0.78);
+  font-weight: 800;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 2px 8px rgba(15,23,42,0.06);
+}
+[data-theme="dark"] .page-hero-tag {
+  background: rgba(255,255,255,0.10);
+  border-color: rgba(255,255,255,0.18);
+  color: rgba(255,255,255,0.88);
+}
+
+/* HERO BLOCKS — cards de acesso na home */
+.hero-block {
+  border: 1px solid var(--border-color);
+  background: var(--bg-card-strong);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  padding: 22px;
+  transition:
+    transform 0.32s var(--ease-out),
+    box-shadow 0.32s var(--ease-out),
+    border-color 0.32s var(--ease-out);
+}
+
+.hero-block::after {
+  content: '';
+  position: absolute;
+  top: -1px; left: 12%; right: 12%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.7), transparent);
+  pointer-events: none;
+}
+[data-theme="dark"] .hero-block::after {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.18), transparent);
+}
+
+.hero-block:hover {
+  transform: translateY(-6px) scale(1.01);
+}
+
+.hero-block-icon {
+  width: 48px; height: 48px;
+  border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, rgba(255,255,255,0.6), rgba(255,255,255,0.25));
+  border: 1px solid rgba(255,255,255,0.5);
+  font-size: 1.6rem;
+  box-shadow: 0 4px 14px rgba(15,23,42,0.06);
+  transition: transform 0.4s var(--ease-spring);
+}
+[data-theme="dark"] .hero-block-icon {
+  background: linear-gradient(135deg, rgba(255,255,255,0.10), rgba(255,255,255,0.04));
+  border-color: rgba(255,255,255,0.10);
+}
+.hero-block:hover .hero-block-icon {
+  transform: scale(1.08) rotate(-4deg);
+}
+
+/* ─────────────────────────────────────────
+   10. BOTÕES & INPUTS PREMIUM
+───────────────────────────────────────── */
+.sim-btn {
+  padding: 11px 24px;
+  border-radius: 999px;
+  background: var(--aurora-medical);
+  background-size: 180% 180%;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  box-shadow: 0 6px 18px rgba(99,102,241,0.28);
+  transition:
+    transform 0.25s var(--ease-out),
+    box-shadow 0.3s var(--ease-out),
+    background-position 0.5s ease;
+}
+.sim-btn:hover {
+  background-position: 100% 0%;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(99,102,241,0.4);
+}
+
+.page-nav-btn,
+.quiz-reveal-btn {
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-card-strong);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  font-weight: 600;
+  transition: var(--transition-base);
+}
+.page-nav-btn:hover,
+.quiz-reveal-btn:hover {
+  border-color: var(--section-accent);
+  color: var(--section-accent);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px var(--section-accent-soft);
+}
+
+.sim-select, .sim-input, .calc-input {
+  background: var(--bg-secondary);
+  border: 1.5px solid var(--border-color);
+  transition: var(--transition-base);
+}
+.sim-select:focus, .sim-input:focus, .calc-input:focus {
+  border-color: var(--section-accent, var(--info));
+  box-shadow: 0 0 0 4px var(--section-accent-soft, rgba(59,130,246,0.16));
+}
+
+/* ─────────────────────────────────────────
+   11. QUIZ PREMIUM
+───────────────────────────────────────── */
+.quiz-card {
+  padding: 26px 28px;
+}
+
+.quiz-option {
+  border-radius: 12px;
+  border: 1.5px solid var(--border-color);
+  background: var(--bg-secondary);
+  transition: var(--transition-base);
+}
+
+.quiz-option:hover:not([disabled]) {
+  border-color: var(--section-accent, var(--info));
+  background: var(--section-accent-soft, rgba(59,130,246,0.06));
+  transform: translateX(4px);
+  box-shadow: 0 4px 14px var(--section-accent-soft, rgba(59,130,246,0.12));
+}
+
+.quiz-tag {
+  background: var(--aurora-amber);
+  background-size: 200% 200%;
+  animation: auroraShift 12s ease-in-out infinite;
+  color: #fff;
+  font-weight: 800;
+  box-shadow: 0 4px 12px rgba(251,146,60,0.32);
+}
+[data-theme="dark"] .quiz-tag { color: #fff; }
+
+/* ─────────────────────────────────────────
+   12. INFO CARDS / ALERTS — borda iluminada
+───────────────────────────────────────── */
+.info-card,
+.alert {
+  border-radius: var(--radius-md);
+  border-left-width: 4px;
+  border-left-style: solid;
+  position: relative;
+  overflow: hidden;
+}
+
+.info-card::before,
+.alert::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,0.25), transparent 60%);
+  pointer-events: none;
+}
+[data-theme="dark"] .info-card::before,
+[data-theme="dark"] .alert::before {
+  background: linear-gradient(135deg, rgba(255,255,255,0.04), transparent 60%);
+}
+
+.info-card > *, .alert > * { position: relative; z-index: 1; }
+
+/* ─────────────────────────────────────────
+   13. TABELAS PREMIUM
+───────────────────────────────────────── */
+.table-wrap {
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  background: var(--bg-card);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  backdrop-filter: blur(16px) saturate(180%);
+}
+.premium-table { background: transparent; }
+.premium-table th {
+  background: rgba(15,23,42,0.04);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 13px 16px;
+}
+[data-theme="dark"] .premium-table th { background: rgba(255,255,255,0.04); }
+
+.premium-table tbody tr:hover {
+  background: var(--section-accent-soft, rgba(59,130,246,0.06));
+}
+
+/* ─────────────────────────────────────────
+   14. FLASHCARDS PREMIUM
+───────────────────────────────────────── */
+.flashcard-front {
+  background: var(--bg-card-strong);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+  backdrop-filter: blur(18px) saturate(180%);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition-base);
+}
+.flashcard:hover .flashcard-front {
+  transform: scale(1.02);
+  box-shadow: var(--shadow-md);
+  border-color: var(--section-accent, var(--info));
+}
+.flashcard-back {
+  background: var(--aurora-medical);
+  background-size: 180% 180%;
+  animation: auroraShift 18s ease-in-out infinite;
+  color: #fff;
+  box-shadow: var(--shadow-md);
+}
+
+/* ─────────────────────────────────────────
+   15. MODAL PREMIUM
+───────────────────────────────────────── */
+.modal-overlay { background: rgba(8,11,20,0.55); backdrop-filter: blur(10px); }
+.modal-card {
+  background: var(--bg-card-strong);
+  -webkit-backdrop-filter: blur(28px) saturate(190%);
+  backdrop-filter: blur(28px) saturate(190%);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-xl);
+}
+
+/* ─────────────────────────────────────────
+   16. RIPPLE EFFECT
+───────────────────────────────────────── */
+.ripple-effect {
+  position: absolute;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.45);
+  transform: translate(-50%, -50%) scale(1);
+  pointer-events: none;
+  animation: rippleAnim 0.7s ease-out forwards;
+}
+@keyframes rippleAnim {
+  to { transform: translate(-50%, -50%) scale(40); opacity: 0; }
+}
+
+/* ─────────────────────────────────────────
+   17. HOVER GLOBAL — focus-visible acessível
+───────────────────────────────────────── */
+button:focus-visible,
+.nav-page-card:focus-visible,
+.nav-group-header:focus-visible,
+.theme-toggle:focus-visible,
+.sidebar-collapse-btn:focus-visible,
+.quiz-option:focus-visible,
+.page-nav-btn:focus-visible,
+.hero-block:focus-visible {
+  outline: 2px solid var(--section-accent, #38bdf8);
+  outline-offset: 3px;
+  border-radius: 12px;
+}
+
+/* ─────────────────────────────────────────
+   18. RESPONSIVIDADE — mobile e tablet
+───────────────────────────────────────── */
+@media (max-width: 1100px) {
+  :root {
+    --sidebar-margin: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  :root {
+    --sidebar-margin: 0px;
+    --sidebar-radius: 0px;
+  }
+
+  .sidebar {
+    top: 0; left: 0; bottom: 0;
+    height: 100vh;
+    width: 280px;
+    border-radius: 0 22px 22px 0;
+    transform: translateX(-105%);
+  }
+  .sidebar.open { transform: translateX(0); }
+
+  .header {
+    left: 8px;
+    right: 8px;
+    top: 8px;
+    border-radius: 16px;
+  }
+
+  .main-content {
+    margin-left: 0;
+    margin-top: calc(var(--header-height) + 16px);
+    padding-right: 0;
+  }
+
+  /* Compactação não se aplica em mobile */
+  body.sidebar-compact .sidebar { width: 280px; }
+  body.sidebar-compact .header { left: 8px; }
+  body.sidebar-compact .main-content { margin-left: 0; }
+  body.sidebar-compact .logo-text,
+  body.sidebar-compact .nav-group-title,
+  body.sidebar-compact .nav-group-toggle,
+  body.sidebar-compact .nav-page-label,
+  body.sidebar-compact .sidebar-footer-label {
+    opacity: 1;
+    width: auto;
+    transform: none;
+    pointer-events: auto;
+  }
+  body.sidebar-compact .nav-page-info { display: block; }
+  body.sidebar-compact .nav-page-card { justify-content: flex-start; padding: 9px 10px; }
+  body.sidebar-compact .nav-page-card::after { display: none; }
+  body.sidebar-compact .sidebar-logo { justify-content: flex-start; padding: 22px 20px 16px; }
+  body.sidebar-compact .nav-group-header { justify-content: flex-start; padding: 9px 10px 7px; }
+  body.sidebar-compact .sidebar-footer { flex-direction: row; }
+  /* Ocultar botão compactar em mobile */
+  .sidebar-collapse-btn.is-desktop { display: none; }
+
+  .page-container { padding: 22px 18px 64px; }
+  .page-hero { padding: 32px 24px; border-radius: var(--radius-xl); }
+}
+
+@media (max-width: 480px) {
+  .page-hero { padding: 24px 18px; }
+  .quiz-card { padding: 20px 18px; }
+  .header { padding: 0 14px 0 8px; }
+  .progress-btn { padding: 7px 11px; font-size: 0.78rem; }
+  .progress-btn span:first-child { display: none; }
+}
+
+/* ─────────────────────────────────────────
+   19. SCROLLBAR DELICADA
+───────────────────────────────────────── */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb {
+  background: rgba(15,23,42,0.16);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover { background: rgba(15,23,42,0.32); background-clip: padding-box; }
+[data-theme="dark"] ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.14); background-clip: padding-box; }
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.28); background-clip: padding-box; }
+
+/* ─────────────────────────────────────────
+   20. ANIMAÇÕES SUTIS GLOBAIS
+───────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Acabamento: hero-stat-number com gradiente premium */
+.hero-stat-number {
+  background: var(--aurora-medical);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+  animation: auroraShift 14s ease-in-out infinite;
+}
+
+/* Acabamento: hero-eyebrow-dot com glow */
+.hero-eyebrow-dot {
+  box-shadow: 0 0 12px var(--info);
+}
+
+/* ─────────────────────────────────────────
+   21. ALERTS POLIDOS
+───────────────────────────────────────── */
+.alert {
+  padding: 18px 22px;
+  border-radius: 16px;
+  box-shadow: var(--shadow-xs);
+  transition: var(--transition-base);
+}
+.alert:hover {
+  transform: translateX(2px);
+  box-shadow: var(--shadow-sm);
+}
+.alert-icon {
+  width: 36px; height: 36px;
+  border-radius: 11px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.15rem;
+  background: rgba(255,255,255,0.55);
+  border: 1px solid rgba(255,255,255,0.5);
+  flex-shrink: 0;
+  margin-top: 0;
+}
+[data-theme="dark"] .alert-icon {
+  background: rgba(255,255,255,0.06);
+  border-color: rgba(255,255,255,0.10);
+}
+
+/* ─────────────────────────────────────────
+   22. SECTION HEADER ICON com aurora
+───────────────────────────────────────── */
+.section-icon {
+  width: 38px; height: 38px;
+  border-radius: 11px;
+  background: var(--section-accent-soft);
+  border: 1px solid var(--section-accent-soft);
+  color: var(--section-accent);
+  box-shadow: 0 4px 12px var(--section-accent-soft);
+}
+
+/* ─────────────────────────────────────────
+   23. PROVA CARD — glow sutil
+───────────────────────────────────────── */
+.prova-card {
+  border-radius: 14px;
+  border: 1.5px solid var(--section-accent-soft, rgba(59,130,246,0.3));
+  background: linear-gradient(135deg, var(--section-accent-soft, rgba(59,130,246,0.06)) 0%, transparent 100%);
+  position: relative;
+  overflow: hidden;
+}
+.prova-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: var(--section-accent, var(--info));
+  opacity: 0.7;
+}
+.prova-card-title { color: var(--section-accent, var(--info)); }
+
+/* ─────────────────────────────────────────
+   24. CRITERIA & CLASSIFIER refinos
+───────────────────────────────────────── */
+.criteria-item, .classifier-item {
+  border-radius: 12px;
+  transition: var(--transition-base);
+}
+.criteria-item:hover {
+  border-color: var(--section-accent, var(--info));
+  background: var(--section-accent-soft, rgba(59,130,246,0.05));
+  transform: translateX(2px);
+}
+
+/* ─────────────────────────────────────────
+   25. PROGRESS BAR FILL com aurora
+───────────────────────────────────────── */
+.progress-bar-fill {
+  background: var(--aurora-medical);
+  background-size: 200% 200%;
+  animation: auroraShift 8s ease-in-out infinite;
+  position: relative;
+  overflow: hidden;
+}
+.progress-bar-fill::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2.4s ease-in-out infinite;
+}
+
+/* ─────────────────────────────────────────
+   26. MED CARDS (medicamentos) refinos
+───────────────────────────────────────── */
+.med-card {
+  border-radius: 14px;
+  transition: var(--transition-base);
+}
+.med-card:hover {
+  transform: translateX(4px);
+  box-shadow: var(--shadow-sm);
+  border-color: var(--section-accent, var(--info));
+}
+.med-icon {
+  width: 36px; height: 36px;
+  border-radius: 11px;
+}
+
+/* ─────────────────────────────────────────
+   27. PARTO CARDS refinos
+───────────────────────────────────────── */
+.parto-card {
+  border-radius: 16px;
+  transition: var(--transition-base);
+}
+.parto-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+/* ─────────────────────────────────────────
+   28. AXIS DIAGRAM acabamento
+───────────────────────────────────────── */
+.axis-box {
+  border-radius: 14px;
+  font-weight: 700;
+  box-shadow: var(--shadow-xs);
+}
+.axis-box:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: var(--shadow-sm);
+}
+
+/* ─────────────────────────────────────────
+   29. LOGO TEXT refinado
+───────────────────────────────────────── */
+.logo-title {
+  background: linear-gradient(135deg, #f1f5f9 0%, #cbd5e1 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ─────────────────────────────────────────
+   30. BLOCK CHIPS refinos
+───────────────────────────────────────── */
+.block-chip {
+  border-radius: 999px;
+  transition: var(--transition-base);
+}
+.block-chip:hover {
+  border-color: var(--section-accent, var(--info));
+  color: var(--section-accent, var(--info));
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px var(--section-accent-soft, rgba(59,130,246,0.15));
+}
+.block-chip.active {
+  background: var(--aurora-medical);
+  background-size: 200% 200%;
+  animation: auroraShift 10s ease-in-out infinite;
+  border-color: transparent;
+  box-shadow: 0 6px 18px rgba(99,102,241,0.32);
+}
+
+/* ─────────────────────────────────────────
+   31. RESUMO ITEM refinos
+───────────────────────────────────────── */
+.resumo-item {
+  border-radius: 14px;
+  transition: var(--transition-base);
+}
+.resumo-item:hover {
+  transform: translateX(4px);
+  border-color: var(--section-accent, var(--info));
+  box-shadow: 0 6px 18px var(--section-accent-soft, rgba(59,130,246,0.1));
+}
+.resumo-num {
+  background: var(--aurora-medical);
+  background-size: 200% 200%;
+  animation: auroraShift 10s ease-in-out infinite;
+  box-shadow: 0 4px 10px rgba(99,102,241,0.25);
+}
+
+/* ─────────────────────────────────────────
+   32. FLOW STEP refinos
+───────────────────────────────────────── */
+.flow-step {
+  border-radius: 14px;
+  transition: var(--transition-base);
+}
+.flow-step:hover {
+  border-color: var(--section-accent, var(--info));
+  box-shadow: 0 6px 18px var(--section-accent-soft, rgba(59,130,246,0.1));
+}
+
+/* ─────────────────────────────────────────
+   33. MODAL CLOSE refinado
+───────────────────────────────────────── */
+.modal-close {
+  width: 36px; height: 36px;
+  border-radius: 11px;
+  background: rgba(15,23,42,0.05);
+  transition: var(--transition-base);
+}
+.modal-close:hover {
+  background: var(--error-light);
+  color: var(--error);
+  transform: rotate(90deg) scale(1.05);
+}
+[data-theme="dark"] .modal-close { background: rgba(255,255,255,0.06); }
+
+/* ─────────────────────────────────────────
+   34. SUSTAINED MOTION — entry micro-anim
+───────────────────────────────────────── */
+.page-container > * {
+  animation: contentEnter 0.5s var(--ease-out) both;
+}
+@keyframes contentEnter {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

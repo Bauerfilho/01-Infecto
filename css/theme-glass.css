@@ -1,0 +1,954 @@
+/* =========================================
+   GO PREMIUM — REFINO GLASSMORPHISM
+   Fase 1: Sidebar — translucidez + segunda borda de vidro
+   Carregar APÓS theme.css.
+   ========================================= */
+
+/* ─────────────────────────────────────────
+   1. SIDEBAR — TRANSLUCIDEZ AUMENTADA
+   Painel principal mais "vidro", menos opaco
+───────────────────────────────────────── */
+:root {
+  /* Sidebar mais translúcida — vidro de verdade */
+  --sidebar-bg: linear-gradient(
+    180deg,
+    rgba(13, 18, 32, 0.62) 0%,
+    rgba(15, 23, 42, 0.58) 50%,
+    rgba(11, 16, 28, 0.64) 100%
+  );
+
+  /* Tokens novos para a "segunda borda de vidro" */
+  --glass-shell-color:    rgba(255, 255, 255, 0.06);
+  --glass-shell-color-2:  rgba(255, 255, 255, 0.03);
+  --glass-shell-blur:     blur(22px) saturate(160%);
+}
+
+[data-theme="dark"] {
+  --sidebar-bg: linear-gradient(
+    180deg,
+    rgba(8, 11, 20, 0.66) 0%,
+    rgba(11, 16, 28, 0.62) 50%,
+    rgba(7, 10, 18, 0.68) 100%
+  );
+
+  --glass-shell-color:   rgba(255, 255, 255, 0.04);
+  --glass-shell-color-2: rgba(255, 255, 255, 0.02);
+}
+
+/* ─────────────────────────────────────────
+   2. SIDEBAR — REFINO DO BLUR
+   Mais blur + leve brilho interno superior
+   para realçar o efeito de vidro real
+───────────────────────────────────────── */
+.sidebar {
+  -webkit-backdrop-filter: blur(34px) saturate(200%);
+  backdrop-filter: blur(34px) saturate(200%);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  box-shadow:
+    /* Sombra principal — projeção do painel */
+    0 28px 64px rgba(8, 11, 20, 0.32),
+    0 12px 28px rgba(8, 11, 20, 0.20),
+    /* Highlight interno superior — brilho de luz natural */
+    inset 0 1px 0 rgba(255, 255, 255, 0.14),
+    /* Borda interna inferior — sombra fina */
+    inset 0 -1px 0 rgba(0, 0, 0, 0.18);
+}
+
+[data-theme="dark"] .sidebar {
+  border-color: rgba(255, 255, 255, 0.07);
+  box-shadow:
+    0 32px 72px rgba(0, 0, 0, 0.55),
+    0 14px 32px rgba(0, 0, 0, 0.40),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.30);
+}
+
+/* ─────────────────────────────────────────
+   3. SEGUNDA BORDA DE VIDRO — pseudo-shell
+   Painel deslocado nos cantos inferior-direito
+   que aparece atrás da sidebar.
+   Implementado com elemento ::before no body
+   para não conflitar com o ::before já existente
+   da sidebar (que faz o halo radial interno).
+───────────────────────────────────────── */
+body::before {
+  content: '';
+  position: fixed;
+  pointer-events: none;
+  z-index: 199; /* sidebar está em 200 → fica logo atrás */
+
+  /* Posicionado seguindo a sidebar, deslocado 10px → bottom-right */
+  top:    calc(var(--sidebar-margin) + 10px);
+  left:   calc(var(--sidebar-margin) + 10px);
+  width:  var(--sidebar-width);
+  height: calc(100vh - calc(var(--sidebar-margin) * 2));
+  border-radius: var(--sidebar-radius);
+
+  /* Camada 1 — vidro */
+  background: linear-gradient(
+    140deg,
+    var(--glass-shell-color) 0%,
+    var(--glass-shell-color-2) 60%,
+    rgba(255, 255, 255, 0.01) 100%
+  );
+
+  /* Borda quase invisível, só insinuando o vidro extra */
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 22px 56px rgba(8, 11, 20, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.10);
+
+  -webkit-backdrop-filter: var(--glass-shell-blur);
+  backdrop-filter: var(--glass-shell-blur);
+
+  transition:
+    top    0.36s var(--ease-out),
+    left   0.36s var(--ease-out),
+    width  0.36s var(--ease-out);
+
+  opacity: 0.85;
+}
+
+[data-theme="dark"] body::before {
+  border-color: rgba(255, 255, 255, 0.05);
+  box-shadow:
+    0 26px 64px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  opacity: 0.75;
+}
+
+/* ─────────────────────────────────────────
+   4. SHELL — ACOMPANHA O MODO COMPACTO
+───────────────────────────────────────── */
+body.sidebar-compact::before {
+  width: var(--sidebar-width-compact);
+}
+
+/* ─────────────────────────────────────────
+   5. SHELL — SOMEM EM MOBILE
+   (Em mobile a sidebar é off-canvas, o shell
+   atrapalharia a leitura)
+───────────────────────────────────────── */
+@media (max-width: 900px) {
+  body::before { display: none; }
+}
+
+/* ─────────────────────────────────────────
+   6. AJUSTE DO HALO INTERNO DA SIDEBAR
+   Agora que o painel está mais translúcido,
+   o halo radial interno fica mais visível.
+   Suavizo um pouco para não ficar "neon".
+───────────────────────────────────────── */
+.sidebar::before {
+  background:
+    radial-gradient(
+      420px 220px at 50% -10%,
+      rgba(99, 102, 241, 0.14),
+      transparent 70%
+    ),
+    radial-gradient(
+      460px 340px at 50% 110%,
+      rgba(14, 165, 233, 0.08),
+      transparent 70%
+    );
+}
+
+[data-theme="dark"] .sidebar::before {
+  background:
+    radial-gradient(
+      420px 220px at 50% -10%,
+      rgba(99, 102, 241, 0.18),
+      transparent 70%
+    ),
+    radial-gradient(
+      460px 340px at 50% 110%,
+      rgba(14, 165, 233, 0.12),
+      transparent 70%
+    );
+}
+
+/* =========================================
+   FASE 2 — LEGIBILIDADE + MEMBRANA TRANSLÚCIDA
+   ========================================= */
+
+/* ─────────────────────────────────────────
+   7. LEGIBILIDADE DOS TEXTOS NA SIDEBAR
+   Agora que o painel ficou bem mais translúcido,
+   os textos precisam ganhar contraste de volta.
+   Estratégia: aumentar opacidade base + adicionar
+   text-shadow muito sutil para "destacar do vidro"
+   sem brilhar feio.
+───────────────────────────────────────── */
+:root {
+  --sidebar-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+  --sidebar-text-shadow-strong: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Logo: título e subtítulo com mais peso e nitidez */
+.sidebar .logo-title {
+  /* Sobrescreve o gradient do theme.css com cor sólida — mais legível sobre vidro */
+  background: none;
+  -webkit-text-fill-color: initial;
+  color: #f8fafc;
+  font-weight: 800;
+  text-shadow: var(--sidebar-text-shadow-strong);
+  letter-spacing: -0.005em;
+}
+
+.sidebar .logo-sub {
+  color: rgba(226, 232, 240, 0.78);
+  font-weight: 600;
+  text-shadow: var(--sidebar-text-shadow);
+}
+
+/* Títulos de bloco (TIREOIDE, REUMATOLOGIA, etc.) */
+.sidebar .nav-group-title {
+  color: rgba(241, 245, 249, 0.78);
+  font-weight: 800;
+  text-shadow: var(--sidebar-text-shadow);
+}
+
+.sidebar .nav-group-header:hover .nav-group-title {
+  color: #f8fafc;
+}
+
+/* Toggle ▾ um pouco mais visível */
+.sidebar .nav-group-toggle {
+  color: rgba(226, 232, 240, 0.55);
+  text-shadow: var(--sidebar-text-shadow);
+}
+
+/* Labels das páginas — principal foco da legibilidade */
+.sidebar .nav-page-label {
+  color: rgba(241, 245, 249, 0.84);
+  font-weight: 600;
+  text-shadow: var(--sidebar-text-shadow);
+}
+
+.sidebar .nav-page-card:hover .nav-page-label,
+.sidebar .nav-page-card.active .nav-page-label {
+  color: #ffffff;
+  text-shadow: var(--sidebar-text-shadow-strong);
+}
+
+/* Footer label "Tema" também */
+.sidebar .sidebar-footer-label {
+  color: rgba(226, 232, 240, 0.65);
+  font-weight: 600;
+  text-shadow: var(--sidebar-text-shadow);
+}
+
+/* ─────────────────────────────────────────
+   8. MEMBRANA TRANSLÚCIDA — TÍTULOS DE BLOCO
+   Fina camada de vidro atrás de todo o cabeçalho
+   do grupo (dot + título + toggle), criando a
+   sensação de "etiqueta de vidro" sobre o painel.
+───────────────────────────────────────── */
+.sidebar .nav-group-header {
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  -webkit-backdrop-filter: blur(8px) saturate(140%);
+  backdrop-filter: blur(8px) saturate(140%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 1px 2px rgba(0, 0, 0, 0.18);
+  margin-bottom: 4px;
+}
+
+.sidebar .nav-group-header:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.10) 0%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+  border-color: rgba(255, 255, 255, 0.10);
+}
+
+[data-theme="dark"] .sidebar .nav-group-header {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.04) 0%,
+    rgba(255, 255, 255, 0.01) 100%
+  );
+  border-color: rgba(255, 255, 255, 0.05);
+}
+
+[data-theme="dark"] .sidebar .nav-group-header:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.07) 0%,
+    rgba(255, 255, 255, 0.03) 100%
+  );
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* ─────────────────────────────────────────
+   9. MEMBRANA TRANSLÚCIDA — ÍCONES DAS PÁGINAS
+   Cada ícone ganha sua própria cápsula de vidro,
+   um pouco mais densa que o painel — destaca o
+   ícone sem usar cor sólida.
+───────────────────────────────────────── */
+.sidebar .nav-page-icon {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.10) 0%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  -webkit-backdrop-filter: blur(6px) saturate(140%);
+  backdrop-filter: blur(6px) saturate(140%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.14),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.10),
+    0 1px 2px rgba(0, 0, 0, 0.20);
+  transition:
+    background 0.28s var(--ease-out),
+    border-color 0.28s var(--ease-out),
+    transform 0.28s var(--ease-out),
+    box-shadow 0.28s var(--ease-out);
+}
+
+.sidebar .nav-page-card:hover .nav-page-icon {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.16) 0%,
+    rgba(255, 255, 255, 0.06) 100%
+  );
+  border-color: rgba(255, 255, 255, 0.18);
+  transform: scale(1.06);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.20),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.12),
+    0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* Estado ativo: a cápsula adota a cor da seção,
+   mantendo o efeito de membrana */
+.sidebar .nav-page-card.active .nav-page-icon {
+  background: linear-gradient(
+    135deg,
+    var(--nav-accent-soft, rgba(56, 189, 248, 0.32)) 0%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+  border-color: var(--nav-accent, rgba(56, 189, 248, 0.55));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.20),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.10),
+    0 0 16px var(--nav-accent-soft, rgba(56, 189, 248, 0.35)),
+    0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+/* Em modo compacto, a membrana dos ícones fica
+   um pouco mais presente (são o único elemento visível) */
+body.sidebar-compact .sidebar .nav-page-icon {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.12) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+/* ─────────────────────────────────────────
+   10. MEMBRANA TRANSLÚCIDA — LOGO BADGE
+   Acabamento: um halo de vidro fino ao redor
+   do badge, integrando-o ao novo sistema
+───────────────────────────────────────── */
+.sidebar .logo-badge {
+  /* Wrapper externo simulado via outline transparente +
+     box-shadow extra com cor branca leve */
+  box-shadow:
+    0 6px 18px rgba(14, 165, 233, 0.40),
+    0 0 0 1px rgba(255, 255, 255, 0.10) inset,
+    0 0 0 4px rgba(255, 255, 255, 0.04),
+    0 0 0 5px rgba(255, 255, 255, 0.06);
+}
+
+/* ─────────────────────────────────────────
+   11. ITEM ATIVO — leve membrana extra no card
+   Mantém o gradiente colorido da Fase 1 mas
+   adiciona um insight de vidro por cima
+───────────────────────────────────────── */
+.sidebar .nav-page-card.active {
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.10),
+    0 2px 8px rgba(0, 0, 0, 0.20);
+}
+
+/* ─────────────────────────────────────────
+   12. RESPONSIVO — mobile mantém o efeito
+───────────────────────────────────────── */
+@media (max-width: 900px) {
+  /* Em mobile a sidebar é off-canvas com fundo
+     mais opaco; a membrana funciona igual,
+     apenas reduzo o blur dos elementos internos
+     para não estourar performance no iOS */
+  .sidebar .nav-group-header,
+  .sidebar .nav-page-icon {
+    -webkit-backdrop-filter: blur(4px) saturate(130%);
+    backdrop-filter: blur(4px) saturate(130%);
+  }
+}
+
+/* =========================================
+   FASE 2.5 — VARREDURA GLOBAL DE CONTEÚDO
+   Aplica glass em caixas pedagógicas inline
+   nas 36 páginas, sem editar JS.
+   ========================================= */
+
+/* ─────────────────────────────────────────
+   13. CAIXAS PEDAGÓGICAS INLINE
+   Várias páginas usam <div style="background:
+   var(--success-light) | --error-light | rgba(...)">
+   para destacar trimestres, doses, alertas etc.
+   Adiciono blur e borda translúcida para
+   integrá-las ao glassmorphism global.
+───────────────────────────────────────── */
+
+/* Light mode: caixinhas inline ganham vidro */
+.page-container div[style*="border-radius"][style*="background:var(--success-light)"],
+.page-container div[style*="border-radius"][style*="background:var(--error-light)"],
+.page-container div[style*="border-radius"][style*="background:rgba(59,130,246"],
+.page-container div[style*="border-radius"][style*="background:#fffbeb"],
+.page-container div[style*="border-radius"][style*="background:var(--color-itu-light)"],
+.page-container div[style*="border-radius"][style*="background:var(--color-hepato-light)"] {
+  -webkit-backdrop-filter: blur(8px) saturate(160%);
+  backdrop-filter: blur(8px) saturate(160%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.45),
+    0 1px 3px rgba(15, 23, 42, 0.05);
+  position: relative;
+  transition: transform 0.28s var(--ease-out), box-shadow 0.28s var(--ease-out);
+}
+
+/* Hover sutil nas caixinhas inline */
+.page-container div[style*="border-radius"][style*="background:var(--success-light)"]:hover,
+.page-container div[style*="border-radius"][style*="background:var(--error-light)"]:hover,
+.page-container div[style*="border-radius"][style*="background:rgba(59,130,246"]:hover,
+.page-container div[style*="border-radius"][style*="background:#fffbeb"]:hover,
+.page-container div[style*="border-radius"][style*="background:var(--color-itu-light)"]:hover,
+.page-container div[style*="border-radius"][style*="background:var(--color-hepato-light)"]:hover {
+  transform: translateX(2px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    0 4px 12px rgba(15, 23, 42, 0.08);
+}
+
+/* Dark mode: as mesmas caixinhas com vidro escuro */
+[data-theme="dark"] .page-container div[style*="border-radius"][style*="background:var(--success-light)"],
+[data-theme="dark"] .page-container div[style*="border-radius"][style*="background:var(--error-light)"],
+[data-theme="dark"] .page-container div[style*="border-radius"][style*="background:rgba(59,130,246"],
+[data-theme="dark"] .page-container div[style*="border-radius"][style*="background:#fffbeb"],
+[data-theme="dark"] .page-container div[style*="border-radius"][style*="background:var(--color-itu-light)"],
+[data-theme="dark"] .page-container div[style*="border-radius"][style*="background:var(--color-hepato-light)"] {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 1px 3px rgba(0, 0, 0, 0.30);
+}
+
+/* ─────────────────────────────────────────
+   14. FLOW-STEP DECISION — glass em vez de chapado
+   Várias páginas usam diamantes/decision com
+   background:#fffbeb chapado. Damos glass.
+───────────────────────────────────────── */
+.flow-step.decision,
+.flow-step[style*="background:#fffbeb"] {
+  -webkit-backdrop-filter: blur(10px) saturate(170%);
+  backdrop-filter: blur(10px) saturate(170%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.45),
+    0 4px 12px rgba(217, 119, 6, 0.10);
+}
+
+[data-theme="dark"] .flow-step.decision,
+[data-theme="dark"] .flow-step[style*="background:#fffbeb"] {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 4px 12px rgba(217, 119, 6, 0.18);
+}
+
+/* Flow-step com background error/success inline */
+.flow-step[style*="background:var(--error-light)"],
+.flow-step[style*="background:var(--success-light)"] {
+  -webkit-backdrop-filter: blur(10px) saturate(170%);
+  backdrop-filter: blur(10px) saturate(170%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.40),
+    0 3px 10px rgba(15, 23, 42, 0.06);
+}
+
+[data-theme="dark"] .flow-step[style*="background:var(--error-light)"],
+[data-theme="dark"] .flow-step[style*="background:var(--success-light)"] {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 3px 10px rgba(0, 0, 0, 0.35);
+}
+
+/* ─────────────────────────────────────────
+   15. AXIS-BOX RESULT-NORMAL com background inline
+   pages-hepato.js usa axis-box result-normal com
+   border-color:var(--error). Damos glass.
+───────────────────────────────────────── */
+.axis-box[style*="background"] {
+  -webkit-backdrop-filter: blur(10px) saturate(170%);
+  backdrop-filter: blur(10px) saturate(170%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.40),
+    0 3px 10px rgba(15, 23, 42, 0.06);
+}
+
+[data-theme="dark"] .axis-box[style*="background"] {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 3px 10px rgba(0, 0, 0, 0.35);
+}
+
+/* =========================================
+   FASE 3 — CARDS APPLE-LIKE GLOBAL
+   Aplica em TODOS os cards de TODAS as páginas
+   ========================================= */
+
+/* ─────────────────────────────────────────
+   16. CARDS — PROFUNDIDADE APPLE-LIKE
+   Estratégia: vidro mais translúcido +
+   sombra interna superior (luz) +
+   sombra inferior externa (peso) +
+   reflexo de borda lateral
+───────────────────────────────────────── */
+.glass-card,
+.simulator-card,
+.quiz-card,
+.calc-card,
+.classifier,
+.diagram-wrap,
+.mindmap-wrap,
+.axis-diagram,
+.parto-card,
+.versus-card,
+.score-display,
+.hero-block,
+.mind-map,
+.lab-ruler,
+.criteria-total,
+.calc-result-box {
+  /* Translucidez aumentada */
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.55) 0%,
+      rgba(255, 255, 255, 0.40) 100%
+    );
+  -webkit-backdrop-filter: blur(28px) saturate(190%);
+  backdrop-filter: blur(28px) saturate(190%);
+
+  /* Borda fina translúcida */
+  border: 1px solid rgba(255, 255, 255, 0.55);
+
+  /* Sombra Apple-like: depth real */
+  box-shadow:
+    /* Luz interna superior */
+    inset 0 1px 0 rgba(255, 255, 255, 0.75),
+    /* Sombra inferior interna sutil */
+    inset 0 -1px 0 rgba(15, 23, 42, 0.04),
+    /* Sombra externa próxima (assenta o card no plano) */
+    0 1px 2px rgba(15, 23, 42, 0.04),
+    /* Sombra externa difusa (profundidade) */
+    0 8px 24px rgba(15, 23, 42, 0.06),
+    /* Sombra externa longa (contexto) */
+    0 24px 48px rgba(15, 23, 42, 0.04);
+
+  position: relative;
+  transition:
+    transform 0.32s var(--ease-out),
+    box-shadow 0.32s var(--ease-out),
+    border-color 0.32s var(--ease-out);
+}
+
+/* Reflexo de borda lateral (Apple gloss) */
+.glass-card::before,
+.simulator-card::before,
+.quiz-card::before,
+.calc-card::before,
+.hero-block::before {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  pointer-events: none;
+  background:
+    /* Brilho diagonal sutil — luz vinda do canto superior esquerdo */
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      transparent 35%,
+      transparent 65%,
+      rgba(255, 255, 255, 0.04) 100%
+    );
+  z-index: 0;
+  opacity: 0.9;
+}
+
+/* Conteúdo dos cards acima do reflexo */
+.glass-card > *,
+.simulator-card > *,
+.quiz-card > *,
+.calc-card > *,
+.hero-block > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Dark mode: cards apple-like adaptados */
+[data-theme="dark"] .glass-card,
+[data-theme="dark"] .simulator-card,
+[data-theme="dark"] .quiz-card,
+[data-theme="dark"] .calc-card,
+[data-theme="dark"] .classifier,
+[data-theme="dark"] .diagram-wrap,
+[data-theme="dark"] .mindmap-wrap,
+[data-theme="dark"] .axis-diagram,
+[data-theme="dark"] .parto-card,
+[data-theme="dark"] .versus-card,
+[data-theme="dark"] .score-display,
+[data-theme="dark"] .hero-block,
+[data-theme="dark"] .mind-map,
+[data-theme="dark"] .lab-ruler,
+[data-theme="dark"] .criteria-total,
+[data-theme="dark"] .calc-result-box {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(22, 29, 48, 0.70) 0%,
+      rgba(20, 27, 45, 0.55) 100%
+    );
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.10),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.20),
+    0 1px 2px rgba(0, 0, 0, 0.20),
+    0 8px 24px rgba(0, 0, 0, 0.30),
+    0 24px 48px rgba(0, 0, 0, 0.20);
+}
+
+[data-theme="dark"] .glass-card::before,
+[data-theme="dark"] .simulator-card::before,
+[data-theme="dark"] .quiz-card::before,
+[data-theme="dark"] .calc-card::before,
+[data-theme="dark"] .hero-block::before {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.06) 0%,
+      transparent 35%,
+      transparent 65%,
+      rgba(255, 255, 255, 0.02) 100%
+    );
+}
+
+/* ─────────────────────────────────────────
+   17. NEUTRALIZA O ::after antigo da Fase 0
+   (era uma linha horizontal no topo;
+    agora a luz vem do gradient interno)
+───────────────────────────────────────── */
+.glass-card::after,
+.simulator-card::after,
+.quiz-card::after,
+.calc-card::after {
+  display: none;
+}
+
+/* ─────────────────────────────────────────
+   18. INFO-CARD APPLE-LIKE
+   info-cards são mais coloridos por natureza —
+   damos glass diferenciado (mantém cor mas ganha
+   profundidade)
+───────────────────────────────────────── */
+.info-card {
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.40);
+  border-left-width: 4px;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    0 1px 2px rgba(15, 23, 42, 0.04),
+    0 6px 18px rgba(15, 23, 42, 0.05);
+  transition:
+    transform 0.28s var(--ease-out),
+    box-shadow 0.28s var(--ease-out);
+}
+
+[data-theme="dark"] .info-card {
+  border-color: rgba(255, 255, 255, 0.06);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 1px 2px rgba(0, 0, 0, 0.25),
+    0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+.info-card:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.65),
+    0 4px 10px rgba(15, 23, 42, 0.06),
+    0 14px 32px rgba(15, 23, 42, 0.08);
+}
+
+[data-theme="dark"] .info-card:hover {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.10),
+    0 4px 10px rgba(0, 0, 0, 0.30),
+    0 14px 32px rgba(0, 0, 0, 0.45);
+}
+
+/* ─────────────────────────────────────────
+   19. ALERTS APPLE-LIKE
+   Mantém cor da categoria, ganha vidro real
+───────────────────────────────────────── */
+.alert {
+  -webkit-backdrop-filter: blur(18px) saturate(170%);
+  backdrop-filter: blur(18px) saturate(170%);
+  border-width: 1px;
+  border-style: solid;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    0 2px 6px rgba(15, 23, 42, 0.04),
+    0 10px 24px rgba(15, 23, 42, 0.05);
+}
+
+[data-theme="dark"] .alert {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 2px 6px rgba(0, 0, 0, 0.25),
+    0 10px 24px rgba(0, 0, 0, 0.35);
+}
+
+/* ─────────────────────────────────────────
+   20. PARTO-CARD — header glass
+───────────────────────────────────────── */
+.parto-card-header {
+  -webkit-backdrop-filter: blur(14px) saturate(170%);
+  backdrop-filter: blur(14px) saturate(170%);
+  box-shadow: inset 0 -1px 0 rgba(15, 23, 42, 0.06);
+}
+
+[data-theme="dark"] .parto-card-header {
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.30);
+}
+
+/* ─────────────────────────────────────────
+   21. TABELAS PREMIUM — vidro completo
+───────────────────────────────────────── */
+.table-wrap {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.55) 0%,
+      rgba(255, 255, 255, 0.40) 100%
+    );
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.65),
+    0 1px 2px rgba(15, 23, 42, 0.04),
+    0 8px 24px rgba(15, 23, 42, 0.06);
+}
+
+[data-theme="dark"] .table-wrap {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(22, 29, 48, 0.65) 0%,
+      rgba(20, 27, 45, 0.50) 100%
+    );
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 1px 2px rgba(0, 0, 0, 0.20),
+    0 8px 24px rgba(0, 0, 0, 0.30);
+}
+
+/* =========================================
+   FASE 4 — BORDA ILUMINADA NO HOVER
+   Cor do data-block atual (ou default)
+   ========================================= */
+
+/* ─────────────────────────────────────────
+   22. CARDS — TODAS AS BORDAS ILUMINAM NO HOVER
+   Estratégia: usar box-shadow com várias camadas
+   simulando borda iluminada em todos os 4 lados
+   com a cor da seção (--section-accent)
+───────────────────────────────────────── */
+.glass-card,
+.simulator-card,
+.quiz-card,
+.calc-card,
+.hero-block,
+.classifier,
+.diagram-wrap,
+.mindmap-wrap,
+.axis-diagram,
+.parto-card,
+.versus-card,
+.mind-map,
+.lab-ruler {
+  /* Variável local com a cor da seção atual + alpha */
+  --card-glow: var(--section-accent, #38bdf8);
+  --card-glow-soft: var(--section-accent-soft, rgba(56, 189, 248, 0.18));
+}
+
+.glass-card:hover,
+.simulator-card:hover,
+.quiz-card:hover,
+.calc-card:hover,
+.classifier:hover,
+.diagram-wrap:hover,
+.mindmap-wrap:hover,
+.axis-diagram:hover,
+.parto-card:hover,
+.versus-card:hover,
+.mind-map:hover,
+.lab-ruler:hover {
+  transform: translateY(-3px);
+  border-color: var(--card-glow);
+  box-shadow:
+    /* Luz interna superior */
+    inset 0 1px 0 rgba(255, 255, 255, 0.75),
+    /* GLOW CIRCULAR — borda iluminada em todos os 4 lados */
+    0 0 0 1px var(--card-glow),
+    0 0 24px var(--card-glow-soft),
+    /* Sombra externa de profundidade */
+    0 4px 12px rgba(15, 23, 42, 0.06),
+    0 16px 40px var(--card-glow-soft),
+    0 32px 64px rgba(15, 23, 42, 0.04);
+}
+
+[data-theme="dark"] .glass-card:hover,
+[data-theme="dark"] .simulator-card:hover,
+[data-theme="dark"] .quiz-card:hover,
+[data-theme="dark"] .calc-card:hover,
+[data-theme="dark"] .classifier:hover,
+[data-theme="dark"] .diagram-wrap:hover,
+[data-theme="dark"] .mindmap-wrap:hover,
+[data-theme="dark"] .axis-diagram:hover,
+[data-theme="dark"] .parto-card:hover,
+[data-theme="dark"] .versus-card:hover,
+[data-theme="dark"] .mind-map:hover,
+[data-theme="dark"] .lab-ruler:hover {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.10),
+    0 0 0 1px var(--card-glow),
+    0 0 28px var(--card-glow-soft),
+    0 4px 12px rgba(0, 0, 0, 0.30),
+    0 16px 40px var(--card-glow-soft),
+    0 32px 64px rgba(0, 0, 0, 0.30);
+}
+
+/* HERO-BLOCK — usa cor própria do bloco (já tem
+   .tireoide, .reumato etc.) E TAMBÉM hover global */
+.hero-block:hover {
+  transform: translateY(-6px) scale(1.01);
+  border-color: var(--card-glow);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.75),
+    0 0 0 1px var(--card-glow),
+    0 0 28px var(--card-glow-soft),
+    0 6px 18px rgba(15, 23, 42, 0.08),
+    0 20px 48px var(--card-glow-soft),
+    0 32px 64px rgba(15, 23, 42, 0.04);
+}
+
+[data-theme="dark"] .hero-block:hover {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.10),
+    0 0 0 1px var(--card-glow),
+    0 0 32px var(--card-glow-soft),
+    0 6px 18px rgba(0, 0, 0, 0.35),
+    0 20px 48px var(--card-glow-soft),
+    0 32px 64px rgba(0, 0, 0, 0.30);
+}
+
+/* HERO-BLOCK por bloco — mantém override da cor
+   do hero da home (tireoide, reumato etc.) */
+.hero-block.tireoide { --card-glow: #0891b2; --card-glow-soft: rgba(8,145,178,0.20); }
+.hero-block.reumato  { --card-glow: #9333ea; --card-glow-soft: rgba(147,51,234,0.20); }
+.hero-block.cardio   { --card-glow: #e11d48; --card-glow-soft: rgba(225,29,72,0.20); }
+.hero-block.hepato   { --card-glow: #d97706; --card-glow-soft: rgba(217,119,6,0.20); }
+.hero-block.itu      { --card-glow: #0284c7; --card-glow-soft: rgba(2,132,199,0.20); }
+.hero-block.revisao  { --card-glow: #0f766e; --card-glow-soft: rgba(15,118,110,0.20); }
+
+/* ─────────────────────────────────────────
+   23. INFO-CARD — borda iluminada por tipo
+───────────────────────────────────────── */
+.info-card.primary { --card-glow: #0891b2; --card-glow-soft: rgba(8,145,178,0.20); }
+.info-card.success { --card-glow: var(--success); --card-glow-soft: rgba(16,185,129,0.20); }
+.info-card.warning { --card-glow: var(--warning); --card-glow-soft: rgba(245,158,11,0.22); }
+.info-card.danger  { --card-glow: var(--error); --card-glow-soft: rgba(239,68,68,0.22); }
+
+.info-card:hover {
+  border-color: var(--card-glow, var(--section-accent));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.65),
+    0 0 0 1px var(--card-glow, var(--section-accent)),
+    0 0 20px var(--card-glow-soft, var(--section-accent-soft)),
+    0 4px 10px rgba(15, 23, 42, 0.06),
+    0 14px 32px var(--card-glow-soft, var(--section-accent-soft));
+}
+
+[data-theme="dark"] .info-card:hover {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.10),
+    0 0 0 1px var(--card-glow, var(--section-accent)),
+    0 0 24px var(--card-glow-soft, var(--section-accent-soft)),
+    0 4px 10px rgba(0, 0, 0, 0.30),
+    0 14px 32px var(--card-glow-soft, var(--section-accent-soft));
+}
+
+/* ─────────────────────────────────────────
+   24. ALERTS — borda iluminada própria do tipo
+───────────────────────────────────────── */
+.alert.pegadinha { --card-glow: #c2410c; --card-glow-soft: rgba(249,115,22,0.22); }
+.alert.atencao   { --card-glow: #a16207; --card-glow-soft: rgba(234,179,8,0.22); }
+.alert.info      { --card-glow: #1e40af; --card-glow-soft: rgba(59,130,246,0.22); }
+.alert.success   { --card-glow: #15803d; --card-glow-soft: rgba(16,185,129,0.22); }
+.alert.danger    { --card-glow: #b91c1c; --card-glow-soft: rgba(239,68,68,0.22); }
+
+.alert:hover {
+  transform: translateX(2px) translateY(-1px);
+  border-color: var(--card-glow);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    0 0 0 1px var(--card-glow),
+    0 0 18px var(--card-glow-soft),
+    0 6px 16px rgba(15, 23, 42, 0.05);
+}
+
+[data-theme="dark"] .alert:hover {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 0 0 1px var(--card-glow),
+    0 0 22px var(--card-glow-soft),
+    0 6px 16px rgba(0, 0, 0, 0.30);
+}
+
+/* ─────────────────────────────────────────
+   25. PERFORMANCE — desativa hover em mobile
+   (evita o glow ficar travado no toque)
+───────────────────────────────────────── */
+@media (hover: none) {
+  .glass-card:hover,
+  .simulator-card:hover,
+  .quiz-card:hover,
+  .calc-card:hover,
+  .hero-block:hover,
+  .info-card:hover,
+  .alert:hover {
+    transform: none;
+  }
+}

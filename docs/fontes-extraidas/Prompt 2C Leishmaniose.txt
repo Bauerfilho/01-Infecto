@@ -1,0 +1,2040 @@
+PROMPT 2C — MÓDULO AUTÔNOMO PREMIUM
+Leishmaniose Visceral / Calazar: Febre Arrastada, Baço Gigante, Pancitopenia e Armadilha Hematológica
+Você está operando como Codex executor em um projeto de plataforma médica interativa sobre síndromes febris.
+Sua missão é construir/preencher o módulo autônomo de Leishmaniose Visceral / Calazar, usando como fonte primária obrigatória o arquivo anexado:
+Leishmaniose.rtf
+Este é um Prompt 2C de conteúdo premium.
+Você NÃO deve criar a plataforma global inteira. Você NÃO deve criar PWA. Você NÃO deve criar service worker. Você NÃO deve mexer em manifest, cache, deploy ou arquivos técnicos globais. Você NÃO deve criar identidade visual final completa da plataforma. Você NÃO deve fazer QA global. Você NÃO deve transformar o conteúdo em resumo. Você NÃO deve inventar guideline externo. Você deve transformar o roteiro em um módulo educacional interativo, granular, clínico, fisiopatológico, hematológico, epidemiológico, navegável e pronto para futura integração.
+
+1. Identidade do módulo
+Nome do módulo:
+Leishmaniose Visceral / Calazar: quando febre arrastada parece hematologia
+Subtítulo conceitual:
+Febre há meses + baço gigante + pancitopenia + Crato/Ceará não é “virose prolongada”: é calazar até prova em contrário.
+Objetivo pedagógico:
+Construir uma experiência interativa que ensine o estudante a reconhecer leishmaniose visceral como diagnóstico central diante de:
+febre arrastada;
+perda ponderal;
+anorexia;
+paciente consumido;
+hepatoesplenomegalia;
+esplenomegalia de grande monta;
+pancitopenia;
+inversão albumina-globulina;
+hipergamaglobulinemia policlonal;
+área endêmica.
+O estudante deve sair do raciocínio raso:
+“Febre + pancitopenia + baço grande = neoplasia hematológica.”
+e chegar ao raciocínio sindrômico:
+“O quadro parece hematológico, mas a epidemiologia, o padrão policlonal, o baço de grande monta e a infiltração do sistema reticuloendotelial por macrófagos infectados fazem leishmaniose visceral subir para o topo.”
+A espinha dorsal do módulo deve ser:
+febre arrastada → baço gigante → pancitopenia → armadilha hematológica → epidemiologia → Leishmania chagasi/infantum → vetor/reservatórios → macrófagos infectados → imunidade celular falha → hipergamaglobulinemia policlonal → diagnóstico → tratamento → fechamento do caso.
+
+2. Contexto de integração futura
+Este módulo deve nascer autônomo, mas pronto para se encaixar depois em uma plataforma maior de síndromes febris.
+Deixe pontos de integração futura para:
+módulo Dengue;
+módulo Febre Amarela × Leptospirose;
+dashboard global;
+simulador integrador de síndromes febris;
+revisão ativa global;
+trilha de febre aguda versus febre arrastada;
+trilha de síndromes febris com esplenomegalia;
+trilha de doenças infecciosas crônicas;
+comparador global de padrões laboratoriais;
+comparador global de vetores e reservatórios.
+Não implemente esses módulos agora. Não crie dashboard global definitivo. Não crie simulador global. Apenas deixe estrutura semântica, nomes de rotas/classes/data attributes e documentação interna que permitam integração posterior.
+
+3. O roteiro é contrato
+O arquivo Leishmaniose.rtf é a fonte soberana.
+Preserve integralmente:
+pergunta central;
+caso clínico-guia;
+paciente de Crato, Ceará;
+febre há meses;
+febre arrastada;
+diferença entre febre aguda e febre crônica/arrastada;
+mal-estar;
+anorexia;
+perda ponderal importante;
+paciente consumido;
+aumento do volume abdominal;
+possível icterícia;
+fígado a 4 cm do rebordo costal direito;
+baço a 10 cm do rebordo costal esquerdo;
+hepatoesplenomegalia;
+esplenomegalia de grande monta;
+anemia;
+leucopenia;
+plaquetopenia;
+pancitopenia;
+albumina 2,1;
+globulina 5,5;
+albumina baixa;
+globulina elevada;
+inversão albumina-globulina;
+hipergamaglobulinemia;
+hipergamaglobulinemia policlonal;
+diferença entre policlonal e monoclonal;
+armadilha de neoplasia hematológica;
+armadilha de mieloma múltiplo/gamopatia monoclonal;
+diagnóstico diferencial inicial;
+esquistossomose/hipertensão portal como diferencial periférico;
+Chagas aguda como diferencial periférico;
+epidemiologia;
+Crato/Ceará como pista diagnóstica;
+Ceará como área endêmica;
+interior da Bahia;
+Minas Gerais;
+Rio de Janeiro e São Paulo por urbanização/periurbanização, se presente no roteiro;
+calazar;
+leishmaniose visceral;
+significado de “visceral”;
+diferença para leishmaniose tegumentar;
+agente etiológico;
+protozoário;
+Leishmania chagasi;
+Leishmania infantum;
+discussão chagasi/infantum sem taxonomia excessiva;
+não confundir com Leishmania braziliensis;
+Leishmania braziliensis ligada à forma tegumentar/cutânea;
+vetor;
+Lutzomyia longipalpis;
+flebotomíneo;
+mosquito-palha como nome popular;
+diferença entre linguagem popular e técnica;
+reservatórios;
+raposa;
+cão;
+cão como reservatório urbano/periurbano;
+cão como sentinela;
+urbanização e periurbanização;
+paralelo com macacos como sentinelas da febre amarela, quando útil;
+fisiopatologia por macrófagos;
+contato com Leishmania não significa adoecer obrigatoriamente;
+paralelo com tuberculose/infecção latente, se presente;
+falha/deficiência de imunidade celular;
+macrófago fagocita e não destrói o parasita;
+“macrófago cheio de bicho” como imagem mental;
+sistema reticuloendotelial;
+sistema mononuclear fagocitário;
+fígado;
+baço;
+medula óssea;
+febre arrastada como infecção persistente;
+hepatoesplenomegalia por infiltração;
+pancitopenia por medula/sequestro/infiltração;
+resposta celular versus resposta humoral;
+imunidade celular como decisiva;
+imunidade humoral exagerada e ineficaz;
+anticorpos não resolvem bem parasita intracelular;
+hipergamaglobulinemia policlonal;
+reação de Montenegro;
+paralelo com prova tuberculínica;
+Montenegro pode ser negativo na visceral ativa;
+Montenegro negativo não exclui calazar;
+Montenegro pode positivar após tratamento;
+Montenegro tende a ser positivo na tegumentar;
+Montenegro não é sorologia;
+quadro clínico;
+formas amastigotas;
+amastigotas dentro de macrófagos;
+formas promastigotas/flageladas, se presentes no roteiro;
+diagnóstico parasitológico;
+demonstrar parasita;
+aspirado de medula óssea;
+método preferencial;
+sensibilidade em torno de 70%, se presente;
+punção esplênica;
+método mais sensível;
+risco proibitivo de sangramento;
+baço vascularizado;
+pancitopenia/plaquetopenia como risco em procedimento invasivo;
+sorologias;
+imunofluorescência;
+lógica do anticorpo contra anticorpo e fluorescência;
+rK39;
+perda de acurácia em imunossuprimidos;
+HIV;
+uso de imunossupressores;
+sorologia como complementar;
+tratamento;
+antimonial pentavalente;
+Glucantime;
+escolha geral no SUS por custo-efetividade;
+custo-efetivo não significa melhor para todos;
+perfil de efeitos adversos desfavorável;
+cardiotoxicidade;
+prolongamento do QT;
+ECG seriado;
+torsades de pointes;
+TV polimórfica;
+risco de fibrilação ventricular;
+macrolídeos, hidroxicloroquina e distúrbios eletrolíticos como causas/fatores de QT prolongado, se presentes no roteiro;
+anfotericina B lipossomal;
+mais eficaz;
+menos tóxica na formulação lipossomal;
+mais cara;
+indicações por Gs e Is;
+grave;
+gestante;
+imunossupressão;
+HIV;
+imunossupressores;
+idade menor de 1 ano;
+idade maior de 50 anos;
+insuficiência hepática;
+insuficiência cardíaca;
+insuficiência renal;
+intolerância ao antimonial;
+falha terapêutica;
+efeitos adversos importantes;
+fechamento do caso;
+anfotericina B lipossomal no caso grave/consumido/ictérico, se indicado pelo roteiro;
+antimonial como opção geral custo-efetiva para população sem critérios especiais;
+pegadinhas;
+analogias;
+tabelas;
+fluxogramas;
+mapa mental;
+revisão ativa;
+checklist final;
+mapa de fidelidade.
+Se o conteúdo ficar grande, divida em mais páginas, abas, accordions, modais, seções expansíveis, timelines, simuladores, painéis comparativos e revisões ativas.
+É proibido resumir para caber.
+
+4. Regra de granulação obrigatória
+O módulo deve ter no mínimo 13 páginas principais nesta execução.
+O mínimo do pipeline era 12, mas este módulo deve entregar também uma página integradora final para consolidar a armadilha hematológica, a fisiopatologia e a escolha terapêutica. Portanto, implemente as 13 páginas abaixo.
+É proibido entregar 5, 6, 7 ou 8 páginas. É proibido condensar raciocínios diferentes em uma única página longa. É permitido criar mais de 13 páginas se a fidelidade exigir.
+Critério de divisão:
+uma página = um raciocínio dominante;
+se houver dois raciocínios dominantes, dividir;
+se uma página ficar densa demais, quebrar em subpáginas;
+não trocar profundidade por compactação visual.
+Estrutura obrigatória:
+Caso-guia: febre arrastada, baço gigante e pancitopenia
+Síndrome febril arrastada com esplenomegalia
+A armadilha hematológica: câncer, mieloma ou infecção crônica?
+Epidemiologia: por que Crato/Ceará importa?
+Nome, agente etiológico e diferença entre espécies
+Vetor e reservatórios: mosquito-palha, raposa e cão
+Fisiopatologia: a doença do macrófago
+Imunidade celular versus humoral: por que há muita globulina?
+Reação de Montenegro e paradoxos da imunidade celular
+Diagnóstico parasitológico: amastigotas, medula e baço
+Sorologias, imunofluorescência, rK39 e imunossupressão
+Tratamento: antimonial pentavalente versus anfotericina B lipossomal
+Fechamento integrador, simulador final e revisão ativa
+
+5. Requisitos universais de cada página principal
+Cada uma das 13 páginas principais deve conter obrigatoriamente:
+Título claro.
+Pergunta central.
+Objetivo pedagógico.
+Microcaso, caso-guia ou problema clínico.
+Explicação didática em camadas.
+Pelo menos 1 SVG didático autoral.
+Hotspots interativos no SVG.
+Pelo menos 1 componente interativo adicional além do SVG.
+Pelo menos 1 tabela, quadro, matriz ou comparador.
+Bloco “Não confunda”.
+Bloco “Pegadinha de prova”.
+Quiz com feedback explicativo.
+Flashcards ou revisão ativa local.
+Chamada para a próxima página.
+Responsividade mobile.
+Acessibilidade básica.
+Coerência visual com o projeto existente, se houver.
+O SVG não pode ser decorativo. O SVG precisa ensinar raciocínio.
+Cada hotspot deve conter:
+título;
+explicação curta;
+importância clínica;
+pegadinha de prova ou aplicação prática, quando pertinente.
+Hotspot superficial conta como falha.
+
+6. Proibição absoluta de metalinguagem na interface
+Na interface visível ao estudante, é proibido usar frases como:
+“a aula menciona”;
+“o professor explica”;
+“segundo o roteiro”;
+“na transcrição”;
+“o material diz”;
+“foi abordado que”;
+“baseado no arquivo”;
+“o roteiro mostra”.
+A plataforma deve parecer um material didático autônomo.
+Transforme linguagem de relatório em linguagem de ensino direto.
+Errado:
+“O roteiro explica que Crato/Ceará é uma pista.”
+Certo:
+“Crato, Ceará, é uma pista epidemiológica forte: diante de febre arrastada, baço gigante e pancitopenia, calazar deve subir imediatamente.”
+Errado:
+“O professor fala que o Montenegro pode ser negativo.”
+Certo:
+“Montenegro negativo não exclui leishmaniose visceral ativa, porque a doença pode cursar com falha da resposta celular.”
+Errado:
+“Segundo o material, o antimonial pode causar QT longo.”
+Certo:
+“O antimonial pentavalente pode prolongar o QT e exigir ECG seriado; essa toxicidade muda a escolha terapêutica em pacientes de risco.”
+A metalinguagem só é permitida em documentos internos de QA, como matriz de cobertura.
+
+7. Arquitetura técnica mínima
+Antes de editar, inspecione o projeto.
+Se já existir arquitetura global:
+preservar estrutura;
+inserir o módulo no local apropriado;
+respeitar rotas, padrões de estilo, componentes e dados;
+não refatorar globalmente.
+Se NÃO existir arquitetura global: criar uma estrutura local mínima e autônoma para o módulo, por exemplo:
+/leishmaniose-visceral/
+  index.html
+  leishmaniose-visceral.css
+  leishmaniose-visceral.js
+  leishmaniose-visceral-data.js
+  assets/
+    svg/
+  docs/
+    matriz-conteudo-leishmaniose-visceral.md
+    qa-leishmaniose-visceral.md
+Ou, se o projeto já usa outra convenção, adaptar mantendo consistência.
+Regras técnicas:
+usar HTML/CSS/JS vanilla se esse for o padrão;
+evitar dependências externas;
+não usar CDN;
+não criar backend;
+não criar banco de dados;
+não criar autenticação;
+não criar prontuário;
+não criar ferramenta de decisão clínica real;
+não criar PWA;
+não mexer em service worker;
+não mexer em manifest;
+não mexer em cache;
+não quebrar navegação existente;
+não quebrar páginas já existentes;
+garantir funcionamento local;
+garantir responsividade;
+garantir foco visível;
+garantir navegação por teclado;
+garantir aria-label em botões e hotspots;
+garantir que SVGs sejam responsivos;
+garantir que hotspots funcionem por mouse, toque e teclado;
+garantir que tooltips/modais funcionem em mobile;
+respeitar prefers-reduced-motion;
+evitar animações contínuas;
+evitar scripts em loop;
+evitar travar o preview;
+evitar overflow horizontal.
+
+8. Página 1 — Caso-guia: febre arrastada, baço gigante e pancitopenia
+Pergunta central
+Febre há meses, baço gigante e pancitopenia: neoplasia hematológica ou calazar?
+Objetivo
+Introduzir o caso clínico-guia e fazer o estudante perceber que o eixo não é febre aguda, mas uma síndrome febril arrastada com infiltração do sistema reticuloendotelial.
+Conteúdo obrigatório
+Preservar:
+paciente que procura atendimento por febre;
+morador de Crato, Ceará;
+quadro iniciado há meses;
+febre arrastada;
+mal-estar;
+anorexia;
+perda ponderal importante;
+paciente consumido;
+aumento progressivo do volume abdominal;
+possível icterícia;
+fígado palpável a 4 cm do rebordo costal direito;
+baço palpável a 10 cm do rebordo costal esquerdo;
+esplenomegalia de grande monta;
+anemia;
+leucopenia;
+plaquetopenia;
+pancitopenia;
+albumina 2,1;
+globulina 5,5;
+albumina baixa;
+globulina elevada;
+inversão albumina-globulina;
+hipergamaglobulinemia;
+padrão policlonal;
+pergunta central: neoplasia hematológica, mieloma/gamopatia ou calazar?
+mensagem central: febre há meses + baço de grande monta + pancitopenia + área endêmica deve colocar leishmaniose visceral no topo do raciocínio.
+SVG obrigatório
+Criar SVG autoral:
+“Mapa inicial do caso: do consumo ao calazar”
+Elementos:
+paciente consumido;
+linha temporal de meses;
+abdome com fígado e baço;
+baço a 10 cm;
+hemograma com três linhagens baixas;
+proteínas séricas;
+Crato/Ceará;
+hipótese final: calazar.
+Hotspots mínimos
+Crato/Ceará;
+febre há meses;
+baço 10 cm;
+fígado 4 cm;
+pancitopenia;
+albumina baixa;
+globulina elevada;
+hipergamaglobulinemia policlonal;
+armadilha hematológica.
+Interação obrigatória
+Mini-simulador:
+“Qual dado muda o rumo do diagnóstico?”
+O estudante recebe dados progressivos:
+febre;
+febre há meses;
+perda ponderal;
+baço a 10 cm;
+anemia + leucopenia + plaquetopenia;
+albumina 2,1 + globulina 5,5;
+hipergamaglobulinemia policlonal;
+Crato/Ceará.
+Para cada dado, o estudante deve dizer se aproxima:
+dengue/febre aguda;
+neoplasia hematológica;
+mieloma/gamopatia;
+leishmaniose visceral;
+outra hipótese.
+Feedback obrigatório:
+tempo de meses tira o aluno da gaveta de febre aguda;
+baço gigante e pancitopenia explicam a armadilha hematológica;
+padrão policlonal e epidemiologia reposicionam o caso para calazar.
+Tabela obrigatória
+Tabela:
+Achados clínicos e laboratoriais do caso × interpretação imediata × como contribui para leishmaniose visceral
+Não confunda
+febre arrastada não é dengue prolongada;
+plaquetopenia não significa dengue;
+hipergamaglobulinemia não significa automaticamente mieloma;
+Crato/Ceará não é detalhe narrativo.
+Pegadinha de prova
+A hipótese de neoplasia hematológica é plausível, mas não deve impedir o reconhecimento do calazar em área endêmica.
+
+9. Página 2 — Síndrome febril arrastada com esplenomegalia
+Pergunta central
+Por que “meses de febre” muda completamente o raciocínio?
+Objetivo
+Diferenciar febre aguda de febre arrastada e mostrar por que tempo, baço e pancitopenia são dados semiológicos decisivos.
+Conteúdo obrigatório
+Preservar:
+diferença entre febre aguda e febre arrastada;
+febre de dias versus semanas/meses;
+dengue como febre súbita de até 7 dias;
+febre amarela e leptospirose como síndromes febris mais agudas no pipeline;
+meses de evolução;
+consumo;
+anorexia;
+perda ponderal;
+hipoalbuminemia;
+aparência consumida;
+aumento do volume abdominal;
+hepatoesplenomegalia;
+esplenomegalia de grande monta;
+baço como órgão do sistema reticuloendotelial;
+pancitopenia;
+anemia;
+leucopenia;
+plaquetopenia;
+comprometimento global da hematopoiese;
+sequestro esplênico/infiltração medular;
+doenças infecciosas crônicas versus neoplasias;
+por que dengue, febre amarela e leptospirose aguda ficam mais distantes;
+tripé: febre arrastada + esplenomegalia de grande monta + pancitopenia.
+SVG obrigatório
+Criar SVG autoral:
+“Relógio clínico: febre aguda de dias × febre arrastada de meses”
+Elementos:
+trilha aguda: dias;
+trilha arrastada: semanas/meses;
+consumo;
+baço;
+medula;
+pancitopenia;
+calazar como hipótese.
+Hotspots mínimos
+dias;
+meses;
+perda ponderal;
+baço;
+medula;
+pancitopenia;
+sistema reticuloendotelial;
+febre aguda afastada.
+Interação obrigatória
+Classificador:
+“Febre aguda ou febre arrastada?”
+Cenários:
+3 dias de febre + dor retro-orbital;
+5 dias de febre + icterícia + mata;
+10 dias de febre + sufusão conjuntival + hemoptise;
+meses de febre + baço gigante + pancitopenia;
+meses de febre + perda ponderal + hipergamaglobulinemia policlonal.
+Tabela obrigatória
+Tabela:
+Febre aguda × febre arrastada
+Colunas:
+tempo;
+exemplos de raciocínio;
+estado geral;
+abdome;
+hemograma;
+risco de erro;
+dado discriminador.
+Não confunda
+tempo de evolução é dado semiológico;
+baço a 10 cm não é achado discreto;
+pancitopenia não significa automaticamente câncer.
+Pegadinha de prova
+Quando o enunciado troca “dias” por “meses”, ele está trocando o diagnóstico provável.
+
+10. Página 3 — A armadilha hematológica: câncer, mieloma ou infecção crônica?
+Pergunta central
+Quando o quadro parece hematológico, o que impede o erro de marcar câncer ou mieloma?
+Objetivo
+Ensinar o diagnóstico diferencial inicial e impedir que o estudante marque neoplasia sem integrar epidemiologia, padrão policlonal e síndrome infecciosa crônica.
+Conteúdo obrigatório
+Preservar:
+por que neoplasia hematológica entra no diferencial;
+febre;
+perda ponderal;
+baço de grande monta;
+pancitopenia;
+aspecto consumido;
+leucemia;
+linfoma;
+doenças infiltrativas de medula;
+doenças hematológicas malignas;
+hipótese plausível, não absurda;
+por que mieloma/gamopatia entra quando há globulina elevada;
+hipergamaglobulinemia;
+diferença entre hipergamaglobulinemia monoclonal e policlonal;
+monoclonal: um clone produz uma imunoglobulina dominante;
+policlonal: várias linhagens imunes produzem anticorpos;
+policlonal como resposta infecciosa/inflamatória crônica;
+epidemiologia como dado que reposiciona as hipóteses;
+leishmaniose visceral como hipótese que integra o caso;
+esquistossomose/hipertensão portal como diferencial periférico;
+Chagas aguda como diferencial periférico;
+ausência de linfadenopatia enfraquecendo Chagas aguda no caso, se presente;
+dado epidemiológico não é enfeite.
+SVG obrigatório
+Criar SVG autoral:
+“Balança diagnóstica: hematologia × gamopatia × calazar”
+Elementos:
+neoplasia hematológica;
+mieloma/gamopatia monoclonal;
+leishmaniose visceral;
+baço gigante;
+pancitopenia;
+pico monoclonal;
+padrão policlonal;
+Crato/Ceará.
+Hotspots mínimos
+pancitopenia;
+baço gigante;
+consumo;
+monoclonal;
+policlonal;
+epidemiologia;
+calazar;
+neoplasia como armadilha.
+Interação obrigatória
+Painel:
+“Aproxima ou afasta?”
+O estudante classifica achados para:
+leishmaniose visceral;
+neoplasia hematológica;
+mieloma/gamopatia monoclonal;
+esquistossomose/hipertensão portal;
+Chagas aguda.
+Itens obrigatórios:
+baço gigante;
+pancitopenia;
+Crato/Ceará;
+hipergamaglobulinemia policlonal;
+pico monoclonal;
+linfadenopatia;
+febre há meses;
+ausência de eixo de hipertensão portal.
+Tabela obrigatória
+Tabela:
+Leishmaniose visceral × neoplasia hematológica × mieloma/gamopatia × esquistossomose/hipertensão portal × Chagas aguda
+Não confunda
+neoplasia hematológica é hipótese plausível, mas não é a melhor quando tudo aponta para área endêmica e padrão policlonal;
+globulina alta não é sempre mieloma;
+policlonal não é monoclonal;
+esplenomegalia isolada não basta: olhar febre, hemograma, proteínas e epidemiologia.
+Pegadinha de prova
+O padrão que salva a questão é hipergamaglobulinemia policlonal, não apenas “globulina alta”.
+
+11. Página 4 — Epidemiologia: por que Crato/Ceará importa?
+Pergunta central
+Cidade no enunciado é detalhe narrativo ou dado clínico?
+Objetivo
+Ensinar o peso epidemiológico do caso e a distribuição da leishmaniose visceral no Brasil.
+Conteúdo obrigatório
+Preservar:
+Crato/Ceará como pista forte;
+Ceará como área endêmica clássica;
+frase/memória envolvendo calazar e Ceará, se presente;
+leishmaniose visceral endêmica em áreas específicas;
+interior da Bahia;
+Minas Gerais;
+urbanização;
+periurbanização;
+aparecimento em regiões como Rio de Janeiro e São Paulo, se presente no roteiro;
+por que a doença pode cair em provas do Brasil inteiro;
+epidemiologia como dado clínico;
+cidade específica no enunciado provavelmente não é detalhe gratuito;
+epidemiologia não substitui clínica, mas muda o peso das hipóteses;
+urbanização/periurbanização conectando cão, vetor e humano.
+SVG obrigatório
+Criar SVG autoral:
+“Mapa epidemiológico do calazar no Brasil”
+Elementos:
+Ceará/Crato;
+interior da Bahia;
+Minas Gerais;
+expansão para áreas urbanas/periurbanas;
+Rio de Janeiro/São Paulo como aparecimento, se presente no roteiro;
+vetor/reservatório aproximando-se do humano.
+Hotspots mínimos
+Crato;
+Ceará;
+Bahia;
+Minas Gerais;
+urbanização;
+periurbanização;
+prova nacional;
+epidemiologia como dado clínico.
+Interação obrigatória
+Quiz geográfico:
+“Cidade específica no enunciado: detalhe ou pista?”
+Cenários:
+Crato/Ceará + febre arrastada + baço gigante;
+cidade sem relação epidemiológica + febre aguda;
+área urbana com cão infectado;
+prova fora do Nordeste com quadro típico.
+Tabela obrigatória
+Tabela:
+Dado epidemiológico × interpretação × peso no raciocínio
+Não confunda
+epidemiologia não é decoração;
+calazar não é diagnóstico exclusivo do Nordeste;
+expansão urbana/periurbana aumenta relevância nacional;
+cidade específica em questão costuma ser pista intencional.
+Pegadinha de prova
+Em infectologia, geografia é dado clínico.
+
+12. Página 5 — Nome, agente etiológico e diferença entre espécies
+Pergunta central
+Toda leishmaniose é igual?
+Objetivo
+Ensinar o nome da doença, o agente etiológico e a diferença entre espécies/territórios clínicos.
+Conteúdo obrigatório
+Preservar:
+leishmaniose visceral;
+calazar;
+“visceral” como acometimento profundo de vísceras;
+fígado;
+baço;
+medula óssea;
+doença sistêmica;
+não é lesão cutânea isolada;
+protozoário;
+Leishmania chagasi;
+Leishmania infantum;
+discussão chagasi/infantum sem taxonomia excessiva;
+para prova: chagasi/infantum = calazar;
+não confundir com Leishmania braziliensis;
+Leishmania braziliensis ligada à leishmaniose tegumentar/cutânea;
+diferença entre visceral e tegumentar;
+visceral: fígado/baço/medula;
+tegumentar: pele/mucosa;
+úlcera cutânea muda raciocínio para tegumentar;
+febre crônica, baço enorme, pancitopenia e área endêmica retornam para visceral.
+SVG obrigatório
+Criar SVG autoral:
+“Leishmaniose visceral × tegumentar: territórios diferentes”
+Elementos:
+corpo humano;
+fígado;
+baço;
+medula;
+pele;
+mucosas;
+chagasi/infantum;
+braziliensis.
+Hotspots mínimos
+calazar;
+visceral;
+fígado;
+baço;
+medula;
+chagasi/infantum;
+braziliensis;
+tegumentar;
+pele/mucosa.
+Interação obrigatória
+Card comparativo:
+“Qual espécie causa qual quadro?”
+O estudante relaciona:
+Leishmania chagasi;
+Leishmania infantum;
+Leishmania braziliensis;
+febre arrastada + baço gigante;
+úlcera cutânea;
+mucosa;
+pancitopenia.
+Tabela obrigatória
+Tabela:
+Leishmaniose visceral/calazar × leishmaniose tegumentar
+Não confunda
+leishmaniose visceral é protozoária, não viral ou bacteriana;
+chagasi/infantum não devem desviar para debate taxonômico;
+braziliensis não explica o caso visceral;
+“visceral” não é nome decorativo.
+Pegadinha de prova
+Se o enunciado fala em baço gigante e pancitopenia, pense em visceral. Se fala em úlcera cutânea/mucosa, a gaveta é tegumentar.
+
+13. Página 6 — Vetor e reservatórios: mosquito-palha, raposa e cão
+Pergunta central
+Quem transmite, quem mantém o ciclo e por que o cão muda a epidemiologia?
+Objetivo
+Ensinar vetor, nome popular, reservatórios, sentinelas e urbanização/periurbanização.
+Conteúdo obrigatório
+Preservar:
+Vetor
+Lutzomyia longipalpis;
+corrigir silenciosamente distorções de transcrição;
+flebotomíneo;
+mosquito-palha como nome popular;
+parece mosquito, mas tecnicamente é flebotomíneo;
+na prova: Lutzomyia longipalpis/flebotomíneo;
+na comunicação comunitária: mosquito-palha é termo compreensível;
+não corrigir paciente de forma arrogante;
+linguagem técnica versus linguagem popular;
+não confundir com Aedes aegypti.
+Reservatórios
+raposa como reservatório silvestre;
+cão como reservatório urbano/periurbano;
+cão como sentinela;
+urbanização;
+periurbanização;
+doença deixa de ser apenas “da mata” quando cão, vetor e humano se aproximam;
+paralelo com macacos como sentinelas na febre amarela, quando útil;
+diferença entre vetor e reservatório;
+cão não é apenas detalhe veterinário.
+SVG obrigatório
+Criar SVG autoral:
+“Ciclo epidemiológico do calazar”
+Elementos:
+raposa;
+cão;
+Lutzomyia longipalpis;
+humano;
+ambiente silvestre;
+ambiente urbano/periurbano;
+seta de urbanização.
+Hotspots mínimos
+Lutzomyia;
+flebotomíneo;
+mosquito-palha;
+raposa;
+cão;
+cão sentinela;
+humano;
+urbanização;
+vetor versus reservatório.
+Interação obrigatória
+Classificador:
+“Vetor ou reservatório?”
+Itens:
+Lutzomyia longipalpis;
+mosquito-palha;
+flebotomíneo;
+raposa;
+cão;
+Aedes aegypti;
+humano;
+macaco na febre amarela como sentinela comparativa.
+Tabela obrigatória
+Tabela:
+Agente × vetor × reservatórios × transmissão
+Não confunda
+Aedes aegypti não é vetor do calazar;
+mosquito-palha é nome popular útil;
+tecnicamente, o vetor é um flebotomíneo;
+cão é reservatório urbano/periurbano e pode atuar como sentinela.
+Pegadinha de prova
+O vetor técnico é Lutzomyia longipalpis, mas o termo popular mosquito-palha pode aparecer no enunciado ou na fala do paciente.
+
+14. Página 7 — Fisiopatologia: a doença do macrófago
+Pergunta central
+Como um protozoário causa febre por meses, baço enorme e pancitopenia?
+Objetivo
+Construir a explicação fisiopatológica central do calazar como doença do macrófago infectado.
+Conteúdo obrigatório
+Preservar:
+contato com Leishmania não significa adoecer obrigatoriamente;
+paralelo com tuberculose/infecção latente, se presente;
+adoecimento depende da interação agente-hospedeiro;
+falha/deficiência da imunidade celular;
+macrófago como célula central;
+macrófago fagocita o parasita;
+macrófago não consegue destruí-lo;
+macrófagos ficam cheios de Leishmania;
+“macrófago entupido de bicho” como imagem mental, se adequado;
+infiltração do sistema reticuloendotelial;
+sistema mononuclear fagocitário;
+fígado;
+baço;
+medula óssea;
+febre arrastada por inflamação persistente;
+hepatoesplenomegalia por infiltração;
+esplenomegalia de grande monta;
+pancitopenia por infiltração medular e/ou sequestro;
+anemia;
+leucopenia;
+plaquetopenia;
+aparência consumptiva;
+semelhança com neoplasia hematológica;
+medula como órgão-alvo e local preferencial de diagnóstico.
+SVG obrigatório
+Criar SVG autoral:
+“Leishmania → macrófago infectado → fígado/baço/medula → clínica”
+Elementos:
+parasita;
+macrófago fagocitando;
+falha de destruição;
+macrófago cheio de amastigotas;
+fígado;
+baço;
+medula;
+manifestações.
+Hotspots mínimos
+parasita;
+macrófago;
+falha celular;
+fígado;
+baço;
+medula;
+pancitopenia;
+febre arrastada;
+semelhança com neoplasia.
+Interação obrigatória
+Simulador:
+“Clique no órgão e veja a manifestação”
+Órgãos:
+fígado → hepatomegalia;
+baço → esplenomegalia de grande monta;
+medula → pancitopenia;
+sistema imune → febre/inflamação;
+estado nutricional → consumo/hipoalbuminemia.
+Tabela obrigatória
+Tabela:
+Manifestação clínica × mecanismo fisiopatológico no calazar
+Não confunda
+o parasita está dentro do macrófago;
+anticorpos no sangue não resolvem bem parasita intracelular;
+pancitopenia não é exclusividade de câncer;
+o calazar parece hematológico porque ocupa medula, baço e sangue periférico.
+Pegadinha de prova
+O mecanismo único que conecta o quadro é: macrófagos infectados infiltrando fígado, baço e medula óssea.
+
+15. Página 8 — Imunidade celular versus humoral: por que há muita globulina?
+Pergunta central
+Por que o paciente produz muitos anticorpos, mas continua doente?
+Objetivo
+Ensinar a inversão albumina-globulina, a hipergamaglobulinemia policlonal e a diferença entre resposta celular eficaz e resposta humoral exagerada.
+Conteúdo obrigatório
+Preservar:
+imunidade celular como resposta decisiva contra parasita intracelular;
+resposta celular insuficiente;
+macrófagos não são ativados/destrutivos o suficiente;
+imunidade humoral tenta compensar;
+produção de muitos anticorpos;
+anticorpos não eliminam efetivamente parasita dentro de macrófagos;
+globulinas aumentam;
+fração gama aumenta;
+hipergamaglobulinemia;
+hipergamaglobulinemia policlonal;
+várias linhagens celulares produzindo anticorpos;
+estímulo infeccioso/inflamatório crônico;
+albumina baixa por consumo/desnutrição;
+albumina baixa + globulinas altas;
+inversão albumina-globulina;
+diferença entre policlonal e monoclonal;
+monoclonal: clone dominante;
+monoclonal sugere mieloma/gamopatia;
+policlonal: resposta ampla/reacional;
+policlonal sugere infecção/inflamação crônica;
+no caso, leishmaniose visceral;
+muito anticorpo não significa proteção efetiva.
+SVG obrigatório
+Criar SVG autoral:
+“Resposta celular falha × resposta humoral exagerada”
+Elementos:
+macrófago infectado;
+célula T/resposta celular;
+linfócito B/plasmócito;
+anticorpos;
+albumina;
+globulina;
+padrão policlonal;
+padrão monoclonal.
+Hotspots mínimos
+imunidade celular;
+macrófago;
+anticorpos;
+albumina;
+globulina;
+policlonal;
+monoclonal;
+mieloma;
+calazar.
+Interação obrigatória
+Simulador de eletroforese:
+“Pico monoclonal ou padrão policlonal?”
+Mostrar graficamente:
+pico estreito monoclonal;
+elevação ampla policlonal.
+O estudante deve associar:
+mieloma/gamopatia;
+infecção crônica;
+leishmaniose visceral.
+Tabela obrigatória
+Tabela:
+Imunidade celular × imunidade humoral na leishmaniose visceral
+E tabela menor:
+Policlonal × monoclonal
+Não confunda
+sorologia positiva não significa que a resposta imune esteja resolvendo a doença;
+hipergamaglobulinemia policlonal não é mieloma típico;
+globulina alta precisa ser interpretada pelo padrão;
+albumina baixa ajuda a compor doença crônica/consumo.
+Pegadinha de prova
+A banca pode induzir mieloma quando vê globulina alta. A palavra-chave que salva é policlonal.
+
+16. Página 9 — Reação de Montenegro e paradoxos da imunidade celular
+Pergunta central
+Montenegro negativo exclui calazar?
+Objetivo
+Ensinar por que a reação de Montenegro pode ser negativa na leishmaniose visceral ativa e positivar após tratamento.
+Conteúdo obrigatório
+Preservar:
+reação de Montenegro;
+teste relacionado à imunidade celular;
+paralelo com prova tuberculínica/PPD, se presente;
+resposta celular cutânea;
+antígenos de Leishmania;
+Montenegro não é sorologia;
+sorologia avalia anticorpos;
+Montenegro avalia resposta celular cutânea;
+na visceral ativa:
+pode vir negativa;
+não porque não houve contato;
+mas porque a resposta celular está deficiente;
+anergia/baixa resposta celular;
+Montenegro negativo não exclui leishmaniose visceral ativa;
+após tratamento:
+imunidade celular pode se recuperar;
+Montenegro pode positivar;
+na leishmaniose tegumentar:
+resposta celular tende a estar mais preservada;
+Montenegro tende a ser positivo;
+não aplicar lógica da tegumentar à visceral;
+pegadinha clássica: doença ativa com teste negativo.
+SVG obrigatório
+Criar SVG autoral:
+“Montenegro: negativo na visceral ativa, positivo após recuperação celular”
+Elementos:
+antígeno cutâneo;
+resposta celular baixa;
+visceral ativa negativa;
+pós-tratamento com recuperação;
+tegumentar positiva;
+comparação com PPD.
+Hotspots mínimos
+antígeno;
+resposta celular;
+visceral ativa;
+anergia;
+pós-tratamento;
+tegumentar;
+sorologia versus Montenegro;
+PPD paralelo.
+Interação obrigatória
+Quiz de pegadinha:
+“Montenegro negativo exclui calazar?”
+Cenários:
+visceral ativa com resposta celular falha;
+pós-tratamento;
+tegumentar;
+paciente sem contato;
+imunidade humoral elevada.
+Feedback:
+negativo não exclui visceral ativa;
+o teste depende da competência da resposta celular.
+Tabela obrigatória
+Tabela:
+Reação de Montenegro na visceral ativa × pós-tratamento × tegumentar × sem contato
+Não confunda
+Montenegro não é sorologia;
+Montenegro negativo não exclui calazar;
+Montenegro pode positivar após tratamento;
+tegumentar costuma ter lógica diferente.
+Pegadinha de prova
+O aluno espera “doença presente = teste positivo”. No calazar ativo, a falha celular pode inverter essa expectativa.
+
+17. Página 10 — Diagnóstico parasitológico: amastigotas, medula e baço
+Pergunta central
+O melhor exame é o mais sensível ou o mais seguro?
+Objetivo
+Ensinar confirmação diagnóstica, formas parasitárias e diferença entre método preferencial e método mais sensível.
+Conteúdo obrigatório
+Preservar:
+diagnóstico parasitológico;
+demonstrar o parasita;
+forma amastigota;
+amastigotas dentro de macrófagos;
+forma intracelular sem flagelo;
+“pontinhos dentro do macrófago” como imagem visual, se adequado;
+forma promastigota/flagelada se presente no roteiro;
+macrófagos na medula óssea;
+aspirado de medula óssea;
+método preferencial;
+mais seguro que punção esplênica;
+sensibilidade em torno de 70%, se presente no roteiro;
+medula como órgão-alvo e local diagnóstico;
+punção esplênica;
+método mais sensível;
+baço cheio de parasita;
+baço muito vascularizado;
+risco proibitivo de sangramento;
+paciente com plaquetopenia/pancitopenia;
+segurança também define método preferencial;
+jogo de palavras: preferencial versus mais sensível;
+sorologia como complementar, sem substituir sempre parasitológico.
+SVG obrigatório
+Criar SVG autoral:
+“Macrófago com amastigotas + medula versus baço”
+Elementos:
+macrófago aumentado;
+amastigotas intracelulares;
+medula óssea;
+baço vascularizado;
+plaquetas baixas;
+risco de sangramento;
+selo “preferencial” na medula;
+selo “mais sensível, mas arriscado” no baço.
+Hotspots mínimos
+amastigota;
+macrófago;
+aspirado de medula;
+método preferencial;
+sensibilidade ~70%;
+punção esplênica;
+mais sensível;
+sangramento;
+plaquetopenia.
+Interação obrigatória
+Classificador:
+“Método preferencial ou método mais sensível?”
+Itens:
+aspirado de medula;
+punção esplênica;
+sorologia;
+imunofluorescência;
+rK39.
+Feedback obrigatório:
+preferencial não é sempre mais sensível;
+segurança muda a escolha;
+punção esplênica é sensível, mas perigosa.
+Tabela obrigatória
+Tabela:
+Aspirado de medula × punção esplênica × sorologia
+Colunas:
+o que busca;
+vantagem;
+limitação;
+frase de prova.
+Não confunda
+método preferencial é aspirado de medula;
+método mais sensível é punção esplênica;
+mais sensível não significa sempre escolhido;
+amastigotas ficam dentro de macrófagos;
+plaquetopenia importa na escolha do exame.
+Pegadinha de prova
+O baço é cheio de parasita, mas também cheio de sangue. Em paciente pancitopênico, isso muda o risco do procedimento.
+
+18. Página 11 — Sorologias, imunofluorescência, rK39 e imunossupressão
+Pergunta central
+Quando os testes sorológicos ajudam — e quando podem falhar?
+Objetivo
+Ensinar testes complementares, lógica da imunofluorescência/rK39 e limitações em imunossuprimidos.
+Conteúdo obrigatório
+Preservar:
+sorologias;
+relação com resposta humoral;
+anticorpos contra Leishmania;
+imunofluorescência;
+lógica do “anticorpo contra anticorpo”;
+lógica do brilho/fluorescência;
+rK39;
+teste com antígeno de Leishmania;
+sorologia como complementar;
+sorologia útil em muitos cenários;
+não substitui completamente o parasitológico no raciocínio do roteiro;
+depende de resposta humoral;
+pacientes vivendo com HIV;
+uso de imunossupressores;
+imunossupressão;
+perda de acurácia em imunossuprimidos;
+cautela no imunossuprimido;
+relação albumina-globulina invertida como pista laboratorial;
+hipergamaglobulinemia policlonal como marcador indireto;
+diferença entre marcador indireto e confirmação parasitológica.
+SVG obrigatório
+Criar SVG autoral:
+“Fluxo diagnóstico: suspeita clínica → parasitológico → sorologias → cautela no imunossuprimido”
+Elementos:
+suspeita clínica;
+aspirado de medula;
+imunofluorescência;
+rK39;
+anticorpos;
+HIV/imunossupressão;
+perda de acurácia;
+integração final.
+Hotspots mínimos
+imunofluorescência;
+anticorpo;
+rK39;
+sorologia;
+parasitológico;
+HIV;
+imunossupressão;
+hipergamaglobulinemia policlonal;
+cautela interpretativa.
+Interação obrigatória
+Simulador:
+“Qual exame perde acurácia em imunossuprimido?”
+Cenários:
+paciente imunocompetente com quadro clássico;
+paciente vivendo com HIV;
+paciente em uso de imunossupressores;
+sorologia positiva;
+sorologia negativa em forte suspeita;
+parasitológico positivo.
+Feedback:
+sorologia depende da resposta humoral;
+no imunossuprimido, resultado negativo não deve encerrar raciocínio se a suspeita é forte.
+Tabela obrigatória
+Tabela:
+Imunofluorescência × rK39 × parasitológico × Montenegro
+Colunas:
+tipo de resposta avaliada;
+o que detecta;
+utilidade;
+limitação;
+pegadinha.
+Não confunda
+sorologia não é Montenegro;
+sorologia não é parasitológico;
+rK39 é complementar;
+imunossupressão reduz confiabilidade de testes baseados em resposta imune.
+Pegadinha de prova
+Quanto mais a resposta imune está comprometida, mais cuidado é necessário ao interpretar testes baseados nela.
+
+19. Página 12 — Tratamento: antimonial pentavalente versus anfotericina B lipossomal
+Pergunta central
+Quando a opção custo-efetiva deixa de ser a melhor escolha para o paciente?
+Objetivo
+Ensinar tratamento, custo-efetividade, toxicidade cardíaca, QT longo e indicações especiais de anfotericina B lipossomal.
+Conteúdo obrigatório
+Antimonial pentavalente / Glucantime
+Preservar:
+antimonial pentavalente;
+Glucantime;
+opção geral no SUS;
+escolha por custo-efetividade;
+custo-efetivo como decisão populacional;
+custo-efetivo não significa melhor para todos;
+não necessariamente a droga mais eficaz;
+perfil de efeitos adversos desfavorável;
+cardiotoxicidade;
+prolongamento do intervalo QT;
+necessidade de ECG seriado;
+QT prolongado como substrato de arritmia maligna;
+torsades de pointes;
+torsades como taquicardia ventricular polimórfica;
+pode degenerar para fibrilação ventricular;
+outras causas/fatores de QT prolongado citados no roteiro:
+macrolídeos;
+hidroxicloroquina;
+distúrbios eletrolíticos;
+antimonial em cardiopata exige ainda mais cuidado;
+“escolha no SUS” não é sinônimo de droga inocente.
+Anfotericina B lipossomal
+Preservar:
+anfotericina B lipossomal;
+mais eficaz;
+formulação lipossomal menos tóxica;
+mais cara;
+não é opção populacional ampla por custo;
+usada em situações específicas;
+pode ser escolha inicial em grupos específicos;
+não entra apenas após falha.
+Indicações por Gs e Is
+Preservar:
+Gs:
+grave;
+gestante.
+Is:
+imunossupressão;
+infecção pelo HIV;
+uso de imunossupressores;
+idade menor de 1 ano;
+idade maior de 50 anos;
+insuficiência hepática;
+insuficiência cardíaca;
+insuficiência renal;
+intolerância ao antimonial;
+insucesso/falha terapêutica;
+efeitos adversos importantes.
+Fechamento terapêutico do caso
+Preservar:
+paciente grave/consumido/ictérico;
+avaliar critérios para anfotericina B lipossomal;
+antimonial pentavalente como recomendação geral/custo-efetiva para população sem critérios especiais;
+se houver gravidade, gestação, imunossupressão, extremos de idade ou insuficiências, anfotericina B lipossomal sobe;
+não inventar doses;
+não inventar protocolo externo;
+não transformar ferramenta em prescrição real.
+SVG obrigatório
+Criar SVG autoral:
+“Antimonial pentavalente × anfotericina B lipossomal: decisão terapêutica”
+Elementos:
+Glucantime;
+ECG;
+QT prolongado;
+torsades;
+anfotericina lipossomal;
+Gs;
+Is;
+caso grave;
+custo-efetividade.
+Hotspots mínimos
+Glucantime;
+custo-efetivo;
+QT;
+ECG seriado;
+torsades;
+fibrilação ventricular;
+anfotericina lipossomal;
+Gs;
+Is;
+gestante;
+HIV;
+extremos de idade;
+insuficiências;
+falha/intolerância.
+Interação obrigatória
+Simulador terapêutico:
+“Qual droga escolher neste paciente?”
+Cenários obrigatórios:
+paciente sem gravidade ou critérios especiais;
+gestante;
+paciente grave;
+HIV;
+paciente em uso de imunossupressores;
+criança <1 ano;
+adulto >50 anos;
+insuficiência cardíaca;
+insuficiência renal;
+insuficiência hepática;
+antimonial com QT prolongado;
+falha terapêutica ao antimonial.
+Feedback obrigatório:
+custo-efetivo ≠ mais eficaz;
+Glucantime exige ECG e cuidado cardíaco;
+anfotericina B lipossomal pode ser primeira escolha nos Gs e Is.
+Tabelas obrigatórias
+Antimonial pentavalente × anfotericina B lipossomal
+Indicações de anfotericina B lipossomal: Gs e Is
+Toxicidade do Glucantime: QT → torsades → FV
+Custo-efetividade populacional × melhor escolha individual
+Não confunda
+antimonial pentavalente não é “melhor droga para todos”;
+escolha geral do SUS não significa ausência de risco;
+ECG seriado não é burocracia;
+torsades não é arritmia qualquer;
+anfotericina B lipossomal não é só resgate após falha.
+Pegadinha de prova
+Os extremos de idade do calazar são:
+< 1 ano ou > 50 anos, não os mesmos usados em outras doenças do pipeline.
+
+20. Página 13 — Fechamento integrador, simulador final e revisão ativa
+Pergunta central
+Você consegue fechar o caso: hematologia ou calazar?
+Objetivo
+Consolidar o módulo, resolver o caso clínico e preparar integração futura com as outras síndromes febris.
+Conteúdo obrigatório
+Preservar e transformar em experiência:
+retomada do caso;
+febre há meses;
+Crato/Ceará;
+consumo;
+anorexia;
+perda ponderal;
+aumento abdominal;
+hepatoesplenomegalia;
+baço a 10 cm;
+pancitopenia;
+albumina baixa;
+globulina alta;
+hipergamaglobulinemia policlonal;
+por que não é dengue;
+por que não é febre amarela/leptospirose aguda;
+por que parece neoplasia;
+por que parece mieloma;
+por que fecha melhor com leishmaniose visceral;
+calazar como doença do sistema reticuloendotelial;
+macrófago infectado como eixo;
+fígado/baço/medula;
+diagnóstico parasitológico;
+medula preferencial;
+baço mais sensível, mas arriscado;
+sorologias complementares;
+Montenegro negativo não exclui;
+tratamento;
+antimonial versus lipossomal;
+Gs e Is;
+checklist final;
+mapa mental;
+preparação para simulador global de síndromes febris.
+SVG obrigatório
+Criar SVG autoral:
+“Mapa mental final: calazar como infecção crônica do sistema reticuloendotelial”
+Estrutura:
+febre arrastada;
+epidemiologia;
+baço gigante;
+pancitopenia;
+policlonal;
+Leishmania chagasi/infantum;
+Lutzomyia;
+cão/raposa;
+macrófago;
+medula;
+diagnóstico;
+tratamento.
+Hotspots mínimos
+febre arrastada;
+Crato/Ceará;
+baço gigante;
+pancitopenia;
+policlonal;
+macrófago;
+medula;
+Montenegro;
+rK39;
+Glucantime;
+anfotericina lipossomal;
+Gs/Is.
+Interação obrigatória
+Simulador final:
+“Feche o caso: hematologia ou calazar?”
+Fluxo:
+identificar tempo de evolução;
+classificar febre como aguda ou arrastada;
+interpretar baço de grande monta;
+interpretar pancitopenia;
+interpretar albumina/globulina;
+diferenciar policlonal de monoclonal;
+usar epidemiologia;
+escolher hipótese principal;
+escolher método diagnóstico preferencial;
+reconhecer método mais sensível;
+interpretar Montenegro;
+escolher tratamento conforme perfil;
+evitar armadilhas.
+Quiz integrador obrigatório
+Criar pelo menos 15 questões clínicas, com feedback explicativo, incluindo:
+febre há meses + baço gigante + pancitopenia;
+Crato/Ceará como pista;
+pancitopenia e armadilha hematológica;
+hipergamaglobulinemia policlonal versus monoclonal;
+calazar versus mieloma;
+calazar versus neoplasia hematológica;
+Leishmania chagasi/infantum;
+Leishmania braziliensis;
+vetor Lutzomyia longipalpis;
+mosquito-palha;
+cão como reservatório urbano/periurbano;
+doença do macrófago;
+Montenegro negativo;
+aspirado de medula versus punção esplênica;
+rK39/imunofluorescência em imunossuprimido;
+antimonial e QT;
+torsades de pointes;
+Gs e Is da anfotericina lipossomal;
+extremo de idade <1 ano ou >50 anos;
+escolha terapêutica no caso grave.
+Checklist final obrigatório
+Criar checklist clicável de domínio com seções:
+Caso e síndrome
+reconhecer febre arrastada;
+diferenciar de febre aguda;
+valorizar Crato/Ceará;
+reconhecer baço de grande monta;
+reconhecer pancitopenia;
+interpretar albumina baixa e globulina alta;
+reconhecer hipergamaglobulinemia policlonal.
+Diagnóstico diferencial
+não marcar dengue pela plaquetopenia;
+não marcar neoplasia sem integrar epidemiologia;
+diferenciar policlonal de monoclonal;
+lembrar mieloma como armadilha;
+lembrar esquistossomose/hipertensão portal como diferencial periférico;
+lembrar Chagas aguda como diferencial periférico quando aplicável.
+Agente, vetor e reservatórios
+Leishmania chagasi/infantum;
+não confundir com braziliensis;
+protozoário;
+Lutzomyia longipalpis;
+flebotomíneo;
+mosquito-palha;
+raposa;
+cão;
+urbanização/periurbanização;
+cão sentinela.
+Fisiopatologia e imunidade
+macrófago infectado;
+fígado/baço/medula;
+falha de imunidade celular;
+resposta humoral exagerada;
+hipergamaglobulinemia policlonal;
+Montenegro pode ser negativo na visceral ativa;
+Montenegro pode positivar após tratamento.
+Diagnóstico
+procurar amastigotas;
+aspirado de medula é preferencial;
+punção esplênica é mais sensível, mas arriscada;
+sorologia é complementar;
+imunofluorescência;
+rK39;
+perda de acurácia em imunossuprimidos.
+Tratamento
+antimonial pentavalente/Glucantime;
+custo-efetividade;
+cardiotoxicidade;
+QT prolongado;
+ECG seriado;
+torsades;
+anfotericina B lipossomal;
+grave;
+gestante;
+imunossupressão/HIV;
+extremos de idade <1 e >50;
+insuficiência hepática/cárdica/renal;
+intolerância/falha/efeitos adversos.
+Tabela obrigatória
+Tabela final:
+Leishmaniose visceral: eixo clínico × mecanismo × diagnóstico × tratamento
+Colunas:
+dado do caso;
+mecanismo;
+hipótese que aproxima;
+exame que ajuda;
+pegadinha;
+decisão terapêutica.
+Não confunda
+Consolidar:
+febre arrastada ≠ febre aguda;
+baço gigante + pancitopenia ≠ câncer obrigatório;
+globulina alta ≠ mieloma obrigatório;
+policlonal ≠ monoclonal;
+visceral ≠ tegumentar;
+chagasi/infantum ≠ braziliensis;
+vetor ≠ reservatório;
+mosquito-palha ≠ Aedes;
+Montenegro negativo ≠ exclusão;
+método preferencial ≠ método mais sensível;
+escolha geral do SUS ≠ melhor droga para todos;
+QT prolongado ≠ efeito adverso menor;
+lipossomal não entra apenas depois de falha.
+Pegadinha de prova
+A questão não pergunta apenas “qual doença dá baço grande?”. Ela pergunta qual doença explica tempo, epidemiologia, sistema reticuloendotelial, pancitopenia e padrão policlonal ao mesmo tempo.
+
+21. Componentes interativos mínimos do módulo inteiro
+Implementar no mínimo:
+Mini-simulador “qual dado muda o rumo do diagnóstico?”
+Classificador febre aguda × febre arrastada.
+Painel “aproxima ou afasta?” para diagnóstico diferencial.
+Simulador policlonal × monoclonal.
+Quiz geográfico Crato/Ceará.
+Comparador visceral × tegumentar.
+Classificador espécie/quadro clínico.
+Classificador vetor × reservatório.
+Simulador do ciclo epidemiológico raposa/cão/flebotomíneo/humano.
+Simulador “clique no órgão e veja a manifestação”.
+Eletroforese interativa policlonal × monoclonal.
+Quiz Montenegro negativo.
+Classificador método preferencial × método mais sensível.
+Simulador de cautela diagnóstica em imunossuprimido.
+Simulador terapêutico antimonial × anfotericina lipossomal.
+ECG/QT didático para Glucantime.
+Painel interativo dos Gs e Is.
+Simulador final “hematologia ou calazar?”.
+Deck final de flashcards.
+Checklist clicável de domínio.
+Mapa de fidelidade do conteúdo.
+Todas as interações devem ter função cognitiva. Não criar interação apenas estética.
+
+22. SVGs obrigatórios do módulo
+Criar no mínimo 13 SVGs autorais, um por página:
+Mapa inicial do caso: do consumo ao calazar.
+Relógio clínico: febre aguda de dias × febre arrastada de meses.
+Balança diagnóstica: hematologia × gamopatia × calazar.
+Mapa epidemiológico do calazar no Brasil.
+Leishmaniose visceral × tegumentar: territórios diferentes.
+Ciclo epidemiológico do calazar.
+Leishmania → macrófago infectado → fígado/baço/medula → clínica.
+Resposta celular falha × resposta humoral exagerada.
+Montenegro: negativo na visceral ativa, positivo após recuperação celular.
+Macrófago com amastigotas + medula versus baço.
+Fluxo diagnóstico: suspeita clínica → parasitológico → sorologias → cautela no imunossuprimido.
+Antimonial pentavalente × anfotericina B lipossomal: decisão terapêutica.
+Mapa mental final: calazar como infecção crônica do sistema reticuloendotelial.
+Requisitos:
+SVG inline ou asset local;
+responsivo;
+legível em mobile;
+hotspots interativos;
+suporte a toque;
+suporte a teclado;
+aria-label;
+área clicável adequada;
+tooltips ou painéis laterais;
+sem dependência externa;
+sem imagem baixada da internet;
+sem decoração vazia.
+
+23. Quizzes obrigatórios
+Criar quizzes por página e simulado final.
+Mínimo:
+pelo menos 2 questões por página principal;
+pelo menos 15 questões no simulado final;
+pelo menos 1 questão clínica por página;
+feedback explicativo em todas;
+explicar por que a alternativa correta está certa;
+explicar por que as erradas são armadilhas.
+Cobrir obrigatoriamente:
+caso-guia;
+febre arrastada;
+Crato/Ceará;
+baço a 10 cm;
+pancitopenia;
+inversão albumina-globulina;
+policlonal versus monoclonal;
+neoplasia hematológica como armadilha;
+mieloma como armadilha;
+epidemiologia;
+visceral versus tegumentar;
+chagasi/infantum versus braziliensis;
+Lutzomyia longipalpis;
+flebotomíneo/mosquito-palha;
+raposa;
+cão;
+doença do macrófago;
+imunidade celular;
+imunidade humoral;
+Montenegro;
+amastigotas;
+aspirado de medula;
+punção esplênica;
+imunofluorescência;
+rK39;
+imunossupressão/HIV;
+antimonial pentavalente;
+QT/torsades;
+anfotericina B lipossomal;
+Gs e Is.
+Evite perguntas rasas como:
+“Qual é o vetor do calazar?”
+Prefira:
+“Paciente de Crato, Ceará, com febre há meses, baço a 10 cm, pancitopenia e hipergamaglobulinemia policlonal. Qual hipótese explica melhor o conjunto e qual armadilha precisa ser evitada?”
+
+24. Flashcards obrigatórios
+Criar flashcards locais por página e deck final.
+Mínimo:
+5 flashcards por página;
+deck final com pelo menos 60 flashcards.
+Flashcards obrigatórios:
+febre arrastada;
+febre aguda × febre arrastada;
+Crato/Ceará;
+calazar;
+leishmaniose visceral;
+visceral = fígado/baço/medula;
+baço de grande monta;
+baço 10 cm;
+pancitopenia;
+anemia;
+leucopenia;
+plaquetopenia;
+albumina 2,1;
+globulina 5,5;
+inversão albumina-globulina;
+hipergamaglobulinemia policlonal;
+policlonal;
+monoclonal;
+mieloma como armadilha;
+neoplasia hematológica como armadilha;
+Leishmania chagasi;
+Leishmania infantum;
+Leishmania braziliensis;
+leishmaniose tegumentar;
+protozoário;
+Lutzomyia longipalpis;
+flebotomíneo;
+mosquito-palha;
+raposa;
+cão;
+cão sentinela;
+urbanização/periurbanização;
+macrófago infectado;
+sistema reticuloendotelial;
+medula óssea;
+imunidade celular;
+imunidade humoral;
+Montenegro;
+Montenegro negativo na visceral ativa;
+Montenegro positivo na tegumentar;
+amastigota;
+promastigota, se presente;
+aspirado de medula;
+punção esplênica;
+método preferencial;
+método mais sensível;
+risco de sangramento;
+imunofluorescência;
+rK39;
+HIV/imunossupressão;
+antimonial pentavalente;
+Glucantime;
+custo-efetividade;
+QT prolongado;
+ECG seriado;
+torsades de pointes;
+anfotericina B lipossomal;
+grave;
+gestante;
+idade <1 ano;
+idade >50 anos;
+insuficiência hepática;
+insuficiência cardíaca;
+insuficiência renal;
+intolerância/falha terapêutica.
+
+25. Tabelas obrigatórias
+Implementar como tabelas responsivas ou cards comparativos em mobile:
+Achados clínicos e laboratoriais do caso × interpretação × contribuição para calazar.
+Febre aguda × febre arrastada.
+Leishmaniose visceral × neoplasia hematológica × mieloma/gamopatia × esquistossomose/hipertensão portal × Chagas aguda.
+Dado epidemiológico × interpretação × peso no raciocínio.
+Leishmaniose visceral/calazar × leishmaniose tegumentar.
+Agente × vetor × reservatórios × transmissão.
+Manifestação clínica × mecanismo fisiopatológico.
+Imunidade celular × imunidade humoral na leishmaniose visceral.
+Polioclonal × monoclonal.
+Reação de Montenegro: visceral ativa × pós-tratamento × tegumentar × sem contato.
+Aspirado de medula × punção esplênica × sorologia.
+Imunofluorescência × rK39 × parasitológico × Montenegro.
+Antimonial pentavalente × anfotericina B lipossomal.
+Indicações de anfotericina B lipossomal: Gs e Is.
+Toxicidade do Glucantime: QT → torsades → fibrilação ventricular.
+Custo-efetividade populacional × melhor escolha individual.
+Matriz “não confunda”.
+Pegadinhas de prova.
+Mapa de fidelidade do conteúdo.
+Leishmaniose visceral: eixo clínico × mecanismo × diagnóstico × tratamento.
+
+26. Fluxogramas obrigatórios
+Criar fluxogramas visuais ou interativos para:
+Febre arrastada → baço gigante → pancitopenia → calazar.
+Febre aguda versus febre arrastada.
+Diagnóstico diferencial hematológico versus infeccioso crônico.
+PoliclonaI versus monoclonal.
+Epidemiologia: área endêmica + clínica compatível.
+Visceral versus tegumentar.
+Ciclo epidemiológico raposa/cão/flebotomíneo/humano.
+Leishmania → macrófago → sistema reticuloendotelial.
+Imunidade celular falha → resposta humoral exagerada.
+Montenegro na visceral ativa → pós-tratamento → tegumentar.
+Diagnóstico parasitológico: medula versus baço.
+Sorologias e cautela em imunossuprimidos.
+Tratamento: antimonial versus anfotericina lipossomal.
+Decisão terapêutica por Gs e Is.
+Fechamento final do caso.
+
+27. Painéis “Não confunda” obrigatórios
+Criar painéis explícitos para:
+Febre aguda × febre arrastada.
+Dengue pela plaquetopenia × calazar por febre crônica/baço/pancitopenia.
+Baço grande + pancitopenia × câncer obrigatório.
+Hipergamaglobulinemia × mieloma obrigatório.
+PoliclonaI × monoclonal.
+Calazar × neoplasia hematológica.
+Leishmaniose visceral × tegumentar.
+Leishmania chagasi/infantum × Leishmania braziliensis.
+Protozoário × bactéria × vírus.
+Vetor × reservatório.
+Lutzomyia × Aedes.
+Mosquito-palha popular × flebotomíneo técnico.
+Cão sentinela/reservatório × vetor.
+Imunidade celular × imunidade humoral.
+Muito anticorpo × proteção eficaz.
+Montenegro × sorologia.
+Montenegro negativo × exclusão de calazar.
+Método preferencial × método mais sensível.
+Aspirado de medula × punção esplênica.
+Sorologia positiva × confirmação parasitológica.
+rK39/imunofluorescência × imunossupressão.
+Antimonial custo-efetivo × melhor para todos.
+Glucantime × droga sem risco.
+QT prolongado × efeito menor.
+Torsades × arritmia qualquer.
+Anfotericina lipossomal × apenas resgate após falha.
+Extremos de idade do calazar × extremos de idade de outras doenças.
+
+28. Critérios objetivos de aceite
+A entrega só será aceita se:
+tiver no mínimo 13 páginas principais;
+cada página tiver pergunta central;
+cada página tiver objetivo pedagógico;
+cada página tiver SVG didático autoral;
+cada SVG tiver hotspots reais;
+cada página tiver interação adicional;
+cada página tiver quiz;
+cada página tiver revisão ativa ou flashcards;
+cada página tiver “Não confunda”;
+cada página tiver “Pegadinha de prova”;
+o caso-guia estiver presente e retomado no fechamento;
+febre arrastada estiver claramente diferenciada de febre aguda;
+Crato/Ceará estiver preservado como pista epidemiológica;
+baço de grande monta estiver destacado;
+pancitopenia estiver explicada;
+hipergamaglobulinemia policlonal estiver explicada;
+armadilha hematológica estiver explícita;
+armadilha de mieloma/gamopatia monoclonal estiver explícita;
+epidemiologia estiver completa;
+nome calazar estiver preservado;
+visceral versus tegumentar estiver completo;
+Leishmania chagasi/infantum estiver preservada;
+Leishmania braziliensis estiver diferenciada;
+vetor Lutzomyia longipalpis estiver preservado;
+mosquito-palha/flebotomíneo estiver explicado;
+raposa e cão estiverem preservados como reservatórios;
+cão como sentinela estiver incluído;
+urbanização/periurbanização estiver incluída;
+fisiopatologia por macrófagos estiver central;
+sistema reticuloendotelial estiver explicado;
+fígado, baço e medula estiverem conectados à clínica;
+imunidade celular versus humoral estiver explicada;
+inversão albumina-globulina estiver explicada;
+Montenegro estiver completo;
+diagnóstico parasitológico estiver completo;
+amastigotas estiverem incluídas;
+aspirado de medula estiver como método preferencial;
+punção esplênica estiver como método mais sensível, mas arriscado;
+sorologias estiverem incluídas;
+imunofluorescência estiver incluída;
+rK39 estiver incluído;
+perda de acurácia em imunossuprimidos estiver incluída;
+tratamento estiver completo;
+antimonial pentavalente/Glucantime estiver explicado;
+cardiotoxicidade/QT/torsades estiverem incluídos;
+anfotericina B lipossomal estiver explicada;
+Gs e Is estiverem completos;
+extremos de idade <1 ano e >50 anos estiverem corretos;
+fechamento do caso estiver presente;
+houver simulador final;
+não houver resumo superficial;
+não houver cards genéricos substituindo conteúdo;
+não houver metalinguagem;
+não houver conduta inventada;
+não houver perda de valores numéricos;
+os quizzes testarem raciocínio clínico, não memorização rasa;
+houver checklist final;
+houver revisão ativa;
+houver mapa de fidelidade.
+
+29. Critérios de falha
+A entrega será considerada falha se:
+reduzir o módulo para 7 páginas;
+entregar menos de 13 páginas principais;
+juntar raciocínios diferentes em páginas genéricas;
+resumir o roteiro;
+apagar minúcias;
+omitir caso-guia;
+omitir Crato/Ceará;
+omitir febre arrastada;
+omitir baço a 10 cm;
+omitir pancitopenia;
+omitir albumina 2,1 e globulina 5,5, se usar dados numéricos do caso;
+omitir inversão albumina-globulina;
+omitir hipergamaglobulinemia policlonal;
+confundir policlonal com monoclonal;
+omitir armadilha de neoplasia hematológica;
+omitir armadilha de mieloma;
+omitir epidemiologia;
+omitir calazar;
+omitir Leishmania chagasi/infantum;
+confundir com Leishmania braziliensis;
+omitir Lutzomyia longipalpis;
+omitir mosquito-palha/flebotomíneo;
+omitir raposa;
+omitir cão;
+omitir cão como sentinela;
+omitir urbanização/periurbanização;
+omitir fisiopatologia por macrófagos;
+omitir sistema reticuloendotelial;
+omitir fígado, baço e medula;
+omitir imunidade celular versus humoral;
+sugerir que muitos anticorpos resolvem a doença;
+omitir Montenegro;
+dizer que Montenegro negativo exclui calazar;
+omitir amastigotas;
+omitir aspirado de medula;
+omitir punção esplênica;
+confundir método preferencial com método mais sensível;
+omitir rK39;
+omitir imunofluorescência;
+omitir perda de acurácia em imunossuprimidos;
+omitir antimonial pentavalente;
+omitir Glucantime;
+omitir QT/torsades;
+omitir ECG seriado;
+omitir anfotericina B lipossomal;
+omitir Gs e Is;
+omitir grave ou gestante;
+omitir HIV/imunossupressão;
+omitir idade <1 ou >50;
+omitir insuficiências;
+omitir intolerância/falha;
+criar SVG meramente decorativo;
+criar hotspots superficiais;
+usar “a aula menciona” ou equivalentes;
+inventar guidelines externos;
+inventar dose de tratamento;
+quebrar a navegação;
+mexer em PWA/service worker;
+priorizar visual sobre conteúdo.
+
+30. Auditoria final obrigatória antes de concluir
+Antes de finalizar, faça auditoria em três camadas.
+Camada 1 — Cobertura de conteúdo
+Verificar se todos estes blocos existem:
+Caso clínico-guia.
+Febre arrastada.
+Diferença febre aguda × arrastada.
+Crato/Ceará.
+Perda ponderal.
+Anorexia.
+Paciente consumido.
+Aumento abdominal.
+Hepatomegalia.
+Esplenomegalia de grande monta.
+Pancitopenia.
+Anemia.
+Leucopenia.
+Plaquetopenia.
+Albumina baixa.
+Globulina elevada.
+Inversão albumina-globulina.
+Hipergamaglobulinemia policlonal.
+Armadilha hematológica.
+Armadilha de mieloma/gamopatia monoclonal.
+Epidemiologia.
+Ceará.
+Bahia.
+Minas Gerais.
+Urbanização/periurbanização.
+Calazar.
+Leishmaniose visceral.
+Leishmania chagasi/infantum.
+Leishmania braziliensis diferenciada.
+Lutzomyia longipalpis.
+Flebotomíneo.
+Mosquito-palha.
+Raposa.
+Cão.
+Cão sentinela.
+Sistema reticuloendotelial.
+Macrófago infectado.
+Fígado.
+Baço.
+Medula óssea.
+Imunidade celular.
+Imunidade humoral.
+Montenegro.
+Montenegro negativo na visceral ativa.
+Montenegro pós-tratamento.
+Montenegro na tegumentar.
+Amastigotas.
+Promastigotas, se presentes no roteiro.
+Aspirado de medula.
+Punção esplênica.
+Sorologias.
+Imunofluorescência.
+rK39.
+Imunossupressão/HIV.
+Antimonial pentavalente.
+Glucantime.
+QT prolongado.
+Torsades de pointes.
+Anfotericina B lipossomal.
+Gs e Is.
+Fechamento do caso.
+Pegadinhas.
+Algoritmo mental.
+Mini mapa mental.
+Revisão ativa.
+Checklist.
+Mapa de fidelidade.
+Camada 2 — Valores e dados específicos
+Verificar:
+Quadro de meses de evolução.
+Crato, Ceará.
+Fígado a 4 cm do rebordo costal direito.
+Baço a 10 cm do rebordo costal esquerdo.
+Albumina 2,1.
+Globulina 5,5.
+Sensibilidade do aspirado de medula em torno de 70%, se usada.
+Idade <1 ano como indicação de lipossomal.
+Idade >50 anos como indicação de lipossomal.
+Gs: grave e gestante.
+Is: imunossupressão, HIV, imunossupressores, idade extrema, insuficiências, intolerância, insucesso/falha, efeitos adversos.
+Não inventou doses.
+Não inventou protocolo externo.
+Camada 3 — Técnica e UX
+Verificar:
+13 páginas principais.
+13 SVGs.
+Hotspots em todos os SVGs.
+Interação adicional em todas as páginas.
+Quizzes em todas as páginas.
+Flashcards/revisão ativa.
+Sem metalinguagem.
+Sem dependências externas desnecessárias.
+Sem PWA.
+Sem service worker.
+Sem alteração de manifest/cache.
+Sem overflow horizontal.
+Hotspots funcionam em toque.
+Hotspots funcionam por teclado.
+Foco visível.
+Contraste aceitável.
+Reduced motion respeitado.
+Navegação local funcional.
+Mapa de fidelidade criado.
+
+31. Busca textual obrigatória por metalinguagem
+Antes de encerrar, buscar nos arquivos visíveis da interface e remover qualquer ocorrência de:
+“a aula”
+“o professor”
+“a transcrição”
+“o roteiro”
+“segundo”
+“baseado no material”
+“foi abordado”
+“foi mencionado”
+“o arquivo”
+Esses termos só podem permanecer em documentos internos de QA, nunca na interface do estudante.
+
+32. Documentação interna obrigatória
+Criar ou atualizar:
+docs/matriz-conteudo-leishmaniose-visceral.md
+docs/qa-leishmaniose-visceral.md
+Se não existir pasta docs/, criar dentro do módulo.
+matriz-conteudo-leishmaniose-visceral.md
+Deve conter:
+bloco do roteiro;
+página implementada;
+componente associado;
+SVG associado;
+interação associada;
+status de cobertura;
+observações.
+Blocos obrigatórios:
+caso clínico inicial;
+febre arrastada;
+síndrome febril arrastada com esplenomegalia;
+armadilha hematológica;
+hipergamaglobulinemia policlonal;
+epidemiologia;
+Crato/Ceará;
+nome calazar;
+agente etiológico;
+espécies;
+vetor;
+reservatórios;
+fisiopatologia por macrófagos;
+sistema reticuloendotelial;
+imunidade celular versus humoral;
+Montenegro;
+diagnóstico parasitológico;
+medula;
+baço;
+sorologias;
+imunofluorescência;
+rK39;
+imunossupressão;
+tratamento;
+antimonial;
+anfotericina lipossomal;
+Gs e Is;
+fechamento do caso;
+pegadinhas;
+tabelas;
+fluxos;
+revisão ativa;
+checklist final.
+qa-leishmaniose-visceral.md
+Deve conter:
+checklist de conteúdo;
+checklist de números;
+checklist técnico;
+checklist de metalinguagem;
+checklist de responsividade;
+checklist de hotspots;
+checklist de interações;
+pendências.
+
+33. Relatório final esperado do Codex
+Ao final, responder com relatório curto e objetivo contendo:
+Arquivos criados/modificados.
+Estrutura de páginas criada.
+Lista dos 13 SVGs e seus hotspots.
+Componentes interativos implementados.
+Tabelas implementadas.
+Fluxogramas implementados.
+Quizzes/flashcards implementados.
+Como o caso-guia foi preservado.
+Como a armadilha hematológica foi preservada.
+Como a fisiopatologia por macrófagos foi preservada.
+Como o diagnóstico parasitológico foi preservado.
+Como o tratamento foi preservado.
+Como foi validado que não houve perda de conteúdo.
+Confirmação de que PWA/service worker/manifest/cache não foram alterados.
+Pendências, se existirem.
+Não responder apenas “feito”. A entrega precisa provar fidelidade, cobertura, granularidade e estabilidade.

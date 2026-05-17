@@ -1,0 +1,885 @@
+/* =========================================
+   GO PREMIUM — REFINO DE MOVIMENTO E LUZ
+   Fase A: Spotlight no cursor
+   Fase C: Tilt 3D
+   Fase D: Títulos com gradiente animado
+   Carregar APÓS theme-glass.css.
+   ========================================= */
+
+/* =========================================
+   FASE A — SPOTLIGHT GLASSMORPHISM
+   Luz colorida que segue o cursor dentro do
+   card, com a cor da seção atual.
+   ========================================= */
+
+/* ─────────────────────────────────────────
+   1. CARDS COM SPOTLIGHT
+   Adicionamos a classe .has-spotlight nos
+   cards via JS (theme-motion.js) para evitar
+   conflito com elementos que não devem ter o
+   efeito (modais, sidebar etc.).
+
+   Usa:
+   --mx, --my: posição do cursor (0 a 100%)
+   --spot-active: 0 ou 1 (controla opacidade)
+   --card-glow: já vem da Fase 4
+   --card-glow-soft: já vem da Fase 4
+───────────────────────────────────────── */
+.has-spotlight {
+  --mx: 50%;
+  --my: 50%;
+  --spot-active: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Prompt 3: trava mobile para impedir que o layout flex antigo alargue a página. */
+@media (max-width: 900px) {
+  .main-content {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .page-container {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .page-container > *,
+  .prompt3-page,
+  .prompt3-reading-card,
+  .prompt3-preserved-points,
+  .prompt3-visual-grid,
+  .prompt3-synthesis-grid,
+  .interactive-panel,
+  .quiz-section,
+  .quiz-card {
+    max-width: 100%;
+  }
+}
+
+.has-spotlight::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  z-index: 0;
+
+  /* Spotlight radial — segue o cursor */
+  background: radial-gradient(
+    420px circle at var(--mx) var(--my),
+    var(--card-glow-soft, rgba(56, 189, 248, 0.22)) 0%,
+    rgba(255, 255, 255, 0.04) 22%,
+    transparent 55%
+  );
+
+  opacity: var(--spot-active);
+  transition: opacity 0.45s var(--ease-out);
+  mix-blend-mode: screen;
+}
+
+[data-theme="dark"] .has-spotlight::after {
+  /* Em dark, o screen pega cor mais forte */
+  background: radial-gradient(
+    420px circle at var(--mx) var(--my),
+    var(--card-glow-soft, rgba(56, 189, 248, 0.30)) 0%,
+    rgba(255, 255, 255, 0.06) 25%,
+    transparent 55%
+  );
+  mix-blend-mode: plus-lighter;
+}
+
+/* O conteúdo do card (já existe ::before como
+   reflexo) precisa ficar acima do spotlight */
+.has-spotlight > * { position: relative; z-index: 2; }
+
+/* Variante mais intensa para hero-blocks da home */
+.hero-block.has-spotlight::after {
+  background: radial-gradient(
+    480px circle at var(--mx) var(--my),
+    var(--card-glow-soft, rgba(56, 189, 248, 0.30)) 0%,
+    var(--card-glow-soft, rgba(56, 189, 248, 0.10)) 18%,
+    rgba(255, 255, 255, 0.04) 35%,
+    transparent 60%
+  );
+}
+
+/* Em mobile / touch, desligamos para não travar */
+@media (hover: none) {
+  .has-spotlight::after { opacity: 0 !important; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .has-spotlight::after { transition: none; }
+}
+
+/* =========================================
+   FASE C — TILT 3D APPLE-LIKE
+   Inclina o card seguindo o cursor.
+   Implementado com perspective + rotateX/Y
+   via CSS vars --rx e --ry (atualizadas em JS).
+   ========================================= */
+
+/* ─────────────────────────────────────────
+   2. WRAPPER 3D
+   Adicionamos ao body para criar perspective
+   global. Os cards com .has-tilt se inclinam.
+───────────────────────────────────────── */
+body {
+  perspective: 1200px;
+  perspective-origin: center top;
+}
+
+.has-tilt {
+  --rx: 0deg;
+  --ry: 0deg;
+  --tilt-lift: 0px;
+  transform-style: preserve-3d;
+  transform: perspective(1200px)
+             rotateX(var(--rx))
+             rotateY(var(--ry))
+             translateY(var(--tilt-lift))
+             translateZ(0);
+  transition:
+    transform 0.55s var(--ease-out),
+    box-shadow 0.45s var(--ease-out),
+    border-color 0.45s var(--ease-out);
+  will-change: transform;
+}
+
+/* Quando o cursor está sobre o card, suaviza
+   menos para parecer responsivo (segue de perto) */
+.has-tilt.is-tilting {
+  transition:
+    transform 0.18s var(--ease-out),
+    box-shadow 0.45s var(--ease-out),
+    border-color 0.45s var(--ease-out);
+}
+
+/* Eleva sutilmente quando ativo (já vem dos
+   :hover da Fase 4, aqui adicionamos profundidade) */
+.has-tilt.is-tilting {
+  --tilt-lift: -3px;
+}
+
+/* Hero-blocks ganham um lift maior (são botões
+   de acesso, devem parecer mais "presos no ar") */
+.hero-block.has-tilt.is-tilting {
+  --tilt-lift: -6px;
+}
+
+/* Em mobile / touch, desligamos */
+@media (hover: none) {
+  .has-tilt {
+    transform: none;
+    transition: transform 0.3s var(--ease-out);
+  }
+  .has-tilt.is-tilting {
+    --rx: 0deg;
+    --ry: 0deg;
+    --tilt-lift: 0px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .has-tilt {
+    transform: none !important;
+  }
+}
+
+/* ─────────────────────────────────────────
+   3. CONTEÚDO INTERNO COM PARALAXE LEVE
+   Ícones, badges e títulos ganham um pequeno
+   translateZ — quando o card inclina, eles
+   parecem flutuar à frente
+───────────────────────────────────────── */
+.has-tilt .hero-block-icon,
+.has-tilt .section-icon,
+.has-tilt h1,
+.has-tilt h2,
+.has-tilt h3,
+.has-tilt h4,
+.has-tilt .quiz-tag,
+.has-tilt .page-hero-tag,
+.has-tilt .badge {
+  transform: translateZ(20px);
+  transition: transform 0.55s var(--ease-out);
+}
+
+.has-tilt.is-tilting .hero-block-icon {
+  transform: translateZ(40px) scale(1.04);
+}
+
+.has-tilt.is-tilting .section-icon,
+.has-tilt.is-tilting .quiz-tag,
+.has-tilt.is-tilting .page-hero-tag,
+.has-tilt.is-tilting .badge {
+  transform: translateZ(28px);
+}
+
+/* =========================================
+   FASE D — TÍTULOS COM GRADIENTE ANIMADO
+   Texto com gradient da cor da seção que respira
+   ========================================= */
+
+/* ─────────────────────────────────────────
+   4. KEYFRAME DE GRADIENTE RESPIRANDO
+───────────────────────────────────────── */
+@keyframes titleGradientBreathe {
+  0%   { background-position:   0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position:   0% 50%; }
+}
+
+@keyframes titleGradientShimmer {
+  0%   { background-position: -100% 50%; }
+  100% { background-position:  200% 50%; }
+}
+
+/* ─────────────────────────────────────────
+   5. PAGE-HERO H1 — GRADIENTE DA SEÇÃO
+   O título principal de cada página ganha
+   um gradient da cor da seção atual, animado
+───────────────────────────────────────── */
+.page-hero h1 {
+  /* Gradient com a cor da seção + neutros, criando profundidade */
+  background: linear-gradient(
+    100deg,
+    var(--text-primary) 0%,
+    var(--section-accent, #0ea5e9) 35%,
+    var(--text-primary) 70%,
+    var(--section-accent, #0ea5e9) 100%
+  );
+  background-size: 250% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: titleGradientBreathe 12s ease-in-out infinite;
+  /* Garantir contraste em fallback */
+  text-shadow: none;
+}
+
+[data-theme="dark"] .page-hero h1 {
+  background: linear-gradient(
+    100deg,
+    #f1f5f9 0%,
+    var(--section-accent, #38bdf8) 35%,
+    #f1f5f9 70%,
+    var(--section-accent, #38bdf8) 100%
+  );
+  background-size: 250% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ─────────────────────────────────────────
+   6. HERO-MAIN H1 (HOME) — GRADIENTE MEDICAL
+   A home tem um gradient diferenciado (multi-cor)
+───────────────────────────────────────── */
+.hero-main h1 .accent {
+  background: linear-gradient(
+    100deg,
+    #0891b2 0%,
+    #6366f1 25%,
+    #9333ea 50%,
+    #e11d48 75%,
+    #0891b2 100%
+  );
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: titleGradientBreathe 18s ease-in-out infinite;
+}
+
+/* ─────────────────────────────────────────
+   7. SECTION-HEADER H2 — sutil
+   Títulos de seção (h2) ganham gradient mais
+   discreto, sem chamar tanta atenção
+───────────────────────────────────────── */
+.section-header h2 {
+  background: linear-gradient(
+    100deg,
+    var(--text-primary) 0%,
+    var(--section-accent, #0ea5e9) 50%,
+    var(--text-primary) 100%
+  );
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: titleGradientBreathe 14s ease-in-out infinite;
+}
+
+[data-theme="dark"] .section-header h2 {
+  background: linear-gradient(
+    100deg,
+    #f1f5f9 0%,
+    var(--section-accent, #38bdf8) 50%,
+    #f1f5f9 100%
+  );
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ─────────────────────────────────────────
+   8. QUIZ-HEADER H3 — gradient de prova
+   Os títulos de quiz ganham gradient âmbar
+   (cor da prova/desafio)
+───────────────────────────────────────── */
+.quiz-header h3 {
+  background: linear-gradient(
+    100deg,
+    var(--text-primary) 0%,
+    #f59e0b 50%,
+    var(--text-primary) 100%
+  );
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: titleGradientBreathe 13s ease-in-out infinite;
+}
+
+[data-theme="dark"] .quiz-header h3 {
+  background: linear-gradient(
+    100deg,
+    #f1f5f9 0%,
+    #fbbf24 50%,
+    #f1f5f9 100%
+  );
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ─────────────────────────────────────────
+   9. SCORE-NUMBER (revisão / simulador)
+   Número grande do score recebe gradient
+───────────────────────────────────────── */
+.score-number {
+  background: linear-gradient(
+    135deg,
+    var(--section-accent, #0ea5e9) 0%,
+    var(--text-primary) 50%,
+    var(--section-accent, #0ea5e9) 100%
+  );
+  background-size: 220% 220%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: titleGradientBreathe 10s ease-in-out infinite;
+}
+
+/* ─────────────────────────────────────────
+   10. RESPEITAR REDUCED MOTION
+───────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .page-hero h1,
+  .section-header h2,
+  .quiz-header h3,
+  .score-number,
+  .hero-main h1 .accent {
+    animation: none;
+  }
+}
+
+/* ─────────────────────────────────────────
+   11. ACABAMENTO — CURSOR SOBRE BOTÕES
+   Os botões principais (sim-btn, page-nav-btn,
+   progress-btn) também ganham um leve glow
+   colorido seguindo o cursor
+───────────────────────────────────────── */
+.btn-spotlight {
+  --bx: 50%;
+  --by: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-spotlight::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  background: radial-gradient(
+    160px circle at var(--bx) var(--by),
+    rgba(255, 255, 255, 0.30) 0%,
+    transparent 60%
+  );
+  opacity: 0;
+  transition: opacity 0.35s var(--ease-out);
+}
+
+.btn-spotlight:hover::after { opacity: 1; }
+
+[data-theme="dark"] .btn-spotlight::after {
+  background: radial-gradient(
+    160px circle at var(--bx) var(--by),
+    rgba(255, 255, 255, 0.18) 0%,
+    transparent 60%
+  );
+}
+
+/* =========================================
+   FASE B — AURORA CÔNICA NOS HERO-BLOCKS
+   Gradient cônico colorido girando atrás do
+   conteúdo no hover — efeito aurora boreal
+   contida dentro do card.
+   ========================================= */
+
+/* ─────────────────────────────────────────
+   12. KEYFRAME — rotação infinita do cônico
+───────────────────────────────────────── */
+@keyframes auroraConicSpin {
+  0%   { --aurora-angle: 0deg;   }
+  100% { --aurora-angle: 360deg; }
+}
+
+/* Para browsers sem @property suporte, fallback via
+   transform (preserva o efeito mesmo em Safari mais antigo) */
+@keyframes auroraConicRotate {
+  0%   { transform: rotate(0deg);   }
+  100% { transform: rotate(360deg); }
+}
+
+/* @property habilita animação suave de variável
+   custom (Chrome/Edge/Safari 16.4+); fallback fica abaixo */
+@property --aurora-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+/* ─────────────────────────────────────────
+   13. HERO-BLOCK — aurora cônica no hover
+   Implementado com pseudo-elemento extra (::before
+   já existe e faz o reflexo Apple-gloss; usamos
+   .aurora-cone como filho oculto que aparece no hover)
+
+   Como não posso adicionar HTML aos cards renderizados,
+   uso o ::before do hero-block — mas o ::before atual
+   já está em uso (Fase 3). Solução: aproveitar a
+   layer-stacking e usar gradient cônico DENTRO do
+   ::before existente, ativado só no hover.
+───────────────────────────────────────── */
+
+/* Wrapper rotativo via uma camada ANTES do reflexo */
+.hero-block {
+  position: relative;
+  isolation: isolate; /* nova camada de z-index */
+}
+
+/* Elemento auxiliar — usa o background-image do
+   próprio elemento na camada base, com z-index
+   abaixo do conteúdo e do ::before/::after.
+   Truque: aplicamos o cônico via background-image
+   no próprio hero-block usando a tag de imagem
+   "background-image" multilayer. */
+.hero-block {
+  background-image:
+    /* Camada da aurora (suavizada — bandas largas e
+       transparências altas, dá apenas insight de cor) */
+    conic-gradient(
+      from var(--aurora-angle, 0deg) at 50% 50%,
+      var(--card-glow-soft, rgba(56,189,248,0.35)) 0deg,
+      transparent 90deg,
+      transparent 200deg,
+      var(--card-glow-soft, rgba(56,189,248,0.25)) 260deg,
+      transparent 340deg,
+      transparent 360deg
+    ),
+    /* Camada do gradient vertical (Fase 3) */
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.55) 0%,
+      rgba(255, 255, 255, 0.40) 100%
+    );
+  background-size: 260% 260%, 100% 100%;
+  background-position: center, center;
+  background-blend-mode: normal, normal;
+
+  /* A aurora começa invisível */
+  --aurora-opacity: 0;
+}
+
+/* Como o conic-gradient é a primeira layer,
+   precisamos sobrepor uma camada branca/escura
+   por cima quando NÃO está em hover.
+   Solução mais elegante: usar background-color
+   com alpha alta como layer adicional via
+   linear-gradient repetido. */
+
+/* Reset do background quando NÃO está em hover —
+   usamos opacity individual via mask trick:
+   mascaramos a primeira camada (cônico) com
+   uma cor sólida sob a forma de overlay */
+.hero-block::before {
+  /* O ::before original (reflexo Apple) ganha um
+     overlay extra que cobre a aurora cônica.
+     Mantemos uma camada de "vidro fosco" forte
+     mesmo no hover para preservar legibilidade. */
+  background:
+    /* Cobertura por trás do reflexo — esconde a aurora;
+       no hover reduz menos (de 0.95 → 0.62, antes ia a 0) */
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, calc(0.95 - var(--aurora-opacity, 0) * 0.33)) 0%,
+      rgba(255, 255, 255, calc(0.82 - var(--aurora-opacity, 0) * 0.30)) 100%
+    ),
+    /* Reflexo Apple-gloss original */
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      transparent 35%,
+      transparent 65%,
+      rgba(255, 255, 255, 0.04) 100%
+    );
+  transition: background 0.6s var(--ease-out);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+[data-theme="dark"] .hero-block::before {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(22, 29, 48, calc(0.85 - var(--aurora-opacity, 0) * 0.22)) 0%,
+      rgba(20, 27, 45, calc(0.72 - var(--aurora-opacity, 0) * 0.20)) 100%
+    ),
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.06) 0%,
+      transparent 35%,
+      transparent 65%,
+      rgba(255, 255, 255, 0.02) 100%
+    );
+}
+
+/* HOVER: ativa aurora — opacidade reduzida e
+   animação mais lenta para ficar discreta */
+.hero-block:hover {
+  --aurora-opacity: 0.55;
+  animation: auroraConicSpin 28s linear infinite;
+}
+
+[data-theme="dark"] .hero-block:hover {
+  --aurora-opacity: 0.40;
+}
+
+/* Fallback para browsers sem @property: aurora
+   estática e suave (sem girar) */
+@supports not (background: conic-gradient(from var(--aurora-angle))) {
+  .hero-block:hover {
+    animation: none;
+    background-image:
+      radial-gradient(
+        ellipse 80% 60% at 30% 30%,
+        var(--card-glow-soft, rgba(56, 189, 248, 0.18)) 0%,
+        transparent 65%
+      ),
+      radial-gradient(
+        ellipse 80% 60% at 70% 70%,
+        var(--card-glow-soft, rgba(56, 189, 248, 0.12)) 0%,
+        transparent 65%
+      ),
+      linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.55) 0%,
+        rgba(255, 255, 255, 0.40) 100%
+      );
+  }
+}
+
+/* ─────────────────────────────────────────
+   13b. LEGIBILIDADE DOS TEXTOS NOS HERO-BLOCKS
+   Com a aurora ativa, garantir que título,
+   subtítulo, ícone e contagem fiquem nítidos.
+───────────────────────────────────────── */
+
+/* Título e contagem — peso e contraste reforçados */
+.hero-block-title {
+  color: var(--text-primary);
+  font-weight: 800;
+  letter-spacing: -0.005em;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.hero-block-count {
+  color: var(--text-secondary);
+  font-weight: 600;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+/* Ícone do hero-block — fundo um pouco mais sólido
+   para sobressair da aurora que passa atrás */
+.hero-block-icon {
+  background: linear-gradient(135deg,
+    rgba(255, 255, 255, 0.85) 0%,
+    rgba(255, 255, 255, 0.55) 100%);
+  border-color: rgba(255, 255, 255, 0.75);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.85),
+    0 4px 14px rgba(15, 23, 42, 0.08);
+}
+
+/* Hover: o ícone fica ainda mais sólido para
+   compensar a aurora atrás */
+.hero-block:hover .hero-block-icon {
+  background: linear-gradient(135deg,
+    rgba(255, 255, 255, 0.95) 0%,
+    rgba(255, 255, 255, 0.70) 100%);
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Dark mode — ajustes de contraste */
+[data-theme="dark"] .hero-block-title {
+  color: #f1f5f9;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="dark"] .hero-block-count {
+  color: rgba(226, 232, 240, 0.78);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] .hero-block-icon {
+  background: linear-gradient(135deg,
+    rgba(255, 255, 255, 0.14) 0%,
+    rgba(255, 255, 255, 0.06) 100%);
+  border-color: rgba(255, 255, 255, 0.16);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+[data-theme="dark"] .hero-block:hover .hero-block-icon {
+  background: linear-gradient(135deg,
+    rgba(255, 255, 255, 0.20) 0%,
+    rgba(255, 255, 255, 0.10) 100%);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+/* Reduzir movimento — aurora estática */
+@media (prefers-reduced-motion: reduce) {
+  .hero-block:hover {
+    animation: none;
+  }
+}
+
+/* =========================================
+   FASE E — HALO "VOCÊ ESTÁ AQUI"
+   Card que está sendo lido pulsa devagar
+   ========================================= */
+
+/* ─────────────────────────────────────────
+   14. KEYFRAME — pulso lento e sutil
+───────────────────────────────────────── */
+@keyframes readingHaloPulse {
+  0%, 100% {
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.65),
+      0 0 0 1px var(--card-glow, transparent),
+      0 0 18px var(--card-glow-soft, transparent),
+      0 4px 12px rgba(15, 23, 42, 0.05),
+      0 16px 40px var(--card-glow-soft, transparent);
+  }
+  50% {
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.75),
+      0 0 0 1px var(--card-glow, transparent),
+      0 0 32px var(--card-glow-soft, transparent),
+      0 4px 12px rgba(15, 23, 42, 0.06),
+      0 24px 56px var(--card-glow-soft, transparent);
+  }
+}
+
+@keyframes readingHaloPulseDark {
+  0%, 100% {
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.10),
+      0 0 0 1px var(--card-glow, transparent),
+      0 0 22px var(--card-glow-soft, transparent),
+      0 4px 12px rgba(0, 0, 0, 0.30),
+      0 16px 40px var(--card-glow-soft, transparent);
+  }
+  50% {
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.14),
+      0 0 0 1px var(--card-glow, transparent),
+      0 0 38px var(--card-glow-soft, transparent),
+      0 4px 12px rgba(0, 0, 0, 0.35),
+      0 24px 56px var(--card-glow-soft, transparent);
+  }
+}
+
+/* ─────────────────────────────────────────
+   15. CARD EM LEITURA (.is-reading)
+   Aplicado pelo theme-motion.js via Intersection
+───────────────────────────────────────── */
+.is-reading {
+  /* Mantem visiveis cards que ja nasceram com .anim-fade-up (opacity: 0). */
+  opacity: 1;
+  visibility: visible;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  animation: readingHaloPulse 4.5s ease-in-out infinite;
+  border-color: var(--card-glow, var(--section-accent));
+}
+
+[data-theme="dark"] .is-reading {
+  animation: readingHaloPulseDark 4.5s ease-in-out infinite;
+}
+
+/* Hover sobre is-reading: pausa o pulse para não
+   competir com a borda iluminada do hover */
+.is-reading:hover {
+  animation-play-state: paused;
+}
+
+/* Em mobile / reduced motion */
+@media (hover: none),
+       (prefers-reduced-motion: reduce) {
+  .is-reading {
+    animation: none;
+  }
+}
+
+/* Estabilidade Safari/Atlas: quiz e revisao ja montados nao devem voltar ao
+   estado inicial de fade (opacity: 0) durante scroll ou troca de compositor. */
+.prompt3-review-block.anim-fade-up,
+.prompt3-review-block .anim-fade-up,
+.quiz-card.anim-fade-up,
+.quiz-card.is-reading {
+  opacity: 1;
+  visibility: visible;
+  animation: none;
+  animation-fill-mode: none;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
+  will-change: auto;
+}
+
+.prompt3-review-block,
+.prompt3-review-block .flashcard,
+.prompt3-review-block .flashcard-front,
+.prompt3-review-block .flashcard-back {
+  opacity: 1;
+  visibility: visible;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  will-change: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .prompt3-review-block.anim-fade-up,
+  .prompt3-review-block .anim-fade-up,
+  .quiz-card.anim-fade-up {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* =========================================
+   FASE F — RIPPLE DE COR NAS OPÇÕES DE QUIZ
+   Verde se certo, vermelho se errado
+   ========================================= */
+
+/* ─────────────────────────────────────────
+   16. QUIZ-OPTION — preparado para ripple
+───────────────────────────────────────── */
+.quiz-option {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* O ripple é renderizado por um elemento <span>
+   inserido dinamicamente pelo theme-motion.js,
+   com classe .quiz-ripple. Posição inicial =
+   ponto do clique. */
+.quiz-ripple {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  width: 12px;
+  height: 12px;
+  transform: translate(-50%, -50%) scale(0);
+  z-index: 0;
+  /* Cor padrão; sobrescrita inline conforme correto/errado */
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.45) 0%,
+    transparent 70%
+  );
+  animation: quizRippleExpand 0.7s var(--ease-out) forwards;
+}
+
+.quiz-ripple.correct {
+  background: radial-gradient(
+    circle,
+    rgba(16, 185, 129, 0.55) 0%,
+    rgba(16, 185, 129, 0.15) 35%,
+    transparent 70%
+  );
+}
+
+.quiz-ripple.wrong {
+  background: radial-gradient(
+    circle,
+    rgba(239, 68, 68, 0.55) 0%,
+    rgba(239, 68, 68, 0.15) 35%,
+    transparent 70%
+  );
+}
+
+@keyframes quizRippleExpand {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0.95;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(60);
+    opacity: 0;
+  }
+}
+
+/* O conteúdo da opção fica acima do ripple */
+.quiz-option > * {
+  position: relative;
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .quiz-ripple { display: none; }
+}
+
+/* Prompt 3: evita overflow horizontal causado por sidebar fixa + main flexível. */
+@media (min-width: 901px) {
+  .main-content {
+    flex: 0 0 calc(100% - var(--sidebar-width) - var(--sidebar-margin) - var(--sidebar-margin));
+    width: calc(100% - var(--sidebar-width) - var(--sidebar-margin) - var(--sidebar-margin));
+    max-width: calc(100% - var(--sidebar-width) - var(--sidebar-margin) - var(--sidebar-margin));
+    min-width: 0;
+  }
+
+  body.sidebar-compact .main-content {
+    flex-basis: calc(100% - var(--sidebar-width-compact) - var(--sidebar-margin) - var(--sidebar-margin));
+    width: calc(100% - var(--sidebar-width-compact) - var(--sidebar-margin) - var(--sidebar-margin));
+    max-width: calc(100% - var(--sidebar-width-compact) - var(--sidebar-margin) - var(--sidebar-margin));
+  }
+}

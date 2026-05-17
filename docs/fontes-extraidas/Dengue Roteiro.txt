@@ -1,0 +1,2119 @@
+ROTEIRO DIDÁTICO COMPLETO — DENGUE: TRIAGEM E MANEJO
+PARTE 1 — da síndrome febril aos sinais de alarme
+Baseado na transcrição enviada da aula “Dengue: triagem e manejo”.
+
+1. Pergunta central da aula
+A pergunta central da aula não é simplesmente: “Esse paciente tem dengue?”
+Essa é a parte relativamente fácil. A aula deixa claro que, diante de febre abrupta, dor retro-orbital, mialgia intensa, leucopenia e plaquetopenia, a maioria dos alunos e médicos vai pensar em dengue. O problema real é outro:
+Depois de suspeitar de dengue, você sabe classificar o risco desse paciente?
+A espinha dorsal da aula é:
+O problema da dengue não é apenas suspeitar do diagnóstico; o problema é classificar risco, reconhecer sinais de alarme, orientar retorno, hidratar corretamente e não mandar para casa quem deveria internar.
+A dengue mata menos por ser uma doença misteriosa e mais porque o manejo básico falha: o médico não pergunta direito, não reconhece sinal de alarme, não orienta retorno, não ensina hidratação de forma aplicável e, às vezes, manda embora um paciente que já deveria estar internado.
+O professor insiste muito nessa ideia: a dengue não exige apenas diagnóstico; exige triagem. E triagem, aqui, significa separar:
+quem pode ir para casa com orientação;
+quem precisa de hemograma e reavaliação;
+quem precisa internar;
+quem precisa de UTI.
+Essa é a lógica que vai costurar toda a aula.
+
+2. Caso clínico-guia
+A aula começa com um caso propositalmente típico, mas com uma armadilha de conduta.
+O paciente é um homem jovem, cerca de 20 anos, que procura atendimento no pronto-socorro porque teve um quadro febril que o fez faltar ao trabalho. Ele quer, inclusive, um atestado médico. Esse detalhe é importante porque passa uma falsa impressão de baixa gravidade: parece o paciente jovem, funcional, que só quer justificar ausência no trabalho.
+Ele relata:
+febre;
+calafrios;
+prostração;
+mialgia;
+anorexia;
+cefaleia.
+Até aqui, ele tem uma síndrome febril aguda. O ponto inicial é que não há sinal localizatório:
+não tem disúria;
+não tem dor lombar;
+não tem escarro produtivo;
+não tem rebaixamento do nível de consciência;
+não tem rigidez de nuca.
+Ou seja: não parece ITU, pneumonia ou meningite. É uma febre “solta”, ainda sem topografia clara.
+Depois, a história fica mais direcionada:
+febre com início há 24 horas;
+temperatura elevada, em torno de 39 °C;
+dor retro-orbital;
+dor abdominal acentuada e persistente;
+discreto prurido cutâneo.
+Os exames mostram:
+hematócrito inicialmente normal;
+leucopenia;
+atipia linfocitária;
+plaquetopenia em torno de 102.000;
+função renal, glicose e enzimas hepáticas sem alterações relevantes naquele momento.
+O diagnóstico provável é dengue. Isso não é o mais difícil.
+A armadilha está aqui: o paciente foi orientado a voltar para casa porque estava em bom estado geral.
+Só que ele tinha dor abdominal acentuada e persistente, que é sinal de alarme. Na lógica da aula, esse paciente já deveria ser classificado como grupo C, o que significa internação e hidratação venosa.
+A mensagem do caso é muito forte:
+bom estado geral não apaga sinal de alarme;
+plaquetas em 102.000 assustam, mas não são o centro da decisão;
+dor abdominal intensa e contínua muda o grupo;
+se é grupo C, não é tratamento domiciliar.
+Esse caso serve como eixo da aula inteira porque mostra o erro clássico: acertar o diagnóstico e errar o manejo.
+
+3. Conceitos fundamentais
+3.1. O que é síndrome febril sem sinal localizatório?
+A aula começa diferenciando a síndrome febril aguda de outras síndromes infecciosas que também cursam com febre.
+O professor destaca que febre aparece em várias doenças infecciosas, mas nem toda febre entra nesse raciocínio de “síndrome febril sem sinal localizatório”.
+A diferença é a capacidade de localizar a infecção.
+Na pneumonia, por exemplo, o paciente pode ter:
+tosse produtiva;
+alteração pulmonar;
+infiltrado na radiografia.
+Você consegue dizer: a infecção está no pulmão.
+Na infecção do trato urinário, o paciente pode ter:
+disúria;
+dor lombar;
+sintomas urinários;
+eventualmente alterações no exame de urina.
+Você consegue dizer: a infecção está no trato urinário.
+Na meningite, o paciente pode ter:
+rigidez de nuca;
+sinais meníngeos;
+alteração neurológica;
+quadro sugestivo de infecção do sistema nervoso central.
+Você consegue dizer: a infecção pode estar no SNC.
+Na síndrome febril sem sinal localizatório, não. A febre aparece, mas não há um foco evidente. Por isso, a aula usa a ideia de “febre solta”.
+Mas isso não quer dizer que não haja pistas. O paciente não é uma folha em branco. Ele tem febre “solta”, mas junto dela aparecem dados que vão te empurrando para determinados grupos diagnósticos.
+No caso da dengue, as pistas são:
+febre abrupta;
+mialgia intensa;
+cefaleia;
+dor retro-orbital;
+exantema/prurido;
+leucopenia;
+plaquetopenia;
+contexto epidemiológico.
+A tarefa do médico é juntar essas pistas.
+
+3.2. O que são arboviroses?
+Arboviroses são viroses transmitidas por artrópodes.
+A aula coloca a dengue como o principal representante desse grupo, especialmente para prova e prática clínica. Mas também cita outras arboviroses relevantes:
+dengue;
+chikungunya;
+zika;
+febre amarela;
+febre do Oropouche, mencionada como tema que já apareceu e pode ter interesse epidemiológico, embora não seja o foco da aula.
+O principal vetor trabalhado na aula é o Aedes aegypti.
+Aqui há um detalhe de prova discursiva: o professor enfatiza a grafia correta de Aedes aegypti. Em prova aberta, errar a grafia de vetor, agente etiológico ou reservatório pode custar ponto.
+A dengue, portanto, está dentro de um grupo maior: as arboviroses. Mas dentro desse grupo, ela domina a aula porque é a mais importante para residência e prática.
+
+3.3. Incubação e importância do contexto epidemiológico
+A aula destaca que a pessoa picada pelo mosquito não fica doente imediatamente.
+Existe um período de incubação, citado como variável entre 3 e 15 dias.
+Isso importa muito em dois cenários:
+Paciente em área endêmica ou epidêmica No Brasil, especialmente em períodos de alta circulação, um quadro febril abrupto com sintomas compatíveis já ganha grande peso epidemiológico.
+Viajante O professor usa o exemplo de um canadense que vem ao Brasil, é picado, volta para o Canadá e, dentro de até 15 dias, abre febre abrupta. Mesmo estando em um país onde dengue não é rotina, o histórico de viagem muda o raciocínio.
+Essa é uma ideia importante para prova: arbovirose depende de clínica + tempo de incubação + exposição epidemiológica.
+
+4. Dengue: do vírus ao risco clínico
+4.1. Agente etiológico versus vetor
+Um ponto conceitual simples, mas cobrável:
+o vetor é o mosquito: Aedes aegypti;
+o agente etiológico é o vírus da dengue.
+A dengue é causada por um Flavivírus de material genético RNA.
+O professor chama atenção para questões conceituais simples: uma alternativa dizendo que o vírus da dengue é DNA estaria errada. Parece detalhe de início de capítulo, mas pode aparecer em prova.
+
+4.2. Sorotipos
+A aula explica que não existe apenas um tipo de dengue.
+Os sorotipos relevantes são:
+DENV-1;
+DENV-2;
+DENV-3;
+DENV-4.
+O professor também menciona um sorotipo 5, mas com ressalva: não circula no Brasil, foi descrito em contexto como Malásia e tem baixa relevância prática para a realidade brasileira. Para prova e prática no Brasil, o núcleo é: 1, 2, 3 e 4.
+Isso tem implicação clínica porque, em uma epidemia, pode circular:
+um sorotipo isolado;
+mais de um sorotipo;
+eventualmente os quatro sorotipos.
+A aula cita o exemplo de Minas Gerais com circulação múltipla de sorotipos. O ponto não é memorizar o evento, mas entender a consequência: quanto maior a circulação de sorotipos diferentes, maior o risco de infecção sequencial.
+
+4.3. Infecção sequencial e imunofacilitação
+Quando alguém se infecta por um sorotipo, fica protegido contra aquele sorotipo.
+Exemplo:
+teve dengue pelo sorotipo 1;
+fica imune ao sorotipo 1;
+mas ainda pode ter dengue pelos sorotipos 2, 3 ou 4.
+Por isso, a aula desmonta uma fala comum de paciente: “Doutor, já tive dengue oito vezes.”
+Pela lógica dos sorotipos principais, isso não fecha. A pessoa pode ter dengue até quatro vezes, uma por sorotipo relevante. Se ela diz que teve “dengue” oito vezes, algumas dessas infecções provavelmente foram outras síndromes febris: COVID, outras viroses, ressaca, chikungunya, zika ou outra condição.
+O problema das infecções sequenciais é a imunofacilitação, associada à teoria de Halstead.
+A ideia didática é:
+Na primeira infecção, o corpo produz anticorpos contra um sorotipo.
+Em uma segunda infecção por outro sorotipo, a resposta imune pode ser mais intensa e desregulada.
+Essa resposta exacerbada pode favorecer formas graves.
+O paciente passa a ter maior risco de extravasamento plasmático.
+O professor compara a lógica de resposta desregulada ao que se vê na sepse: não é só o agente infeccioso em si; é a resposta do corpo que também causa dano.
+
+4.4. O fenômeno central: extravasamento plasmático
+A palavra-chave fisiopatológica da aula é:
+extravasamento plasmático.
+Na dengue que evolui mal, o líquido sai do espaço intravascular e vai para o extravascular/terceiro espaço.
+Isso gera:
+hipovolemia relativa;
+hipoperfusão tecidual;
+hemoconcentração;
+aumento progressivo do hematócrito;
+acúmulo de líquidos em cavidades;
+risco de choque.
+Esse ponto é mais importante do que decorar que “dengue sangra”.
+A aula insiste que antigamente se falava muito em “febre hemorrágica da dengue”, mas hoje o raciocínio central é mais refinado: o grande perigo não é apenas a plaqueta baixa; é o extravasamento plasmático.
+Por isso, um paciente pode ter plaquetopenia e estar relativamente estável. Mas se o hematócrito começa a subir progressivamente, isso sugere hemoconcentração e perda de plasma para fora do vaso.
+A frase mental é:
+Plaqueta baixa assusta; hematócrito subindo muda a conduta.
+
+5. Quadro clínico e cronologia
+5.1. Caso suspeito de dengue
+A definição de caso suspeito, na lógica da aula, envolve:
+febre de início súbito;
+até 7 dias de evolução;
+associada a pelo menos dois achados clínicos/laboratoriais compatíveis.
+Entre os achados discutidos, a aula destaca:
+mialgia intensa;
+cefaleia;
+dor retro-orbital;
+artralgia leve;
+rash/exantema;
+prurido;
+petéquias;
+vômitos;
+leucopenia;
+linfocitose relativa;
+plaquetopenia.
+O professor reforça que, na prática, o médico também usa o “jeitão” epidemiológico e clínico do paciente, mas para prova é importante conhecer a definição formal.
+
+5.2. Mialgia intensa
+A mialgia é muito característica.
+O professor explica que o vírus tem tropismo pelo sistema músculo-esquelético. É por isso que o paciente “fica de cama”, com dor no corpo importante, às vezes sem conseguir levantar.
+Na prova, febre abrupta + mialgia intensa em contexto epidemiológico deve acender dengue.
+
+5.3. Dor retro-orbital
+A dor retro-orbital é uma pista clássica.
+O professor explica que, às vezes, o paciente não sabe verbalizar “dor atrás dos olhos”. Então, na avaliação, pode ser útil pedir para ele movimentar os olhos:
+olhar para um lado;
+olhar para o outro;
+olhar para cima;
+olhar para baixo.
+Se o movimento ocular desencadeia dor ou desconforto, isso reforça o achado retro-orbital.
+Em prova, dor retro-orbital é praticamente uma placa luminosa apontando para dengue.
+
+5.4. Artralgia: leve na dengue, intensa na chikungunya
+A dengue pode ter artralgia, mas a aula ressalta: costuma ser leve.
+Se a artralgia for intensa, incapacitante, com poliartrite marcante, a assinatura passa a ser de chikungunya.
+Essa diferença será retomada na tabela comparativa, mas desde já o algoritmo mental é:
+dengue: mialgia intensa + dor retro-orbital;
+chikungunya: artralgia/poliartrite intensa;
+zika: pele muito marcada, prurido e conjuntivite não purulenta.
+
+5.5. Rash/exantema e prurido
+A dengue pode causar rash/exantema, frequentemente pruriginoso.
+Mas há um detalhe temporal: na dengue, o rash costuma ser mais tardio, aparecendo em geral entre o 3º e o 6º dia de doença.
+Isso importa porque a dengue entra no diagnóstico diferencial de doenças exantemáticas, inclusive em pediatria. O momento em que o exantema aparece ajuda a diferenciar algumas possibilidades.
+No caso clínico inicial, o paciente tinha discreto prurido cutâneo, o que combina com essa possibilidade, embora o dado mais decisivo para conduta não seja o prurido: é a dor abdominal persistente.
+
+5.6. Petéquias e sangramento cutâneo
+O paciente com dengue pode ter petéquias.
+Esse sangramento cutâneo pode ser:
+espontâneo;
+induzido pela prova do laço.
+A prova do laço aparece porque o paciente pode ter fragilidade capilar. Ao comprimir o braço com o manguito, você induz extravasamento de hemácias para a pele, formando petéquias.
+Mas aqui já nasce uma pegadinha importante:
+Sangramento de pele não é o mesmo que sangramento de mucosa.
+sangramento de pele/prova do laço positiva → ajuda a colocar no grupo B;
+sangramento de mucosa → sinal de alarme, grupo C.
+Isso é uma das confusões clássicas da prova.
+
+5.7. Vômitos: isolados versus persistentes
+A aula faz uma distinção muito importante.
+Vômito isolado pode aparecer em dengue, mas é pouco específico. Pode ser dengue, mas também pode ser gastroenterite, alimento estragado, “coxinha de galinha estragada”, como o professor brinca.
+O que preocupa é vômito persistente.
+Por quê?
+Porque o tratamento básico da dengue envolve hidratação. Se o paciente está vomitando repetidamente, ele não consegue ingerir o volume necessário. Isso aumenta risco de desidratação, hipovolemia e piora clínica.
+Então:
+vômito isolado → pode estar no caso suspeito;
+vômitos persistentes → sinal de alarme.
+
+5.8. Hemograma: leucopenia, linfocitose relativa e plaquetopenia
+A aula destaca três achados laboratoriais comuns:
+Leucopenia
+Sugere infecção viral. O professor menciona que vírus podem ter efeito citopático sobre leucócitos, reduzindo a contagem global.
+Linfocitose relativa
+Mesmo com poucos leucócitos totais, a fração relativa de linfócitos pode ser maior.
+A lógica é:
+leucócitos totais baixos;
+mas, entre os leucócitos restantes, predominam linfócitos.
+Isso reforça padrão viral.
+Plaquetopenia
+É comum e chama muita atenção do paciente e do médico. Mas a aula enfatiza: plaquetopenia isolada não é sinal de alarme.
+Ela importa, claro, mas não é o principal definidor de gravidade. O dado laboratorial mais decisivo para extravasamento é o hematócrito subindo progressivamente.
+
+5.9. Defervescência: melhora da febre não significa fim do risco
+A febre na dengue pode durar até 7 dias, mas costuma melhorar por volta do 3º ao 4º dia. Esse período é chamado de defervescência.
+A armadilha clínica é achar que a queda da febre significa cura.
+A aula é muito enfática:
+é ótimo que a febre melhore;
+mas o médico não pode “abaixar a guarda”;
+justamente nesse momento o paciente pode entrar na fase crítica.
+É aqui que aparecem sinais de alarme.
+Portanto, a orientação ao paciente precisa ser clara:
+“É comum a febre melhorar no 3º ou 4º dia, mas se aparecer dor abdominal forte, vômitos persistentes, sangramento de mucosa, tontura ao levantar, sonolência, irritabilidade ou piora clínica, você precisa voltar ao serviço.”
+Esse é um dos pontos mais práticos da aula. O paciente pode morrer em casa não porque a dengue era impossível de manejar, mas porque ninguém explicou que a melhora da febre não elimina risco.
+
+6. Sinais de alarme
+Os sinais de alarme indicam que o paciente está evoluindo para uma forma potencialmente desfavorável, geralmente por extravasamento plasmático importante.
+Na classificação prática:
+qualquer sinal de alarme = grupo C = internação.
+A lista trabalhada na aula inclui:
+dor abdominal intensa e contínua;
+vômitos persistentes;
+acúmulo de líquidos;
+sangramento de mucosa;
+letargia ou irritabilidade;
+hipotensão postural ou lipotimia;
+hepatomegalia maior que 2 cm;
+aumento progressivo do hematócrito.
+Agora, item por item.
+
+6.1. Dor abdominal intensa e contínua
+Este é o sinal que o paciente do caso inicial tinha.
+A dor abdominal intensa e contínua sugere hipoperfusão visceral. O paciente está perdendo líquido do intravascular para o extravascular; com isso, pode haver hipovolemia relativa e sofrimento de órgãos/tecidos.
+A dor abdominal, nesse contexto, não é uma queixa digestiva banal. Ela representa disfunção orgânica inicial, ainda leve, mas suficiente para mudar a classificação.
+Consequência prática:
+dor abdominal intensa e contínua não é grupo A;
+não é só “orientar e liberar”;
+é grupo C;
+grupo C interna;
+grupo C recebe hidratação venosa.
+Por isso, o caso inicial foi manejado de forma incorreta quando o paciente foi mandado para casa.
+
+6.2. Vômitos persistentes
+Vomitar uma vez não define gravidade. Vomitar de forma persistente, sim.
+O problema é duplo:
+O paciente perde líquido.
+O paciente não consegue fazer hidratação oral adequada.
+E como a hidratação é a base do manejo da dengue, vômitos persistentes impedem o tratamento domiciliar seguro.
+A frase prática é:
+Se o paciente “vomita a alma”, ele não consegue cumprir hidratação oral.
+Consequência prática:
+vômitos persistentes = sinal de alarme;
+sinal de alarme = grupo C;
+grupo C = internação e hidratação venosa.
+
+6.3. Acúmulo de líquidos
+Se o líquido sai do intravascular e vai para o terceiro espaço, ele pode se acumular em cavidades.
+A aula cita acúmulo em:
+espaço pleural;
+espaço pericárdico;
+abdome, com ascite.
+Esse achado é consequência direta do extravasamento plasmático.
+Consequência prática:
+acúmulo de líquidos sugere dengue com sinais de alarme;
+não é um detalhe radiológico inocente;
+significa que o paciente já está demonstrando repercussão do vazamento capilar.
+
+6.4. Sangramento de mucosa
+A aula diferencia claramente sangramento cutâneo de sangramento mucoso.
+Sangramento cutâneo:
+petéquias;
+prova do laço positiva;
+sangramento de pele.
+Isso entra mais na lógica do grupo B.
+Sangramento mucoso:
+epistaxe;
+gengivorragia;
+sangramento ao escovar os dentes;
+outros sangramentos de mucosa.
+Isso é sinal de alarme.
+A pegadinha é:
+plaquetopenia isolada não é sinal de alarme, mas sangramento de mucosa é.
+Então, se a questão disser apenas “plaquetas baixas”, cuidado. Mas se disser epistaxe ou gengivorragia, a gravidade muda.
+
+6.5. Letargia ou irritabilidade
+Letargia é sinal de hipoperfusão e piora clínica.
+Em adultos, pode aparecer como:
+sonolência;
+lentificação;
+prostração desproporcional;
+redução de responsividade.
+Em crianças, a aula chama atenção para irritabilidade. Esse é um ponto prático: criança doente pode chorar, mas irritabilidade no contexto de dengue pode ser sinal de alarme, especialmente se associada a baixa aceitação alimentar e dificuldade de hidratação.
+O professor critica a tendência de banalizar isso: “criança é assim mesmo”. Não. Em dengue, irritabilidade pode ser marcador de piora.
+Consequência prática:
+letargia/irritabilidade = sinal de alarme;
+precisa reclassificar;
+não é para simplesmente mandar embora porque “criança chora”.
+
+6.6. Hipotensão postural ou lipotimia
+Aqui ainda não é choque franco.
+A aula diferencia:
+hipotensão postural/lipotimia → sinal de alarme;
+hipotensão franca, extremidades frias, pulso fino etc. → dengue grave.
+Hipotensão postural é aquele paciente que levanta e fica tonto, quase desmaia. Lipotimia é sensação de desmaio.
+Isso sugere que o volume intravascular já está comprometido.
+Consequência prática:
+ainda pode não estar em choque declarado;
+mas já não é caso basal;
+entra como sinal de alarme;
+classifica como grupo C.
+
+6.7. Hepatomegalia maior que 2 cm
+A hepatomegalia acima de 2 cm aparece como sinal de alarme.
+A aula diferencia isso de dengue grave:
+no sinal de alarme, há hepatomegalia;
+na dengue grave, pode haver hepatite importante/disfunção hepática grave.
+Então hepatomegalia > 2 cm indica que a doença está ganhando repercussão orgânica, mas ainda dentro da categoria de alarme.
+Consequência prática:
+hepatomegalia > 2 cm = grupo C;
+não precisa esperar hepatite grave para internar.
+
+6.8. Aumento progressivo do hematócrito
+Esse talvez seja o sinal laboratorial mais importante da aula.
+O raciocínio é:
+O plasma sai do vaso.
+As hemácias ficam mais concentradas dentro do vaso.
+O hematócrito sobe.
+Isso traduz hemoconcentração.
+Hemoconcentração traduz extravasamento plasmático.
+Esse dado é mais relevante para gravidade do que a plaquetopenia isolada.
+A aula faz uma comparação didática com a preocupação do leigo: o paciente vê plaqueta baixa e teme “sangrar até morrer”. Mas, no manejo da dengue, a pergunta mais importante muitas vezes é:
+“Como está o hematócrito?”
+Se o hematócrito sobe progressivamente, o paciente pode estar evoluindo com extravasamento plasmático.
+Consequência prática:
+hematócrito subindo = sinal de alarme;
+sinal de alarme = grupo C;
+grupo C = internação;
+plaquetopenia isolada não tem o mesmo peso.
+
+Tabela 1 — Dengue suspeita × dengue com sinais de alarme × dengue grave
+Categoria clínica
+Ideia central
+Achados típicos
+Consequência prática
+Dengue suspeita
+Paciente com febre súbita até 7 dias e achados compatíveis
+Mialgia intensa, cefaleia, dor retro-orbital, náuseas/vômitos não persistentes, rash, prurido, petéquias, leucopenia, plaquetopenia
+Pode ser grupo A ou B, dependendo de comorbidades, condições especiais, risco social, prova do laço e sangramento de pele
+Dengue com sinais de alarme
+Paciente com suspeita de dengue que começou a mostrar risco de evolução desfavorável
+Dor abdominal intensa e contínua, vômitos persistentes, acúmulo de líquidos, sangramento de mucosa, letargia/irritabilidade, hipotensão postural/lipotimia, hepatomegalia > 2 cm, hematócrito subindo
+Grupo C. Precisa internar e receber hidratação venosa
+Dengue grave
+Paciente com choque, disfunção orgânica grave ou sangramento grave
+Taquicardia, extremidades frias, TEC aumentado, hipotensão franca, PA convergente, pulso fino, hepatite, encefalite, miocardite, hemorragia grave
+Grupo D. Precisa manejo intensivo/UTI e reposição volêmica mais agressiva, com reavaliação estreita
+
+Quadro de fixação — o que a banca quer que você não confunda
+Situação
+Classificação correta na lógica da aula
+Pegadinha
+Plaquetopenia isolada
+Não é sinal de alarme por si só
+A banca pode tentar te induzir a internar só pela plaqueta
+Sangramento de pele/petéquias
+Grupo B
+Não confundir com sangramento mucoso
+Prova do laço positiva
+Grupo B
+Não confirma dengue e não é grupo C
+Sangramento de mucosa
+Grupo C
+Epistaxe/gengivorragia mudam conduta
+Dor abdominal intensa e contínua
+Grupo C
+Foi o erro do caso inicial
+Hematócrito progressivamente elevado
+Grupo C
+Mais importante que “plaqueta baixa” para extravasamento
+Defervescência no 3º-4º dia
+Momento de vigilância
+Febre melhorou, mas o paciente pode entrar na fase crítica
+
+Síntese da Parte 1
+Até aqui, a aula construiu o raciocínio básico:
+O paciente começa como uma síndrome febril sem sinal localizatório.
+A clínica e o contexto epidemiológico sugerem arbovirose, principalmente dengue.
+Dengue é causada por um Flavivírus RNA, transmitido pelo Aedes aegypti.
+Existem sorotipos diferentes, e a infecção sequencial aumenta risco de formas graves por imunofacilitação.
+O fenômeno perigoso da dengue é o extravasamento plasmático.
+O hemograma ajuda, mas o aluno precisa saber interpretar: plaqueta baixa assusta, hematócrito subindo preocupa mais.
+A febre pode melhorar no 3º-4º dia, mas isso pode coincidir com entrada na fase crítica.
+Qualquer sinal de alarme muda o paciente para grupo C.
+O caso inicial era grupo C por dor abdominal intensa e contínua, logo não deveria ter ido para casa.
+CONTINUA NA PARTE 2 — Dengue grave, diagnóstico, NS1/IgM/IgG, prova do laço e início da classificação A/B/C/D.
+ROTEIRO DIDÁTICO COMPLETO — DENGUE: TRIAGEM E MANEJO
+PARTE 2 — dengue grave, diagnóstico, prova do laço e classificação A/B/C/D
+Continuando do ponto anterior: já entendemos que o eixo da aula é não parar no diagnóstico de dengue. Agora a aula avança para reconhecer quando a doença deixou de ser apenas suspeita/com sinais de alarme e passou a ser dengue grave, além de organizar o raciocínio diagnóstico e a classificação em grupos.
+
+7. Dengue grave
+A dengue grave corresponde, na classificação prática da aula, ao grupo D.
+A lógica é progressiva:
+No caso suspeito, o paciente tem sintomas compatíveis com dengue.
+Com sinais de alarme, ele mostra que está evoluindo mal, geralmente por extravasamento plasmático.
+Na dengue grave, esse processo já repercutiu de forma crítica: choque, disfunção orgânica grave ou sangramento grave.
+A aula não quer que você decore uma lista fria. Ela quer que você reconheça gravidade clínica real.
+
+7.1. Choque na dengue
+O professor define choque de forma fisiológica:
+choque é hipoperfusão tecidual, ou seja, um desequilíbrio entre oferta e demanda de oxigênio nos tecidos.
+Na dengue, isso costuma acontecer porque o paciente perde líquido do intravascular para o extravascular. Não é necessariamente porque ele perdeu sangue no início. Muitas vezes, o problema central ainda é o mesmo: extravasamento plasmático.
+Os achados de choque citados incluem:
+taquicardia;
+extremidades frias;
+tempo de enchimento capilar aumentado;
+hipotensão franca;
+pressão arterial convergente;
+pulso fino.
+A aula diferencia isso dos sinais de alarme. Na hipotensão postural/lipotimia, o paciente ainda não está necessariamente em choque franco. Na dengue grave, a instabilidade já é mais explícita.
+
+7.2. Pressão arterial convergente
+Esse ponto é bem cobrável.
+Pressão convergente significa que a pressão sistólica e a diastólica estão muito próximas, com pressão de pulso estreita.
+Exemplo dado na aula:
+PA 100 × 90 mmHg.
+À primeira vista, alguém pode olhar só para a sistólica e pensar: “100 ainda não é tão baixo”. Mas a pressão de pulso é de apenas 10 mmHg. Isso sugere pior débito cardíaco e pior perfusão.
+Então, em dengue, não basta perguntar:
+“A pressão está baixa?”
+Também é preciso olhar:
+“A pressão está convergente?”
+A PA convergente é um marcador de gravidade porque indica que o paciente pode estar chocando mesmo antes de uma hipotensão sistólica muito dramática.
+
+7.3. Disfunção orgânica grave
+Na dengue com sinais de alarme, pode haver sinais iniciais de sofrimento orgânico, como hepatomegalia maior que 2 cm.
+Na dengue grave, a aula muda o patamar: agora não é apenas hepatomegalia. Agora pode haver hepatite, isto é, dano hepático real.
+A aula também cita:
+encefalite;
+miocardite;
+qualquer outra falência/disfunção orgânica grave.
+A diferença com letargia é importante:
+letargia/irritabilidade → sinal de alarme;
+encefalite/rebaixamento grave do sensório → dengue grave.
+O professor menciona que, se houver hepatite, pode haver icterícia, mas com cuidado: icterícia não é o quadro típico central da dengue. Pode acontecer em dengue grave, mas, como raciocínio sindrômico, icterícia também puxa outros diagnósticos diferenciais.
+
+7.4. Sangramento grave
+A aula organiza o sangramento em progressão:
+Momento clínico
+Tipo de sangramento
+Interpretação
+Caso suspeito / grupo B
+Sangramento de pele, petéquias, prova do laço positiva
+Fragilidade capilar; não é sinal de alarme por si só
+Dengue com sinais de alarme / grupo C
+Sangramento de mucosa, como epistaxe ou gengivorragia
+Sinal de alarme
+Dengue grave / grupo D
+Sangramento grave
+Critério de gravidade
+Sangramentos graves citados:
+hematêmese;
+melena;
+hematoquezia;
+sangramento de sistema nervoso central;
+hemorragia intraparenquimatosa;
+metrorragia volumosa.
+A aula chama atenção para a metrorragia: o Ministério da Saúde não quantifica exatamente o que é “volumosa”. Então, em prova, para isso virar dengue grave, o enunciado precisa deixar claro que é relevante: por exemplo, “metrorragia volumosa”, ou metrorragia associada a sinais de choque/falência orgânica.
+
+7.5. Quando suspeitar que o problema virou sangramento?
+A aula faz uma distinção muito importante:
+hematócrito caindo nem sempre é sangramento.
+Se o paciente estava hemoconcentrado e, depois da hidratação, melhora clinicamente e o hematócrito cai, isso pode ser bom: pode significar correção do extravasamento plasmático/hemoconcentração.
+Mas se o paciente está clinicamente mal e o hematócrito está caindo, aí a interpretação muda.
+Nesse cenário, a queda do hematócrito pode significar perda de hemácias por sangramento.
+A regra mental da aula é:
+Paciente bem + hematócrito caindo = pode ser resolução da hemoconcentração. Paciente mal + hematócrito caindo = pensar em sangramento.
+O professor reforça que sangramento existe e importa, mas entra mais tarde no fluxograma mental: primeiro você precisa estabilizar hemodinâmica e extravasamento plasmático; depois pensa em coagulopatia, transfusão de plaquetas e sangramento como problema central.
+
+8. Diagnóstico
+A aula ensina diagnóstico por tempo de doença.
+O professor não quer que você decore NS1, IgM e IgG como nomes soltos. Ele quer que você entenda a lógica:
+no começo da doença, procure vírus ou pedaços do vírus;
+mais tarde, procure anticorpos.
+Essa é a chave.
+
+8.1. Fase inicial: procurar vírus ou antígeno viral
+No início da infecção, o vírus acabou de invadir o organismo. Ainda não houve tempo suficiente para uma resposta humoral organizada.
+Então, nessa fase, você procura:
+o próprio vírus;
+ou um pedaço do vírus, isto é, um antígeno viral.
+Na dengue, o principal antígeno discutido é o NS1.
+O NS1 é um pedacinho da partícula viral. Ele começa a aparecer precocemente e tem maior utilidade nos primeiros dias.
+A aula coloca:
+NS1 é melhor até o 3º dia;
+ainda pode ser usado até o 5º dia;
+depois disso, perde acurácia e a sorologia passa a ganhar importância.
+O professor usa um macete simples: NS1 tem três caracteres, então lembra o melhor momento: até o 3º dia. Não é uma regra fisiológica, é um gatilho de memória.
+
+8.2. NS1 não significa “sorotipo 1”
+Essa é uma pegadinha direta.
+NS1 não quer dizer que o teste só detecta dengue sorotipo 1.
+NS1 é um antígeno presente nos principais sorotipos. A aula enfatiza que ele está presente no sorotipo 1, 2, 3 e 4. Portanto, um NS1 positivo não significa “dengue tipo 1”; significa detecção de antígeno viral da dengue.
+
+8.3. Isolamento viral
+O isolamento viral é citado como possibilidade na fase de viremia, até o 5º dia.
+Mas a aula faz uma ressalva prática: isolamento viral é coisa de centro de referência. Não é o exame que você vai pedir rotineiramente em UPA, pronto-socorro comum ou serviço de baixa complexidade.
+O motivo é prático:
+é caro;
+não é custo-efetivo para rotina;
+não está amplamente disponível.
+Então, para a prática e para prova comum, o exame virológico mais lembrado é o NS1.
+
+8.4. Fase tardia: procurar anticorpos
+Depois de alguns dias, o corpo começa a produzir anticorpos.
+A aula explica isso com a lógica da célula apresentadora de antígeno: ela apresenta o antígeno ao linfócito e o linfócito passa a produzir anticorpos. Mas isso não acontece imediatamente.
+Os anticorpos aparecem tipicamente a partir do 5º/6º dia, com destaque para o IgM a partir do 6º dia.
+A lógica fica:
+fase inicial: NS1/isolamento viral;
+fase tardia: IgM;
+IgG: cicatriz sorológica.
+
+
+8.5. IgM
+O IgM é o marcador de doença aguda.
+Ele aparece mais tardiamente do que o NS1, por volta do sexto dia, quando ocorre a soroconversão.
+Na prática, se o paciente chega no início da doença, pedir IgM cedo demais pode gerar falso negativo simplesmente porque ainda não deu tempo de produzir anticorpo detectável.
+Esse é o raciocínio temporal que a banca gosta:
+2º ou 3º dia: NS1;
+6º dia em diante: IgM.
+
+8.6. IgG
+O IgG é apresentado na aula como marcador de doença passada/crônica, uma espécie de cicatriz sorológica.
+Ele sobe e permanece por mais tempo.
+Cuidado com a interpretação: IgG isolado não necessariamente significa dengue aguda atual. Pode indicar contato prévio.
+
+Tabela 2 — NS1 × IgM × IgG
+Marcador
+O que detecta
+Melhor momento
+Como interpretar
+NS1
+Antígeno viral, “pedaço” do vírus
+Melhor até o 3º dia; possível até o 5º
+Sugere infecção aguda inicial. Não significa sorotipo 1
+Isolamento viral
+Vírus propriamente dito
+Fase inicial, até o 5º dia
+Mais restrito a centros de referência; não é rotina de UPA
+IgM
+Anticorpo de fase aguda
+A partir do 6º dia
+Útil quando o paciente já passou da fase inicial de viremia
+IgG
+Anticorpo de memória/cicatriz sorológica
+Mais tardio e persistente
+Pode indicar infecção prévia; não deve ser interpretado sozinho como fase aguda
+
+8.7. Precisa confirmar todo caso de dengue?
+A aula traz uma distinção muito prática: período epidêmico versus não epidêmico.
+Em período não epidêmico, recomenda-se confirmar os casos, independentemente do grupo.
+Exemplo da aula: um paciente canadense que viajou ao Brasil e voltou ao Canadá com febre abrupta dentro do período de incubação. Como dengue não é uma doença de rotina naquele ambiente, faz sentido confirmar mesmo que o caso pareça basal.
+Em período epidêmico, a lógica muda: não é custo-efetivo confirmar todo mundo. O diagnóstico de casos leves pode ser clínico-epidemiológico. A confirmação fica mais importante nos casos graves, especialmente grupos C e D.
+A aula também comenta a diferença entre medicina pública/protocolo e medicina defensiva: em serviço particular, muitas vezes se pede NS1 porque o paciente quer exame, vai comparar com outro hospital, e o médico acaba pedindo para se proteger. Mas isso não significa que todo paciente basal, em epidemia, precise obrigatoriamente de confirmação laboratorial.
+
+9. Prova do laço
+A prova do laço entra em dois lugares ao mesmo tempo:
+ajuda na avaliação semiológica da fragilidade capilar;
+ajuda na classificação do paciente.
+Mas a aula é clara:
+prova do laço positiva não confirma dengue;
+prova do laço negativa não exclui dengue;
+prova do laço positiva classifica como grupo B, não grupo C.
+
+9.1. Por que ela pode positivar?
+A dengue pode gerar fragilidade capilar. Quando você comprime o braço com o manguito, os capilares frágeis podem permitir extravasamento de hemácias para a pele, formando petéquias.
+É por isso que a prova do laço é um teste de fragilidade capilar, não um “teste confirmatório de dengue”.
+Outras síndromes febris com fenômenos semelhantes podem positivar. E alguns pacientes com dengue, inclusive grave, podem não positivar.
+
+9.2. Passo a passo da prova do laço
+Passo 1 — calcular a média aritmética da pressão arterial
+A aula faz questão de diferenciar isso da PAM de terapia intensiva.
+Aqui não é:
+PAM = PAS + 2×PAD / 3
+Na prova do laço, usa-se a média aritmética simples:
+(PAS + PAD) / 2
+Exemplo:
+PA = 120 × 80 mmHg;
+120 + 80 = 200;
+200 / 2 = 100.
+Então você insufla o manguito em 100 mmHg.
+
+Passo 2 — insuflar o manguito nesse valor
+O manguito deve ficar insuflado no valor calculado pela média aritmética.
+Tempo:
+adulto: até 5 minutos;
+criança: até 3 minutos.
+O professor dá o macete:
+Criança é sempre menos.
+Além disso, se a prova já positivar antes do tempo máximo, você não precisa deixar o manguito comprimindo até completar o tempo.
+
+Passo 3 — desenhar um quadrado de 2,5 cm
+Desenha-se um quadrado de 2,5 cm de lado.
+Depois, contam-se as petéquias dentro desse quadrado.
+
+Passo 4 — contar petéquias
+Critérios citados:
+adulto: 20 ou mais petéquias;
+criança: 10 ou mais petéquias.
+A aula também faz uma observação de bom senso: se o adulto tem 19 petéquias, não é para dizer “boas notícias, vá para casa em paz” como se fosse uma linha mágica absoluta. É uma avaliação clínica, visual e contextual. O número é critério, mas o paciente é maior do que o número.
+
+Tabela 3 — Prova do laço: adulto × criança
+Item
+Adulto
+Criança
+Fórmula da pressão usada
+(PAS + PAD) / 2
+(PAS + PAD) / 2
+Diferença para PAM de UTI
+Não usar PAS + 2×PAD / 3
+Não usar PAS + 2×PAD / 3
+Tempo máximo de manguito
+Até 5 minutos
+Até 3 minutos
+Quadrado
+2,5 cm de lado
+2,5 cm de lado
+Critério de positividade
+≥ 20 petéquias
+≥ 10 petéquias
+Interpretação
+Ajuda na classificação, mas não confirma nem exclui dengue
+Idem
+Grupo se positiva
+Grupo B
+Grupo B
+
+9.3. Pegadinha da prova do laço
+Essa é uma das pegadinhas mais importantes da aula:
+prova do laço positiva não é grupo C.
+Ela entra como sangramento de pele induzido, portanto grupo B.
+Grupo C é outra coisa: é dengue com sinal de alarme.
+E, na aula, o professor explicita a confusão:
+sangramento de pele é uma coisa;
+sangramento de mucosa é outra;
+prova do laço positiva é grupo B;
+sangramento mucoso é grupo C.
+
+
+9. Classificação A/B/C/D
+A classificação A/B/C/D é a parte operacional da aula.
+Ela responde à pergunta:
+“Esse paciente vai para casa, fica em observação, interna ou vai para UTI?”
+A aula organiza assim:
+Grupo A: caso suspeito basal.
+Grupo B: caso suspeito com condição especial, comorbidade, risco social, sangramento de pele ou prova do laço positiva.
+Grupo C: qualquer sinal de alarme.
+Grupo D: dengue grave.
+
+9.1. Grupo A — ambulatorial, basal
+O grupo A é o paciente mais basal de todos.
+Ele tem suspeita de dengue, mas:
+não tem sinal de alarme;
+não tem condição especial;
+não tem comorbidade relevante;
+não está em extremo de idade;
+não é gestante;
+não tem risco social importante;
+não tem sangramento de pele/prova do laço positiva.
+A aula usa o macete:
+A de ambulatorial.
+Esse paciente pode ir para casa, mas não é “vai embora de qualquer jeito”.
+Ele precisa de:
+orientação clara;
+hidratação oral prescrita de forma objetiva;
+alerta sobre sinais de alarme;
+instrução de retorno, especialmente na fase de defervescência.
+O professor critica o médico que fala apenas: “beba bastante água”. Isso é vago e não funciona. A orientação correta deve ser quantificada.
+Para grupo A, a hidratação oral citada é:
+60 ml/kg/dia;
+sendo 1/3 em soro de reidratação oral;
+e 2/3 em líquidos diversos, como água, água de coco, chá ou suco;
+álcool não conta.
+Para uma pessoa de 70 kg, isso chega perto de 4 litros no dia, o que é bastante. Por isso, o professor reforça que, muitas vezes, o paciente precisa de suporte familiar/social para conseguir cumprir o plano.
+
+9.2. Grupo B — “tem um temperinho a mais”
+O grupo B ainda não é grupo C e não é grupo D.
+Ele não tem sinal de alarme nem dengue grave, mas tem algo que faz o médico olhar com mais cuidado.
+Entram aqui:
+condições especiais;
+comorbidades;
+extremos de idade;
+gestante;
+risco social;
+sangramento de pele;
+petéquias;
+prova do laço positiva.
+A ideia é:
+Esse paciente pode até parecer basal, mas não é para tratar como se fosse completamente simples.
+O grupo B exige hemograma completo.
+E aqui vem um ponto central: no hemograma inicial do grupo B, o professor quer que você olhe principalmente para o hematócrito, não para a plaqueta.
+A plaqueta importa, mas o que muda a classificação é o hematócrito sugerindo hemoconcentração.
+
+9.3. Grupo B com hematócrito normal
+Se o paciente é grupo B, faz hemograma e o hematócrito está normal, ele pode ser conduzido como grupo A em termos de hidratação e manejo ambulatorial.
+Mas a aula reforça:
+Uma vez grupo B, sempre grupo B.
+Isso significa que, mesmo que ele vá para casa, ele não vira “grupo A de raiz”.
+Ele precisa de:
+reavaliação diária;
+avaliação clínica;
+avaliação laboratorial;
+acompanhamento de plaquetas e hematócrito;
+retorno ao serviço conforme protocolo.
+Enquanto aguarda o hemograma, ele deve ficar em leito de observação e receber hidratação como se fosse grupo A, preferencialmente com alguém anotando a ingesta.
+
+9.4. Grupo B com hematócrito alto
+Se o paciente do grupo B apresenta hematócrito alto, isso sugere hemoconcentração.
+Hemoconcentração significa extravasamento plasmático.
+E se há extravasamento plasmático importante, isso entra como sinal de alarme.
+Logo:
+Grupo B + hematócrito alto = reclassificar para grupo C.
+A consequência prática é:
+não vai para casa;
+precisa de internação;
+precisa de hidratação venosa.
+O professor reforça que o caso inicial estava errado também por isso: o paciente tinha sinal de alarme e foi mandado para casa. Em geral, hematócrito alto ou sinal clínico de alarme obrigam condução como grupo C.
+
+9.5. Grupo C — dengue com sinais de alarme
+Grupo C é simples de reconhecer, mas fácil de errar por distração:
+Qualquer sinal de alarme = grupo C.
+Sinais de alarme já trabalhados:
+dor abdominal intensa e contínua;
+vômitos persistentes;
+acúmulo de líquidos;
+sangramento de mucosa;
+letargia/irritabilidade;
+hipotensão postural/lipotimia;
+hepatomegalia > 2 cm;
+aumento progressivo do hematócrito.
+O grupo C exige:
+internação;
+geralmente enfermaria/leito de internação;
+hidratação venosa;
+reavaliação clínica e laboratorial.
+A aula menciona que algumas provas podem usar “leito de observação” de forma imprecisa para grupo C, mas a lógica do protocolo é: grupo B observa; grupo C interna. Na prova, se for a única alternativa possível, você marca a melhor resposta, mas sabendo o conceito correto.
+
+9.6. Grupo D — dengue grave
+Grupo D é o paciente com dengue grave.
+Entram aqui:
+choque;
+sinais de hipoperfusão importante;
+hipotensão franca;
+PA convergente;
+pulso fino;
+extremidades frias;
+tempo de enchimento capilar aumentado;
+disfunção orgânica grave;
+hepatite;
+encefalite;
+miocardite;
+sangramento grave.
+Esse paciente precisa de manejo mais intensivo, em geral UTI, com hidratação venosa mais rápida e reavaliação muito estreita. A aula coloca a conduta do grupo D como 20 ml/kg em 20 minutos, repetível até três vezes, mas com muito cuidado se o paciente já veio do grupo C e recebeu grande volume previamente.
+
+Tabela 4 — Grupo A × B × C × D
+Grupo
+Quem é
+Exame
+Local de manejo
+Hidratação
+Reavaliação
+A
+Suspeita de dengue sem sinal de alarme, sem comorbidade, sem condição especial, sem risco social, sem sangramento de pele/prova do laço positiva
+Hemograma não é obrigatório em tese
+Ambulatorial
+Oral: 60 ml/kg/dia, com 1/3 SRO e 2/3 líquidos diversos
+Orientar retorno e sinais de alarme
+B
+Suspeita de dengue com condição especial, comorbidade, extremo de idade, gestação, risco social, sangramento de pele ou prova do laço positiva
+Hemograma obrigatório
+Observação enquanto aguarda hemograma; pode ir para casa se Ht normal
+Enquanto aguarda, hidratação como grupo A; se Ht normal, segue como A, mas com protocolo B
+Reavaliação diária clínica e laboratorial
+C
+Dengue com qualquer sinal de alarme ou hematócrito alto/hemoconcentração
+Hemograma e monitorização
+Internação
+Venosa com cristaloide: 20 ml/kg em 2 horas, reavaliar; pode repetir até 3 vezes
+Reavaliar clínica e hematócrito
+D
+Dengue grave: choque, disfunção orgânica grave ou sangramento grave
+Monitorização intensiva
+UTI
+Cristaloide: 20 ml/kg em 20 minutos, reavaliar; pode repetir até 3 vezes
+Reavaliação imediata e frequente, cuidado com sobrecarga
+
+10. Início da conduta e hidratação — lógica antes dos números
+Antes de entrar nos detalhes completos da hidratação, a aula constrói uma ideia:
+dengue é manejo de volume, mas volume não é “dar soro de qualquer jeito”.
+O raciocínio é:
+grupo A: consegue hidratar por boca;
+grupo B: precisa avaliar melhor antes de liberar;
+grupo C: já tem alarme, precisa hidratação venosa e internação;
+grupo D: já tem gravidade, precisa reposição rápida, geralmente em UTI.
+A hidratação é o centro porque o fenômeno central é o extravasamento plasmático.
+Mas a aula também alerta que existe risco de exagerar: especialmente no paciente que era grupo C, recebeu muito volume, não respondeu e virou grupo D. Se você continuar despejando volume sem avaliar tolerância, pode transformar um paciente chocado em um paciente congesto, até com edema agudo de pulmão.
+Esse refinamento fica para a próxima parte, porque a conduta/hidratação por grupo merece uma seção própria.
+
+Quadro de pegadinhas consolidadas até aqui
+Pegadinha
+Correção
+“Dengue grave é só quando sangra muito.”
+Não. Dengue grave pode ser choque, disfunção orgânica grave ou sangramento grave.
+“Pressão 100 × 90 está aceitável porque a sistólica é 100.”
+Cuidado: PA convergente sugere pressão de pulso estreita e pior débito cardíaco.
+“Hematócrito caiu, então está sangrando.”
+Depende. Se o paciente melhorou, pode ser correção da hemoconcentração. Se está mal + Ht caindo, pensar em sangramento.
+“NS1 é teste para dengue sorotipo 1.”
+Errado. NS1 é antígeno viral presente nos principais sorotipos.
+“IgM serve desde o primeiro dia.”
+Não. IgM aparece mais tardiamente, especialmente a partir do 6º dia.
+“Prova do laço positiva confirma dengue.”
+Não confirma. Ajuda, mas não fecha diagnóstico.
+“Prova do laço negativa exclui dengue.”
+Não exclui.
+“Prova do laço positiva é grupo C.”
+Errado. É grupo B. Grupo C exige sinal de alarme.
+“Grupo B com Ht normal vira grupo A igual aos outros.”
+Ele pode ser conduzido como A, mas segue protocolo B: reavaliação diária clínica e laboratorial.
+“Grupo C fica em observação.”
+Conceito correto: grupo C interna. Grupo B é que fica em observação enquanto aguarda hemograma.
+
+Síntese da Parte 2
+Nesta parte, a aula fechou quatro pilares:
+Dengue grave = grupo D, marcada por choque, disfunção orgânica grave ou sangramento grave.
+O choque na dengue nasce da hipoperfusão, muitas vezes por extravasamento plasmático.
+O diagnóstico depende do tempo: início = NS1/antígeno/vírus; fase tardia = IgM; IgG = cicatriz sorológica.
+A prova do laço ajuda, mas não confirma nem exclui dengue; se positiva, classifica como grupo B, não C.
+A classificação A/B/C/D é o coração operacional da aula: ela define quem vai para casa, quem observa, quem interna e quem vai para UTI.
+CONTINUA NA PARTE 3 — hidratação e conduta por grupo, medicamentos permitidos/proibidos, AAS crônico e início dos diferenciais com chikungunya e zika.
+ROTEIRO DIDÁTICO COMPLETO — DENGUE: TRIAGEM E MANEJO
+PARTE 3 — conduta, hidratação, medicamentos e início dos diferenciais
+Na parte anterior, fechamos a classificação A/B/C/D. Agora vem o trecho mais operacional da aula: o que fazer com cada grupo.
+A ideia central continua sendo a mesma: dengue não é só “diagnosticar”; é classificar, hidratar, reavaliar e não liberar quem tem risco.
+
+10. Conduta e hidratação
+A aula deixa claro que o tratamento da dengue é essencialmente de suporte. Não existe, aqui, uma droga antiviral específica que resolva o quadro. O grande tratamento é reconhecer o risco e hidratar corretamente.
+Só que “hidratar corretamente” não significa falar de forma vaga:
+“Beba bastante água.”
+Isso é ruim. O professor insiste que o médico precisa transformar a orientação em algo executável. O paciente precisa saber quanto, como, com que tipo de líquido, quando voltar e quais sinais mudam o risco.
+
+10.1. Grupo A — hidratação oral e orientação realista
+O grupo A é o paciente com suspeita de dengue mais basal: sem sinal de alarme, sem condição especial, sem comorbidade relevante, sem risco social importante, sem sangramento de pele e sem prova do laço positiva.
+A aula usa o macete:
+Grupo A = A de ambulatorial.
+Esse paciente pode ir para casa, mas não pode ir “largado”. Ele precisa receber uma prescrição de hidratação oral objetiva.
+A prescrição citada para grupo A é:
+60 ml/kg/dia;
+sendo 1/3 em soro de reidratação oral;
+e 2/3 em líquidos diversos, como água, água de coco, chá ou suco;
+álcool não conta.
+Para um adulto de 70 kg:
+60 × 70 = 4.200 ml/dia;
+ou seja, aproximadamente 4 litros por dia.
+Isso é bastante volume. O professor chama atenção para a dificuldade prática: se uma pessoa saudável já costuma beber pouco líquido em plantão, imagine um paciente febril, prostrado, com náusea, dor no corpo e mal-estar. Por isso, a hidratação precisa ser acompanhada, anotada e explicada com empatia.
+
+10.1.1. O erro de comunicação que mata
+A aula é muito forte nesse ponto.
+Não adianta dizer para uma pessoa simples, muitas vezes com baixa escolaridade:
+“O senhor vai ingerir 60 ml/kg/dia, sendo 1/3 em SRO e 2/3 em líquidos diversos.”
+O paciente pode responder “entendi” sem ter entendido nada. Aí ele vai para casa, não hidrata corretamente, não reconhece sinais de alarme e pode piorar.
+O professor coloca a culpa na comunicação médica, não no paciente.
+A orientação precisa ser traduzida:
+“O senhor pesa mais ou menos X kg; então precisa beber mais ou menos Y litros hoje.”
+“Desses Y litros, uma parte precisa ser soro de reidratação.”
+“Vamos dividir isso em garrafas/copos.”
+“Alguém em casa pode anotar?”
+“Se vomitar e não conseguir beber, volte.”
+“Se a febre baixar, ainda assim observe os sinais de alarme.”
+A mensagem prática é:
+hidratação oral só é segura se o paciente entendeu, consegue executar e tem condição de retornar.
+
+10.2. Hidratação em crianças
+A aula também traz uma pegadinha pediátrica importante.
+Para crianças menores de 13 anos, a hidratação não segue simplesmente 60 ml/kg/dia. Ela depende do peso:
+Criança < 13 anos
+Volume diário citado
+Até 10 kg
+130 ml/kg/dia
+10 a 20 kg
+100 ml/kg/dia
+Mais de 20 kg
+80 ml/kg/dia
+13 anos ou mais
+60 ml/kg/dia
+A pegadinha de prova: uma criança de 12 anos com mais de 20 kg pode aparecer em questão. A alternativa tentadora será 60 ml/kg/dia, mas, pela regra citada na aula, se ela tem menos de 13 anos e mais de 20 kg, o volume é 80 ml/kg/dia.
+
+10.3. Grupo B — parece basal, mas tem “algo a mais”
+O grupo B é aquele paciente que ainda não tem sinal de alarme e não tem dengue grave, mas tem algum fator que aumenta preocupação.
+Entram no grupo B:
+condição especial;
+risco social;
+comorbidade;
+extremos de idade;
+sangramento de pele;
+petéquias;
+prova do laço positiva.
+A aula cita risco social como ponto importante: paciente sem rede familiar, sem dinheiro para voltar, que mora longe, que não tem quem acompanhe hidratação ou que pode não conseguir retornar ao serviço se piorar.
+Comorbidades citadas ou exemplificadas:
+hemopatia;
+asma;
+coronariopatia;
+cardiopatia com insuficiência cardíaca;
+hepatopatia;
+doença hematológica;
+outras condições que façam o paciente “preocupar mais”.
+Condições especiais incluem:
+extremo de idade: menor de 2 anos ou maior de 65 anos;
+gestante;
+sangramento de pele espontâneo ou induzido;
+prova do laço positiva.
+A aula reforça a pegadinha:
+Sangramento de pele é grupo B. Sangramento de mucosa é grupo C. Prova do laço positiva é grupo B, não grupo C.
+
+10.3.1. Grupo B precisa de hemograma
+No grupo B, não tem muita discussão: o paciente deve fazer hemograma completo.
+O professor destaca uma coisa importante: nesse hemograma inicial, o foco não é a plaqueta. A plaqueta chama atenção do paciente, mas o médico deve olhar especialmente o hematócrito.
+Por quê?
+Porque hematócrito alto sugere hemoconcentração, e hemoconcentração sugere extravasamento plasmático.
+Então:
+grupo B + hematócrito normal → pode conduzir como grupo A, mas com protocolo B;
+grupo B + hematócrito alto → reclassifica para grupo C.
+Enquanto aguarda o hemograma, que em tese deveria sair em até 2 horas, o paciente fica em leito de observação e recebe hidratação como grupo A, preferencialmente com equipe anotando a ingesta.
+
+10.3.2. “Uma vez grupo B, sempre grupo B”
+Essa frase é essencial.
+Se o paciente é grupo B, faz hemograma e o hematócrito vem normal, ele pode ir para casa com hidratação oral como grupo A. Mas ele não vira um grupo A “puro”.
+Ele continua exigindo:
+reavaliação diária;
+avaliação clínica;
+avaliação laboratorial;
+novo hemograma conforme protocolo;
+acompanhamento de hematócrito e plaquetas.
+Essa é a diferença entre:
+grupo A de raiz: suspeita basal, sem fatores adicionais;
+grupo B com hematócrito normal: pode ir para casa, mas precisa voltar diariamente.
+
+10.4. Grupo C — sinal de alarme = internação
+O grupo C é o paciente com dengue e qualquer sinal de alarme.
+A aula é direta:
+Grupo C fica internado.
+Pode ser enfermaria, por pelo menos 48 horas, dependendo do contexto. O ponto é que não é paciente para casa e não é simplesmente um grupo B aguardando hemograma.
+O professor menciona que algumas provas podem usar “leito de observação” de forma imprecisa para grupo C, inclusive questões do INEP. Mas o conceito correto é:
+grupo B → observação;
+grupo C → internação.
+Na prova, se a banca for mal escrita e “leito de observação” for a única alternativa viável, você marca a melhor resposta. Mas, conceitualmente, grupo C é leito de internação.
+
+10.4.1. Hidratação do grupo C
+Se o paciente é grupo C, a aula entende que ele provavelmente está fazendo extravasamento plasmático mais importante. Portanto, a hidratação deve ser venosa.
+A solução é cristaloide:
+Ringer lactato;
+ou soro fisiológico.
+A prescrição central é:
+20 ml/kg em 2 horas.
+Para um paciente de 70 kg:
+20 × 70 = 1.400 ml;
+aproximadamente 1,4 a 1,5 litro em 2 horas.
+Depois disso, reavalia:
+clínica;
+hemodinâmica;
+hematócrito.
+Se não melhorar, repete:
+mais 20 ml/kg em 2 horas;
+reavalia novamente.
+Pode repetir até 3 vezes.
+Na prática, para um paciente de 70 kg:
+Etapa
+Volume aproximado
+Tempo
+1ª etapa
+1,4–1,5 L
+2 horas
+2ª etapa, se não melhorar
++1,4–1,5 L
++2 horas
+3ª etapa, se não melhorar
++1,4–1,5 L
++2 horas
+Total possível
+cerca de 4,5 L
+6 horas
+Depois de cada etapa, não é “passar soro e esquecer”. É reavaliar hematócrito, perfusão, sinais vitais, clínica e hemodinâmica.
+
+10.4.2. Se melhorou: manutenção
+Se o paciente melhora após a hidratação inicial do grupo C, a aula cita soro de manutenção:
+25 ml/kg;
+ao longo de 6 a 8 horas.
+O professor ressalta que isso aparece menos em prova de acesso direto. O mais cobrado é reconhecer o grupo e saber a etapa inicial: 20 ml/kg em 2 horas, reavaliando e podendo repetir até 3 vezes.
+
+10.4.3. Sinônimos que podem aparecer em prova
+A aula chama isso de “maldadezinha”.
+Podem aparecer prescrições equivalentes escritas de outro jeito:
+10 ml/kg em 1 hora + 10 ml/kg em 1 hora é equivalente a 20 ml/kg em 2 horas.
+Também pode aparecer:
+60 ml/kg em 6 horas que corresponde a três etapas de 20 ml/kg em 2 horas.
+A banca pode trocar a forma de escrever para ver se o aluno entendeu a proporção.
+
+10.5. Grupo D — dengue grave, UTI e volume rápido
+O grupo D é dengue grave.
+Aqui entram:
+choque;
+instabilidade hemodinâmica;
+disfunção orgânica grave;
+sangramento grave.
+A conduta inicial é internação em UTI.
+A hidratação também é com cristaloide, mas agora muito mais rápida:
+20 ml/kg em 20 minutos.
+Para um paciente de 70 kg:
+20 × 70 = 1.400 ml;
+aproximadamente 1,4 a 1,5 litro em 20 minutos.
+Se não melhorar:
+reavalia clínica e hematócrito;
+repete mais 20 ml/kg em 20 minutos;
+pode repetir até 3 vezes.
+Ou seja, se o paciente não melhora, em 1 hora ele pode receber algo próximo de 4,5 litros. É uma pancada de volume.
+
+10.5.1. O cuidado com o paciente que veio do grupo C
+A aula faz uma distinção muito importante.
+Se o paciente chega de casa já como grupo D, sem ter recebido volume, essa expansão agressiva provavelmente vai preencher uma necessidade real.
+Mas se ele veio do grupo C, ele pode já ter recebido:
+20 ml/kg em 2 horas;
+repetido 2 ou 3 vezes;
+algo como 4,5 a 5 litros em 6 horas.
+Se, depois disso, você faz mais 20 ml/kg em 20 minutos repetidamente, pode transformar um paciente chocado em um paciente congesto, inclusive com edema agudo de pulmão.
+Portanto, o grupo D exige volume, mas não volume cego.
+É preciso avaliar:
+fluido-responsividade;
+fluido-tolerância;
+sinais de congestão;
+história de cardiopatia;
+história de nefropatia;
+sinais clínicos de sobrecarga;
+resposta hemodinâmica real.
+
+10.5.2. Fluido-responsividade e fluido-tolerância
+A aula conecta esse raciocínio com terapia intensiva.
+Não basta perguntar:
+“Esse paciente precisa de volume?”
+Também é preciso perguntar:
+“Ele vai responder ao volume?” “Ele tolera mais volume?” “Ou já está congesto?”
+Exemplos de paciente que tolera mal volume:
+cardiopata;
+paciente com insuficiência cardíaca;
+nefropata;
+paciente que já chegou com congestão;
+paciente que recebeu muito volume previamente.
+A dengue pode, inclusive, descompensar cardiopatia e gerar síndrome edemigênica. Então o protocolo deve ser aplicado com reavaliação, não de forma mecânica.
+
+10.5.3. Quando pensar em noradrenalina?
+Se o paciente já recebeu volume, segue instável e começa a apresentar sinais de congestão ou baixa tolerância a mais volume, a aula coloca a possibilidade de usar amina vasoativa.
+A droga citada é a noradrenalina.
+A lógica é semelhante ao raciocínio da sepse:
+fez volume;
+fez volume;
+fez volume;
+paciente continua refratário;
+não cabe mais volume;
+considerar amina vasoativa.
+A noradrenalina tem potente efeito vasoconstrictor por ativação alfa-adrenérgica, ajudando a fechar o vaso e sustentar pressão/perfusão.
+
+10.5.4. Quando pensar em albumina?
+Outro cenário é o paciente que recebe cristaloide, mas o volume não fica no intravascular. Ele continua extravasando.
+A pista é:
+hematócrito segue subindo progressivamente;
+apesar das etapas de cristaloide.
+Isso sugere que o paciente continua hemoconcentrando e perdendo plasma para o terceiro espaço.
+Nesse caso, a aula menciona a possibilidade de usar albumina, uma solução coloide, que tende a ficar mais presa dentro do vaso do que o cristaloide.
+
+10.5.5. Sangramento é preocupação, mas não é a primeira
+O professor fecha o fluxograma da dengue com uma mensagem muito importante:
+sangramento entra na jogada, mas é uma das últimas preocupações no raciocínio de manejo.
+Primeiro você precisa:
+corrigir o extravasamento plasmático;
+estabilizar hemodinâmica;
+avaliar resposta ao volume;
+avaliar se precisa de noradrenalina ou albumina;
+depois pensar em coagulopatia, plaquetas e sangramento.
+A frase prática é:
+Plaqueta e sangramento importam, mas a maior preocupação inicial é hemodinâmica/extravasamento plasmático.
+Quando pensar mais seriamente em sangramento?
+paciente já recebeu suporte;
+continua clinicamente mal;
+hematócrito está caindo.
+A aula diferencia:
+paciente bem + hematócrito caindo → pode significar resolução da hemoconcentração;
+paciente mal + hematócrito caindo → pensar em sangramento, porque pode estar perdendo hemácias.
+
+Fluxograma textual — paciente com suspeita de dengue → classificar → manejar
+Passo 1 — Suspeitou de dengue
+Paciente com febre aguda, mialgia, cefaleia, dor retro-orbital, rash/prurido, leucopenia, plaquetopenia ou contexto epidemiológico.
+Primeira pergunta:
+Tem sinal de alarme?
+Sinais de alarme:
+dor abdominal intensa e contínua;
+vômitos persistentes;
+acúmulo de líquidos;
+sangramento de mucosa;
+letargia/irritabilidade;
+hipotensão postural/lipotimia;
+hepatomegalia > 2 cm;
+hematócrito subindo.
+Se sim → grupo C.
+Se não, próxima pergunta:
+Tem dengue grave?
+Dengue grave:
+choque;
+extremidades frias;
+TEC aumentado;
+hipotensão franca;
+PA convergente;
+pulso fino;
+disfunção orgânica grave;
+sangramento grave.
+Se sim → grupo D.
+Se não, próxima pergunta:
+Tem condição especial, comorbidade, risco social, sangramento de pele ou prova do laço positiva?
+Se sim → grupo B.
+Se não → grupo A.
+
+Passo 2 — Manejo por grupo
+Grupo
+Conduta prática
+A
+Casa + hidratação oral 60 ml/kg/dia + orientação clara de retorno
+B
+Hemograma; observação enquanto aguarda; hidratação como grupo A; se Ht normal, casa com reavaliação diária; se Ht alto, grupo C
+C
+Internação; cristaloide 20 ml/kg em 2 horas; reavaliar clínica/Ht/hemodinâmica; repetir até 3 vezes
+D
+UTI; cristaloide 20 ml/kg em 20 minutos; reavaliar; repetir até 3 vezes; cuidado com sobrecarga, noradrenalina/albumina conforme resposta
+
+11. Medicamentos permitidos e proibidos
+O tratamento sintomático da dengue usa analgésicos e antitérmicos seguros.
+A aula cita:
+dipirona;
+paracetamol.
+E contraindica:
+anti-inflamatórios não esteroidais;
+ácido acetilsalicílico, o AAS/aspirina.
+O motivo é a ação antiplaquetária dessas drogas. A dengue pode causar plaquetopenia. Se você dá uma droga que atrapalha a função das plaquetas restantes, aumenta o risco de sangramento.
+
+Tabela — medicamentos permitidos × contraindicados
+Categoria
+Exemplos
+Pode usar?
+Por quê?
+Antitérmico/analgésico
+Dipirona
+Sim
+Controle sintomático de febre e dor
+Antitérmico/analgésico
+Paracetamol
+Sim
+Controle sintomático de febre e dor
+AINE
+Ibuprofeno, diclofenaco, naproxeno etc.
+Evitar
+Risco de sangramento/efeito antiplaquetário e complicações
+Salicilato
+AAS/aspirina
+Evitar, salvo situação crônica específica
+Ação antiplaquetária em paciente que pode estar plaquetopênico
+AAS crônico
+Coronariopata/trivascular em uso habitual
+Depende das plaquetas
+Decisão por risco-benefício
+
+11.1. A exceção difícil: paciente em uso crônico de AAS
+Esse é um trecho mais avançado da aula. O professor comenta que não costuma aparecer tanto em prova de acesso direto, mas pode aparecer em provas mais maldosas ou de R+.
+Situação:
+paciente com dengue;
+coronariopata/trivascular;
+usa AAS cronicamente.
+O dilema:
+se suspender AAS, pode aumentar risco cardiovascular;
+se mantiver AAS, pode aumentar risco de sangramento.
+A aula apresenta a lógica do Ministério da Saúde baseada na contagem de plaquetas.
+
+Tabela — AAS crônico na dengue conforme plaquetas
+Plaquetas
+Conduta com AAS
+Local/seguimento
+Lógica
+> 50.000/mm³
+Manter AAS
+Pode ir para casa se clinicamente adequado, mas com contagem diária de plaquetas/protocolo B
+Risco de sangramento não justifica suspender e expor a evento cardiovascular
+30.000–50.000/mm³
+Pode manter AAS
+Leito de observação + contagem diária de plaquetas
+Risco intermediário; não é para casa
+< 30.000/mm³
+Suspender AAS
+Leito de observação + contagem diária de plaquetas
+Risco de sangramento passa a preocupar muito
+O professor chama atenção para a iatrogenia de suspender AAS automaticamente com plaquetas 60–70 mil, por exemplo. Isso pode expor o paciente a infarto sem que o risco de sangramento seja tão alto naquele momento. É uma decisão de risco-benefício, não de reflexo automático.
+
+11.2. O que mais cai em prova?
+Segundo a aula, o detalhe do AAS crônico é menos comum em acesso direto.
+O que mais aparece é:
+grupo A/B/C/D;
+hidratação por grupo;
+sinal de alarme;
+grupo C versus grupo B;
+plaquetopenia isolada versus hematócrito subindo;
+prova do laço positiva como grupo B;
+medicamentos proibidos em geral: AINE e AAS.
+Então, para prova, a prioridade é:
+saber que dipirona/paracetamol podem ser usados;
+evitar AINE/AAS;
+não suspender AAS crônico automaticamente sem raciocínio, se a questão trouxer esse detalhe;
+classificar o paciente corretamente antes de qualquer coisa.
+
+12. Dengue versus chikungunya versus zika — início dos diferenciais
+Depois de fechar a parte de dengue, a aula passa para uma visão comparativa com chikungunya e zika, também transmitidas pelo Aedes aegypti.
+A ideia é reconhecer a “assinatura” de cada uma.
+
+12.1. Chikungunya
+A chikungunya não é causada por Flavivírus. A aula destaca:
+chikungunya = Togavírus;
+vetor: Aedes aegypti;
+assinatura clínica: poliartrite/artralgia intensa.
+O professor explica o significado do nome chikungunya como algo relacionado a “aquele que se contorce”. A pessoa se contorce de dor articular.
+Essa é a imagem mental:
+Dengue derruba pela mialgia e dor retro-orbital. Chikungunya contorce pela poliartrite.
+A febre pode ser alta, acima de 38 °C, e pode parecer dengue. Mas a poliartrite é o grande marco.
+
+12.1.1. Febre prolongada na chikungunya
+A aula menciona que a febre da chikungunya não costuma ser muito persistente e arrastada.
+Se houver febre por mais de 5 dias, isso chama atenção e pode ser critério de preocupação/internação no paciente com chikungunya.
+
+12.1.2. Exantema na chikungunya
+O exantema pode acontecer, mas é menos comum do que em zika.
+Quando aparece, tende a ser mais tardio:
+entre o 2º e o 5º dia.
+A aula compara com dengue:
+dengue: rash entre 3º e 6º dia;
+chikungunya: exantema entre 2º e 5º dia.
+O professor chama isso de detalhe conceitual de manual, mas pode aparecer em prova.
+
+12.1.3. Hemograma e complicações da chikungunya
+Na dengue, o esperado é leucopenia com linfocitose relativa.
+Na chikungunya, pode haver linfopenia, inclusive como marcador de gravidade.
+Em relação a complicações neurológicas, a aula cita que chikungunya pode cursar raramente com lesão central, como meningoencefalite. Não é comum, mas, se aparecer em questão de arbovirose, ajuda a pensar em chikungunya.
+
+12.1.4. Fases da chikungunya
+A aula organiza a chikungunya em fases:
+fase aguda;
+fase subaguda;
+fase crônica.
+Na fase aguda, pode ser difícil diferenciar dengue de chikungunya se o quadro ainda está muito recente.
+Depois de algumas semanas, se o paciente evolui com quadro articular persistente, a chikungunya ganha força.
+Na fase subaguda, o professor menciona que já não há vírus “na jogada” da mesma forma, então pode-se considerar anti-inflamatório como prova terapêutica.
+Na fase crônica, a doença pode se comportar quase como doença reumatológica, com componente autoimune e diagnóstico diferencial com artrite reumatoide ou outras artropatias. A aula cita hidroxicloroquina e, como segunda linha, metotrexato na doença articular crônica por chikungunya.
+
+12.2. Zika — assinatura dermatológica
+A zika volta para o grupo dos Flavivírus.
+A assinatura clínica é a pele:
+exantema muito marcado;
+prurido importante;
+conjuntivite não purulenta;
+febre baixa ou ausente.
+A aula usa a brincadeira da pele “zicada”: pele coçando, cheia de lesões, com exantema evidente.
+O exantema da zika é precoce, podendo aparecer logo no primeiro dia de doença. Isso ajuda a diferenciar da dengue, em que o rash tende a aparecer mais tarde, entre o 3º e o 6º dia.
+
+12.2.1. Conjuntivite não purulenta
+Esse é um marcador importante de zika.
+A conjuntivite é tipicamente:
+não purulenta;
+associada ao exantema;
+dentro de um quadro de febre baixa ou até ausente.
+Na prova, se aparecer arbovirose com:
+rash precoce;
+prurido;
+conjuntivite não purulenta;
+a resposta tende a ser zika.
+
+12.2.2. Gestação, microcefalia e epidemia de 2016
+A aula menciona a grande epidemia de zika de 2016, corrigindo a transcrição que inicialmente parecia dizer 2026. Nesse contexto, observou-se associação com alterações congênitas, especialmente microcefalia.
+Então, zika tem uma importância especial em gestantes e no risco fetal.
+Esse é um diferencial que a banca gosta:
+dengue: risco de gravidade por extravasamento plasmático;
+chikungunya: poliartrite intensa e doença articular crônica;
+zika: exantema precoce/prurido/conjuntivite e preocupação gestacional com microcefalia.
+
+Tabela comparativa inicial — Dengue × Chikungunya × Zika
+Característica
+Dengue
+Chikungunya
+Zika
+Família viral
+Flavivírus
+Togavírus
+Flavivírus
+Vetor destacado
+Aedes aegypti
+Aedes aegypti
+Aedes aegypti
+Assinatura clínica
+Febre abrupta, mialgia intensa, dor retro-orbital
+Artralgia/poliartrite intensa, “aquele que se contorce”
+Exantema precoce, prurido, conjuntivite não purulenta
+Dor articular
+Pode ocorrer, mas costuma ser leve
+Muito intensa, marca da doença
+Pode ocorrer, mas não é a assinatura
+Exantema
+Mais tardio, 3º–6º dia
+Pode ocorrer, 2º–5º dia
+Precoce, frequentemente no 1º dia
+Febre
+Alta, início súbito
+Pode ser alta
+Baixa ou ausente
+Hemograma
+Leucopenia + linfocitose relativa
+Pode ter linfopenia
+Pode ter linfopenia
+Complicação lembrada
+Extravasamento plasmático, choque, sangramento grave, disfunção orgânica
+Doença articular crônica; raramente meningoencefalite
+Guillain-Barré; gestação/microcefalia
+Grande pegadinha
+Defervescência pode ser fase crítica; plaqueta isolada não é sinal de alarme
+Não confundir artralgia intensa com dengue
+Rash precoce + conjuntivite não purulenta não é dengue típica
+
+Quadro de pegadinhas da Parte 3
+Pegadinha
+Correção
+“Grupo A é só mandar beber água.”
+Não. Precisa prescrever volume: 60 ml/kg/dia, com 1/3 SRO e 2/3 líquidos diversos.
+“Explicar hidratação em termos técnicos basta.”
+Não. O paciente precisa entender e conseguir executar.
+“Toda criança usa 60 ml/kg/dia.”
+Não. Menores de 13 anos têm regra por peso: 130, 100 ou 80 ml/kg/dia.
+“Grupo B é quase grupo A, então não precisa hemograma.”
+Grupo B precisa de hemograma.
+“Grupo B com Ht normal vira grupo A definitivamente.”
+Não. Uma vez grupo B, sempre grupo B: precisa reavaliação diária clínica e laboratorial.
+“Grupo C é observação.”
+Conceitualmente, grupo C é internação. Observação é grupo B.
+“Grupo C: 20 ml/kg em 2 horas uma vez e acabou.”
+Reavalia e pode repetir até 3 vezes se não houver melhora.
+“10 ml/kg em 1 h + 10 ml/kg em 1 h é diferente de 20 ml/kg em 2 h.”
+É equivalente; a banca pode escrever assim.
+“Grupo D é só fazer volume agressivo sempre.”
+Cuidado: se veio do grupo C, já pode ter recebido muito volume. Avaliar fluido-responsividade e tolerância.
+“Sangramento é sempre a primeira preocupação.”
+Na aula, primeiro estabilizar extravasamento/hemodinâmica; sangramento entra depois, especialmente se paciente mal + Ht caindo.
+“AAS crônico deve ser suspenso em qualquer plaquetopenia.”
+Não. Depende da contagem de plaquetas e risco-benefício.
+“Dengue, zika e chikungunya diferem pouco.”
+Cada uma tem assinatura: dengue = mialgia/dor retro-orbital/extravasamento; chikungunya = poliartrite; zika = pele/prurido/conjuntivite.
+
+Síntese da Parte 3
+A parte operacional da aula pode ser reduzida mentalmente assim:
+Grupo A: casa, mas com hidratação oral prescrita de verdade.
+Grupo B: algo preocupa; faz hemograma; observa enquanto aguarda; se Ht normal, casa com reavaliação diária; se Ht alto, grupo C.
+Grupo C: sinal de alarme; interna; cristaloide 20 ml/kg em 2 h, reavalia, repete até 3 vezes.
+Grupo D: dengue grave; UTI; cristaloide 20 ml/kg em 20 min, reavalia, repete até 3 vezes, mas com cuidado extremo se já recebeu volume.
+Noradrenalina entra se refratário/congesto e não cabe mais volume.
+Albumina entra como possibilidade se o paciente segue hemoconcentrando apesar de cristaloide.
+Sangramento importa, mas depois de pensar no eixo hemodinâmico/extravasamento.
+Dipirona/paracetamol podem; AINE/AAS devem ser evitados, com exceção raciocinada para AAS crônico.
+Diferenciais: chikungunya = poliartrite intensa; zika = pele/prurido/conjuntivite não purulenta.
+CONTINUA NA PARTE 4 — fechamento dos diferenciais dengue × chikungunya × zika, pegadinhas finais, algoritmo mental de prova, mini mapa mental, revisão ativa, checklist de domínio e mapa de fidelidade à transcrição.
+ROTEIRO DIDÁTICO COMPLETO — DENGUE: TRIAGEM E MANEJO
+PARTE 4 — diferenciais finais, pegadinhas, algoritmo mental e fechamento
+Continuando da Parte 3: já fechamos dengue, classificação A/B/C/D, hidratação, medicamentos e começamos os diferenciais. Agora vamos consolidar dengue × chikungunya × zika e fechar o roteiro com a camada de prova, revisão ativa e checklist.
+
+12. Dengue versus Chikungunya versus Zika
+A aula coloca chikungunya e zika como diferenciais porque elas também entram no grupo das arboviroses transmitidas pelo Aedes aegypti. O ponto não é decorar uma tabela solta; é reconhecer a “assinatura clínica” de cada uma.
+A dengue é a grande doença da triagem e do manejo por risco. A chikungunya é a doença da poliartrite intensa. A zika é a doença da pele muito marcada, prurido e conjuntivite não purulenta.
+
+12.1. Chikungunya: a arbovirose da articulação
+A chikungunya é causada por um Togavírus, e não por um Flavivírus. Esse é um detalhe conceitual de prova. A aula enfatiza que o marcador clínico mais importante é a poliartrite/artralgia intensa: o paciente pode até parecer ter dengue no começo, com febre e mal-estar, mas a dor articular é o que chama atenção.
+O nome chikungunya é lembrado na aula como “aquele que se contorce”. A imagem é excelente para prova: o paciente se contorce por dor articular. Se a questão fala de arbovirose com febre e dor articular muito intensa, incapacitante, com poliartrite importante, a resposta começa a pender para chikungunya, não para dengue.
+Na dengue, a artralgia pode acontecer, mas costuma ser leve. Na chikungunya, a articulação é o centro da história. Esse é o divisor prático.
+
+12.2. Febre e exantema na chikungunya
+A chikungunya pode cursar com febre alta, acima de 38 °C, e por isso pode se parecer muito com dengue no início. Mas a aula ressalta que a febre não costuma ser muito persistente e arrastada; febre por mais de 5 dias chama atenção e pode indicar preocupação/internação em chikungunya.
+O exantema pode ocorrer, mas é menos comum do que na zika. Quando aparece, tende a ser mais tardio, entre o 2º e o 5º dia. A aula compara com dengue, em que o rash costuma aparecer entre o 3º e o 6º dia. Isso não é o principal da prática, mas é o tipo de detalhe que manual e prova gostam de transformar em alternativa.
+
+12.3. Hemograma e gravidade na chikungunya
+Na dengue, o padrão esperado é leucopenia com linfocitose relativa. Na chikungunya, a aula destaca que pode haver linfopenia, inclusive em quadros graves. Isso pode ajudar no diagnóstico diferencial em questão de prova.
+A aula também comenta que chikungunya e zika, em geral, não evoluem com a mesma frequência de gravidade hemodinâmica que a dengue. Mas complicações podem acontecer, e a prova pode explorar esses marcos.
+
+12.4. Complicação neurológica da chikungunya
+Quando a aula fala de complicação neurológica em chikungunya, o marco é mais central: meningoencefalite. O professor deixa claro que não é comum, mas, se aparecer como complicação neurológica em contexto de arbovirose, ajuda a pensar em chikungunya.
+A pegadinha é comparar com zika, em que a complicação neurológica lembrada é periférica: síndrome de Guillain-Barré.
+
+12.5. Fases da chikungunya
+A chikungunya pode ser pensada em fases:
+Fase
+Ideia clínica
+O que muda
+Aguda
+Febre, dor articular, quadro inicial que pode confundir com dengue
+Ainda pode ser difícil diferenciar no começo
+Subaguda
+Persistência de sintomas articulares após algumas semanas
+Começa a ficar mais sugestivo de chikungunya
+Crônica
+Doença articular crônica, com comportamento quase reumatológico
+Entra diferencial com artrite reumatoide e outras artropatias
+Na fase subaguda, a aula menciona que já não há “vírus na jogada” da mesma forma, então pode-se considerar uma prova terapêutica com anti-inflamatório. Na fase crônica, a doença passa a se comportar quase como uma condição reumatológica, com componente autoimune, e podem entrar drogas antirreumáticas, como hidroxicloroquina e, como segunda linha, metotrexato.
+Isso deve ser guardado como detalhe de prova e de raciocínio, não como convite para tratar qualquer dor articular aguda com anti-inflamatório. No começo do quadro febril, especialmente se dengue ainda está no diferencial, AINE continua sendo perigoso.
+
+12.6. Zika: a arbovirose da pele
+A zika é causada por um Flavivírus, assim como a dengue. Mas a assinatura clínica é diferente.
+Na zika, o grande marco é a pele:
+exantema bem marcante;
+prurido importante;
+pele “zicada”;
+conjuntivite não purulenta;
+febre baixa ou ausente.
+A aula reforça que o exantema da zika costuma ser precoce, aparecendo logo no primeiro dia de doença. Isso contrasta com a dengue, em que o rash costuma ser mais tardio, entre o 3º e o 6º dia.
+Então, em prova:
+rash precoce + prurido importante + conjuntivite não purulenta = zika;
+febre abrupta alta + mialgia intensa + dor retro-orbital = dengue;
+febre + poliartrite intensa = chikungunya.
+
+12.7. Conjuntivite não purulenta
+A conjuntivite da zika é tipicamente não purulenta. Esse detalhe é muito útil porque conjuntivite purulenta faria pensar em outro grupo de doenças, enquanto a conjuntivite não purulenta, associada a exantema e prurido, encaixa melhor em zika.
+O paciente pode ter febre, mas, quando aparece, costuma ser baixa. Às vezes a febre está ausente. Isso também diferencia da dengue, que costuma abrir com febre alta e abrupta.
+
+12.8. Guillain-Barré na zika
+Em termos de complicação neurológica, a zika se associa mais a um quadro periférico: síndrome de Guillain-Barré.
+A aula lembra que Guillain-Barré cursa com fraqueza muscular periférica, frequentemente ascendente. Não é uma complicação comum em todo paciente com zika, mas, se a questão coloca arbovirose + complicação neurológica periférica/ascendente, zika ganha força.
+Compare:
+chikungunya: meningoencefalite, lesão mais central;
+zika: Guillain-Barré, fraqueza periférica ascendente.
+
+12.9. Gestação, microcefalia e epidemia de 2016
+A aula também destaca a importância da zika na gestação. Durante a epidemia de 2016, especialmente no contexto brasileiro, houve associação entre zika e alterações congênitas, com destaque para microcefalia. A própria transcrição registra a correção verbal do professor: ele fala “2026” e corrige para “2016”.
+Para prova, essa é uma das principais associações:
+gestante + exantema/prurido/conjuntivite não purulenta = pensar em zika;
+risco fetal/congênito = microcefalia.
+
+12.10. Diagnóstico laboratorial dos diferenciais
+A aula aplica aos diferenciais a mesma lógica temporal usada para dengue:
+fase inicial: procurar vírus/material genético/antígeno;
+fase tardia: procurar anticorpo.
+Para chikungunya e zika, o professor cita isolamento viral em centro de referência ou PCR para amplificar o material genético viral, especialmente até o 5º dia, período de maior viremia. Depois, a sorologia ganha espaço, com IgM a partir do 6º dia. Na chikungunya crônica/articular, IgG pode ajudar como marcador de contato prévio no raciocínio diferencial com artropatias.
+
+Tabela — Dengue × Chikungunya × Zika
+Critério
+Dengue
+Chikungunya
+Zika
+Família viral
+Flavivírus
+Togavírus
+Flavivírus
+Vetor destacado
+Aedes aegypti
+Aedes aegypti
+Aedes aegypti
+Assinatura clínica
+Febre abrupta, mialgia intensa, dor retro-orbital
+Poliartrite/artralgia intensa
+Exantema precoce, prurido, conjuntivite não purulenta
+Febre
+Alta, início súbito
+Pode ser alta, mas febre > 5 dias preocupa
+Baixa ou ausente
+Dor articular
+Pode ocorrer, geralmente leve
+Muito intensa, marca da doença
+Pode ocorrer, mas não é a assinatura
+Dor muscular
+Muito importante
+Pode ocorrer
+Pode ocorrer, menos central
+Dor retro-orbital
+Muito sugestiva
+Não é a assinatura
+Não é a assinatura
+Exantema
+Mais tardio, 3º–6º dia
+Pode ocorrer, 2º–5º dia, menos comum
+Muito comum, precoce, 1º dia
+Prurido
+Pode ocorrer
+Pode ocorrer
+Muito marcante
+Conjuntivite
+Não é típica como assinatura
+Não é assinatura
+Não purulenta, muito sugestiva
+Hemograma
+Leucopenia + linfocitose relativa
+Pode ter linfopenia
+Linfopenia não é o grande ponto destacado
+Complicação principal
+Extravasamento plasmático, choque, disfunção orgânica, sangramento grave
+Doença articular crônica
+Alterações congênitas/microcefalia
+Complicação neurológica lembrada
+Pode ter encefalite na dengue grave
+Meningoencefalite, rara
+Guillain-Barré
+Fase crônica relevante
+Não é o foco
+Doença articular crônica
+Não é o foco da aula
+Tratamento citado
+Suporte, hidratação e classificação A/B/C/D
+Na fase subaguda pode entrar AINE; crônica com hidroxicloroquina/metotrexato em contexto específico
+Suporte; atenção especial à gestação
+Pegadinha
+Plaqueta isolada não é alarme; Ht subindo importa mais
+Artralgia intensa não é “dengue com dor articular forte”
+Rash precoce + conjuntivite não purulenta não é dengue típica
+
+13. Pegadinhas de prova
+13.1. Diagnóstico de dengue não é o objetivo final
+A questão pode dar um caso com febre, mialgia, dor retro-orbital, leucopenia e plaquetopenia. O aluno acerta “dengue” rapidamente e relaxa. Só que a banca quer a conduta.
+O erro é parar no diagnóstico.
+O raciocínio correto é:
+Suspeitei de dengue.
+Tem sinal de alarme?
+Tem gravidade?
+Tem condição especial ou risco social?
+Qual grupo?
+Qual hidratação?
+Pode ir para casa ou precisa internar?
+O caso inicial da aula fecha exatamente com isso: o paciente tinha dengue, mas não tinha indicação de tratamento domiciliar porque era grupo C por dor abdominal intensa e contínua. Ele deveria ficar internado para hidratação venosa.
+
+13.2. Dor abdominal intensa e contínua é sinal de alarme
+Não trate como “sintoma gastrointestinal inespecífico”.
+Na dengue, dor abdominal intensa e contínua sugere hipoperfusão visceral/disfunção orgânica inicial. É grupo C.
+A banca pode tentar suavizar com “paciente jovem, bom estado geral”. Não caia: bom estado geral não apaga sinal de alarme.
+
+13.3. Plaquetopenia isolada não é sinal de alarme
+Plaqueta baixa assusta, mas não é o dado isolado que define grupo C.
+A lógica correta:
+plaquetopenia isolada → atenção, mas não é sinal de alarme isolado;
+sangramento de mucosa → sinal de alarme;
+hematócrito subindo → sinal de extravasamento/hemoconcentração, muda conduta.
+
+13.4. Hematócrito subindo é mais importante que a plaqueta baixa
+Se o plasma sai do vaso, as hemácias ficam concentradas. O hematócrito sobe. Isso traduz o fenômeno central da dengue grave: extravasamento plasmático.
+Então, se a questão der um paciente com hematócrito progressivamente elevado, pense em alarme e grupo C.
+
+13.5. Defervescência não é alta definitiva
+A febre pode melhorar no 3º–4º dia, mas é justamente nesse período que o paciente pode entrar na fase crítica.
+Pegadinha clássica:
+“Paciente melhorou da febre, então está curando.”
+Não necessariamente. É o momento de reforçar sinais de alarme e retorno.
+
+13.6. Prova do laço positiva não confirma dengue
+Ela sugere fragilidade capilar e ajuda na estratificação, mas não confirma dengue.
+Também não exclui dengue se vier negativa.
+E o mais importante:
+Prova do laço positiva = grupo B, não grupo C.
+
+13.7. Sangramento de pele é diferente de sangramento de mucosa
+Essa é uma das confusões mais comuns:
+Achado
+Grupo
+Petéquias
+B
+Prova do laço positiva
+B
+Sangramento cutâneo espontâneo
+B
+Epistaxe/gengivorragia/sangramento mucoso
+C
+Hematêmese/melena/hematoquezia/metrorragia volumosa
+D
+
+13.8. Grupo B precisa de hemograma
+Grupo B não é “quase A” no sentido de ignorar exame.
+Ele precisa de hemograma. O hematócrito define se segue como grupo B ambulatorial com reavaliação ou se reclassifica para grupo C.
+
+13.9. Uma vez grupo B, sempre grupo B
+Se o grupo B tem hematócrito normal, pode ir para casa com hidratação como grupo A. Mas ele não vira grupo A puro.
+Ele precisa de:
+reavaliação diária;
+avaliação clínica;
+avaliação laboratorial;
+seguimento de plaquetas e hematócrito.
+
+13.10. Grupo C é internação, não simples observação
+A aula comenta que algumas bancas podem escrever “leito de observação” para grupo C, mesmo quando o conceito correto é leito de internação. O professor orienta a escolher a melhor resposta disponível, sem “brigar” com questão mal escrita durante a prova. Mas, conceitualmente, grupo B observa; grupo C interna.
+
+13.11. NS1 não é sorotipo 1
+NS1 é antígeno viral. Não significa que o paciente tem dengue sorotipo 1.
+Ele pode detectar os principais sorotipos.
+
+13.12. IgM cedo demais pode vir negativo
+Se o paciente está no 2º ou 3º dia de doença, o melhor exame é NS1, não IgM. IgM aparece mais tardiamente, a partir do 6º dia.
+
+13.13. AINE e AAS são proibidos no quadro agudo suspeito de dengue
+Não use anti-inflamatório não esteroidal nem AAS de rotina, porque há risco de piorar sangramento pela ação antiplaquetária.
+A exceção discutida foi o AAS crônico, em que a decisão depende da plaqueta e do risco-benefício.
+
+13.14. AAS crônico não deve ser suspenso automaticamente
+Plaquetas acima de 50.000: tende a manter AAS com controle diário. Plaquetas entre 30.000 e 50.000: pode manter, mas em observação. Plaquetas abaixo de 30.000: suspende e observa.
+A pegadinha é suspender automaticamente AAS em coronariopata com plaquetas 60–70 mil, o que pode ser iatrogênico.
+
+13.15. Chikungunya não é “dengue com mais dor”
+A assinatura é articular:
+poliartrite;
+artralgia intensa;
+paciente se contorce;
+possibilidade de doença articular crônica.
+Se a questão insiste em articulação, pense em chikungunya.
+
+13.16. Zika não é “dengue leve”
+A assinatura é pele/conjuntiva:
+exantema precoce;
+prurido importante;
+conjuntivite não purulenta;
+febre baixa ou ausente.
+Se a questão traz gestante, microcefalia ou Guillain-Barré, zika sobe muito no diferencial.
+
+14. O que foi dito de passagem, mas vale guardar
+14.1. Grafia de Aedes aegypti
+O professor chamou atenção para a grafia correta do vetor, especialmente em prova discursiva. Errar nome de vetor/agente/reservatório pode tirar ponto.
+
+14.2. Sorotipo 5
+Foi citado, mas com baixa relevância para o Brasil. Para prova e prática brasileira, o foco é dengue 1, 2, 3 e 4.
+
+14.3. “Dengue oito vezes” não fecha
+Como há quatro sorotipos principais relevantes, o paciente pode ter dengue até quatro vezes. Se relata “dengue oito vezes”, provavelmente houve outras síndromes febris confundidas.
+
+14.4. Febre do Oropouche
+Foi mencionada como arbovirose que já apareceu e pode ter interesse epidemiológico, mas não foi foco da aula.
+
+14.5. Diagnóstico em viajante
+O exemplo do canadense mostra a importância do contexto epidemiológico. Paciente que voltou de área endêmica e abre febre dentro da janela de incubação deve levantar suspeita de arbovirose, mesmo se estiver em país onde dengue é rara.
+
+14.6. Medicina defensiva
+A aula comenta que, em muitos serviços privados, exames como NS1 são solicitados mesmo quando a confirmação não seria obrigatória pelo protocolo, porque o paciente espera o exame e pode procurar outro serviço. Isso não muda a regra conceitual: em epidemia, casos leves podem ser diagnóstico clínico-epidemiológico; em período não epidêmico, confirmar é mais importante.
+
+14.7. Febre hemorrágica da dengue
+O termo foi citado como algo mais antigo/desatualizado, embora ainda possa aparecer em questões. O conceito moderno da aula é focar menos no “hemorrágico” e mais no extravasamento plasmático.
+
+14.8. Melhor resposta na prova
+Se a banca usar termo imperfeito, como “observação” para grupo C, a orientação do professor é pragmática: marque a melhor resposta disponível. Depois se discute recurso; na prova, primeiro sobreviva à questão.
+
+15. Como pensar em questão de residência
+Algoritmo mental passo a passo
+Passo 1 — Identifique a síndrome
+Paciente tem febre? Há sinal localizatório claro?
+Tosse produtiva/infiltrado → pneumonia.
+Disúria/dor lombar → ITU/pielonefrite.
+Rigidez de nuca/alteração neurológica → meningite/meningoencefalite.
+Sem foco claro → síndrome febril sem sinal localizatório.
+Se febre é “solta”, pense em grandes grupos, incluindo arboviroses.
+
+Passo 2 — Procure assinatura de arbovirose
+Dengue provável se:
+febre abrupta;
+mialgia intensa;
+cefaleia;
+dor retro-orbital;
+leucopenia;
+plaquetopenia;
+rash mais tardio;
+contexto epidemiológico.
+Chikungunya provável se:
+poliartrite/artralgia intensa;
+paciente “se contorce”;
+febre pode existir;
+dor articular domina o quadro.
+Zika provável se:
+exantema precoce;
+prurido importante;
+conjuntivite não purulenta;
+febre baixa ou ausente;
+gestante/microcefalia/Guillain-Barré no enunciado.
+
+Passo 3 — Se suspeitou de dengue, não pare no diagnóstico
+Pergunte imediatamente:
+Tem sinal de alarme?
+Lista de alarme:
+dor abdominal intensa e contínua;
+vômitos persistentes;
+acúmulo de líquidos;
+sangramento de mucosa;
+letargia/irritabilidade;
+hipotensão postural/lipotimia;
+hepatomegalia > 2 cm;
+hematócrito progressivamente elevado.
+Se sim: grupo C.
+
+Passo 4 — Procure dengue grave
+Tem choque?
+taquicardia;
+extremidades frias;
+TEC aumentado;
+hipotensão franca;
+PA convergente;
+pulso fino.
+Tem disfunção orgânica grave?
+hepatite;
+encefalite;
+miocardite;
+falência orgânica.
+Tem sangramento grave?
+hematêmese;
+melena;
+hematoquezia;
+sangramento SNC;
+metrorragia volumosa.
+Se sim: grupo D.
+
+Passo 5 — Se não é C nem D, veja se é B
+É grupo B se tiver:
+condição especial;
+gestante;
+menor de 2 anos;
+maior de 65 anos;
+comorbidade;
+risco social;
+sangramento de pele;
+petéquias;
+prova do laço positiva.
+Se sim: hemograma.
+
+Passo 6 — Interprete o hemograma do grupo B
+Hematócrito normal → pode ir para casa com hidratação como grupo A, mas segue protocolo B com reavaliação diária.
+Hematócrito alto → hemoconcentração → sinal de alarme → grupo C.
+Não se distraia só com plaqueta.
+
+Passo 7 — Escolha hidratação
+Grupo A: oral, 60 ml/kg/dia.
+Grupo B: hidratação como A enquanto aguarda hemograma; depois conduta conforme hematócrito.
+Grupo C: cristaloide 20 ml/kg em 2 horas; reavaliar; repetir até 3 vezes.
+Grupo D: cristaloide 20 ml/kg em 20 minutos; reavaliar; repetir até 3 vezes; avaliar fluido-responsividade/tolerância.
+
+Passo 8 — Escolha medicamento seguro
+Pode:
+dipirona;
+paracetamol.
+Evitar:
+AINE;
+AAS, salvo raciocínio específico de uso crônico.
+
+Passo 9 — Se a questão for de exame diagnóstico, olhe o dia da doença
+Até 3º dia: NS1 é melhor.
+Até 5º dia: ainda pode usar NS1/virologia.
+A partir do 6º dia: IgM.
+IgG: contato prévio/cicatriz sorológica, útil em contextos tardios ou crônicos.
+
+16. Mini mapa mental textual
+SÍNDROME FEBRIL AGUDA SEM FOCO
+│
+├── Sem sinal localizatório
+│   ├── Não parece pneumonia
+│   ├── Não parece ITU
+│   ├── Não parece meningite
+│   └── Juntar dados clínicos + epidemiologia
+│
+└── Arboviroses
+    │
+    ├── Dengue
+    │   ├── Flavivírus RNA
+    │   ├── Aedes aegypti
+    │   ├── Sorotipos 1, 2, 3, 4
+    │   ├── Infecção sequencial → imunofacilitação
+    │   ├── Fenômeno central: extravasamento plasmático
+    │   │
+    │   ├── Quadro clínico
+    │   │   ├── Febre súbita até 7 dias
+    │   │   ├── Mialgia intensa
+    │   │   ├── Dor retro-orbital
+    │   │   ├── Rash 3º–6º dia
+    │   │   ├── Leucopenia + linfocitose relativa
+    │   │   └── Plaquetopenia
+    │   │
+    │   ├── Defervescência
+    │   │   ├── 3º–4º dia
+    │   │   └── Pode coincidir com fase crítica
+    │   │
+    │   ├── Sinais de alarme = Grupo C
+    │   │   ├── Dor abdominal intensa e contínua
+    │   │   ├── Vômitos persistentes
+    │   │   ├── Acúmulo de líquidos
+    │   │   ├── Sangramento de mucosa
+    │   │   ├── Letargia/irritabilidade
+    │   │   ├── Hipotensão postural/lipotimia
+    │   │   ├── Hepatomegalia > 2 cm
+    │   │   └── Hematócrito progressivamente elevado
+    │   │
+    │   ├── Dengue grave = Grupo D
+    │   │   ├── Choque
+    │   │   ├── Disfunção orgânica grave
+    │   │   └── Sangramento grave
+    │   │
+    │   ├── Diagnóstico
+    │   │   ├── NS1 até 3º dia melhor; possível até 5º
+    │   │   ├── IgM a partir do 6º dia
+    │   │   └── IgG = cicatriz sorológica
+    │   │
+    │   └── Manejo
+    │       ├── A: casa + hidratação oral
+    │       ├── B: hemograma + reavaliação diária
+    │       ├── C: internação + 20 ml/kg em 2h
+    │       └── D: UTI + 20 ml/kg em 20 min
+    │
+    ├── Chikungunya
+    │   ├── Togavírus
+    │   ├── Aedes aegypti
+    │   ├── Poliartrite intensa
+    │   ├── “Aquele que se contorce”
+    │   ├── Linfopenia possível
+    │   ├── Meningoencefalite rara
+    │   └── Doença articular crônica
+    │
+    └── Zika
+        ├── Flavivírus
+        ├── Aedes aegypti
+        ├── Exantema precoce
+        ├── Prurido importante
+        ├── Conjuntivite não purulenta
+        ├── Febre baixa ou ausente
+        ├── Guillain-Barré
+        └── Gestação/microcefalia
+
+17. Revisão ativa
+1. Paciente jovem com febre há 24 h, mialgia intensa, dor retro-orbital, plaquetas 102.000 e dor abdominal intensa contínua. Qual o erro de mandar para casa?
+Porque dor abdominal intensa e contínua é sinal de alarme. Logo, o paciente é grupo C e deve internar para hidratação venosa.
+
+2. Plaquetas de 90.000 isoladamente classificam dengue como grupo C?
+Não. Plaquetopenia isolada não é sinal de alarme. O que muda para grupo C é sinal de alarme, como sangramento de mucosa ou hematócrito progressivamente elevado.
+
+3. Qual dado laboratorial traduz melhor extravasamento plasmático?
+Aumento progressivo do hematócrito, por hemoconcentração.
+
+4. Por que a defervescência é perigosa?
+Porque a febre pode melhorar no 3º–4º dia, mas esse período pode coincidir com entrada na fase crítica. O paciente pode achar que está curado e piorar em casa.
+
+5. Prova do laço positiva coloca o paciente em qual grupo?
+Grupo B. Não confirma dengue, não exclui dengue se negativa e não classifica como grupo C.
+
+6. Qual a diferença entre sangramento de pele e sangramento de mucosa?
+Sangramento de pele, como petéquias ou prova do laço positiva, é grupo B. Sangramento de mucosa, como epistaxe ou gengivorragia, é sinal de alarme e classifica como grupo C.
+
+7. Grupo B com hematócrito normal pode ir para casa?
+Pode, se clinicamente adequado, com hidratação como grupo A. Mas continua sendo grupo B, com reavaliação diária clínica e laboratorial.
+
+8. Grupo B com hematócrito alto vira o quê?
+Grupo C, porque hematócrito alto sugere hemoconcentração/extravasamento plasmático, que é sinal de alarme.
+
+9. Qual a hidratação do grupo A?
+Hidratação oral de 60 ml/kg/dia, sendo 1/3 em soro de reidratação oral e 2/3 em líquidos diversos.
+
+10. Qual a hidratação inicial do grupo C?
+Cristaloide 20 ml/kg em 2 horas, reavaliando clínica, hemodinâmica e hematócrito. Pode repetir até 3 vezes.
+
+11. Qual a hidratação inicial do grupo D?
+Cristaloide 20 ml/kg em 20 minutos, reavaliando. Pode repetir até 3 vezes, com cuidado para sobrecarga, especialmente se o paciente já veio do grupo C e recebeu volume.
+
+12. Quando pensar em noradrenalina?
+Quando o paciente está refratário a volume ou já não tolera mais volume, especialmente se há congestão ou risco de sobrecarga.
+
+13. Quando pensar em albumina?
+Quando o paciente segue hemoconcentrando, com hematócrito progressivamente alto, apesar das etapas de cristaloide, sugerindo que o volume não fica no intravascular.
+
+14. Paciente bem, após hidratação, com hematócrito caindo. Isso é sangramento?
+Não necessariamente. Pode indicar resolução da hemoconcentração. Sangramento preocupa mais se o paciente está mal e o hematócrito está caindo.
+
+15. Qual exame pedir no 3º dia de dengue suspeita?
+NS1, porque é antígeno viral e tem melhor desempenho nos primeiros dias, especialmente até o 3º dia.
+
+16. Qual exame ganha importância a partir do 6º dia?
+IgM, marcador de doença aguda em fase mais tardia.
+
+17. IgG positivo isolado confirma dengue aguda?
+Não. IgG é cicatriz sorológica/marcador de contato prévio, e precisa ser interpretado no contexto.
+
+18. NS1 significa dengue sorotipo 1?
+Não. NS1 é um antígeno viral presente nos principais sorotipos; não quer dizer sorotipo 1.
+
+19. Qual é a assinatura clínica da chikungunya?
+Poliartrite/artralgia intensa. O paciente “se contorce” de dor articular.
+
+20. Qual complicação crônica importante da chikungunya?
+Doença articular crônica, que pode se comportar como doença reumatológica e entrar no diferencial com artrite reumatoide.
+
+21. Qual é a assinatura clínica da zika?
+Exantema precoce, prurido importante, conjuntivite não purulenta e febre baixa ou ausente.
+
+22. Qual complicação neurológica lembra zika?
+Síndrome de Guillain-Barré, com fraqueza periférica ascendente.
+
+23. Qual complicação gestacional/congênita lembra zika?
+Microcefalia e alterações congênitas, especialmente no contexto da epidemia de 2016.
+
+24. Paciente com febre, rash desde o primeiro dia, prurido intenso e conjuntivite não purulenta. Dengue, chikungunya ou zika?
+Zika.
+
+25. Paciente com febre alta e poliartrite intensa incapacitante. Dengue, chikungunya ou zika?
+Chikungunya.
+
+18. Checklist final de domínio
+Você domina esta aula se consegue:
+Síndrome febril e arboviroses
+Definir síndrome febril sem sinal localizatório.
+Diferenciar febre “solta” de pneumonia, ITU e meningite.
+Explicar o que é arbovirose.
+Citar Aedes aegypti como vetor de dengue, chikungunya e zika.
+Lembrar do período de incubação de 3 a 15 dias.
+Usar contexto epidemiológico e viagem no raciocínio.
+Dengue: agente, sorotipos e fisiopatologia
+Saber que dengue é Flavivírus RNA.
+Diferenciar agente etiológico de vetor.
+Citar sorotipos 1, 2, 3 e 4 como relevantes.
+Entender que infecção sequencial aumenta risco de forma grave.
+Explicar imunofacilitação/teoria de Halstead em linguagem simples.
+Saber que o fenômeno central da gravidade é extravasamento plasmático.
+Quadro clínico
+Reconhecer febre súbita até 7 dias.
+Valorizar mialgia intensa.
+Reconhecer dor retro-orbital.
+Saber que artralgia intensa aponta mais para chikungunya.
+Saber que rash da dengue tende a ser tardio, 3º–6º dia.
+Interpretar leucopenia + linfocitose relativa.
+Não supervalorizar plaquetopenia isolada.
+Entender a defervescência como momento de risco.
+Sinais de alarme
+Decorar e entender dor abdominal intensa e contínua.
+Decorar e entender vômitos persistentes.
+Decorar e entender acúmulo de líquidos.
+Diferenciar sangramento cutâneo de mucoso.
+Valorizar letargia/irritabilidade.
+Valorizar hipotensão postural/lipotimia.
+Reconhecer hepatomegalia > 2 cm.
+Valorizar hematócrito progressivamente elevado.
+Saber que qualquer sinal de alarme = grupo C.
+Dengue grave
+Reconhecer choque.
+Saber o valor da PA convergente.
+Reconhecer pulso fino, TEC aumentado e extremidades frias.
+Reconhecer disfunção orgânica grave.
+Diferenciar hepatomegalia de hepatite grave.
+Reconhecer sangramento grave.
+Pensar em sangramento quando paciente mal + hematócrito caindo.
+Diagnóstico
+Saber que fase inicial procura vírus/antígeno.
+Saber que NS1 é melhor até o 3º dia e possível até o 5º.
+Saber que NS1 não é sorotipo 1.
+Saber que IgM aparece a partir do 6º dia.
+Saber que IgG é cicatriz sorológica.
+Entender quando confirmar laboratorialmente conforme contexto epidêmico.
+Prova do laço
+Calcular média aritmética: (PAS + PAD) / 2.
+Não confundir com PAM de UTI.
+Saber tempo: adulto até 5 min, criança até 3 min.
+Saber quadrado de 2,5 cm.
+Saber critério: adulto ≥ 20 petéquias, criança ≥ 10.
+Saber que positiva não confirma dengue.
+Saber que negativa não exclui dengue.
+Saber que positiva = grupo B.
+Classificação e manejo
+Definir grupo A.
+Definir grupo B.
+Definir grupo C.
+Definir grupo D.
+Saber que grupo B precisa hemograma.
+Saber que grupo B com Ht normal pode ir para casa, mas com reavaliação diária.
+Saber que grupo B com Ht alto vira grupo C.
+Saber hidratação oral do grupo A.
+Saber hidratação venosa do grupo C.
+Saber hidratação venosa do grupo D.
+Saber avaliar risco de sobrecarga no grupo D.
+Saber quando pensar em noradrenalina.
+Saber quando pensar em albumina.
+Medicamentos
+Usar dipirona/paracetamol para sintomas.
+Evitar AINE.
+Evitar AAS de rotina.
+Conhecer exceção do AAS crônico.
+Saber cortes de plaqueta no AAS crônico: >50 mil, 30–50 mil, <30 mil.
+Diferenciais
+Chikungunya = Togavírus.
+Chikungunya = poliartrite intensa.
+Chikungunya pode ter linfopenia.
+Chikungunya pode cronificar com doença articular crônica.
+Zika = Flavivírus.
+Zika = exantema precoce + prurido + conjuntivite não purulenta.
+Zika pode se associar a Guillain-Barré.
+Zika em gestação lembra microcefalia.
+
+19. Mapa de fidelidade à transcrição
+Blocos incorporados
+Bloco solicitado
+Status
+Síndrome febril sem sinal localizatório
+Incorporado na Parte 1
+Diferença para pneumonia, ITU e meningite
+Incorporado na Parte 1
+Caso clínico inicial
+Incorporado na Parte 1 e retomado na Parte 4
+Arboviroses e Aedes aegypti
+Incorporado na Parte 1
+Incubação 3 a 15 dias e viajantes
+Incorporado na Parte 1
+Dengue: Flavivírus RNA, vetor e grafia
+Incorporado na Parte 1
+Sorotipos 1–4 e menção ao 5
+Incorporado na Parte 1
+Infecção sequencial e imunofacilitação
+Incorporado na Parte 1
+Quadro clínico da dengue
+Incorporado na Parte 1
+Defervescência como momento perigoso
+Incorporado na Parte 1 e reforçado na Parte 4
+Lista completa de sinais de alarme
+Incorporada na Parte 1
+Explicação do extravasamento plasmático
+Incorporada nas Partes 1, 2 e 3
+Dengue grave: choque, órgão, sangramento
+Incorporada na Parte 2
+Diagnóstico: NS1, IgM, IgG, isolamento
+Incorporado na Parte 2
+Prova do laço passo a passo
+Incorporada na Parte 2
+Classificação A/B/C/D
+Incorporada na Parte 2
+Tabela grupo A/B/C/D
+Incorporada na Parte 2
+Conduta e hidratação por grupo
+Incorporada na Parte 3
+Medicamentos e AAS crônico
+Incorporados na Parte 3
+Chikungunya
+Incorporada nas Partes 3 e 4
+Zika
+Incorporada nas Partes 3 e 4
+Tabela Dengue × Chikungunya × Zika
+Incorporada na Parte 4
+Pegadinhas de prova
+Incorporadas ao longo das partes e consolidadas na Parte 4
+O que foi dito de passagem
+Incorporado na Parte 4
+Algoritmo mental de residência
+Incorporado na Parte 4
+Mini mapa mental textual
+Incorporado na Parte 4
+Revisão ativa
+Incorporada na Parte 4
+Checklist final
+Incorporado na Parte 4
+Controle de qualidade final
+Não tratei plaquetopenia isolada como sinal de alarme.
+Mantive a diferença entre sangramento de pele/prova do laço positiva e sangramento mucoso.
+Mantive grupo B separado de grupo C.
+Mantive grupo C como internação.
+Mantive hematócrito progressivamente elevado como marcador-chave de extravasamento plasmático.
+Preservei a defervescência como momento perigoso.
+Preservei os números principais de hidratação.
+Preservei NS1, IgM, IgG e prova do laço.
+Preservei AAS crônico com cortes de plaquetas.
+Preservei os diferenciais com chikungunya e zika.
+Corrigi silenciosamente termos óbvios da transcrição, como rash, rigidez, sinal localizatório e febre do Oropouche, sem inventar blocos fora da aula.
+Roteiro fechado.

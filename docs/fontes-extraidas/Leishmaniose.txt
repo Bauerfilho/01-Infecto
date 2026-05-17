@@ -1,0 +1,2426 @@
+ROTEIRO DIDÁTICO COMPLETO — LEISHMANIOSE VISCERAL / CALAZAR
+PARTE 1 — caso-guia, síndrome febril arrastada, armadilha hematológica e diferencial inicial
+
+
+1. Pergunta central do roteiro
+Pergunta clínica que este bloco resolve
+Quando um paciente chega com febre há meses, perda ponderal, aumento progressivo do volume abdominal, esplenomegalia de grande monta e pancitopenia, o raciocínio deve seguir para neoplasia hematológica ou para uma infecção crônica do sistema reticuloendotelial?
+Armadilha principal
+Febre arrastada + consumo + baço enorme + pancitopenia parecem, à primeira vista, uma neoplasia hematológica. A hipergamaglobulinemia ainda pode puxar o pensamento para mieloma múltiplo ou gamopatia monoclonal.
+Lógica para sair da dúvida
+O conjunto só fecha quando se juntam quatro eixos:
+Tempo: não é febre aguda; são meses de evolução.
+Topografia funcional: fígado, baço e medula óssea estão envolvidos.
+Laboratório: pancitopenia + inversão albumina-globulina + hipergamaglobulinemia policlonal.
+Epidemiologia: Crato, Ceará, é uma pista forte de área endêmica.
+A ideia central é:
+Diante de febre arrastada, perda ponderal, esplenomegalia de grande monta e pancitopenia, a hipótese de neoplasia hematológica é uma armadilha plausível; mas, em área endêmica, com hipergamaglobulinemia policlonal e infiltração do sistema reticuloendotelial, leishmaniose visceral precisa saltar aos olhos.
+
+Núcleo essencial
+O diagnóstico final é leishmaniose visceral, também chamada calazar.
+A doença é “visceral” porque acomete profundamente órgãos ricos em células do sistema mononuclear fagocitário, especialmente:
+fígado;
+baço;
+medula óssea.
+A fisiopatologia gira em torno de macrófagos infectados por Leishmania, infiltrando o sistema reticuloendotelial. Isso explica:
+febre arrastada;
+hepatoesplenomegalia;
+esplenomegalia de grande monta;
+pancitopenia;
+consumo;
+semelhança com neoplasia hematológica.
+
+Detalhes de prova
+Dado
+O que deve acender
+Febre há meses
+Não é dengue, febre amarela ou leptospirose típica aguda
+Crato, Ceará
+Área endêmica: pensar em calazar
+Baço a 10 cm do rebordo costal esquerdo
+Esplenomegalia de grande monta
+Anemia + leucopenia + plaquetopenia
+Pancitopenia
+Albumina baixa + globulina alta
+Inversão albumina-globulina
+Hipergamaglobulinemia policlonal
+Resposta inflamatória/infecciosa crônica, não mieloma típico
+Perda ponderal e consumo
+Pode simular neoplasia hematológica
+Fígado + baço + medula
+Sistema reticuloendotelial/macrófagos
+
+Detalhes que valem guardar
+“Calazar” é o nome clássico da leishmaniose visceral.
+Febre arrastada muda completamente o eixo em relação às síndromes febris agudas.
+Esplenomegalia de grande monta é uma pista morfológica poderosa: o baço não está discretamente aumentado; ele domina o exame abdominal.
+A hipergamaglobulinemia é importante, mas o detalhe que salva a questão é ser policlonal, não monoclonal.
+
+Uso futuro na plataforma
+Este bloco pode virar:
+hero clínico inicial: “Febre há meses + baço gigante + pancitopenia: câncer hematológico ou calazar?”
+simulador de raciocínio diagnóstico com hipóteses que sobem e descem conforme os dados aparecem;
+card premium “a armadilha hematológica”;
+painel interativo policlonal × monoclonal;
+caso clínico em etapas:
+febre arrastada;
+baço de grande monta;
+pancitopenia;
+Crato/Ceará;
+hipergamaglobulinemia policlonal;
+hipótese final.
+
+2. Caso clínico-guia
+Pergunta clínica que este bloco resolve
+Qual dado transforma um caso que parece neoplasia hematológica em uma suspeita forte de leishmaniose visceral?
+Armadilha principal
+O paciente tem consumo, febre crônica, baço muito aumentado e pancitopenia. Esse conjunto parece hematologia. Se o raciocínio parar aí, a hipótese infecciosa pode ser perdida.
+Lógica para sair da dúvida
+A epidemiologia e o padrão laboratorial mudam o rumo: Crato/Ceará + hipergamaglobulinemia policlonal + hepatoesplenomegalia + pancitopenia favorecem calazar.
+
+Núcleo essencial
+O caso clínico reúne os seguintes dados:
+Categoria
+Dados do caso
+Origem
+Morador de Crato, Ceará
+Tempo
+Quadro iniciado há meses
+Sintomas sistêmicos
+Febre arrastada, mal-estar, anorexia
+Estado geral
+Paciente consumido
+Peso
+Perda ponderal importante
+Abdome
+Aumento do volume abdominal
+Icterícia
+Possível icterícia, com bilirrubina direta alterada
+Fígado
+Palpável a 4 cm do rebordo costal direito
+Baço
+Palpável a 10 cm do rebordo costal esquerdo
+Interpretação do baço
+Esplenomegalia de grande monta
+Hemograma
+Anemia + leucopenia + plaquetopenia
+Síntese hematológica
+Pancitopenia
+Proteínas
+Albumina 2,1 e globulina 5,5
+Relação albumina-globulina
+Invertida
+Eletroforese
+Hipergamaglobulinemia
+Padrão da gamaglobulina
+Policlonal
+
+Explicação didática completa
+O paciente não tem uma febre abrupta de poucos dias. Não é a lógica de dengue clássica, febre amarela ou leptospirose aguda grave. O quadro tem meses de evolução.
+Esse tempo muda o raciocínio.
+Febre arrastada, perda ponderal e anorexia criam uma imagem de doença consumptiva. O aumento do volume abdominal não é apenas distensão inespecífica: o exame físico mostra hepatoesplenomegalia, com baço palpável a 10 cm do rebordo costal esquerdo.
+Esse baço não é discreto. É uma esplenomegalia de grande monta.
+Quando o laboratório entra, a armadilha fica ainda mais forte:
+hematócrito baixo → anemia;
+leucócitos baixos → leucopenia;
+plaquetas baixas → plaquetopenia;
+os três juntos → pancitopenia.
+Pancitopenia em um paciente consumido, com febre arrastada e esplenomegalia volumosa, naturalmente lembra neoplasia hematológica. É uma hipótese plausível, não absurda.
+Mas o restante do laboratório muda o rumo.
+A albumina está baixa: 2,1. A globulina está elevada: 5,5.
+O padrão esperado nas proteínas séricas é haver mais albumina do que globulina. Aqui ocorre o oposto: há inversão albumina-globulina.
+Quando se interpreta a fração elevada de globulinas, o componente dominante é gamaglobulina, isto é, anticorpos. O paciente tem hipergamaglobulinemia.
+A armadilha seguinte é lembrar de mieloma múltiplo. Mieloma pode fazer excesso de anticorpo. Mas a diferença decisiva é:
+mieloma/gamopatia monoclonal → um clone produz uma imunoglobulina dominante;
+calazar → múltiplas células imunes produzem anticorpos de forma reacional, gerando padrão policlonal.
+Portanto, a hipergamaglobulinemia do caso não é a assinatura típica do mieloma múltiplo; ela é uma resposta inflamatória/infecciosa crônica.
+O vínculo epidemiológico com Crato, no Ceará, completa o raciocínio. Em área endêmica, febre arrastada + consumo + baço grande + pancitopenia + hipergamaglobulinemia policlonal deve colocar leishmaniose visceral/calazar no topo.
+
+Tabela — achados clínicos e laboratoriais do caso
+Achado
+Interpretação imediata
+Como contribui para leishmaniose visceral
+Crato, Ceará
+Dado epidemiológico forte
+Área endêmica para calazar
+Febre há meses
+Febre arrastada
+Afasta raciocínio de arbovirose aguda típica
+Mal-estar e anorexia
+Síndrome consumptiva
+Combina com infecção crônica
+Perda ponderal importante
+Consumo
+Pode simular neoplasia
+Aumento abdominal
+Visceromegalia provável
+Leva ao exame do fígado e baço
+Fígado 4 cm do rebordo costal direito
+Hepatomegalia
+Infiltração do sistema reticuloendotelial
+Baço 10 cm do rebordo costal esquerdo
+Esplenomegalia de grande monta
+Pista muito forte
+Anemia
+Uma das três citopenias
+Sugere comprometimento medular/sequestro
+Leucopenia
+Uma das três citopenias
+Ajuda a formar pancitopenia
+Plaquetopenia
+Uma das três citopenias
+Também aumenta risco em procedimentos invasivos
+Pancitopenia
+Medula/sistema reticuloendotelial
+Parece neoplasia, mas também ocorre no calazar
+Albumina 2,1
+Hipoalbuminemia
+Consumo/desnutrição
+Globulina 5,5
+Globulina elevada
+Produção aumentada de anticorpos
+Inversão albumina-globulina
+Padrão anormal de proteínas
+Sugere doença inflamatória crônica
+Hipergamaglobulinemia policlonal
+Resposta humoral reacional
+Diferencia de gamopatia monoclonal típica
+
+Por que o caso é uma armadilha?
+1. Parece neoplasia hematológica
+Febre arrastada, emagrecimento, pancitopenia e esplenomegalia volumosa formam um conjunto que pode lembrar:
+leucemia;
+linfoma;
+doenças infiltrativas de medula;
+síndromes hematológicas malignas.
+Essa hipótese é plausível porque há sinal de comprometimento sistêmico e hematológico.
+2. Parece mieloma múltiplo quando surge hipergamaglobulinemia
+Hipergamaglobulinemia pode lembrar mieloma múltiplo ou gamopatia monoclonal.
+Mas mieloma típico é monoclonal.
+Aqui o padrão é policlonal: várias linhagens celulares respondem a um estímulo infeccioso/inflamatório crônico.
+3. A epidemiologia muda a ordem das hipóteses
+Crato, Ceará, não é um detalhe neutro.
+Em área endêmica, calazar deve subir muito diante de:
+febre arrastada;
+consumo;
+baço de grande monta;
+pancitopenia;
+hipergamaglobulinemia policlonal.
+
+Detalhes de prova
+Armadilha
+Saída correta
+“Baço grande + pancitopenia = neoplasia hematológica sempre”
+Em área endêmica, pensar fortemente em leishmaniose visceral
+“Hipergamaglobulinemia = mieloma”
+Ver se é monoclonal ou policlonal
+“Febre com icterícia = síndrome febril ictérica anterior”
+Aqui o eixo é febre arrastada + esplenomegalia
+“Plaquetopenia lembra dengue”
+O tempo de meses e o baço enorme afastam dengue típica
+“Icterícia é o marco principal”
+Pode ocorrer, mas não é o grande marco do calazar no caso
+“Crato/Ceará é dado aleatório”
+É pista epidemiológica intencional
+
+Detalhes que valem guardar
+O baço a 10 cm do rebordo costal esquerdo deve ser lido como dado dramático, não como achado discreto.
+O paciente consumido reforça gravidade e doença crônica.
+A relação albumina-globulina invertida tem alto valor didático: albumina cai pelo consumo/desnutrição; globulinas sobem por produção de anticorpos.
+O padrão policlonal é o detalhe que evita confundir com gamopatia monoclonal.
+
+Uso futuro na plataforma
+Este bloco pode virar:
+dashboard do caso com botões para revelar progressivamente exame físico, hemograma e proteínas;
+simulador de diferencial hematológico:
+usuário escolhe neoplasia, mieloma ou calazar;
+cada dado novo muda a probabilidade;
+card comparativo policlonal × monoclonal;
+mini-jogo “qual dado mudou o rumo?”;
+painel visual do abdome mostrando fígado 4 cm e baço 10 cm;
+flashcard de prova: “Crato + febre arrastada + baço gigante + pancitopenia = ?”
+
+3. Síndrome febril arrastada com esplenomegalia
+Pergunta clínica que este bloco resolve
+Por que “febre há meses” não pode ser raciocinada como dengue, leptospirose aguda ou febre amarela?
+Armadilha principal
+Tratar toda febre como síndrome febril aguda. O erro é ignorar o tempo. O tempo é um dado semiológico.
+Lógica para sair da dúvida
+Febre com dias de evolução puxa arboviroses e infecções agudas. Febre com meses de evolução puxa doenças crônicas, infiltrativas, neoplásicas ou infecciosas arrastadas.
+
+Núcleo essencial
+A síndrome central aqui é:
+Febre arrastada + esplenomegalia de grande monta + pancitopenia.
+Esse tripé desloca o raciocínio para doenças que envolvem:
+sistema reticuloendotelial;
+medula óssea;
+baço;
+fígado;
+resposta inflamatória crônica;
+infiltração celular;
+sequestro ou destruição de células sanguíneas.
+
+Explicação didática completa
+A febre aguda funciona com outro relógio clínico.
+Dengue, por exemplo, costuma ser pensada como febre súbita de até 7 dias. Leptospirose e febre amarela também aparecem como síndromes febris de evolução mais curta, embora possam complicar. Aqui não.
+O caso tem meses de evolução.
+Quando a febre se arrasta por meses, o corpo vai dando sinais de consumo:
+anorexia;
+perda ponderal;
+hipoalbuminemia;
+aparência consumida;
+aumento do volume abdominal.
+A esplenomegalia de grande monta adiciona outra camada. O baço é órgão do sistema reticuloendotelial. Quando ele aumenta muito, deve-se pensar em doenças que infiltram ou hiperestimulam esse sistema.
+A pancitopenia fecha o eixo:
+se há anemia, leucopenia e plaquetopenia, o problema não é uma linhagem isolada;
+há comprometimento global da hematopoiese, sequestro esplênico importante ou infiltração medular.
+A leishmaniose visceral explica esse conjunto porque macrófagos infectados infiltram:
+fígado;
+baço;
+medula óssea.
+Isso gera:
+hepatoesplenomegalia;
+baço muito aumentado;
+ocupação da medula;
+redução de hemácias, leucócitos e plaquetas.
+
+Tabela — febre aguda × febre arrastada
+Critério
+Febre aguda
+Febre arrastada
+Tempo
+Dias
+Semanas a meses
+Exemplo de raciocínio
+Dengue, febre amarela, leptospirose aguda
+Leishmaniose visceral, neoplasias, infecções crônicas
+Estado geral
+Pode estar prostrado, mas nem sempre consumido
+Consumo, anorexia, perda ponderal
+Abdome
+Pode não ter visceromegalia importante
+Hepatoesplenomegalia pode dominar
+Hemograma
+Alterações variáveis
+Pancitopenia chama muita atenção
+Risco de erro
+Parar em arbovirose
+Parar em neoplasia hematológica e esquecer infecção endêmica
+Dado discriminador
+Cronologia curta
+Meses de evolução + epidemiologia
+
+Por que esplenomegalia de grande monta é uma pista forte?
+Um baço discretamente palpável pode aparecer em várias situações. Um baço palpável a 10 cm do rebordo costal esquerdo é outro patamar.
+Esse achado sugere grande envolvimento do sistema reticuloendotelial.
+Na leishmaniose visceral, o baço aumenta porque fica infiltrado por macrófagos infectados. É um órgão-alvo da doença.
+Em questão de residência, “esplenomegalia de grande monta” não deve ser lida como detalhe descritivo. É uma seta diagnóstica.
+
+Por que a pancitopenia muda o raciocínio?
+Pancitopenia significa queda de três linhagens:
+hemácias → anemia;
+leucócitos → leucopenia;
+plaquetas → plaquetopenia.
+Isso sugere que a medula óssea está comprometida ou que há sequestro/destruição importante.
+Na leishmaniose visceral, macrófagos infectados infiltram a medula óssea e ocupam o espaço de progenitores hematopoiéticos saudáveis. O resultado é redução global da produção celular.
+Por isso o quadro parece neoplasia hematológica: a apresentação hematológica é real. O erro é achar que só câncer faz isso.
+
+Detalhes de prova
+Dado
+Interpretação de prova
+Febre há meses
+Sair da gaveta de febre aguda
+Perda ponderal
+Doença crônica/consumptiva
+Esplenomegalia de grande monta
+Sistema reticuloendotelial
+Pancitopenia
+Medula óssea/infiltração/sequestro
+Área endêmica
+Calazar sobe muito
+Hipergamaglobulinemia policlonal
+Resposta infecciosa crônica
+Icterícia possível
+Pode ocorrer, mas não é o eixo principal
+
+Detalhes que valem guardar
+O baço aumentado é ao mesmo tempo pista clínica e explicação fisiopatológica.
+A medula óssea é central: ela explica tanto a pancitopenia quanto o local preferencial do exame parasitológico.
+O caso parece onco-hematológico porque realmente invade o território da hematologia: medula, citopenias e baço.
+
+Uso futuro na plataforma
+Este bloco pode virar:
+fluxograma “febre aguda ou arrastada?”;
+mapa anatômico do sistema reticuloendotelial;
+card “baço a 10 cm: o que isso muda?”;
+animação de medula infiltrada por macrófagos;
+simulador de hemograma:
+anemia isolada;
+bicitopenia;
+pancitopenia;
+árvore diagnóstica para febre crônica com esplenomegalia.
+
+4. Diagnóstico diferencial inicial
+Pergunta clínica que este bloco resolve
+Quais hipóteses competem com leishmaniose visceral quando o caso traz febre arrastada, baço grande e pancitopenia?
+Armadilha principal
+Escolher a hipótese que “assusta mais” — neoplasia hematológica — sem integrar epidemiologia, padrão policlonal e síndrome infecciosa crônica.
+Lógica para sair da dúvida
+O diagnóstico diferencial deve ser organizado por padrão:
+doença infecciosa endêmica do sistema reticuloendotelial;
+neoplasia hematológica;
+gamopatia monoclonal;
+hipertensão portal/esplenomegalia por outra causa;
+doença infecciosa aguda com linfonodos/esplenomegalia.
+
+Tabela — leishmaniose visceral × neoplasia hematológica × mieloma/gamopatia × esquistossomose/hipertensão portal × Chagas aguda
+Hipótese
+Por que entra no diferencial
+O que aproxima
+O que afasta
+Dado epidemiológico
+Padrão laboratorial
+Armadilha de prova
+Leishmaniose visceral / calazar
+Febre arrastada, perda ponderal, hepatoesplenomegalia, pancitopenia
+Crato/Ceará, baço de grande monta, pancitopenia, hipergamaglobulinemia policlonal, consumo
+Nada central afasta; é a hipótese que melhor integra o caso
+Área endêmica, especialmente Ceará; também interior da Bahia e Minas Gerais; urbanização/periurbanização
+Pancitopenia, albumina baixa, globulina elevada, hipergamaglobulinemia policlonal
+Não pensar em calazar fora do Norte/Nordeste ou esquecer epidemiologia
+Neoplasia hematológica
+Febre, perda ponderal, baço grande, pancitopenia
+Consumo, citopenias, esplenomegalia
+Epidemiologia endêmica e hipergamaglobulinemia policlonal favorecem infecção crônica
+Não depende de área endêmica específica
+Pode ter pancitopenia, alterações de medula, LDH etc.; não foi foco aprofundado
+Marcar câncer só porque o quadro parece hematológico
+Mieloma múltiplo / gamopatia monoclonal
+Hipergamaglobulinemia pode lembrar excesso de imunoglobulina
+Globulinas elevadas
+O padrão aqui é policlonal, não monoclonal; esplenomegalia gigante e epidemiologia favorecem calazar
+Não depende de Crato/Ceará
+Pico monoclonal seria típico; aqui há hipergamaglobulinemia policlonal
+Confundir qualquer hipergamaglobulinemia com mieloma
+Esquistossomose / hipertensão portal
+Esplenomegalia de grande monta pode lembrar hipertensão portal
+Baço grande, possível hepatoesplenomegalia
+O caso tem febre arrastada, pancitopenia, hipergamaglobulinemia policlonal e epidemiologia de calazar; não há eixo de hipertensão portal como principal
+Depende de área de esquistossomose; não foi o eixo central
+Poderia haver hiperesplenismo; não explica tão bem todo o conjunto
+Confundir esplenomegalia volumosa com hipertensão portal sem olhar o restante
+Doença de Chagas aguda
+Pode cursar com febre, linfadenopatia e esplenomegalia
+Febre e possível esplenomegalia
+Falta linfadenopatia; há hipótese melhor com Crato/Ceará + calazar
+Área endêmica pode confundir, mas o padrão não é o principal
+Não explica tão bem hipergamaglobulinemia policlonal + baço gigante + pancitopenia
+Forçar Chagas aguda só por febre e esplenomegalia
+
+Explicação didática completa
+Leishmaniose visceral
+É a hipótese que integra mais dados com menos esforço:
+febre arrastada;
+perda ponderal;
+hepatoesplenomegalia;
+baço de grande monta;
+pancitopenia;
+inversão albumina-globulina;
+hipergamaglobulinemia policlonal;
+área endêmica.
+Não é uma hipótese “exótica” quando o caso entrega Crato, Ceará. Nesse cenário, é a hipótese que deve saltar.
+
+Neoplasias hematológicas
+Entram porque o caso parece hematológico.
+O paciente tem:
+febre;
+perda ponderal;
+pancitopenia;
+esplenomegalia volumosa;
+aspecto consumido.
+Esse conjunto poderia sugerir leucemia, linfoma ou outra doença infiltrativa. A armadilha é que a leishmaniose visceral também infiltra medula e sistema reticuloendotelial.
+A diferença é que a epidemiologia e a hipergamaglobulinemia policlonal reposicionam o caso.
+
+Mieloma múltiplo / gamopatia monoclonal
+A globulina elevada pode lembrar mieloma múltiplo. O problema é o tipo de hipergamaglobulinemia.
+No mieloma, espera-se um padrão monoclonal, como um clone produzindo imunoglobulina em excesso.
+No calazar, o padrão é policlonal, com várias linhagens imunes produzindo anticorpos de forma reacional.
+A pergunta-chave é:
+“Essa gamaglobulina veio de um clone ou de uma resposta imune ampla?”
+Aqui é ampla, reacional, policlonal.
+
+Esquistossomose / hipertensão portal
+Esplenomegalia volumosa pode lembrar hipertensão portal, e a esquistossomose pode entrar nesse raciocínio quando o quadro é de baço aumentado. Mas o contexto não favorece esse eixo como hipótese principal.
+O caso não é construído em torno de hipertensão portal. Ele é construído em torno de febre arrastada, consumo, pancitopenia, hipergamaglobulinemia policlonal e epidemiologia de calazar.
+Portanto, se aparecer como diferencial, é periférico.
+
+Doença de Chagas aguda
+Doença de Chagas aguda pode cursar com febre, linfadenopatia e esplenomegalia. Mas o caso não traz linfadenopatia, e há uma hipótese melhor.
+A ausência de linfadenopatia não exclui tudo na medicina real, mas em questão de prova enfraquece a hipótese quando outro diagnóstico encaixa melhor.
+
+Detalhes de prova
+Situação
+Melhor raciocínio
+Febre + baço gigante + pancitopenia
+Pensar em hematológico, mas também em calazar
+Hipergamaglobulinemia policlonal
+Favorece infecção crônica/inflamação reacional
+Hipergamaglobulinemia monoclonal
+Favorece mieloma/gamopatia
+Crato/Ceará
+Leishmaniose visceral sobe
+Chagas aguda sem linfadenopatia
+Fica menos forte
+Esplenomegalia isolada
+Não basta; olhar febre, hemograma e proteínas
+
+Detalhes que valem guardar
+A hipótese de neoplasia hematológica não é “errada” como pensamento inicial; ela é a armadilha plausível.
+A hipergamaglobulinemia policlonal é a chave para sair da armadilha do mieloma.
+O dado epidemiológico não é enfeite de enunciado: se a cidade foi dada com precisão, ela provavelmente muda a resposta.
+
+Uso futuro na plataforma
+Este bloco pode virar:
+tabela interativa de diferenciais;
+jogo “aproxima ou afasta?” com cada dado do caso;
+simulador de eletroforese mostrando pico monoclonal versus aumento policlonal;
+árvore diagnóstica:
+febre arrastada;
+baço grande;
+pancitopenia;
+gamaglobulina;
+epidemiologia;
+quiz de armadilha hematológica;
+painel de diagnósticos periféricos: Chagas aguda e esquistossomose/hipertensão portal.
+
+5. Epidemiologia e distribuição
+Pergunta clínica que este bloco resolve
+Por que “Crato, Ceará” muda o raciocínio antes mesmo de qualquer exame confirmatório?
+Armadilha principal
+Tratar o dado geográfico como detalhe narrativo. Em infectologia, geografia é dado clínico.
+Lógica para sair da dúvida
+Leishmaniose visceral é endêmica em áreas específicas, e o Ceará é um dos grandes vínculos epidemiológicos. Se a questão entrega Crato/Ceará com precisão, ela está oferecendo uma pista diagnóstica.
+
+Núcleo essencial
+A leishmaniose visceral é classicamente associada a áreas endêmicas, com destaque para:
+Ceará;
+interior da Bahia;
+Minas Gerais.
+Além disso, a doença vem sofrendo urbanização e periurbanização, aparecendo em regiões como:
+Rio de Janeiro;
+São Paulo.
+Por isso, o tema pode cair em provas do Brasil inteiro, não apenas em locais tradicionalmente endêmicos.
+
+Explicação didática completa
+Crato, no Ceará, não é um dado aleatório. Em provas médicas, uma cidade específica costuma ser usada para acionar contexto epidemiológico.
+A associação de memória é forte:
+Para ter calazar, basta estar no Ceará.
+A frase é uma rima/mnemônico epidemiológico. Não significa que todo paciente do Ceará com febre tenha calazar, mas significa que, diante do conjunto clínico correto, a epidemiologia empurra fortemente para leishmaniose visceral.
+A doença também é descrita como presente no interior da Bahia e em Minas Gerais, regiões endêmicas importantes.
+Mas o raciocínio não deve ficar preso ao mapa antigo. A urbanização e a periurbanização mudaram a distribuição da doença. Conforme o vetor e os reservatórios se aproximam do ambiente humano, a doença aparece em áreas antes menos lembradas, incluindo regiões do Rio de Janeiro e de São Paulo.
+Isso explica por que leishmaniose visceral aparece em provas do Brasil inteiro: a doença tem áreas clássicas, mas o problema deixou de ser exclusivamente rural/silvestre.
+
+Detalhes de prova
+Dado epidemiológico
+Interpretação
+Crato, Ceará
+Pista forte para calazar
+Ceará
+Área endêmica clássica
+Interior da Bahia
+Área endêmica citada
+Minas Gerais
+Área endêmica citada
+Rio de Janeiro e São Paulo
+Possível aparecimento por urbanização/periurbanização
+Cidade específica no enunciado
+Provavelmente não é detalhe gratuito
+Prova fora do Nordeste
+Ainda pode cobrar, pela expansão/urbanização
+
+Detalhes que valem guardar
+Epidemiologia não substitui clínica, mas muda o peso das hipóteses.
+Leishmaniose visceral pode aparecer em prova de qualquer região porque sua distribuição mudou.
+A urbanização/periurbanização conecta o ciclo do cão e do humano, tornando a doença mais próxima da prática urbana.
+
+Uso futuro na plataforma
+Este bloco pode virar:
+mapa epidemiológico interativo com Ceará, interior da Bahia, Minas Gerais, Rio de Janeiro e São Paulo;
+card de memória “calazar/Ceará”;
+linha do tempo de urbanização/periurbanização;
+quiz geográfico:
+“Crato + febre arrastada + baço gigante: qual hipótese?”
+painel “epidemiologia é dado clínico”;
+simulador de prova em que o mesmo caso muda de probabilidade conforme a cidade.
+
+6. Nome da doença
+Pergunta clínica que este bloco resolve
+Por que “leishmaniose visceral” não é apenas outro nome para leishmaniose tegumentar?
+Armadilha principal
+Achar que toda leishmaniose é a mesma doença com manifestações diferentes sem distinguir agente, tropismo e quadro clínico.
+Lógica para sair da dúvida
+O termo “visceral” indica acometimento profundo de órgãos internos, especialmente fígado, baço e medula óssea.
+
+Núcleo essencial
+A doença tem dois nomes centrais:
+leishmaniose visceral;
+calazar.
+“Visceral” aponta para o acometimento de vísceras e órgãos do sistema reticuloendotelial.
+O quadro não é uma lesão cutânea isolada. É uma doença sistêmica, consumptiva, com infiltração de órgãos internos.
+
+Explicação didática completa
+Leishmaniose visceral é uma doença sistêmica. O parasita não fica restrito à pele. Ele se relaciona com macrófagos e infiltra órgãos ricos em células fagocíticas.
+Os órgãos mais importantes para entender o quadro são:
+fígado → hepatomegalia;
+baço → esplenomegalia de grande monta;
+medula óssea → pancitopenia.
+Por isso o nome “visceral” é didático: ele indica o território da doença.
+Calazar é o nome clássico, muito usado em contexto clínico e epidemiológico.
+
+Detalhes de prova
+Nome
+Significado prático
+Leishmaniose visceral
+Doença sistêmica com acometimento de vísceras
+Calazar
+Nome clássico da leishmaniose visceral
+Visceral
+Fígado, baço, medula óssea
+Tegumentar
+Pele/mucosa; outro eixo, outro quadro
+Erro comum
+Tratar visceral e tegumentar como sinônimos
+
+Detalhes que valem guardar
+“Visceral” ajuda a lembrar o caso: aumento abdominal, fígado, baço, medula, pancitopenia.
+O nome “calazar” pode aparecer diretamente na prova.
+Se o enunciado fala de úlcera cutânea, o raciocínio muda para leishmaniose tegumentar, não para o quadro visceral.
+
+Uso futuro na plataforma
+Este bloco pode virar:
+card duplo: “Calazar = leishmaniose visceral”;
+comparador visceral × tegumentar;
+mapa corporal:
+pele = tegumentar;
+fígado/baço/medula = visceral;
+flashcard de nome:
+“Por que visceral?”
+quiz rápido:
+“Leishmaniose com baço gigante é tegumentar ou visceral?”
+
+Fechamento lógico da PARTE 1
+Até aqui, o roteiro construiu a base do caso:
+O tempo de evolução é de meses, não dias.
+A febre é arrastada.
+Há consumo, anorexia e perda ponderal.
+A hepatoesplenomegalia é marcada, com baço a 10 cm do rebordo costal esquerdo.
+A pancitopenia cria uma armadilha de neoplasia hematológica.
+A hipergamaglobulinemia poderia lembrar mieloma, mas o padrão é policlonal, não monoclonal.
+Crato/Ceará é uma pista epidemiológica forte.
+O conjunto favorece leishmaniose visceral/calazar.
+“Visceral” antecipa o território fisiopatológico: fígado, baço e medula óssea.
+Este bloco será continuado na próxima parte.
+ROTEIRO DIDÁTICO COMPLETO — LEISHMANIOSE VISCERAL / CALAZAR
+PARTE 2 — agente, vetor, reservatórios, fisiopatologia e imunidade
+
+7. Agente etiológico
+Pergunta clínica que este bloco resolve
+Qual parasita causa o quadro sistêmico de febre arrastada, baço gigante, pancitopenia e hipergamaglobulinemia policlonal?
+Armadilha principal
+Confundir leishmaniose visceral com leishmaniose tegumentar, ou misturar espécies diferentes de Leishmania como se todas causassem o mesmo quadro.
+Lógica para sair da dúvida
+O quadro visceral é causado por um protozoário do gênero Leishmania, especialmente Leishmania chagasi, também chamada em alguns contextos de Leishmania infantum. Já Leishmania braziliensis se relaciona à forma tegumentar/cutânea, não ao quadro visceral com fígado, baço e medula.
+
+Núcleo essencial
+A leishmaniose visceral é causada por um protozoário.
+O agente etiológico deve ser guardado como:
+Leishmania chagasi;
+também chamada de Leishmania infantum em determinadas classificações.
+O ponto prático não é entrar em discussão taxonômica aprofundada. Para prova, o essencial é:
+Leishmania chagasi/infantum = leishmaniose visceral / calazar. Leishmania braziliensis = leishmaniose tegumentar/cutânea, não o quadro visceral.
+
+Explicação didática completa
+A síndrome do caso não é causada por vírus nem bactéria. O agente é um protozoário.
+Esse detalhe já separa o calazar dos outros blocos de síndromes febris:
+dengue, zika, febre amarela → vírus;
+leptospirose → bactéria espiroqueta;
+leishmaniose visceral → protozoário.
+Dentro do gênero Leishmania, a espécie central do quadro visceral é Leishmania chagasi, frequentemente apresentada também como Leishmania infantum.
+A discussão sobre chagasi versus infantum pode existir em biologia e taxonomia, mas não deve desviar o raciocínio clínico. Para o estudante de medicina, a função prática é reconhecer que esses nomes estão associados ao calazar.
+O erro perigoso é confundir com Leishmania braziliensis. Essa espécie se relaciona à leishmaniose tegumentar, discutida em outro eixo clínico, com manifestações cutâneas e mucosas. Ela não explica, como hipótese principal, o paciente com:
+febre há meses;
+hepatoesplenomegalia;
+baço a 10 cm;
+pancitopenia;
+hipergamaglobulinemia policlonal;
+infiltração de medula óssea por macrófagos infectados.
+
+Tabela — leishmaniose visceral × leishmaniose tegumentar
+Critério
+Leishmaniose visceral / calazar
+Leishmaniose tegumentar
+Espécie central no roteiro
+Leishmania chagasi / Leishmania infantum
+Leishmania braziliensis
+Território principal
+Vísceras e sistema reticuloendotelial
+Pele e mucosas
+Órgãos-chave
+Fígado, baço, medula óssea
+Pele, mucosa nasal/oral/faríngea conforme forma
+Quadro típico
+Febre arrastada, perda ponderal, hepatoesplenomegalia, pancitopenia
+Lesão cutânea/tegumentar
+Baço de grande monta
+Muito sugestivo no quadro certo
+Não é a assinatura
+Pancitopenia
+Muito importante
+Não é o eixo típico
+Hipergamaglobulinemia policlonal
+Marcante
+Não é o foco central aqui
+Reação de Montenegro
+Pode ser negativa na visceral ativa
+Tende a ser positiva na tegumentar
+Diagnóstico parasitológico
+Procurar amastigotas em macrófagos, especialmente na medula
+Não foi foco deste roteiro
+Armadilha
+Confundir com neoplasia hematológica
+Confundir espécie/agente com visceral
+
+Detalhes de prova
+Pegadinha
+Correção
+Leishmaniose visceral é causada por bactéria
+Não. É causada por protozoário.
+Leishmania chagasi e Leishmania infantum são nomes que podem aparecer para o calazar
+Sim. Guardar ambos para prova.
+Leishmania braziliensis causa o mesmo quadro visceral
+Não. Relaciona-se à leishmaniose tegumentar/cutânea.
+Toda leishmaniose é igual
+Não. O tropismo e a apresentação clínica mudam muito.
+“Visceral” é nome decorativo
+Não. Indica acometimento de fígado, baço e medula óssea.
+
+Detalhes que valem guardar
+A discussão chagasi versus infantum não deve virar distração. Em prova, os dois nomes podem aparecer associados ao calazar.
+A palavra “visceral” é uma pista anatômica.
+Se a questão descreve úlcera cutânea, o raciocínio muda para leishmaniose tegumentar.
+Se descreve febre crônica, baço enorme, pancitopenia e área endêmica, o raciocínio volta para visceral.
+
+Uso futuro na plataforma
+Este bloco pode virar:
+card comparativo de espécies:
+chagasi/infantum → visceral;
+braziliensis → tegumentar;
+mapa corporal interativo:
+vísceras versus pele/mucosas;
+quiz de espécie:
+“Qual Leishmania causa calazar?”
+painel “não confunda”:
+visceral ≠ tegumentar;
+flashcard visual:
+protozoário, não vírus, não bactéria.
+
+8. Vetor
+Pergunta clínica que este bloco resolve
+Quem transmite a Leishmania ao ser humano, e por que “mosquito-palha” é um nome popular útil, mas tecnicamente impreciso?
+Armadilha principal
+Achar que o vetor é um “mosquito comum” ou tratar o termo popular como erro do paciente.
+Lógica para sair da dúvida
+O vetor é Lutzomyia longipalpis, um flebotomíneo. Popularmente, ele é chamado de mosquito-palha. Na comunicação clínica, é correto entender e acolher o termo popular; na prova, é preciso saber o nome técnico.
+
+Núcleo essencial
+O vetor da leishmaniose visceral é:
+Lutzomyia longipalpis
+Ele é um flebotomíneo.
+O nome popular é:
+mosquito-palha
+Tecnicamente, ele parece mosquito, mas biologicamente não é um mosquito no sentido estrito. Para prova, guarde:
+Leishmaniose visceral → Lutzomyia longipalpis → flebotomíneo → mosquito-palha.
+
+Explicação didática completa
+O vetor tem uma dupla importância:
+Importância técnica, porque a prova pode cobrar o nome.
+Importância comunicacional, porque pacientes e comunidades frequentemente usam o nome popular “mosquito-palha”.
+O nome técnico correto é Lutzomyia longipalpis. A transcrição pode distorcer para “Lutzomia” ou “Dutzomia”, mas a forma médica correta é Lutzomyia longipalpis.
+Esse vetor pertence ao grupo dos flebotomíneos. Ele tem aparência parecida com mosquito, mas não deve ser confundido com mosquitos como Aedes aegypti.
+No atendimento, porém, não há motivo para corrigir o paciente de forma arrogante. Se a pessoa chama de mosquito-palha, o recado foi compreendido. O papel do médico é acolher a linguagem popular e, se necessário, traduzir tecnicamente sem quebrar a comunicação.
+A diferença entre linguagem popular e linguagem técnica é didática:
+na prova: Lutzomyia longipalpis / flebotomíneo;
+na conversa com a comunidade: mosquito-palha é compreensível.
+
+Tabela — agente × vetor × reservatórios × transmissão
+Elemento
+Leishmaniose visceral / calazar
+Tipo de agente
+Protozoário
+Agente
+Leishmania chagasi / Leishmania infantum
+Não confundir com
+Leishmania braziliensis, ligada à forma tegumentar
+Vetor técnico
+Lutzomyia longipalpis
+Grupo do vetor
+Flebotomíneo
+Nome popular
+Mosquito-palha
+Reservatório silvestre
+Raposa
+Reservatório urbano/periurbano
+Cão
+Transmissão
+Picada do flebotomíneo infectado
+Processo epidemiológico importante
+Urbanização e periurbanização
+Sentinela urbana
+Cão pode sinalizar circulação do parasita
+
+Detalhes de prova
+Pegadinha
+Correção
+Vetor da leishmaniose visceral é Aedes aegypti
+Não. Aedes é dengue/febre amarela urbana; calazar envolve Lutzomyia longipalpis.
+Mosquito-palha é tecnicamente mosquito
+Popularmente sim; biologicamente, é flebotomíneo.
+Corrigir o paciente de forma pedante melhora a consulta
+Não. Acolher a linguagem popular é parte da boa comunicação.
+O nome do vetor é irrelevante
+Não. Pode ser cobrado diretamente.
+Todo vetor hematófago urbano é Aedes
+Não. Cada doença tem seu vetor.
+
+Detalhes que valem guardar
+“Mosquito-palha” é um nome popular importante em saúde pública.
+A diferença entre linguagem técnica e popular pode ser útil em plataformas com foco em comunicação médica.
+O vetor ajuda a entender por que urbanização/periurbanização modifica a distribuição da doença.
+
+Uso futuro na plataforma
+Este bloco pode virar:
+card visual do vetor com nome técnico e popular;
+quiz “nome técnico × nome popular”;
+painel de comunicação médica:
+como explicar sem arrogância;
+comparador de vetores:
+Aedes aegypti;
+Haemagogus/Sabethes;
+Lutzomyia longipalpis;
+hotspot epidemiológico mostrando vetor em ambiente urbano/periurbano.
+
+9. Reservatórios
+Pergunta clínica que este bloco resolve
+Por que a doença sai da mata e começa a aparecer no ambiente urbano/periurbano?
+Armadilha principal
+Imaginar que a leishmaniose visceral depende apenas de um ciclo silvestre distante da prática urbana, ou esquecer o papel do cão no ambiente humano.
+Lógica para sair da dúvida
+A doença tem reservatórios diferentes conforme o ambiente:
+na mata: raposa;
+no ambiente urbano/periurbano: cão.
+A aproximação entre vetor, cão e humano permite urbanização/periurbanização do calazar.
+
+Núcleo essencial
+Os reservatórios principais trabalhados são:
+Ambiente
+Reservatório
+Silvestre/mata
+Raposa
+Urbano/periurbano
+Cão
+O cão funciona como reservatório importante no ciclo urbano/periurbano e pode atuar como sentinela da circulação da doença.
+
+Explicação didática completa
+A leishmaniose visceral tem origem associada ao ambiente de mata. Nesse ciclo, o reservatório “de direito” é a raposa.
+Com a urbanização e periurbanização, o parasita encontra um novo animal próximo do ser humano: o cão.
+Essa transição é epidemiologicamente muito importante. Quando o cão passa a atuar como reservatório no ambiente urbano/periurbano, a doença se aproxima das casas, das periferias, dos quintais e das cidades.
+O cão também pode funcionar como sentinela. Isso significa que a presença de cães infectados em uma região sinaliza circulação do parasita e risco para humanos.
+Há um paralelo útil com a febre amarela:
+febre amarela: macacos podem funcionar como sentinelas da circulação viral no ambiente silvestre;
+leishmaniose visceral: cães podem funcionar como sentinelas no ambiente urbano/periurbano.
+A lógica não é culpar o animal, e sim reconhecer que ele sinaliza o ciclo de transmissão.
+
+Detalhes de prova
+Dado
+Interpretação
+Raposa
+Reservatório silvestre
+Cão
+Reservatório urbano/periurbano
+Cão infectado em área urbana
+Sinaliza circulação do parasita
+Urbanização/periurbanização
+Explica aparecimento em novas regiões
+Comparação com macacos
+Ambos podem funcionar como sentinelas em seus contextos
+Erro comum
+Esquecer cão como reservatório urbano
+
+Detalhes que valem guardar
+O cão “parece uma raposa” dentro da lógica ecológica simplificada: ele substitui a raposa como reservatório próximo do humano.
+A doença deixa de ser apenas “da mata” quando o ciclo se aproxima do ambiente urbano.
+O cão não deve ser visto apenas como detalhe veterinário; ele é peça epidemiológica do ciclo.
+
+Uso futuro na plataforma
+Este bloco pode virar:
+diagrama silvestre × urbano/periurbano:
+raposa → flebotomíneo → ciclo silvestre;
+cão → flebotomíneo → humano;
+card de sentinelas:
+macaco na febre amarela;
+cão no calazar;
+simulador de urbanização:
+o que acontece quando o reservatório se aproxima da cidade?
+quiz de reservatórios:
+“Qual é o reservatório urbano?”
+mapa de ciclo ecológico com raposa, cão, vetor e humano.
+
+10. Fisiopatologia — a doença do macrófago
+Pergunta clínica que este bloco resolve
+Como um protozoário transmitido por flebotomíneo causa febre por meses, fígado e baço enormes, pancitopenia e hipergamaglobulinemia?
+Armadilha principal
+Tentar decorar manifestações separadas sem enxergar o mecanismo único que as conecta.
+Lógica para sair da dúvida
+A leishmaniose visceral é uma doença do macrófago infectado. O parasita entra no macrófago, mas não é destruído. Macrófagos cheios de Leishmania infiltram fígado, baço e medula óssea. Isso explica quase todo o quadro.
+
+Núcleo essencial
+A fisiopatologia pode ser resumida assim:
+O paciente entra em contato com Leishmania.
+Contato não significa adoecer obrigatoriamente.
+Para adoecer, há falha/deficiência da imunidade celular.
+O macrófago fagocita o parasita, mas não consegue destruí-lo.
+Os macrófagos ficam cheios de Leishmania.
+Esses macrófagos infectados infiltram o sistema reticuloendotelial:
+fígado;
+baço;
+medula óssea.
+Isso gera:
+febre arrastada;
+hepatoesplenomegalia;
+esplenomegalia de grande monta;
+pancitopenia;
+aparência consumptiva;
+semelhança com neoplasia hematológica.
+
+Explicação didática completa
+A melhor forma de entender o calazar é pensar em uma falha da resposta celular contra um parasita intracelular.
+O paralelo com tuberculose ajuda. Na tuberculose, entrar em contato com o bacilo não significa adoecer. Muitas pessoas fazem infecção latente e nunca desenvolvem tuberculose ativa. O adoecimento depende da interação entre agente e imunidade do hospedeiro.
+Na leishmaniose visceral, há raciocínio semelhante: contato com Leishmania não significa automaticamente doença visceral. Para desenvolver calazar, o paciente precisa ter uma resposta de imunidade celular insuficiente.
+O macrófago é a célula que deveria fagocitar e destruir o parasita. Mas no calazar ele fagocita e não destrói.
+O resultado é um macrófago “entupido de bicho”.
+Esses macrófagos infectados não ficam simplesmente circulando como células livres no sangue. Eles infiltram órgãos do sistema reticuloendotelial:
+fígado;
+baço;
+medula óssea.
+A infiltração explica a clínica:
+Febre arrastada
+O patógeno não é eliminado. A resposta inflamatória persiste, e a febre se prolonga por meses.
+Hepatoesplenomegalia
+Fígado e baço ficam infiltrados por macrófagos infectados.
+O baço pode crescer muito, gerando esplenomegalia de grande monta.
+Pancitopenia
+Macrófagos infectados infiltram a medula óssea e ocupam o espaço dos progenitores hematopoiéticos normais.
+A medula produz menos:
+hemácias → anemia;
+leucócitos → leucopenia;
+plaquetas → plaquetopenia.
+Isso gera pancitopenia.
+Semelhança com neoplasia hematológica
+O paciente fica consumido, com febre crônica, baço enorme e pancitopenia. Isso parece doença hematológica maligna, porque o território acometido é semelhante: medula, baço, células sanguíneas.
+Mas a causa é infecciosa e parasitária.
+
+Tabela — manifestação clínica × mecanismo fisiopatológico
+Manifestação
+Mecanismo no calazar
+Febre arrastada
+Incapacidade de eliminar o parasita; inflamação persistente
+Perda ponderal/anorexia
+Doença crônica consumptiva
+Hepatomegalia
+Infiltração hepática por macrófagos infectados
+Esplenomegalia de grande monta
+Infiltração esplênica intensa pelo sistema reticuloendotelial
+Pancitopenia
+Infiltração da medula óssea e ocupação do espaço hematopoiético
+Anemia
+Redução de produção e doença crônica
+Leucopenia
+Comprometimento medular
+Plaquetopenia
+Comprometimento medular e possível sequestro
+Hipoalbuminemia
+Consumo/desnutrição
+Hipergamaglobulinemia policlonal
+Resposta humoral intensa, mas ineficaz
+Aparência de neoplasia
+Baço gigante + pancitopenia + consumo
+
+Detalhes de prova
+Pegadinha
+Correção
+Contato com Leishmania sempre causa calazar
+Não. A resposta imune do hospedeiro importa.
+A imunidade humoral resolve o parasita
+Não. A resposta celular é a decisiva.
+Macrófago destrói normalmente o parasita
+No calazar, fagocita mas não destrói.
+Pancitopenia é sempre câncer
+Não. Pode ser infiltração medular por macrófagos infectados.
+Hepatoesplenomegalia é só congestão/hipertensão portal
+No calazar, é infiltração do sistema reticuloendotelial.
+Febre arrastada é só febre sem foco
+É pista de infecção crônica/infiltrativa.
+
+Detalhes que valem guardar
+“Macrófagos cheios de bicho” é a imagem mental central.
+A medula óssea é tanto órgão-alvo da doença quanto local preferencial de diagnóstico.
+O calazar parece neoplasia porque ocupa os mesmos espaços: baço, medula e sangue periférico.
+O paralelo com tuberculose serve para lembrar que contato com agente não é igual a doença ativa.
+
+Uso futuro na plataforma
+Este bloco pode virar:
+animação do macrófago fagocitando Leishmania e não destruindo;
+mapa do sistema reticuloendotelial com fígado, baço e medula;
+simulador fisiopatológico:
+clique no órgão → veja manifestação;
+card “doença do macrófago”;
+painel “por que parece câncer?”;
+quiz de mecanismo:
+“Por que há pancitopenia?”
+“Por que há baço gigante?”
+linha causal visual:
+falha celular → macrófago infectado → infiltração → clínica.
+
+11. Imunidade celular versus imunidade humoral
+Pergunta clínica que este bloco resolve
+Por que o paciente produz muitos anticorpos, mas continua doente?
+Armadilha principal
+Achar que “muito anticorpo” significa defesa eficaz. No calazar, os anticorpos são marcadores laboratoriais importantes, mas não resolvem o problema.
+Lógica para sair da dúvida
+A defesa decisiva contra o parasita depende da imunidade celular, especialmente da ativação adequada de macrófagos. A resposta humoral produz anticorpos em excesso, mas eles não conseguem eliminar efetivamente o parasita intracelular.
+
+Núcleo essencial
+Na leishmaniose visceral:
+a imunidade celular é a resposta que faria diferença;
+a resposta celular está insuficiente;
+macrófagos fagocitam o parasita, mas não o destroem;
+a imunidade humoral tenta compensar, produzindo muitos anticorpos;
+esses anticorpos não resolvem a infecção;
+a produção intensa gera hipergamaglobulinemia policlonal;
+a albumina cai por consumo/desnutrição;
+a relação albumina-globulina se inverte.
+
+Explicação didática completa
+O parasita está dentro de macrófagos. Portanto, a resposta eficaz não é simplesmente jogar anticorpos no sangue. O problema está dentro da célula.
+A imunidade celular seria necessária para ativar adequadamente o macrófago e permitir destruição do parasita.
+Quando essa resposta falha, o organismo tenta responder por outro caminho: produz anticorpos.
+Essa resposta humoral é “bem-intencionada”, mas pouco eficiente. O parasita é grande, intracelular, protegido dentro de macrófagos. O anticorpo não faz grande impacto.
+Mesmo assim, os anticorpos aparecem no laboratório:
+globulinas aumentam;
+a fração gama aumenta;
+há hipergamaglobulinemia.
+Como o estímulo é infeccioso/inflamatório crônico, várias linhagens celulares produzem anticorpos. Por isso, o padrão é policlonal.
+Ao mesmo tempo, o paciente está consumido e desnutrido, o que contribui para queda da albumina.
+Resultado:
+Albumina baixa + globulinas altas = inversão albumina-globulina.
+
+Tabela — imunidade celular × imunidade humoral na leishmaniose visceral
+Aspecto
+Imunidade celular
+Imunidade humoral
+Papel esperado
+Controlar parasita intracelular e ativar macrófagos
+Produzir anticorpos
+Situação no calazar ativo
+Insuficiente/ineficaz
+Exagerada, mas ineficaz
+Célula-chave
+Macrófago
+Linfócitos B/plasmócitos
+Resultado clínico
+Parasita persiste dentro de macrófagos
+Anticorpos aumentam, mas não eliminam parasita
+Marcador laboratorial
+Montenegro pode ser negativo na visceral ativa
+Hipergamaglobulinemia policlonal
+Relação com diagnóstico
+Falha celular explica doença ativa e teste cutâneo negativo
+Sorologias podem ser positivas, mas perdem acurácia em imunossuprimidos
+Pegadinha
+Achar que contato sempre gera resposta celular detectável
+Achar que muito anticorpo significa proteção efetiva
+
+PoliclonaI versus monoclonal
+A diferença entre policlonal e monoclonal é decisiva.
+Padrão monoclonal
+Um único clone celular produz uma imunoglobulina em excesso.
+Isso sugere:
+mieloma múltiplo;
+gamopatia monoclonal.
+Imagem mental: um clone dominante produzindo uma única “família” de anticorpos.
+Padrão policlonal
+Várias células imunes produzem anticorpos ao mesmo tempo, como resposta a estímulo inflamatório/infeccioso.
+Isso sugere:
+infecção crônica;
+inflamação crônica;
+no caso, leishmaniose visceral.
+Imagem mental: várias linhagens tentando responder, sem uma população neoplásica única dominando.
+
+Tabela — hipergamaglobulinemia policlonal × monoclonal
+Critério
+Policlonal
+Monoclonal
+Origem
+Várias linhagens celulares
+Um clone dominante
+Contexto
+Resposta inflamatória/infecciosa crônica
+Neoplasia/gamopatia clonal
+Exemplo no roteiro
+Leishmaniose visceral
+Mieloma múltiplo/gamopatia monoclonal
+Interpretação
+Reacional
+Clonal
+Armadilha
+Pode parecer mieloma se olhar só “globulina alta”
+Pode ser confundida se não avaliar eletroforese
+Frase de prova
+“Hipergamaglobulinemia policlonal” favorece calazar no contexto certo
+“Pico monoclonal” favorece gamopatia
+
+Detalhes de prova
+Pegadinha
+Correção
+Anticorpo alto significa controle da doença
+Não. A resposta humoral é ineficaz contra o parasita intracelular.
+Hipergamaglobulinemia sempre é mieloma
+Não. Precisa diferenciar policlonal de monoclonal.
+Albumina baixa é detalhe isolado
+Não. Com globulina alta, indica inversão albumina-globulina.
+PoliclonaI e monoclonal são equivalentes
+Não. São raciocínios opostos.
+Imunidade celular não importa
+É justamente a resposta decisiva.
+Sorologia sempre funciona bem
+Pode perder acurácia em imunossuprimidos.
+
+Detalhes que valem guardar
+A hipergamaglobulinemia do calazar é uma resposta “barulhenta”, mas pouco resolutiva.
+O corpo produz muito anticorpo, mas o problema está dentro do macrófago.
+A inversão albumina-globulina é um reflexo laboratorial da doença crônica: albumina cai, globulina sobe.
+Esse bloco é um dos melhores para transformar em ferramenta visual, porque a diferença policlonal × monoclonal é altamente testável.
+
+Uso futuro na plataforma
+Este bloco pode virar:
+simulador de eletroforese:
+padrão policlonal largo;
+pico monoclonal estreito;
+card “muito anticorpo, pouca proteção”;
+quiz policlonal × monoclonal;
+fluxo imunológico:
+celular falha → humoral aumenta → globulina sobe;
+comparador com mieloma múltiplo;
+flashcard:
+“Por que o anticorpo não resolve o calazar?”
+
+12. Reação de Montenegro
+Pergunta clínica que este bloco resolve
+Por que um teste que depende de imunidade celular pode vir negativo justamente em um paciente com leishmaniose visceral ativa?
+Armadilha principal
+Interpretar Montenegro negativo como ausência de contato com Leishmania.
+Lógica para sair da dúvida
+Na leishmaniose visceral ativa, a imunidade celular pode estar insuficiente. O paciente pode estar infectado, mas incapaz de montar resposta celular cutânea adequada. Por isso, a reação de Montenegro pode ser negativa. Após tratamento, com recuperação da resposta celular, ela pode positivar.
+
+Núcleo essencial
+A reação de Montenegro se relaciona à imunidade celular, de modo semelhante à prova tuberculínica na tuberculose.
+Na leishmaniose visceral ativa:
+pode vir negativa;
+não porque o paciente nunca teve contato;
+mas porque a resposta celular está deficiente.
+Após tratamento:
+a imunidade celular pode se recuperar;
+a reação de Montenegro pode positivar.
+Na leishmaniose tegumentar:
+a reação de Montenegro tende a ser positiva, porque a imunidade celular está mais preservada.
+
+Explicação didática completa
+O paralelo com a tuberculose ajuda a entender.
+Na tuberculose, a prova tuberculínica avalia se o organismo é capaz de montar resposta celular contra antígenos do bacilo.
+Na leishmaniose, a reação de Montenegro tem lógica semelhante: ela depende de resposta celular contra antígenos de Leishmania.
+Mas na leishmaniose visceral, o ponto central é justamente a falha da imunidade celular. O paciente pode estar cheio de parasita, com doença ativa, mas sem resposta celular suficiente para positivar o teste.
+Então, Montenegro negativo não exclui leishmaniose visceral ativa.
+Depois do tratamento, quando a imunidade celular melhora, o teste pode positivar. Esse detalhe é contraintuitivo e muito cobrável.
+Na leishmaniose tegumentar, a imunidade celular está mais preservada. Por isso, Montenegro tende a ser positivo.
+
+Tabela — reação de Montenegro na visceral × tegumentar × pós-tratamento
+Situação
+Montenegro
+Por quê?
+Pegadinha
+Leishmaniose visceral ativa
+Pode ser negativa
+Imunidade celular insuficiente
+Negativo não exclui doença ativa
+Pós-tratamento da visceral
+Pode positivar
+Recuperação da imunidade celular
+Pode parecer estranho positivar depois
+Leishmaniose tegumentar
+Tende a ser positiva
+Imunidade celular mais preservada
+Não aplicar lógica da visceral à tegumentar
+Sem contato e imunidade normal
+Negativa
+Não há sensibilização
+Diferenciar de anergia celular
+
+Detalhes de prova
+Pegadinha
+Correção
+Montenegro negativo exclui leishmaniose visceral
+Não exclui. Pode ser anergia/deficiência celular.
+Montenegro positivo é obrigatório na visceral ativa
+Não. Pode vir negativo.
+Montenegro pode positivar após tratamento
+Sim. A resposta celular pode se recuperar.
+Montenegro na tegumentar tende a ser negativo
+Não. Tende a ser positivo.
+Montenegro avalia imunidade humoral
+Não. Relaciona-se à imunidade celular.
+Montenegro é igual a sorologia
+Não. Sorologia avalia anticorpos; Montenegro avalia resposta celular cutânea.
+
+Detalhes que valem guardar
+Montenegro negativo na visceral ativa é uma pegadinha clássica porque o aluno espera que “doença presente = teste positivo”.
+O teste depende da competência da resposta celular, não apenas da presença do parasita.
+O paralelo com a prova tuberculínica ajuda a fixar a lógica, mas as doenças não devem ser confundidas.
+
+Uso futuro na plataforma
+Este bloco pode virar:
+simulador de resposta cutânea:
+imunidade celular preservada → positivo;
+imunidade celular falha → negativo;
+comparador PPD × Montenegro;
+quiz de pegadinha:
+“Calazar ativo com Montenegro negativo: exclui?”
+linha temporal:
+antes do tratamento → negativo;
+depois do tratamento → pode positivar;
+painel visceral × tegumentar.
+
+Fechamento lógico da PARTE 2
+Nesta parte, o roteiro avançou do nome da doença para o mecanismo que sustenta o caso:
+Leishmaniose visceral é causada por Leishmania chagasi/infantum, um protozoário.
+Não confundir com Leishmania braziliensis, ligada à leishmaniose tegumentar.
+O vetor é Lutzomyia longipalpis, um flebotomíneo popularmente chamado de mosquito-palha.
+Raposa é reservatório silvestre; cão é reservatório urbano/periurbano.
+A urbanização/periurbanização aproxima o ciclo do ambiente humano.
+A doença pode ser entendida como uma doença do macrófago infectado.
+Macrófagos fagocitam Leishmania, mas não a destroem.
+Esses macrófagos infiltram fígado, baço e medula óssea.
+Isso explica febre arrastada, hepatoesplenomegalia e pancitopenia.
+A resposta celular é a que faria diferença; a resposta humoral produz muitos anticorpos, mas não resolve.
+A hipergamaglobulinemia é policlonal, diferenciando o caso de gamopatia monoclonal/mieloma.
+A reação de Montenegro pode ser negativa na visceral ativa e positivar após tratamento.
+Este bloco será continuado na próxima parte.
+ROTEIRO DIDÁTICO COMPLETO — LEISHMANIOSE VISCERAL / CALAZAR
+PARTE 3 — quadro clínico, diagnóstico parasitológico, medula, baço e sorologias
+
+
+13. Quadro clínico
+Pergunta clínica que este bloco resolve
+Como reconhecer, no paciente real ou na prova, que a febre arrastada não é apenas “virose prolongada”, neoplasia hematológica ou doença hepatoesplênica inespecífica, mas sim leishmaniose visceral?
+Armadilha principal
+O quadro clínico é sistêmico, lento e consumptivo. Isso pode fazer o raciocínio correr para câncer, doença hematológica ou síndrome constitucional genérica. A chave é juntar tempo + epidemiologia + baço + pancitopenia + hipergamaglobulinemia policlonal.
+Lógica para sair da dúvida
+Leishmaniose visceral deve subir quando o paciente apresenta:
+febre arrastada;
+mal-estar;
+anorexia;
+perda ponderal;
+consumo;
+aumento do volume abdominal;
+hepatoesplenomegalia;
+esplenomegalia de grande monta;
+pancitopenia;
+hipoalbuminemia;
+hipergamaglobulinemia policlonal;
+vínculo epidemiológico com área endêmica.
+
+Núcleo essencial
+O quadro clínico típico do calazar é uma síndrome sistêmica arrastada, com acometimento de órgãos do sistema reticuloendotelial.
+Os achados centrais são:
+Achado
+Significado clínico
+Febre arrastada
+Infecção crônica não controlada
+Mal-estar
+Síndrome sistêmica
+Anorexia
+Doença consumptiva
+Perda ponderal
+Consumo crônico
+Aumento abdominal
+Hepatoesplenomegalia
+Hepatomegalia
+Infiltração hepática por macrófagos infectados
+Esplenomegalia de grande monta
+Infiltração esplênica intensa
+Pancitopenia
+Infiltração medular/sequestro
+Hipoalbuminemia
+Consumo/desnutrição
+Hipergamaglobulinemia policlonal
+Resposta humoral intensa e reacional
+Icterícia possível
+Pode ocorrer, mas não é o marco principal
+
+Explicação didática completa
+O quadro do calazar não abre com a dramaticidade de uma dengue grave, febre amarela grave ou leptospirose com hemoptise. Ele se constrói lentamente.
+O paciente vai ficando febril por semanas ou meses. A febre não é o episódio isolado de poucos dias que melhora ou defervesce. É uma febre que persiste porque o parasita não foi eliminado adequadamente.
+Junto da febre, aparecem sinais de doença crônica:
+mal-estar;
+anorexia;
+perda ponderal importante;
+desnutrição;
+hipoalbuminemia;
+aparência consumida.
+O aumento abdominal é uma consequência direta da hepatoesplenomegalia. O fígado pode estar palpável, mas o baço costuma chamar mais atenção. Um baço palpável a 10 cm do rebordo costal esquerdo representa esplenomegalia de grande monta e deve ser tratado como pista central, não como detalhe do exame físico.
+A pancitopenia fecha a assinatura hematológica:
+anemia;
+leucopenia;
+plaquetopenia.
+A explicação é o acometimento da medula óssea e do sistema reticuloendotelial por macrófagos infectados. Esses macrófagos ocupam espaços que deveriam estar disponíveis para células progenitoras hematopoiéticas saudáveis.
+Por isso o paciente parece ter uma doença hematológica. A aparência clínica não é “falsa”: o sangue e a medula estão realmente envolvidos. O erro é concluir que isso só pode ser neoplasia.
+A hipergamaglobulinemia policlonal completa o retrato. O organismo produz muitos anticorpos, mas essa resposta humoral não resolve o parasita intracelular. O excesso de gamaglobulinas é uma pista laboratorial da resposta inflamatória/infecciosa crônica.
+
+Tabela — manifestações clínicas e sua explicação no calazar
+Manifestação
+Explicação
+Febre por meses
+Persistência do parasita e inflamação crônica
+Mal-estar e anorexia
+Síndrome sistêmica consumptiva
+Perda ponderal
+Doença crônica, desnutrição e inflamação
+Abdome aumentado
+Hepatoesplenomegalia
+Fígado palpável
+Infiltração por macrófagos infectados
+Baço muito aumentado
+Infiltração esplênica pelo sistema reticuloendotelial
+Pancitopenia
+Medula infiltrada e comprometimento da hematopoiese
+Albumina baixa
+Consumo/desnutrição
+Globulinas altas
+Produção intensa de anticorpos
+Hipergamaglobulinemia policlonal
+Resposta humoral reacional, não clonal
+Icterícia
+Pode ocorrer, mas não é o eixo principal do diagnóstico
+
+Detalhes de prova
+Pegadinha
+Correção
+Febre arrastada com baço grande é sempre neoplasia
+Calazar deve ser lembrado, sobretudo em área endêmica
+Pancitopenia obriga diagnóstico hematológico maligno
+Pode ocorrer por infiltração medular no calazar
+Icterícia é o principal marco da leishmaniose visceral
+Pode ocorrer, mas o núcleo é febre arrastada + hepatoesplenomegalia + pancitopenia
+Baço grande é detalhe de exame físico
+Baço de grande monta é pista diagnóstica central
+Hipergamaglobulinemia sempre é mieloma
+No calazar, é policlonal
+Leucopenia afasta infecção
+Não. Na leishmaniose visceral, a medula pode estar comprometida
+
+Detalhes que valem guardar
+O calazar é uma doença de ritmo lento: a cronologia é parte do diagnóstico.
+A síndrome consumptiva pode simular câncer.
+A medula óssea não é apenas um local de exame; ela participa da doença.
+A hipergamaglobulinemia policlonal é uma tentativa imunológica intensa, mas ineficaz.
+
+Uso futuro na plataforma
+Este bloco pode virar:
+linha do tempo da febre arrastada;
+painel clínico progressivo: febre → perda ponderal → baço → pancitopenia;
+hotspot corporal:
+fígado;
+baço;
+medula;
+simulador “parece câncer, mas é calazar”;
+quiz de semiologia abdominal:
+“baço a 10 cm: qual peso diagnóstico?”
+card de raciocínio: “o eixo não é icterícia; é sistema reticuloendotelial”.
+
+14. Diagnóstico
+Pergunta clínica que este bloco resolve
+Como confirmar uma doença que está dentro de macrófagos e infiltra medula, fígado e baço?
+Armadilha principal
+Achar que sorologia basta sempre, ou confundir o exame mais sensível com o exame preferencial. Outra armadilha é esquecer o risco de sangramento da punção esplênica em um paciente pancitopênico.
+Lógica para sair da dúvida
+O diagnóstico definitivo é parasitológico: demonstrar o parasita, especialmente formas amastigotas dentro de macrófagos. O método preferencial é o aspirado de medula óssea. A punção esplênica é mais sensível, mas tem risco de sangramento proibitivo em muitos cenários.
+
+Núcleo essencial
+O diagnóstico da leishmaniose visceral deve buscar demonstrar o parasita.
+A forma procurada é:
+amastigota
+O local clássico:
+interior de macrófagos
+O método preferencial:
+aspirado de medula óssea
+Sensibilidade citada:
+aproximadamente 70%
+O método mais sensível:
+punção esplênica
+Mas a punção esplênica tem risco elevado de sangramento, especialmente em paciente com:
+plaquetopenia;
+pancitopenia;
+baço muito aumentado.
+A frase de prova é:
+Método preferencial: aspirado de medula. Método mais sensível: punção esplênica.
+
+Explicação didática completa
+A fisiopatologia prepara o diagnóstico. Se a doença vive dentro de macrófagos e esses macrófagos infiltram a medula óssea, faz sentido procurar o parasita na medula.
+O exame parasitológico procura formas amastigotas de Leishmania.
+Para entender a palavra, é útil diferenciar duas formas:
+Forma promastigota
+É a forma com “rabinho”, com flagelo. O radical “mastigo” remete a chicote.
+Imagem mental:
+corpo do parasita;
+flagelo;
+forma móvel.
+Forma amastigota
+É a forma sem flagelo.
+Ela aparece como pequenos pontos dentro do macrófago.
+Imagem mental:
+macrófago;
+vários pontinhos intracelulares;
+esses pontinhos são amastigotas.
+Na leishmaniose visceral, a forma amastigota dentro de macrófagos é a assinatura parasitológica.
+
+Aspirado de medula óssea
+O aspirado de medula óssea é o método preferencial.
+Ele faz sentido porque:
+a medula é infiltrada por macrófagos infectados;
+a pancitopenia já indica que a medula participa do processo;
+o exame permite procurar amastigotas intracelulares;
+tem risco menor que punção esplênica.
+A sensibilidade citada gira em torno de 70%. Isso parece baixo para um método preferencial, mas a escolha não depende apenas da sensibilidade. Depende também de segurança.
+
+Punção esplênica
+A punção esplênica é o método mais sensível.
+Isso é intuitivo: o baço está enorme e cheio de macrófagos infectados. A chance de encontrar o parasita ali é alta.
+Mas existe um problema crítico:
+risco de sangramento.
+O baço é órgão muito vascularizado. Em um paciente com plaquetopenia ou pancitopenia, esse risco fica ainda mais preocupante.
+Portanto, a punção esplênica pode ser mais sensível, mas não é o método preferencial por segurança.
+A prova pode usar exatamente esse jogo de palavras.
+
+Tabela — aspirado de medula × punção esplênica × sorologia
+Método
+O que busca
+Vantagem
+Limitação
+Frase de prova
+Aspirado de medula óssea
+Amastigotas dentro de macrófagos
+Método preferencial; mais seguro que punção esplênica
+Sensibilidade em torno de 70%
+Preferencial
+Punção esplênica
+Parasita no baço
+Método mais sensível
+Risco proibitivo de sangramento, especialmente com plaquetopenia/pancitopenia
+Mais sensível, mas arriscada
+Sorologia
+Anticorpos contra Leishmania
+Complementa diagnóstico; útil em muitos cenários
+Perde acurácia em imunossuprimidos
+Complementar, não substitui sempre o parasitológico
+Imunofluorescência
+Anticorpos detectáveis por reação fluorescente
+Método sorológico importante
+Depende de resposta humoral
+Pode falhar se imunidade humoral comprometida
+rK39
+Teste com antígeno de Leishmania
+Teste complementar
+Acurácia pode cair em imunossuprimidos
+Útil, mas interpretar no contexto
+
+Detalhes de prova
+Pegadinha
+Correção
+Método preferencial é punção esplênica
+Não. O preferencial é aspirado de medula.
+Método mais sensível é aspirado de medula
+Não. O mais sensível é punção esplênica.
+Punção esplênica deve ser sempre escolhida pela sensibilidade
+Não. O risco de sangramento pesa muito.
+Plaquetopenia não importa na escolha do exame
+Importa muito, porque aumenta risco de sangramento.
+O diagnóstico parasitológico procura forma flagelada no sangue
+Procura amastigotas dentro de macrófagos.
+Sensibilidade de 70% torna medula inútil
+Não. Continua sendo preferencial pela segurança.
+
+Detalhes que valem guardar
+O melhor exame nem sempre é o mais sensível; segurança também define método preferencial.
+O baço é cheio de parasita, mas também cheio de sangue.
+Pancitopenia explica tanto a clínica quanto a cautela diagnóstica.
+A forma amastigota é visualmente didática: “pontinhos dentro do macrófago”.
+
+Uso futuro na plataforma
+Este bloco pode virar:
+microscopia interativa:
+macrófago com amastigotas;
+usuário identifica os pontinhos;
+comparador de métodos diagnósticos;
+quiz de palavra-chave:
+“preferencial ou mais sensível?”
+simulador de risco de sangramento:
+plaquetas baixas + punção esplênica;
+flashcard:
+“amastigota = forma intracelular sem flagelo”;
+árvore diagnóstica:
+suspeita clínica → parasitológico → sorologia complementar.
+
+15. Sorologia e testes complementares
+Pergunta clínica que este bloco resolve
+Se o paciente produz muitos anticorpos, como usar isso no diagnóstico — e quando essa estratégia falha?
+Armadilha principal
+Achar que sorologia sempre tem a mesma acurácia em todos os pacientes. Em imunossuprimidos, os testes baseados em anticorpos podem perder desempenho.
+Lógica para sair da dúvida
+A resposta humoral intensa gera marcadores sorológicos úteis, como imunofluorescência e rK39. Porém, quando o paciente tem imunossupressão, HIV ou usa drogas imunossupressoras, a produção de anticorpos pode ser prejudicada, reduzindo a acurácia.
+
+Núcleo essencial
+Testes complementares citados:
+relação albumina-globulina invertida;
+hipergamaglobulinemia policlonal;
+imunofluorescência;
+teste rK39.
+Cuidado:
+sorologias dependem de resposta humoral;
+pacientes imunossuprimidos podem ter menor acurácia;
+HIV e uso de imunossupressores são contextos de atenção.
+
+Explicação didática completa
+A resposta humoral não resolve a doença, mas deixa rastros laboratoriais.
+O paciente produz muito anticorpo. Isso aparece como:
+globulina elevada;
+fração gama aumentada;
+hipergamaglobulinemia policlonal.
+Além disso, esses anticorpos podem ser explorados em exames sorológicos.
+
+Imunofluorescência
+A lógica da imunofluorescência pode ser entendida assim:
+O paciente produz anticorpos contra Leishmania.
+O teste usa um anticorpo contra esse anticorpo.
+Esse anticorpo secundário permite uma reação fluorescente.
+O material “brilha”, documentando a presença da resposta humoral.
+Imagem mental:
+anticorpo contra anticorpo → fluorescência.
+Esse raciocínio ajuda a não decorar o teste de forma vazia.
+
+Teste rK39
+O teste rK39 é um teste baseado em antígeno de Leishmania.
+Ele é um teste complementar importante e pode aparecer em prova como ferramenta diagnóstica sorológica.
+O ponto central para este roteiro é saber que ele existe dentro do arsenal complementar e que, como outros testes baseados em resposta imune, deve ser interpretado com cautela em pacientes imunossuprimidos.
+
+Relação albumina-globulina invertida
+A inversão albumina-globulina não é teste específico, mas é um marcador laboratorial importante.
+Ela acontece porque:
+albumina cai por consumo/desnutrição;
+globulinas sobem por produção intensa de anticorpos.
+Quando a eletroforese mostra que a globulina aumentada é gamaglobulina e que o padrão é policlonal, o raciocínio favorece doença inflamatória/infecciosa crônica.
+
+Imunossupressão e perda de acurácia
+Sorologia depende de anticorpos. Se o paciente não consegue produzir anticorpos adequadamente, o teste pode falhar.
+Contextos de alerta:
+pessoas vivendo com HIV;
+uso de medicamentos imunossupressores;
+imunidade humoral comprometida.
+Esse cuidado é importante porque leishmaniose visceral e HIV podem andar juntos, e a imunossupressão torna a sorologia menos confiável.
+
+Tabela — testes complementares e interpretação
+Teste/achado
+O que indica
+Utilidade
+Limitação
+Albumina baixa
+Consumo/desnutrição
+Ajuda a compor o padrão sistêmico
+Inespecífica
+Globulina alta
+Produção de proteínas globulínicas
+Sugere resposta humoral intensa
+Inespecífica sem frações
+Relação albumina-globulina invertida
+Albumina baixa + globulina alta
+Pista laboratorial forte no contexto
+Não confirma sozinha
+Hipergamaglobulinemia policlonal
+Produção ampla de anticorpos
+Diferencia de gamopatia monoclonal
+Não é exclusiva
+Imunofluorescência
+Anticorpos contra Leishmania
+Método sorológico complementar
+Pode perder acurácia em imunossuprimidos
+rK39
+Resposta contra antígeno de Leishmania
+Teste complementar útil
+Cautela em imunossupressão
+Sorologia em HIV/imunossupressão
+Pode ser menos confiável
+Pode ajudar, mas não descarta se negativa
+Perda de acurácia
+
+Detalhes de prova
+Pegadinha
+Correção
+Sorologia negativa exclui leishmaniose visceral em imunossuprimido
+Não. Acurácia pode cair.
+Hipergamaglobulinemia policlonal confirma sozinha
+Não confirma, mas fortalece muito no contexto.
+Imunofluorescência é parasitológico direto
+Não. É sorológico/imunológico.
+rK39 substitui sempre o parasitológico
+Não. É complementar e precisa de contexto.
+Relação albumina-globulina invertida é típica de mieloma
+Pode confundir, mas no calazar o padrão é policlonal.
+HIV não interfere na interpretação
+Interfere, porque pode reduzir resposta imune e acurácia sorológica.
+
+Detalhes que valem guardar
+A resposta humoral do calazar é paradoxal: produz muitos anticorpos, mas eles não controlam bem o parasita.
+O mesmo fenômeno que ajuda no diagnóstico pode falhar se a imunidade humoral estiver comprometida.
+A sorologia deve conversar com a clínica, a epidemiologia e, quando possível, o parasitológico.
+
+Uso futuro na plataforma
+Este bloco pode virar:
+animação de imunofluorescência:
+anticorpo do paciente;
+anticorpo secundário;
+fluorescência;
+card “sorologia falha em quem não produz anticorpo”;
+simulador HIV/imunossupressão:
+teste sorológico negativo, mas suspeita alta;
+painel de eletroforese:
+policlonal versus monoclonal;
+quiz rK39 e imunofluorescência;
+árvore diagnóstica parasitológico × sorologia.
+
+16. Quadro clínico + diagnóstico: integração para prova
+Pergunta clínica que este bloco resolve
+Como transformar dados dispersos — baço, pancitopenia, globulina, medula e sorologia — em uma resposta de prova segura?
+Armadilha principal
+Memorizar exames sem entender por que eles foram escolhidos.
+Lógica para sair da dúvida
+O diagnóstico se organiza em três camadas:
+Suspeita clínica e epidemiológica Febre arrastada + Crato/Ceará + consumo + baço grande.
+Padrão laboratorial compatível Pancitopenia + inversão albumina-globulina + hipergamaglobulinemia policlonal.
+Confirmação parasitológica/sorológica Amastigotas em macrófagos, preferencialmente por aspirado de medula; sorologia como apoio.
+
+Fluxograma textual — suspeita de leishmaniose visceral → diagnóstico
+SUSPEITA CLÍNICA
+│
+├── Febre arrastada?
+│   └── Sim → pensar além de arboviroses agudas
+│
+├── Consumo/perda ponderal/anorexia?
+│   └── Sim → doença crônica sistêmica
+│
+├── Hepatoesplenomegalia?
+│   └── Baço de grande monta → sistema reticuloendotelial
+│
+├── Pancitopenia?
+│   └── Sim → medula óssea envolvida / sequestro / infiltração
+│
+├── Epidemiologia compatível?
+│   ├── Crato/Ceará
+│   ├── Interior da Bahia
+│   ├── Minas Gerais
+│   └── Áreas urbanizadas/periurbanizadas
+│
+├── Proteínas séricas
+│   ├── Albumina baixa
+│   ├── Globulina alta
+│   └── Hipergamaglobulinemia policlonal
+│
+└── Confirmar
+    ├── Preferencial: aspirado de medula óssea
+    │   └── Procurar amastigotas dentro de macrófagos
+    │
+    ├── Mais sensível: punção esplênica
+    │   └── Evitar pela chance de sangramento
+    │
+    └── Complementar: sorologia
+        ├── Imunofluorescência
+        ├── rK39
+        └── Cautela em imunossuprimidos
+
+Tabela — decisão diagnóstica em camadas
+Camada
+Dado
+Interpretação
+Clínica
+Febre há meses
+Doença arrastada
+Clínica
+Perda ponderal/anorexia
+Consumo
+Exame físico
+Baço a 10 cm
+Esplenomegalia de grande monta
+Hemograma
+Pancitopenia
+Medula/sistema reticuloendotelial
+Bioquímica
+Albumina baixa
+Consumo/desnutrição
+Proteínas
+Globulina alta
+Resposta humoral
+Eletroforese
+Policlonal
+Infecção/inflamação crônica
+Epidemiologia
+Crato/Ceará
+Área endêmica
+Parasitológico
+Amastigotas em macrófagos
+Confirmação direta
+Método preferencial
+Aspirado de medula
+Melhor equilíbrio segurança/utilidade
+Método mais sensível
+Punção esplênica
+Alta sensibilidade, risco de sangramento
+Sorologia
+Imunofluorescência/rK39
+Complementa, mas falha mais em imunossuprimidos
+
+Detalhes de prova
+Se a questão perguntar...
+Resposta
+Método preferencial
+Aspirado de medula óssea
+Método mais sensível
+Punção esplênica
+Forma intracelular
+Amastigota
+Célula que contém o parasita
+Macrófago
+Sensibilidade do aspirado de medula citada
+Cerca de 70%
+Por que evitar punção esplênica?
+Risco de sangramento
+Quem reduz acurácia sorológica?
+Imunossuprimidos, HIV, uso de imunossupressores
+Padrão de gamaglobulina no calazar
+PoliclonaI
+
+Detalhes que valem guardar
+O diagnóstico não começa no microscópio; começa no padrão clínico-epidemiológico.
+O parasitológico fecha o caso, mas a suspeita precisa estar madura antes.
+“Preferencial” e “mais sensível” são palavras diferentes; a prova adora trocar.
+A medula explica a clínica e também justifica o exame.
+
+Uso futuro na plataforma
+Este bloco pode virar:
+fluxograma de suspeita → confirmação;
+simulador de escolha do exame:
+plaquetas baixas;
+baço gigante;
+pergunta: medula ou baço?
+card “preferencial ≠ mais sensível”;
+microscopia clicável de amastigotas;
+quiz de acurácia em imunossuprimidos;
+painel de “três camadas diagnósticas”.
+
+Fechamento lógico da PARTE 3
+Nesta parte, o roteiro consolidou a apresentação clínica e a confirmação diagnóstica:
+O quadro clínico combina febre arrastada, consumo, hepatoesplenomegalia, esplenomegalia de grande monta, pancitopenia e hipergamaglobulinemia policlonal.
+A icterícia pode aparecer, mas não é o eixo principal da doença.
+O diagnóstico definitivo é parasitológico.
+A forma procurada é a amastigota, dentro de macrófagos.
+O método preferencial é o aspirado de medula óssea.
+A sensibilidade do aspirado de medula gira em torno de 70%.
+A punção esplênica é mais sensível, mas seu risco de sangramento é elevado, sobretudo em paciente com plaquetopenia/pancitopenia.
+Imunofluorescência e rK39 são testes complementares.
+Sorologias podem perder acurácia em imunossuprimidos, pessoas vivendo com HIV ou em uso de imunossupressores.
+O raciocínio de prova depende de separar método preferencial, método mais sensível e teste complementar.
+Este bloco será continuado na próxima parte.
+ROTEIRO DIDÁTICO COMPLETO — LEISHMANIOSE VISCERAL / CALAZAR
+PARTE 4 — tratamento, toxicidade, anfotericina B lipossomal e fechamento do caso
+
+
+17. Tratamento geral
+Pergunta clínica que este bloco resolve
+Depois de suspeitar e confirmar leishmaniose visceral, todo paciente deve receber a mesma droga?
+Armadilha principal
+Achar que a droga “de escolha” no SUS é automaticamente a melhor droga para todos os pacientes. No calazar, existe uma diferença importante entre custo-efetividade populacional e maior eficácia/menor toxicidade para casos específicos.
+Lógica para sair da dúvida
+O tratamento geral da população pode ser feito com antimonial pentavalente, conhecido como Glucantime, por ser uma escolha custo-efetiva. Porém, em pacientes graves, gestantes, imunossuprimidos, extremos de idade, insuficiências, intolerância ou falha terapêutica, a melhor escolha passa a ser anfotericina B lipossomal.
+
+Núcleo essencial
+O tratamento se organiza em dois grandes caminhos:
+Antimonial pentavalente / Glucantime
+usado como tratamento geral no SUS;
+escolha por custo-efetividade;
+não necessariamente a droga mais eficaz;
+perfil de efeitos adversos desfavorável;
+pode causar cardiotoxicidade;
+pode prolongar o intervalo QT;
+exige ECG seriado.
+Anfotericina B lipossomal
+mais eficaz;
+menos tóxica na formulação lipossomal;
+não é a opção populacional ampla por custo;
+indicada em situações específicas:
+grave;
+gestante;
+imunossupressão;
+HIV;
+uso de imunossupressores;
+idade < 1 ano ou > 50 anos;
+insuficiência hepática, cardíaca ou renal;
+intolerância ao antimonial;
+falha terapêutica;
+efeitos adversos importantes.
+
+Explicação didática completa
+O tratamento do calazar precisa ser pensado em duas camadas: a recomendação geral de saúde pública e a decisão individual do paciente que está na sua frente.
+O antimonial pentavalente, também chamado de Glucantime, é apresentado como escolha geral por ser custo-efetivo. Isso significa que, para tratar uma população grande, em um sistema público amplo, ele entrega uma relação aceitável entre custo e benefício.
+Mas custo-efetivo não significa “melhor em todos os cenários”.
+O antimonial tem toxicidades relevantes, especialmente cardíacas. Ele pode prolongar o intervalo QT, exigindo vigilância com eletrocardiograma seriado.
+Quando o paciente tem maior risco, maior gravidade ou alguma condição que torna o antimonial perigoso ou inadequado, entra a anfotericina B lipossomal.
+A anfotericina B lipossomal é mais eficaz e menos tóxica do que formulações mais antigas, mas é mais cara. Por isso, não é usada universalmente em toda população, e sim em grupos específicos.
+
+18. Antimonial pentavalente / Glucantime
+Pergunta clínica que este bloco resolve
+Por que uma droga usada amplamente no tratamento do calazar exige tanto cuidado cardíaco?
+Armadilha principal
+Tratar o antimonial pentavalente como uma droga simples, sem toxicidade importante, apenas porque é usada como opção geral no SUS.
+Lógica para sair da dúvida
+O antimonial pentavalente pode prolongar o QT. QT prolongado cria substrato para arritmias malignas, especialmente torsades de pointes, uma taquicardia ventricular polimórfica que pode degenerar para fibrilação ventricular.
+
+Núcleo essencial
+O antimonial pentavalente:
+também é chamado de Glucantime;
+é a opção geral custo-efetiva;
+tem perfil de efeitos adversos desfavorável;
+pode causar cardiotoxicidade;
+pode prolongar o intervalo QT;
+exige ECG seriado;
+pode predispor a torsades de pointes;
+torsades pode degenerar para fibrilação ventricular.
+
+Explicação didática completa
+O antimonial pentavalente pode ser a droga usada na maior parte da população, mas não é uma droga “inocente”.
+O problema central discutido é cardíaco.
+O intervalo QT representa parte da repolarização ventricular. Quando ele se prolonga, o miocárdio fica mais suscetível a arritmias ventriculares malignas.
+A arritmia clássica associada ao QT prolongado é:
+torsades de pointes
+Também chamada de “torção das pontas”, pelo aspecto eletrocardiográfico em que a taquicardia ventricular polimórfica parece girar em torno da linha de base.
+O perigo é a evolução:
+QT prolongado
+↓
+torsades de pointes
+↓
+taquicardia ventricular polimórfica
+↓
+pode degenerar para fibrilação ventricular
+↓
+risco de morte
+Por isso, o paciente em uso de antimonial precisa de acompanhamento eletrocardiográfico.
+
+Outras causas de QT prolongado que valem guardar
+O QT prolongado não é exclusividade do antimonial.
+Também pode ocorrer com:
+macrolídeos;
+hidroxicloroquina;
+distúrbios eletrolíticos.
+Essa lista ajuda a entender que o antimonial entra em um grupo maior de situações pró-arrítmicas. O risco aumenta quando o paciente já tem outros fatores predisponentes, como doença cardíaca estrutural ou alterações eletrolíticas.
+
+Detalhes de prova
+Pegadinha
+Correção
+Antimonial pentavalente é a droga mais eficaz
+Não necessariamente; é escolha geral por custo-efetividade
+Glucantime não exige monitorização
+Exige atenção a efeitos adversos, especialmente ECG seriado
+O principal alerta é só hepático/renal
+O alerta destacado é cardiotoxicidade/QT
+QT prolongado é benigno
+Pode predispor a torsades de pointes
+Torsades é uma arritmia qualquer
+É TV polimórfica que pode degenerar para fibrilação ventricular
+Macrolídeos e hidroxicloroquina não importam nesse raciocínio
+Também podem prolongar QT
+
+Detalhes que valem guardar
+“Escolha no SUS” não significa “melhor para todos”.
+A palavra custo-efetivo deve ser interpretada como decisão populacional, não como superioridade farmacológica absoluta.
+ECG seriado não é burocracia: é prevenção de arritmia maligna.
+Em pacientes cardiopatas, o risco do antimonial ganha ainda mais peso.
+
+Uso futuro na plataforma
+Este bloco pode virar:
+card de farmacovigilância: antimonial → QT → torsades;
+animação de ECG mostrando QT prolongado;
+simulador de risco arrítmico:
+antimonial + hipocalemia;
+antimonial + cardiopatia;
+antimonial + macrolídeo;
+quiz “droga de escolha ≠ droga sem risco”;
+painel de causas de QT prolongado;
+flashcard:
+“Qual toxicidade cardíaca do Glucantime?”
+
+19. Anfotericina B lipossomal
+Pergunta clínica que este bloco resolve
+Quando trocar a estratégia custo-efetiva populacional por uma droga mais eficaz e menos tóxica?
+Armadilha principal
+Achar que anfotericina B lipossomal só entra quando o antimonial “falha”. Na verdade, ela pode ser escolha inicial em grupos específicos.
+Lógica para sair da dúvida
+A anfotericina B lipossomal é indicada quando o paciente tem maior risco de gravidade, toxicidade ou pior resposta ao antimonial. A organização prática pode ser feita pelos Gs e Is.
+
+Núcleo essencial
+A anfotericina B lipossomal:
+é mais eficaz;
+tem formulação menos tóxica;
+é mais cara;
+não é a opção populacional ampla por custo-efetividade;
+é usada em situações específicas.
+Indicações organizadas:
+Gs
+Grave;
+Gestante.
+Is
+Imunossupressão;
+Infecção pelo HIV;
+Imunossupressores;
+Idade extrema:
+menor de 1 ano;
+maior de 50 anos;
+Insuficiências:
+hepática;
+cardíaca;
+renal;
+Intolerância ao antimonial;
+Insucesso/falha terapêutica;
+efeitos adversos importantes.
+
+Explicação didática completa
+A anfotericina B lipossomal não é reservada apenas para uma situação única. Ela é uma estratégia para pacientes em que o risco de usar antimonial é maior ou em que a doença exige uma resposta mais segura/eficaz.
+A forma lipossomal é importante porque reduz toxicidade em comparação com formulações mais agressivas. O “lipossomal” funciona como uma apresentação mais segura, especialmente útil em pacientes frágeis.
+O raciocínio prático é:
+Se o paciente é mais grave, mais vulnerável, mais propenso a toxicidade ou não respondeu ao antimonial, a anfotericina B lipossomal ganha prioridade.
+
+19.1. G de grave
+Paciente grave deve receber anfotericina B lipossomal.
+Gravidade pode ser reconhecida pelo “jeitão” clínico e por marcadores como:
+paciente consumido;
+visceromegalia importante;
+hepatosplenomegalia de grande monta;
+sinais de disfunção orgânica;
+icterícia/hiperbilirrubinemia;
+comprometimento clínico importante.
+Existem sistemas de pontuação para gravidade, mas não são o foco de cobrança aqui. A leitura clínica do paciente grave é suficiente para a lógica de prova.
+O caso clínico se encaixa aqui porque o paciente está:
+consumido;
+com hepatoesplenomegalia de grande monta;
+com pancitopenia;
+com possível icterícia/hiperbilirrubinemia;
+clinicamente mais grave.
+
+19.2. G de gestante
+Gestante não deve usar antimonial pentavalente nesse raciocínio.
+A alternativa indicada é:
+anfotericina B lipossomal
+A gestação entra como indicação direta.
+
+19.3. I de imunossupressão
+Imunossuprimidos têm maior risco e maior complexidade.
+Entram aqui:
+pessoas vivendo com HIV;
+pacientes em uso de medicamentos imunossupressores.
+Esse grupo também tem uma particularidade diagnóstica: sorologias podem perder acurácia porque a resposta humoral pode estar comprometida.
+Do ponto de vista terapêutico, a imunossupressão indica anfotericina B lipossomal.
+
+19.4. I de idade extrema
+Os extremos de idade no calazar são:
+menor de 1 ano;
+maior de 50 anos.
+Não confundir com dengue.
+Na dengue, outros cortes etários podem aparecer, como menor de 2 anos ou maior de 65 anos em grupos de risco. Aqui, para leishmaniose visceral, a referência é:
+< 1 ano ou > 50 anos
+Esse detalhe é muito propenso a pegadinha.
+
+19.5. I de insuficiências
+Insuficiências que indicam anfotericina B lipossomal:
+insuficiência hepática;
+insuficiência cardíaca;
+insuficiência renal.
+O cuidado com insuficiência cardíaca é particularmente importante por causa do risco arrítmico com o antimonial.
+Se o paciente já tem um coração estruturalmente doente, dilatado ou com substrato anatômico para arritmia, e ainda recebe uma droga que prolonga QT, o cenário fica perigoso.
+A sequência de risco é:
+coração estruturalmente doente
++
+droga que prolonga QT
+↓
+maior risco de arritmia ventricular
+↓
+torsades de pointes / TV polimórfica
+↓
+pode degenerar para fibrilação ventricular
+Por isso, insuficiência cardíaca entra fortemente como motivo para evitar o antimonial.
+
+19.6. I de intolerância, efeitos adversos ou falha terapêutica
+Se o paciente usa antimonial e:
+não tolera;
+desenvolve efeitos adversos importantes;
+não apresenta resposta clínica;
+permanece doente;
+falha terapeuticamente;
+deve-se trocar para anfotericina B lipossomal.
+Esse grupo é importante porque mostra que anfotericina pode entrar tanto por indicação inicial quanto por necessidade durante o tratamento.
+
+Tabela — indicações de anfotericina B lipossomal: Gs e Is
+Grupo
+Indicação
+Por que importa
+G
+Grave
+Precisa de droga mais eficaz/segura
+G
+Gestante
+Antimonial é contraindicado nesse contexto
+I
+Imunossupressão
+Maior risco, resposta imune pior, sorologia menos confiável
+I
+Infecção pelo HIV
+Associação importante e maior complexidade
+I
+Uso de imunossupressores
+Compromete resposta imune
+I
+Idade < 1 ano
+Extremo de idade específico do calazar
+I
+Idade > 50 anos
+Extremo de idade específico do calazar
+I
+Insuficiência hepática
+Vulnerabilidade/toxicidade
+I
+Insuficiência cardíaca
+Risco arrítmico com QT prolongado pelo antimonial
+I
+Insuficiência renal
+Vulnerabilidade/toxicidade
+I
+Intolerância ao antimonial
+Necessidade de alternativa
+I
+Insucesso terapêutico
+Falha de resposta clínica
+I
+Efeitos adversos importantes
+Troca de estratégia terapêutica
+
+Tabela — antimonial pentavalente × anfotericina B lipossomal
+Critério
+Antimonial pentavalente / Glucantime
+Anfotericina B lipossomal
+Papel geral
+Opção geral no SUS
+Opção para casos específicos
+Motivo da escolha
+Custo-efetividade populacional
+Maior eficácia e menor toxicidade da formulação lipossomal
+Melhor droga em todos os casos?
+Não
+Mais eficaz, mas custo limita uso amplo
+Toxicidade destacada
+Cardiotoxicidade, QT prolongado
+Menos tóxica na formulação lipossomal
+Monitorização
+ECG seriado
+Monitorização conforme gravidade, sem foco em QT no roteiro
+Risco importante
+Torsades de pointes, TV polimórfica, fibrilação ventricular
+Não foi detalhado no roteiro
+Uso em gestante
+Contraindicado no raciocínio deste roteiro
+Indicado
+Uso em graves
+Pode não ser adequado
+Indicado
+Uso em imunossuprimidos/HIV
+Evitar como primeira escolha nesses grupos
+Indicado
+Extremos de idade
+Atenção
+< 1 ano ou > 50 anos indicam lipossomal
+Insuficiência hepática/cárdica/renal
+Pode ser inadequado
+Indicado
+Intolerância/falha
+Trocar
+Indicado
+Pegadinha
+“Escolha do SUS” não é sinônimo de “melhor droga”
+“Mais eficaz” não significa uso universal populacional
+
+Detalhes de prova
+Pegadinha
+Correção
+Anfotericina B lipossomal é usada só se falhar antimonial
+Não. Pode ser primeira escolha em graves, gestantes, imunossuprimidos, extremos de idade e insuficiências
+Extremos de idade são os mesmos da dengue
+Não. Aqui: < 1 ano ou > 50 anos
+Gestante pode usar antimonial normalmente
+Não. Gestante entra no G para anfotericina B lipossomal
+Insuficiência cardíaca é detalhe menor
+Não. QT prolongado em coração doente aumenta risco arrítmico
+Antimonial não precisa ECG
+Precisa de ECG seriado pelo risco de QT
+Lipossomal é igual à anfotericina convencional em toxicidade
+A formulação lipossomal é menos tóxica
+
+Detalhes que valem guardar
+Os Gs e Is são um jeito eficiente de guardar as indicações da anfotericina B lipossomal.
+Grave e gestante são os dois Gs mais fáceis de lembrar.
+Os Is agrupam vulnerabilidade imunológica, idade, insuficiências e intolerância/insucesso.
+Em insuficiência cardíaca, o problema não é apenas “coração fraco”; é o substrato arrítmico somado ao QT prolongado.
+
+Uso futuro na plataforma
+Este bloco pode virar:
+painel interativo dos Gs e Is;
+simulador terapêutico:
+paciente gestante;
+paciente HIV;
+paciente > 50 anos;
+paciente cardiopata;
+escolher antimonial ou lipossomal;
+card “custo-efetivo ≠ mais eficaz”;
+quiz de extremos de idade;
+ECG interativo com QT prolongado;
+árvore de decisão terapêutica.
+
+20. Fechamento do caso
+Pergunta clínica que este bloco resolve
+Qual hipótese integra epidemiologia, tempo de evolução, exame físico, hemograma, proteínas séricas e fisiopatologia?
+Armadilha principal
+Encerrar o caso como neoplasia hematológica por causa do baço gigante e da pancitopenia, ou como gamopatia monoclonal por causa da hipergamaglobulinemia.
+Lógica para sair da dúvida
+O caso fecha com leishmaniose visceral porque o padrão é infeccioso, crônico, endêmico e policlonal, com infiltração do sistema reticuloendotelial por macrófagos infectados.
+
+Núcleo essencial
+O diagnóstico do caso é:
+Leishmaniose visceral / calazar
+A confirmação deve buscar:
+formas amastigotas no interior de macrófagos, preferencialmente por aspirado de medula óssea.
+O tratamento do caso específico tende a:
+anfotericina B lipossomal, porque o paciente é grave/consumido e apresenta sinais de maior complexidade clínica.
+O antimonial pentavalente permanece como recomendação geral populacional/custo-efetiva, se não houver contraindicações ou indicações de lipossomal.
+
+Reconstrução final do raciocínio
+O paciente é morador de Crato, Ceará, dado epidemiológico que aproxima calazar.
+O quadro tem meses de evolução, com:
+febre arrastada;
+mal-estar;
+anorexia;
+perda ponderal importante;
+aumento do volume abdominal;
+paciente consumido.
+O exame físico mostra:
+fígado palpável a 4 cm do rebordo costal direito;
+baço palpável a 10 cm do rebordo costal esquerdo;
+esplenomegalia de grande monta.
+O hemograma mostra:
+anemia;
+leucopenia;
+plaquetopenia;
+pancitopenia.
+As proteínas séricas mostram:
+albumina baixa;
+globulina elevada;
+inversão albumina-globulina.
+A eletroforese mostra:
+hipergamaglobulinemia;
+padrão policlonal.
+Esse padrão não combina com mieloma múltiplo típico, porque mieloma sugere monoclonalidade. Aqui o padrão é uma resposta imune ampla, reacional, infecciosa.
+A fisiopatologia explica tudo:
+Leishmania chagasi/infantum
+↓
+falha da imunidade celular
+↓
+macrófago fagocita, mas não destrói
+↓
+macrófagos cheios de parasitas
+↓
+infiltração de fígado, baço e medula
+↓
+febre arrastada + hepatoesplenomegalia + pancitopenia
+↓
+resposta humoral intensa e ineficaz
+↓
+hipergamaglobulinemia policlonal
+
+Por que não neoplasia hematológica?
+Neoplasia hematológica é uma hipótese plausível porque há:
+febre;
+perda ponderal;
+esplenomegalia;
+pancitopenia.
+Mas a epidemiologia e o padrão imunológico mudam o rumo:
+Crato/Ceará favorece calazar;
+hipergamaglobulinemia é policlonal;
+o quadro é explicado por infiltração infecciosa do sistema reticuloendotelial;
+há agente e ciclo epidemiológico coerentes.
+
+Por que não mieloma múltiplo?
+Mieloma múltiplo pode causar hipergamaglobulinemia, mas tipicamente por padrão monoclonal.
+Aqui o padrão é:
+policlonal;
+reacional;
+infeccioso/inflamatório.
+Além disso, o caso tem esplenomegalia de grande monta e pancitopenia por infiltração de medula/baço, dentro de epidemiologia compatível com leishmaniose visceral.
+
+Como confirmar?
+A confirmação preferencial é:
+aspirado de medula óssea;
+pesquisa de formas amastigotas;
+amastigotas dentro de macrófagos.
+Sorologias podem auxiliar:
+imunofluorescência;
+rK39.
+Mas em imunossuprimidos a acurácia pode cair.
+A punção esplênica é mais sensível, mas arriscada, principalmente pela plaquetopenia/pancitopenia.
+
+Como tratar o caso?
+O paciente do caso tem sinais de gravidade:
+consumo importante;
+visceromegalia de grande monta;
+pancitopenia;
+possível icterícia/hiperbilirrubinemia;
+estado geral comprometido.
+Esse perfil favorece:
+anfotericina B lipossomal
+O tratamento geral populacional com antimonial pentavalente existe, mas nesse caso a condição clínica justifica a droga mais eficaz/segura.
+
+Detalhes de prova
+Dado final
+Interpretação
+Crato/Ceará
+Área endêmica
+Febre há meses
+Febre arrastada, não aguda
+Baço a 10 cm
+Esplenomegalia de grande monta
+Pancitopenia
+Medula/sistema reticuloendotelial
+Albumina 2,1 e globulina 5,5
+Inversão albumina-globulina
+Hipergamaglobulinemia policlonal
+Reação infecciosa crônica
+Amastigotas em macrófagos
+Confirmação parasitológica
+Aspirado de medula
+Método preferencial
+Punção esplênica
+Mais sensível, mas perigosa
+Grave/consumido/ictérico
+Anfotericina B lipossomal
+
+Detalhes que valem guardar
+O caso é didaticamente forte porque “parece hematologia”, mas fecha com infectologia.
+A medula é palco da doença e do diagnóstico.
+O baço é pista clínica e armadilha procedimental: ajuda a suspeitar, mas puncioná-lo pode sangrar.
+A escolha terapêutica depende do paciente, não apenas do nome da doença.
+
+Uso futuro na plataforma
+Este bloco pode virar:
+caso final interativo:
+o aluno escolhe hipótese;
+depois escolhe exame;
+depois escolhe tratamento;
+painel “por que não é mieloma?”;
+árvore diagnóstico-terapêutica;
+card “medula confirma, baço é mais sensível mas perigoso”;
+simulador de indicação de anfotericina B lipossomal;
+quiz final do caso.
+
+21. Fluxograma textual — suspeita de leishmaniose visceral → diagnóstico → tratamento
+SUSPEITA DE LEISHMANIOSE VISCERAL
+│
+├── Quadro clínico
+│   ├── Febre arrastada
+│   ├── Mal-estar/anorexia
+│   ├── Perda ponderal
+│   ├── Consumo
+│   ├── Aumento abdominal
+│   └── Hepatoesplenomegalia
+│
+├── Exame físico
+│   ├── Fígado palpável
+│   └── Baço de grande monta
+│
+├── Laboratório
+│   ├── Anemia
+│   ├── Leucopenia
+│   ├── Plaquetopenia
+│   ├── Pancitopenia
+│   ├── Albumina baixa
+│   ├── Globulina alta
+│   ├── Inversão albumina-globulina
+│   └── Hipergamaglobulinemia policlonal
+│
+├── Epidemiologia
+│   ├── Crato/Ceará
+│   ├── Interior da Bahia
+│   ├── Minas Gerais
+│   └── Áreas com urbanização/periurbanização
+│
+├── Diagnóstico diferencial
+│   ├── Neoplasia hematológica
+│   ├── Mieloma/gamopatia monoclonal
+│   ├── Esquistossomose/hipertensão portal
+│   └── Chagas aguda
+│
+├── Confirmação
+│   ├── Preferencial: aspirado de medula óssea
+│   │   └── Procurar amastigotas em macrófagos
+│   │
+│   ├── Mais sensível: punção esplênica
+│   │   └── Evitar pelo risco de sangramento
+│   │
+│   └── Complementar
+│       ├── Imunofluorescência
+│       ├── rK39
+│       └── Cuidado em imunossuprimidos
+│
+└── Tratamento
+    ├── População geral, sem critérios especiais
+    │   └── Antimonial pentavalente / Glucantime
+    │       ├── Custo-efetivo
+    │       ├── Monitorar toxicidade
+    │       └── ECG seriado por risco de QT
+    │
+    └── Critérios para anfotericina B lipossomal
+        ├── Grave
+        ├── Gestante
+        ├── Imunossuprimido/HIV/imunossupressores
+        ├── < 1 ano ou > 50 anos
+        ├── Insuficiência hepática/cárdica/renal
+        ├── Intolerância ao antimonial
+        ├── Efeitos adversos importantes
+        └── Falha terapêutica
+
+22. Como pensar em questão de residência
+Passo 1 — O quadro é febril agudo ou arrastado?
+Se é agudo, pense nas síndromes febris anteriores:
+dengue;
+leptospirose;
+febre amarela;
+outras arboviroses.
+Se tem meses de evolução, mude a gaveta.
+Febre arrastada pede:
+infecção crônica;
+doença infiltrativa;
+neoplasia;
+doenças do sistema reticuloendotelial.
+
+Passo 2 — Há esplenomegalia de grande monta?
+Se o baço é muito grande, pense em doenças que envolvem:
+baço;
+fígado;
+medula;
+sistema reticuloendotelial;
+hematologia;
+infecção crônica.
+Baço a 10 cm do rebordo costal esquerdo é pista forte.
+
+Passo 3 — Há pancitopenia?
+Pancitopenia significa queda das três linhagens:
+anemia;
+leucopenia;
+plaquetopenia.
+Isso sugere:
+medula infiltrada;
+medula ocupada;
+sequestro esplênico importante;
+doença hematológica;
+infecção sistêmica com acometimento medular.
+No calazar, macrófagos infectados infiltram a medula óssea.
+
+Passo 4 — Há hipergamaglobulinemia?
+Se sim, pergunte:
+É monoclonal ou policlonal?
+Monoclonal → gamopatia/mieloma.
+Policlonal → resposta inflamatória/infecciosa crônica.
+No caso, é policlonal.
+Isso tira força do mieloma e aumenta força do calazar.
+
+Passo 5 — Qual é a epidemiologia?
+Crato/Ceará, interior da Bahia, Minas Gerais ou áreas de urbanização/periurbanização sustentam leishmaniose visceral.
+Dado geográfico em prova de infectologia raramente é aleatório.
+
+Passo 6 — Como confirmar?
+Procure o parasita.
+Forma: amastigota;
+Local: dentro de macrófagos;
+Método preferencial: aspirado de medula óssea;
+Método mais sensível: punção esplênica, mas arriscada.
+Sorologia pode ajudar:
+imunofluorescência;
+rK39.
+Cuidado com imunossuprimidos.
+
+Passo 7 — Como tratar?
+Se paciente geral, sem critérios especiais:
+antimonial pentavalente / Glucantime;
+lembrar QT e ECG.
+Se houver critérios especiais:
+anfotericina B lipossomal.
+Critérios:
+grave;
+gestante;
+imunossuprimido;
+HIV;
+imunossupressores;
+< 1 ano ou > 50 anos;
+insuficiência hepática, cardíaca ou renal;
+intolerância;
+falha terapêutica;
+efeitos adversos importantes.
+
+Fechamento lógico da PARTE 4
+Nesta parte, o roteiro completou o tratamento e retornou ao caso:
+O antimonial pentavalente/Glucantime é a opção geral no SUS por custo-efetividade.
+Essa escolha não significa maior eficácia em todos os cenários.
+O antimonial pode causar cardiotoxicidade e prolongar QT.
+QT prolongado predispõe a torsades de pointes, TV polimórfica e fibrilação ventricular.
+ECG seriado é necessário.
+A anfotericina B lipossomal é mais eficaz e menos tóxica, mas usada em situações específicas.
+As indicações podem ser guardadas pelos Gs e Is:
+grave;
+gestante;
+imunossupressão/HIV/imunossupressores;
+idade < 1 ano ou > 50 anos;
+insuficiências;
+intolerância;
+insucesso/falha terapêutica.
+O caso fecha com leishmaniose visceral grave/complexa.
+A confirmação preferencial é por aspirado de medula, buscando amastigotas em macrófagos.
+O tratamento do caso tende a anfotericina B lipossomal.
+Este bloco será continuado na próxima parte.

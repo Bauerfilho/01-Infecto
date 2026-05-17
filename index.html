@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Síndromes Febris — Da Febre Aguda à Febre Arrastada</title>
+  <meta name="description" content="Plataforma premium de estudo ativo sobre síndromes febris: Dengue, Febre Amarela × Leptospirose e Leishmaniose Visceral / Calazar." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/theme-glass.css" />
+  <link rel="stylesheet" href="css/theme-motion.css" />
+</head>
+<body>
+
+  <!-- ══════════ SIDEBAR ══════════ -->
+  <aside class="sidebar" id="sidebar" role="navigation" aria-label="Menu principal">
+
+    <!-- Logo -->
+    <div class="sidebar-logo">
+      <div class="logo-badge">
+        <span class="logo-go">SF</span>
+      </div>
+      <div class="logo-text">
+        <span class="logo-title">Síndromes Febris</span>
+        <span class="logo-sub">Febre aguda à arrastada</span>
+      </div>
+    </div>
+
+    <!-- Nav (gerado por JS) -->
+    <nav class="sidebar-nav" id="sidebar-nav" aria-label="Blocos de conteúdo"></nav>
+
+    <!-- Footer -->
+    <div class="sidebar-footer">
+      <button class="sidebar-collapse-btn is-desktop" id="sidebar-collapse-btn" aria-label="Recolher menu lateral" title="Recolher menu">
+        <span class="icon">⟨</span>
+      </button>
+      <span class="sidebar-footer-label">Tema</span>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Alternar tema claro/escuro">
+        <span id="theme-icon">🌙</span>
+      </button>
+    </div>
+
+  </aside>
+
+  <!-- Overlay mobile -->
+  <div class="sidebar-overlay" id="sidebar-overlay" aria-hidden="true"></div>
+
+  <!-- ══════════ HEADER ══════════ -->
+  <header class="header" id="header" role="banner">
+    <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="header-breadcrumb" id="header-breadcrumb">Síndromes Febris</div>
+    <div class="header-actions">
+      <button class="progress-btn" id="progress-btn" aria-label="Ver progresso de estudo">
+        <span>📊</span>
+        <span id="progress-label">0%</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ══════════ CONTEÚDO PRINCIPAL ══════════ -->
+  <main class="main-content" id="main-content" role="main">
+    <div class="page-container" id="page-container">
+      <!-- Renderizado dinamicamente via JS -->
+    </div>
+  </main>
+
+  <!-- ══════════ MODAL DE PROGRESSO ══════════ -->
+  <div class="modal-overlay" id="progress-modal"
+       role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 id="modal-title">Seu Progresso</h2>
+        <button class="modal-close" id="modal-close" aria-label="Fechar modal">✕</button>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- ══════════ SCRIPTS ══════════ -->
+  <script src="js/data.js"></script>
+  <script src="js/pages.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/theme-enhancer.js"></script>
+  <script src="js/theme-motion.js"></script>
+</body>
+</html>

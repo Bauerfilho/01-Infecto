@@ -1,0 +1,1235 @@
+PROMPT 2D — COSTURA, INTEGRAÇÃO E AUDITORIA PREMIUM
+Plataforma Integrada de Síndromes Febris: Dengue, Febre Amarela × Leptospirose e Leishmaniose Visceral
+Você está operando como Codex executor em um projeto de plataforma médica interativa sobre síndromes febris.
+Sua missão é executar o PROMPT 2D — COSTURA, INTEGRAÇÃO E AUDITORIA DOS MÓDULOS, integrando os três módulos já criados:
+Dengue: Triagem e Manejo
+Febre Amarela × Leptospirose
+Leishmaniose Visceral / Calazar
+Este prompt NÃO é para recriar conteúdo. Este prompt NÃO é para resumir módulos. Este prompt NÃO é para refazer páginas. Este prompt NÃO é para alterar profundamente conteúdo médico. Este prompt NÃO é Prompt 3 visual final. Este prompt NÃO é Prompt 4 PWA. Este prompt NÃO é QA global final completo.
+Este prompt é para transformar três módulos excelentes em uma plataforma única, coesa, navegável, didática e cognitivamente integrada sobre síndromes febris.
+
+1. Identidade da plataforma integrada
+Nome operacional da plataforma:
+Síndromes Febris — Da Febre Aguda à Febre Arrastada
+Subtítulo conceitual:
+Tempo, padrão clínico, laboratório e epidemiologia mudam o diagnóstico.
+A plataforma integrada deve ensinar o estudante a responder:
+“Esse paciente tem febre. Mas qual é o eixo correto do raciocínio: febre aguda, febre ictérica ou febre arrastada?”
+A lógica global deve ser:
+FEBRE
+├── Febre aguda sem foco
+│   └── Dengue / arboviroses / sinais de alarme / A-B-C-D
+│
+├── Febre ictérica
+│   └── Febre amarela × leptospirose / padrão hepatocelular × canalicular × hemolítico
+│
+└── Febre arrastada
+    └── Leishmaniose visceral / baço gigante / pancitopenia / armadilha hematológica
+A experiência final deve parecer uma plataforma única, não três sites colados.
+
+2. Fontes e módulos existentes
+Use como base:
+Prompt 2A — Dengue: Triagem e Manejo.
+Prompt 2B — Febre Amarela × Leptospirose.
+Prompt 2C — Leishmaniose Visceral / Calazar.
+Roteiros anexados de Dengue, Febre Amarela × Leptospirose e Leishmaniose Visceral.
+Estrutura, páginas, SVGs, hotspots, quizzes, simuladores, tabelas, flashcards e checklists já criados nos módulos.
+Se algum detalhe estrutural não estiver explícito no projeto, inferir a partir da lógica dos três prompts anteriores.
+Não pedir novos anexos. Não interromper para perguntar. Executar a integração com base no que já existe.
+
+3. Regra máxima: preservar antes de integrar
+É proibido:
+recriar módulos do zero;
+resumir páginas;
+apagar conteúdo médico;
+reduzir profundidade;
+fundir páginas principais;
+reduzir número de páginas;
+trocar condutas;
+alterar critérios diagnósticos;
+alterar classificação A/B/C/D da dengue;
+alterar tratamento da leptospirose;
+alterar tratamento da leishmaniose visceral;
+alterar lógica da febre amarela;
+substituir SVGs ricos por SVGs simplificados;
+apagar hotspots;
+apagar quizzes;
+apagar flashcards;
+apagar tabelas;
+remover simuladores existentes;
+reescrever conteúdo médico aprovado sem necessidade;
+transformar a integração em refatoração agressiva.
+A tarefa é:
+preservar;
+harmonizar;
+conectar;
+padronizar;
+auditar;
+estabilizar;
+criar navegação global;
+criar dashboard;
+criar pontes cognitivas;
+criar simulador integrador;
+preparar o terreno para Prompt 3 visual premium.
+
+4. Objetivos principais do Prompt 2D
+Executar obrigatoriamente:
+Criar ou consolidar dashboard global premium.
+Criar navegação global entre módulos.
+Criar trilhas cognitivas por tipo de febre.
+Criar links cruzados inteligentes.
+Criar simulador integrador de síndromes febris.
+Criar revisão ativa global.
+Criar mapa mental global.
+Criar matriz comparativa global.
+Padronizar UX dos componentes.
+Padronizar linguagem e tom.
+Auditar redundâncias.
+Auditar continuidade didática.
+Auditar navegação.
+Auditar responsividade.
+Preparar estrutura para identidade visual premium futura.
+Garantir que nenhum módulo perca profundidade.
+
+5. Arquitetura global esperada
+Se já existir estrutura global, preservar e integrar nela.
+Se não existir, criar uma estrutura local/global mínima sem PWA, por exemplo:
+/
+  index.html
+  styles.css
+  scripts.js
+  data/
+    platform-map.js
+    global-cases.js
+    crosslinks.js
+    global-review.js
+  modules/
+    dengue/
+    febre-amarela-leptospirose/
+    leishmaniose-visceral/
+  integrador/
+    dashboard.html
+    simulador-sindromes-febris.html
+    revisao-global.html
+    mapa-mental-global.html
+  docs/
+    matriz-integracao-2d.md
+    auditoria-continuidadade-didatica.md
+    auditoria-redundancia.md
+    qa-integracao-2d.md
+Adapte à estrutura real do projeto.
+Não duplicar conteúdo desnecessariamente. Não mover arquivos sem necessidade. Não quebrar rotas existentes. Não criar PWA. Não criar service worker. Não alterar manifest/cache.
+
+6. Dashboard global obrigatório
+Criar um dashboard integrador premium que funcione como mapa cognitivo da plataforma.
+Nome sugerido do dashboard
+Mapa das Síndromes Febris
+Organização obrigatória
+Trilha 1 — Febre aguda sem foco
+Módulo principal:
+Dengue: triagem e manejo.
+Eixos destacados:
+febre abrupta;
+dor retro-orbital;
+mialgia;
+leucopenia;
+plaquetopenia;
+sinais de alarme;
+extravasamento plasmático;
+hematócrito progressivo;
+classificação A/B/C/D;
+hidratação;
+dengue × chikungunya × zika.
+Trilha 2 — Febre ictérica
+Módulo principal:
+Febre Amarela × Leptospirose.
+Eixos destacados:
+icterícia;
+bilirrubina direta × indireta;
+hepatocelular × colestático/canalicular × hemolítico;
+febre amarela;
+ciclo silvestre × urbano;
+sinal de Faget;
+leptospirose;
+sufusão conjuntival;
+síndrome de Weil;
+síndrome pulmão-rim;
+creatinina alta com potássio baixo;
+tratamento antibiótico.
+Trilha 3 — Febre arrastada
+Módulo principal:
+Leishmaniose Visceral / Calazar.
+Eixos destacados:
+meses de evolução;
+perda ponderal;
+paciente consumido;
+baço gigante;
+pancitopenia;
+hipergamaglobulinemia policlonal;
+armadilha hematológica;
+Crato/Ceará;
+sistema reticuloendotelial;
+macrófagos;
+diagnóstico parasitológico;
+antimonial × anfotericina lipossomal.
+
+7. Componentes obrigatórios do dashboard
+O dashboard deve conter:
+Hero global
+frase central: “Tempo, laboratório e epidemiologia mudam o diagnóstico.”
+três portas principais: febre aguda, febre ictérica, febre arrastada.
+Mapa cognitivo global
+visual em árvore ou trilha.
+início em “Paciente com febre”.
+primeira pergunta: “dias ou meses?”
+segunda pergunta: “tem icterícia?”
+terceira pergunta: “tem baço gigante/pancitopenia?”
+saída para cada módulo.
+Cards dos módulos
+Dengue.
+Febre Amarela × Leptospirose.
+Leishmaniose Visceral.
+cada card deve mostrar:
+eixo clínico;
+padrão laboratorial;
+pegadinha central;
+botão para entrar;
+progresso local.
+Tabela global de comparação
+dengue × febre amarela × leptospirose × leishmaniose visceral.
+Acesso rápido
+simulador integrador;
+revisão ativa global;
+mapa mental global;
+checklist final.
+Progresso
+status por módulo;
+status por trilha;
+revisão pendente;
+casos simulados concluídos.
+Aviso educacional discreto
+deixar claro que a plataforma é para estudo médico, não para decisão clínica assistencial real.
+
+8. SVG global obrigatório do dashboard
+Criar um SVG autoral:
+“Árvore global das síndromes febris”
+Estrutura:
+Paciente com febre
+├── Febre de dias
+│   ├── Sem icterícia dominante → Dengue
+│   └── Com icterícia → Febre amarela × Leptospirose
+│
+└── Febre de semanas/meses
+    └── Baço gigante + pancitopenia → Leishmaniose visceral
+Hotspots mínimos:
+tempo de evolução;
+febre aguda;
+febre ictérica;
+febre arrastada;
+plaquetopenia;
+icterícia;
+padrão laboratorial;
+esplenomegalia;
+pancitopenia;
+epidemiologia;
+tratamento que muda conduta.
+Cada hotspot deve conter:
+explicação curta;
+por que esse dado muda o raciocínio;
+qual módulo aprofundar.
+
+9. Pontes cognitivas obrigatórias
+Criar links cruzados inteligentes entre módulos.
+Esses links não devem ser simples “ver também”. Cada link deve ensinar uma diferença.
+Pontes saindo de Dengue
+Criar links ou painéis do tipo:
+Plaquetopenia não é exclusividade da dengue
+destino: Leptospirose e Leishmaniose.
+mensagem: plaquetopenia aparece em dengue, leptospirose grave, febre amarela grave e calazar; o tempo, leucócitos, hematócrito, icterícia, baço e epidemiologia mudam o diagnóstico.
+Hematócrito subindo versus padrão canalicular
+destino: Febre Amarela × Leptospirose.
+mensagem: na dengue grave, hematócrito progressivo sugere extravasamento; na leptospirose, FA/GGT, bilirrubina direta, creatinina alta e K baixo mudam o eixo.
+Febre aguda versus febre arrastada
+destino: Leishmaniose.
+mensagem: dengue é febre aguda; meses de evolução com baço gigante e pancitopenia exigem outra gaveta.
+Dengue grave não é toda febre grave com plaqueta baixa
+destino: simulador global.
+Pontes saindo de Febre Amarela × Leptospirose
+Criar links ou painéis do tipo:
+Febre + icterícia não basta
+destino: tabela global.
+mensagem: diferenciar hepatocelular, colestático/canalicular e hemolítico.
+Leptospirose versus dengue
+destino: Dengue.
+mensagem: dengue típica tende a leucopenia; leptospirose grave pode ter leucocitose com desvio, sufusão conjuntival, IRA com K baixo e hemoptise.
+Febre amarela versus dengue
+destino: Dengue.
+mensagem: ambas são Flavivírus, mas febre amarela grave é hepatorrenal e ictérica, enquanto dengue grave gira em torno de extravasamento plasmático.
+Síndrome pulmão-rim versus sistema reticuloendotelial
+destino: Leishmaniose.
+mensagem: hemoptise + IRA sugere leptospirose grave; baço gigante + pancitopenia por meses sugere calazar.
+Pontes saindo de Leishmaniose Visceral
+Criar links ou painéis do tipo:
+Aqui o eixo muda completamente
+destino: dashboard global.
+mensagem: febre arrastada + pancitopenia + baço gigante não deve ser tratada como arbovirose aguda.
+Pancitopenia não é plaquetopenia isolada
+destino: Dengue.
+mensagem: dengue pode ter plaquetopenia; calazar derruba três linhagens por envolvimento medular/sistema reticuloendotelial.
+Icterícia possível não é o eixo
+destino: Febre Amarela × Leptospirose.
+mensagem: febre ictérica exige padrão laboratorial; no calazar, o eixo é cronicidade + baço + medula.
+Cão sentinela versus macaco sentinela
+destino: Febre Amarela × Leptospirose.
+mensagem: febre amarela usa macacos como sentinelas; leishmaniose usa cães como reservatório/sentinela urbano-periurbano.
+
+10. Padrão obrigatório dos links cruzados
+Cada link cruzado deve conter:
+título curto;
+frase de contraste;
+destino;
+botão ou link claro;
+mini-explicação;
+ícone ou marcador semântico;
+acessibilidade por teclado;
+comportamento mobile adequado.
+Formato sugerido:
+Não confunda:
+Plaquetopenia não é exclusiva da dengue.
+Compare com leptospirose grave e calazar para entender como tempo, leucócitos, baço e laboratório mudam o diagnóstico.
+[Comparar no mapa global]
+Evitar links superficiais como:
+“Veja também leptospirose.”
+“Ir para outro módulo.”
+“Clique aqui.”
+O link deve ensinar.
+
+11. Simulador global obrigatório
+Criar um Simulador Integrador de Síndromes Febris.
+Nome sugerido:
+Simulador Febre em Decisão
+Objetivo:
+Treinar o estudante a classificar o caso pelo eixo correto antes de escolher diagnóstico.
+O simulador deve ensinar:
+Tempo de evolução.
+Presença ou ausência de icterícia.
+Padrão de hemograma.
+Padrão de bilirrubina/transaminases/FA/GGT.
+Presença de baço gigante.
+Padrão renal.
+Potássio.
+Hematócrito.
+Epidemiologia.
+Exposição ambiental.
+Vetor/reservatório.
+Hipótese diagnóstica.
+Exame apropriado.
+Conduta/tratamento.
+Pegadinha principal.
+
+12. Estrutura do simulador global
+O simulador deve funcionar em etapas:
+Etapa 1 — Tempo de evolução
+Perguntar:
+dias?
+até 7 dias?
+cerca de 10 dias?
+semanas/meses?
+Saídas cognitivas:
+febre aguda;
+febre ictérica;
+febre arrastada.
+Etapa 2 — Síndrome dominante
+Perguntar:
+febre sem foco?
+icterícia?
+sangramento?
+hemoptise?
+baço gigante?
+aumento abdominal?
+dor retro-orbital?
+sufusão conjuntival?
+dor de panturrilha?
+perda ponderal?
+Etapa 3 — Laboratório
+Permitir interpretação de:
+leucopenia;
+leucocitose com desvio;
+plaquetopenia;
+pancitopenia;
+hematócrito subindo;
+bilirrubina direta;
+bilirrubina indireta;
+AST/ALT ≥ 500;
+AST/ALT ≥ 2.000;
+AST > ALT;
+FA/GGT elevadas;
+creatinina elevada;
+potássio baixo;
+CPK elevada;
+albumina baixa;
+globulina alta;
+padrão policlonal.
+Etapa 4 — Epidemiologia
+Permitir seleção de:
+epidemia de dengue;
+área com Aedes aegypti;
+mata/ecoturismo/não vacinado;
+limpeza urbana;
+enchente/esgoto;
+Crato/Ceará;
+cão infectado/área de calazar;
+área de malária;
+exposição compatível com hepatite viral.
+Etapa 5 — Hipótese
+Opções:
+dengue sem alarme;
+dengue com sinal de alarme;
+dengue grave;
+febre amarela leve/moderada/grave;
+leptospirose anictérica;
+leptospirose grave/síndrome de Weil;
+leishmaniose visceral/calazar;
+hepatite viral;
+malária;
+neoplasia hematológica;
+mieloma/gamopatia.
+Etapa 6 — Exame ou confirmação
+Opções orientadas:
+NS1;
+IgM dengue;
+IgG dengue;
+prova do laço;
+hemograma/Ht seriado;
+IgM ELISA febre amarela;
+isolamento viral em centro de referência;
+microaglutinação leptospirose;
+exames inespecíficos da leptospirose;
+aspirado de medula para calazar;
+punção esplênica como mais sensível, mas arriscada;
+rK39;
+imunofluorescência;
+Montenegro com ressalvas.
+Etapa 7 — Conduta/tratamento
+Opções:
+hidratação oral grupo A;
+hemograma/observação grupo B;
+internação/hidratação venosa grupo C;
+UTI grupo D;
+suporte febre amarela;
+penicilina cristalina EV leptospirose grave;
+doxiciclina/amoxicilina leptospirose leve;
+ceftriaxona alternativa;
+diálise precoce se indicada;
+antimonial pentavalente;
+anfotericina B lipossomal;
+cuidado com QT/ECG;
+evitar AINE/AAS na dengue.
+Etapa 8 — Feedback
+Cada caso deve entregar:
+diagnóstico mais provável;
+por que não é cada uma das armadilhas;
+dado que mais mudou o rumo;
+exame mais coerente;
+conduta coerente;
+pegadinha da questão;
+link para revisar o módulo correspondente.
+
+13. Casos mínimos obrigatórios do simulador global
+Criar pelo menos 9 casos integradores.
+Caso 1 — Dengue com sinal de alarme
+Dados obrigatórios:
+febre aguda;
+dor retro-orbital;
+mialgia;
+plaquetopenia;
+dor abdominal intensa e contínua;
+bom estado geral.
+Decisão esperada:
+dengue com sinal de alarme;
+grupo C;
+não liberar;
+hidratação venosa/internação.
+Pegadinha:
+bom estado geral não apaga sinal de alarme.
+Caso 2 — Dengue grave
+Dados:
+febre;
+suspeita de dengue;
+extremidades frias;
+TEC aumentado;
+PA convergente;
+pulso fino;
+hipotensão franca ou choque.
+Decisão:
+grupo D;
+UTI;
+hidratação rápida com reavaliação.
+Pegadinha:
+PA 100 × 90 pode ser grave por pressão de pulso estreita.
+Caso 3 — Leptospirose grave / síndrome de Weil
+Dados:
+febre há cerca de 10 dias;
+trabalhador de limpeza urbana;
+icterícia;
+sufusão conjuntival;
+leucocitose com desvio;
+plaquetopenia;
+creatinina alta;
+potássio baixo;
+FA/GGT elevadas;
+hemoptise.
+Decisão:
+leptospirose grave/síndrome de Weil;
+microaglutinação como teste específico;
+penicilina cristalina EV;
+suporte intensivo/diálise se indicada.
+Pegadinha:
+febre + icterícia não é febre amarela automática.
+Caso 4 — Febre amarela grave
+Dados:
+febre;
+icterícia;
+ecoturismo/mata/não vacinado;
+sangramento;
+oligúria;
+AST/ALT ≥ 2.000;
+AST > ALT;
+creatinina ≥ 2;
+plaquetopenia/coagulopatia.
+Decisão:
+febre amarela grave;
+suporte intensivo;
+diagnóstico temporal com IgM ELISA após 6º dia ou investigação viral inicial em centro de referência.
+Pegadinha:
+AST > ALT não é sempre hepatite alcoólica.
+Caso 5 — Leishmaniose visceral / calazar
+Dados:
+febre há meses;
+Crato/Ceará;
+perda ponderal;
+aumento abdominal;
+fígado aumentado;
+baço a 10 cm;
+anemia;
+leucopenia;
+plaquetopenia;
+albumina baixa;
+globulina alta;
+hipergamaglobulinemia policlonal.
+Decisão:
+leishmaniose visceral/calazar;
+aspirado de medula como método preferencial;
+avaliar tratamento com antimonial ou anfotericina lipossomal conforme critérios.
+Pegadinha:
+parece neoplasia hematológica, mas epidemiologia + policlonal + baço gigante mudam o rumo.
+Caso 6 — Armadilha de neoplasia hematológica
+Dados:
+febre arrastada;
+perda ponderal;
+baço grande;
+pancitopenia;
+sem epidemiologia endêmica clara;
+sem hipergamaglobulinemia policlonal clara.
+Decisão:
+manter diferencial hematológico;
+comparar com calazar;
+não fechar calazar sem integrar epidemiologia e diagnóstico.
+Pegadinha:
+nem todo baço grande é calazar; o padrão completo importa.
+Caso 7 — Armadilha de mieloma/gamopatia
+Dados:
+globulina elevada;
+hipergamaglobulinemia;
+apresentar opção monoclonal versus policlonal;
+febre e consumo.
+Decisão:
+se monoclonal, mieloma/gamopatia sobe;
+se policlonal + área endêmica + baço/pancitopenia, calazar sobe.
+Pegadinha:
+globulina alta não é sinônimo de mieloma.
+Caso 8 — Armadilha de hepatite viral
+Dados:
+febre + icterícia;
+transaminases elevadas;
+padrão hepatocelular;
+sem dados de mata;
+sem sufusão conjuntival;
+sem limpeza urbana;
+sem potássio baixo.
+Decisão:
+hepatite viral entra forte;
+diferenciar de febre amarela e leptospirose.
+Pegadinha:
+febre + icterícia é síndrome, não diagnóstico.
+Caso 9 — Armadilha de malária
+Dados:
+febre + icterícia;
+bilirrubina indireta/hemólise;
+exposição compatível;
+sem padrão canalicular;
+sem AST/ALT muito altas como eixo.
+Decisão:
+malária como hipótese;
+diferenciar de leptospirose e febre amarela.
+Pegadinha:
+malária tende a icterícia por hemólise/bilirrubina indireta.
+
+14. Revisão ativa global obrigatória
+Criar uma página ou seção:
+Revisão Global — Não Confunda as Síndromes Febris
+Deve conter:
+14.1 Flashcards globais
+Criar deck global com pelo menos 60 flashcards, cobrindo:
+Dengue
+febre aguda;
+dor retro-orbital;
+extravasamento plasmático;
+hematócrito subindo;
+sinais de alarme;
+grupo A/B/C/D;
+prova do laço;
+NS1/IgM/IgG;
+hidratação A/C/D;
+AAS/AINE;
+dengue × chikungunya × zika.
+Febre amarela
+Flavivírus RNA;
+ciclo silvestre;
+ciclo urbano;
+Haemagogus/Sabethes;
+Aedes aegypti;
+macaco sentinela;
+Faget;
+leve/moderada/grave;
+AST/ALT ≥ 500;
+AST/ALT ≥ 2.000;
+AST > ALT;
+suporte;
+sofosbuvir inconclusivo.
+Leptospirose
+Leptospira interrogans;
+espiroqueta;
+rato/urina/enchente;
+limpeza urbana;
+sufusão conjuntival;
+mialgia de panturrilha;
+síndrome de Weil;
+icterícia rubínica;
+síndrome pulmão-rim;
+creatinina alta + K baixo;
+FA/GGT;
+microaglutinação;
+penicilina cristalina;
+ceftriaxona;
+diálise precoce.
+Leishmaniose visceral
+febre arrastada;
+Crato/Ceará;
+baço gigante;
+pancitopenia;
+hipergamaglobulinemia policlonal;
+Leishmania chagasi/infantum;
+Lutzomyia longipalpis;
+cão/raposa;
+macrófago;
+Montenegro;
+amastigotas;
+aspirado de medula;
+rK39;
+antimonial;
+QT/torsades;
+anfotericina lipossomal;
+Gs e Is.
+14.2 Quiz global
+Criar pelo menos 30 questões integradoras.
+As questões devem comparar doenças, não apenas testar fatos isolados.
+Cobrir obrigatoriamente:
+febre aguda versus febre arrastada;
+plaquetopenia em múltiplas doenças;
+leucopenia versus leucocitose;
+hematócrito subindo versus pancitopenia;
+bilirrubina direta versus indireta;
+hepatocelular versus canalicular;
+Aedes versus Lutzomyia;
+macaco sentinela versus cão sentinela;
+febre amarela versus leptospirose;
+dengue grave versus leptospirose grave;
+calazar versus neoplasia hematológica;
+calazar versus mieloma;
+método diagnóstico por tempo ou por órgão;
+tratamento que muda conduta.
+14.3 Checklist global
+Criar checklist clicável:
+Consigo diferenciar síndromes febris quando...
+Itens obrigatórios:
+Eu separo febre de dias de febre de meses.
+Eu não chamo toda plaquetopenia de dengue.
+Eu reconheço que hematócrito subindo aponta extravasamento na dengue.
+Eu reconheço que leucocitose com desvio afasta dengue típica.
+Eu diferencio bilirrubina direta de indireta.
+Eu separo hepatocelular de colestático/canalicular.
+Eu reconheço febre amarela grave por lesão hepatorrenal.
+Eu reconheço leptospirose por sufusão conjuntival, exposição e rim com K baixo.
+Eu reconheço calazar por febre arrastada, baço gigante e pancitopenia.
+Eu não confundo hipergamaglobulinemia policlonal com mieloma típico.
+Eu sei quando pensar em microaglutinação.
+Eu sei quando pensar em aspirado de medula.
+Eu sei quando o tratamento é suporte.
+Eu sei quando antibiótico muda a conduta.
+Eu sei quando anfotericina lipossomal supera o antimonial.
+
+15. Mapa mental global obrigatório
+Criar página ou seção:
+Mapa Mental Global das Síndromes Febris
+Deve ter SVG autoral com hotspots.
+Estrutura obrigatória:
+Paciente com febre
+│
+├── Tempo
+│   ├── dias
+│   └── meses
+│
+├── Icterícia?
+│   ├── não dominante → dengue/arbovirose
+│   └── sim → febre amarela × leptospirose × hepatite × malária
+│
+├── Baço gigante?
+│   └── sim + pancitopenia → calazar/neoplasia hematológica
+│
+├── Laboratório-chave
+│   ├── Ht subindo → dengue alarme
+│   ├── AST/ALT ≥ 2.000 → febre amarela grave/hepatocelular
+│   ├── FA/GGT + BD → leptospirose/canalicular
+│   ├── BI/hemólise → malária
+│   └── pancitopenia + policlonal → calazar
+│
+└── Tratamento que muda
+    ├── hidratação/classificação dengue
+    ├── suporte febre amarela
+    ├── penicilina cristalina leptospirose
+    └── antimonial/lipossomal calazar
+Hotspots mínimos:
+tempo;
+icterícia;
+baço;
+plaquetas;
+hematócrito;
+leucócitos;
+bilirrubina direta;
+bilirrubina indireta;
+AST/ALT;
+FA/GGT;
+creatinina/K;
+albumina/globulina;
+epidemiologia;
+tratamento.
+
+16. Matriz comparativa global obrigatória
+Criar tabela global responsiva:
+Dengue × Febre Amarela × Leptospirose × Leishmaniose Visceral
+Colunas obrigatórias:
+eixo temporal;
+síndrome dominante;
+agente;
+tipo de agente;
+vetor/reservatório;
+epidemiologia-chave;
+pista clínica principal;
+laboratório típico;
+erro comum;
+exame-chave;
+conduta/tratamento;
+pegadinha de prova;
+módulo de aprofundamento.
+Linhas obrigatórias:
+Dengue
+tempo: agudo;
+síndrome: febre sem foco/arbovirose;
+agente: Flavivírus RNA;
+vetor: Aedes aegypti;
+clínica: mialgia, dor retro-orbital, sinais de alarme;
+laboratório: leucopenia, plaquetopenia, Ht subindo se extravasamento;
+erro: plaquetopenia isolada como alarme;
+exame: NS1/IgM conforme dia;
+conduta: A/B/C/D e hidratação.
+Febre amarela
+tempo: agudo;
+síndrome: febril ictérica;
+agente: Flavivírus RNA;
+vetores: Haemagogus/Sabethes no silvestre; Aedes no urbano;
+clínica: icterícia, Faget, sangramento/oligúria na grave;
+laboratório: AST/ALT ≥ 2.000, AST > ALT, creatinina ≥ 2;
+erro: AST > ALT = álcool;
+exame: IgM ELISA/isolamento em centro conforme tempo;
+conduta: suporte.
+Leptospirose
+tempo: dias a cerca de 10 dias no caso;
+síndrome: febril ictérica / Weil / pulmão-rim;
+agente: Leptospira interrogans;
+tipo: bactéria espiroqueta;
+reservatório: rato;
+transmissão: urina/água contaminada;
+clínica: sufusão conjuntival, mialgia panturrilha, hemoptise;
+laboratório: leucocitose, BD, FA/GGT, creatinina alta + K baixo;
+erro: febre + icterícia = febre amarela;
+exame: microaglutinação;
+conduta: penicilina cristalina EV na grave.
+Leishmaniose visceral
+tempo: meses;
+síndrome: febre arrastada com esplenomegalia;
+agente: Leishmania chagasi/infantum;
+tipo: protozoário;
+vetor: Lutzomyia longipalpis;
+reservatórios: raposa/cão;
+clínica: baço gigante, consumo, pancitopenia;
+laboratório: albumina baixa, globulina alta, policlonal;
+erro: neoplasia/mieloma;
+exame: aspirado de medula; sorologias complementares;
+conduta: antimonial ou anfotericina lipossomal conforme critérios.
+
+17. Auditoria de redundância
+Executar auditoria de redundância.
+Objetivo:
+identificar repetições inúteis;
+preservar repetições funcionais;
+evitar duplicação visual cansativa;
+manter reforço cognitivo quando ele ajuda a diferenciar.
+Redundância que deve ser preservada
+Preservar quando reforça contraste:
+plaquetopenia em dengue, leptospirose, febre amarela e calazar;
+Aedes em dengue e febre amarela urbana;
+sentinelas: macaco na febre amarela, cão no calazar;
+icterícia em febre amarela e leptospirose;
+febre e perda ponderal em calazar/neoplasia;
+suporte versus tratamento específico.
+Redundância que deve ser reduzida ou redirecionada
+Sem apagar conteúdo, evitar repetir da mesma forma:
+definição básica de Aedes aegypti em várias páginas;
+explicações genéricas sobre arboviroses;
+tabelas idênticas de flavivírus;
+cards repetidos sobre “plaquetopenia não é dengue” sem nova aplicação;
+explicação duplicada de vetor/reservatório quando pode virar link cruzado;
+repetição de metalinguagem ou frases longas similares.
+Quando houver redundância:
+manter conteúdo nos módulos;
+transformar repetição em “ponte” ou “comparador”;
+não apagar informação essencial.
+
+18. Padronização de UX
+Padronizar sem apagar personalidade de cada módulo.
+Padronizar
+botões;
+cards;
+quizzes;
+feedbacks;
+hotspots;
+tooltips;
+modais;
+tabelas responsivas;
+flashcards;
+checklists;
+simuladores;
+links cruzados;
+páginas de revisão;
+estados de acerto/erro;
+navegação anterior/próxima;
+breadcrumbs;
+indicador de progresso.
+Não padronizar demais
+Cada módulo deve manter personalidade cognitiva:
+Dengue: triagem, urgência, classificação, hidratação.
+Febre Amarela × Leptospirose: comparação sindrômica e laboratorial.
+Leishmaniose: cronicidade, hematologia, macrófago, imunidade.
+Evitar que tudo pareça o mesmo componente repetido.
+
+19. Padronização de linguagem
+A linguagem deve ser:
+médica;
+didática;
+direta;
+orientada a prova;
+sem metalinguagem;
+sem “aula/professor/roteiro” na interface;
+sem frases genéricas;
+sem tom de apostila básica;
+com raciocínio clínico explícito.
+Proibido na interface
+“na aula anterior”;
+“como o professor explicou”;
+“o roteiro mostra”;
+“segundo o módulo”;
+“conforme o material”;
+“a transcrição diz”;
+“foi abordado”.
+Transformar em linguagem autônoma
+Errado:
+“Como vimos no módulo de dengue, plaquetopenia não é exclusiva.”
+Certo:
+“Plaquetopenia isolada não fecha dengue. O tempo, o leucograma, o hematócrito, o fígado, o baço e a epidemiologia decidem o caminho.”
+Errado:
+“No módulo de febre amarela foi explicado que...”
+Certo:
+“Febre + icterícia exige padrão: hepatocelular, canalicular ou hemolítico.”
+
+20. Navegação global obrigatória
+Implementar navegação global com:
+Home/dashboard.
+Trilhas:
+febre aguda;
+febre ictérica;
+febre arrastada.
+Módulos:
+Dengue;
+Febre Amarela × Leptospirose;
+Leishmaniose Visceral.
+Integrador:
+simulador global;
+revisão global;
+mapa mental global.
+Breadcrumbs.
+Próxima página.
+Página anterior.
+Voltar ao dashboard.
+Ir para comparador global.
+Links cruzados contextuais.
+A navegação deve funcionar em desktop e mobile.
+Não quebrar navegação interna dos módulos já existentes.
+
+21. Auditoria de continuidade didática
+Criar documento interno:
+docs/auditoria-continuidadade-didatica.md
+Verificar:
+Continuidade de sequência
+O dashboard introduz febre aguda, ictérica e arrastada.
+Dengue aparece como primeiro eixo de febre aguda.
+Febre amarela/leptospirose aparecem como eixo de icterícia.
+Leishmaniose aparece como eixo de febre crônica/arrastada.
+O simulador global conecta os três.
+A revisão global reforça diferenças, não só fatos.
+Continuidade de conceitos
+Plaquetopenia é comparada entre doenças.
+Icterícia é contextualizada por padrão laboratorial.
+Tempo de evolução é usado como divisor cognitivo.
+Epidemiologia é valorizada em todos os módulos.
+Vetor/reservatório é comparado entre módulos.
+Tratamento que muda conduta é destacado.
+Continuidade de experiência
+Componentes funcionam de modo semelhante.
+Hotspots têm padrão de uso consistente.
+Quizzes têm feedback equivalente.
+Tabelas são responsivas.
+Flashcards têm padrão comum.
+Checklists são clicáveis.
+Navegação não muda abruptamente entre módulos.
+
+22. Auditoria de regressão obrigatória
+Executar auditoria para garantir que a integração não quebrou módulos.
+Verificar:
+Dengue
+Páginas continuam existentes.
+Classificação A/B/C/D intacta.
+Sinais de alarme intactos.
+Hidratação intacta.
+Prova do laço intacta.
+Diagnóstico NS1/IgM/IgG intacto.
+Dengue × chikungunya × zika intacto.
+SVGs funcionando.
+Hotspots funcionando.
+Simuladores funcionando.
+Febre Amarela × Leptospirose
+Caso-guia intacto.
+Síndrome febril ictérica intacta.
+Ciclos da febre amarela intactos.
+Sinal de Faget intacto.
+Formas clínicas intactas.
+Leptospirose intacta.
+Síndrome de Weil intacta.
+Microaglutinação intacta.
+Tratamento intacto.
+SVGs funcionando.
+Hotspots funcionando.
+Simuladores funcionando.
+Leishmaniose Visceral
+Caso-guia intacto.
+Febre arrastada intacta.
+Armadilha hematológica intacta.
+Epidemiologia intacta.
+Fisiopatologia por macrófagos intacta.
+Montenegro intacto.
+Diagnóstico parasitológico intacto.
+Tratamento intacto.
+SVGs funcionando.
+Hotspots funcionando.
+Simuladores funcionando.
+
+23. Implementação técnica segura
+Trabalhar incrementalmente.
+Antes de alterar:
+Mapear arquivos existentes.
+Identificar rotas.
+Identificar padrão de dados.
+Identificar padrão de navegação.
+Identificar scripts de interatividade.
+Identificar dependências.
+Identificar pontos frágeis.
+Durante a integração:
+preservar arquivos de conteúdo;
+criar arquivos globais novos quando possível;
+evitar reescrever módulos;
+preferir adicionar camada de integração;
+modularizar JS global;
+não criar scripts pesados;
+evitar loops;
+evitar listeners duplicados;
+usar delegação de eventos quando adequado;
+evitar travar preview;
+garantir que IDs sejam únicos;
+evitar conflito de nomes entre módulos;
+evitar CSS global destrutivo;
+usar escopo de classes para dashboard/integrador;
+manter responsividade;
+testar mobile;
+revisar console de erros;
+corrigir rotas quebradas.
+Não mexer em:
+service worker;
+manifest;
+cache;
+PWA;
+deploy;
+configurações globais não relacionadas.
+
+24. Padronização técnica dos componentes
+Criar ou consolidar padrões para:
+Hotspots
+Cada hotspot deve ter:
+button ou elemento acessível;
+aria-label;
+foco visível;
+suporte a Enter/Espaço;
+suporte a toque;
+painel de conteúdo;
+fechamento claro em mobile.
+Quizzes
+Cada quiz deve ter:
+pergunta;
+alternativas;
+feedback certo;
+feedback das erradas;
+explicação clínica;
+botão de tentar novamente;
+estado salvo se já houver sistema de progresso.
+Flashcards
+Cada flashcard deve ter:
+frente;
+verso;
+categoria;
+módulo de origem;
+dificuldade;
+botão de virar;
+acessibilidade por teclado.
+Tabelas
+Cada tabela deve:
+ser responsiva;
+virar cards em mobile quando necessário;
+manter todos os dados;
+não cortar conteúdo;
+permitir leitura confortável.
+Simuladores
+Cada simulador deve:
+ter etapas claras;
+feedback por etapa;
+não parecer ferramenta assistencial real;
+ter aviso educacional discreto;
+não travar;
+não depender de backend.
+
+25. Documentação interna obrigatória
+Criar ou atualizar:
+docs/matriz-integracao-2d.md
+docs/auditoria-continuidadade-didatica.md
+docs/auditoria-redundancia.md
+docs/qa-integracao-2d.md
+matriz-integracao-2d.md
+Deve conter:
+módulos existentes;
+páginas preservadas;
+novas páginas integradoras;
+links cruzados criados;
+simulador global criado;
+revisão global criada;
+mapa mental global criado;
+arquivos modificados;
+arquivos novos;
+risco de regressão;
+status.
+auditoria-continuidadade-didatica.md
+Deve conter:
+sequência cognitiva;
+pontes entre módulos;
+lacunas encontradas;
+correções feitas;
+conceitos conectados.
+auditoria-redundancia.md
+Deve conter:
+redundâncias encontradas;
+redundâncias preservadas;
+redundâncias transformadas em links;
+duplicações removidas ou suavizadas sem perda de conteúdo;
+justificativa.
+qa-integracao-2d.md
+Deve conter checklist:
+navegação;
+responsividade;
+console;
+hotspots;
+quizzes;
+simuladores;
+dashboard;
+links cruzados;
+regressão de módulos;
+metalinguagem;
+conteúdo preservado.
+
+26. Critérios objetivos de aceite
+A entrega só será aceita se:
+os três módulos permanecerem completos;
+nenhuma página principal for removida;
+nenhum conteúdo médico essencial for apagado;
+nenhum SVG rico for substituído por versão inferior;
+nenhum hotspot for removido sem substituição equivalente;
+o dashboard global estiver funcional;
+o dashboard organizar febre aguda, ictérica e arrastada;
+a navegação global funcionar;
+os breadcrumbs funcionarem;
+os links cruzados forem reais e didáticos;
+o simulador integrador existir;
+o simulador tiver pelo menos 9 casos;
+a revisão ativa global existir;
+o mapa mental global existir;
+a matriz comparativa global existir;
+os módulos parecerem parte da mesma plataforma;
+a UX for coerente entre módulos;
+a linguagem for padronizada;
+não houver metalinguagem proibida na interface;
+não houver perda de responsividade;
+não houver regressão de quizzes;
+não houver regressão de flashcards;
+não houver regressão de tabelas;
+não houver regressão de simuladores;
+não houver erros críticos no console;
+não houver scripts em loop;
+não houver travamento do preview;
+PWA/service worker/manifest/cache não forem alterados;
+documentação interna for criada.
+
+27. Critérios de falha
+A entrega será considerada falha se:
+recriar os módulos;
+resumir módulos;
+apagar conteúdo;
+reduzir profundidade;
+fundir páginas importantes;
+reduzir número de páginas;
+trocar condutas;
+alterar critérios diagnósticos;
+quebrar classificação da dengue;
+quebrar tratamento da leptospirose;
+quebrar tratamento do calazar;
+substituir SVGs ricos por SVGs simples;
+remover hotspots;
+quebrar quizzes;
+quebrar simuladores;
+criar dashboard decorativo sem função cognitiva;
+criar links cruzados superficiais;
+deixar módulos desconectados;
+criar redundância excessiva;
+apagar redundância funcional;
+quebrar navegação;
+quebrar responsividade;
+criar CSS global destrutivo;
+criar JS pesado;
+criar loops;
+travar preview;
+mexer em PWA/service worker;
+usar metalinguagem;
+fazer refatoração agressiva desnecessária.
+
+28. Checklist final de execução
+Antes de concluir, verificar:
+Conteúdo
+Dengue preservada.
+Febre Amarela × Leptospirose preservado.
+Leishmaniose preservada.
+Nenhum conteúdo médico essencial removido.
+Nenhuma conduta alterada.
+Nenhum critério diagnóstico alterado.
+Integração
+Dashboard criado.
+Trilhas febre aguda/ictérica/arrastada criadas.
+Links cruzados criados.
+Simulador global criado.
+Revisão global criada.
+Mapa mental global criado.
+Matriz comparativa global criada.
+UX
+Hotspots padronizados.
+Quizzes padronizados.
+Flashcards padronizados.
+Tabelas responsivas.
+Checklists clicáveis.
+Navegação coerente.
+Mobile funcional.
+Técnica
+Console sem erros críticos.
+Sem scripts em loop.
+Sem travamento.
+Sem overflow horizontal.
+Sem IDs duplicados críticos.
+CSS global não quebrou módulos.
+JS modularizado.
+PWA/service worker/manifest/cache intactos.
+Linguagem
+Sem “a aula”.
+Sem “o professor”.
+Sem “segundo o roteiro”.
+Sem “na transcrição”.
+Sem “o material diz”.
+Sem “como vimos no módulo”.
+Linguagem autônoma.
+
+29. Busca textual obrigatória por metalinguagem
+Antes de encerrar, buscar nos arquivos visíveis da interface e remover qualquer ocorrência de:
+“a aula”
+“o professor”
+“a transcrição”
+“o roteiro”
+“segundo”
+“baseado no material”
+“foi abordado”
+“foi mencionado”
+“como vimos”
+“no módulo anterior”
+“segundo o módulo”
+Esses termos só podem permanecer em documentos internos de QA, nunca na interface do estudante.
+
+30. Relatório final esperado do Codex
+Ao final, responder com relatório curto e objetivo contendo:
+Arquivos criados.
+Arquivos modificados.
+Dashboard global implementado.
+Trilhas cognitivas criadas.
+Links cruzados criados.
+Simulador integrador criado e lista dos casos.
+Revisão ativa global criada.
+Mapa mental global criado.
+Matriz comparativa global criada.
+Padronizações de UX realizadas.
+Auditoria de redundância realizada.
+Auditoria de continuidade didática realizada.
+Confirmação de que os três módulos permaneceram completos.
+Confirmação de que SVGs/hotspots/quizzes/simuladores não regrediram.
+Confirmação de que PWA/service worker/manifest/cache não foram alterados.
+Pendências, se existirem.
+Não responder apenas “feito”. A entrega precisa provar integração, preservação, estabilidade e continuidade cognitiva.

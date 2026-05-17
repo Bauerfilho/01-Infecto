@@ -1,0 +1,2055 @@
+PROMPT 2B — MÓDULO AUTÔNOMO PREMIUM
+Febre Amarela × Leptospirose: Síndrome Febril Ictérica, Padrões Laboratoriais e Decisão Terapêutica
+Você está operando como Codex executor em um projeto de plataforma médica interativa sobre síndromes febris.
+Sua missão é construir/preencher o módulo autônomo de Febre Amarela × Leptospirose, usando como fonte primária obrigatória o arquivo anexado:
+roteiro amarela:leptospirose.rtf
+Este é um Prompt 2B de conteúdo premium.
+Você NÃO deve criar a plataforma global inteira. Você NÃO deve criar PWA. Você NÃO deve criar service worker. Você NÃO deve mexer em manifest, cache, deploy ou arquivos técnicos globais. Você NÃO deve criar identidade visual final completa da plataforma. Você NÃO deve fazer QA global. Você NÃO deve transformar o conteúdo em resumo. Você NÃO deve inventar guideline externo. Você deve transformar o roteiro em um módulo educacional interativo, granular, comparativo, clínico, laboratorial, navegável e pronto para futura integração.
+
+1. Identidade do módulo
+Nome do módulo:
+Febre Amarela × Leptospirose: a síndrome febril ictérica que muda a conduta
+Subtítulo conceitual:
+Febre + icterícia não fecha diagnóstico. O padrão clínico-laboratorial decide o rumo.
+Objetivo pedagógico:
+Construir uma experiência interativa que ensine o estudante a raciocinar diante de uma síndrome febril ictérica, diferenciando:
+febre amarela;
+leptospirose;
+hepatite viral;
+malária;
+dengue grave.
+O estudante deve sair do raciocínio raso:
+“Febre + icterícia = febre amarela.”
+e chegar ao raciocínio sindrômico e operacional:
+“Febre + icterícia exige padrão. É hepatocelular, colestático/canalicular ou hemolítico? Há sufusão conjuntival? Há limpeza urbana, enchente, esgoto ou rato? Há mata, ecoturismo, não vacinação ou sinal de Faget? Há AST/ALT muito elevadas? Há FA/GGT elevadas? Há creatinina alta com potássio baixo? Há hemoptise? Qual hipótese muda tratamento agora?”
+A espinha dorsal do módulo deve ser:
+febre sem foco → icterícia → padrão laboratorial → epidemiologia → febre amarela versus leptospirose → forma clínica → diagnóstico → tratamento → fechamento do caso → revisão ativa.
+
+2. Contexto de integração futura
+Este módulo deve nascer autônomo, mas pronto para se encaixar depois em uma plataforma maior de síndromes febris.
+Deixe pontos de integração futura para:
+módulo Dengue;
+módulo Leishmaniose Visceral;
+dashboard global;
+simulador integrador de síndromes febris;
+revisão ativa global;
+trilha de arboviroses;
+trilha de síndromes febris ictéricas;
+trilha de febre sem foco;
+comparador global de padrões laboratoriais.
+Não implemente esses módulos agora. Não crie dashboard global definitivo. Não crie simulador global. Apenas deixe estrutura semântica, nomes de rotas/classes/data attributes e documentação interna que permitam integração posterior.
+
+3. O roteiro é contrato
+O arquivo roteiro amarela:leptospirose.rtf é a fonte soberana.
+Preserve integralmente:
+pergunta central;
+caso clínico-guia;
+febre sem sinal localizatório;
+entrada em síndrome febril ictérica;
+diferencial entre febre amarela, leptospirose, hepatite viral, malária e dengue grave;
+padrões laboratoriais;
+padrão hepatocelular;
+padrão colestático/canalicular;
+padrão hemolítico;
+bilirrubina direta;
+bilirrubina indireta;
+AST/ALT;
+FA/GGT;
+leucocitose com desvio;
+plaquetopenia;
+creatinina;
+potássio baixo ou inapropriadamente normal;
+hemoptise;
+epidemiologia;
+febre amarela como Flavivírus RNA;
+significado de “flavi”;
+“praga amarela”;
+dengue como outro Flavivírus;
+ciclos da febre amarela;
+ciclo silvestre;
+ciclo urbano;
+Haemagogus;
+Sabethes;
+Aedes aegypti;
+macacos como hospedeiros/sentinelas;
+epizootia;
+humano como hospedeiro acidental no ciclo silvestre;
+humano como hospedeiro central no ciclo urbano;
+ausência de casos urbanos no Brasil desde 1942, conforme o roteiro;
+expansão do mapa vacinal;
+medo de reurbanização;
+por que matar macacos é absurdo;
+formas clínicas da febre amarela;
+forma leve;
+forma moderada;
+forma grave;
+sinal de Faget;
+dissociação pulso-temperatura;
+febre tifoide, legionella e brucelose como diferenciais do sinal de Faget;
+AST/ALT ≥ 500 na forma moderada;
+AST/ALT ≥ 2.000 na forma grave;
+AST > ALT na febre amarela grave;
+creatinina ≥ 2 na forma grave;
+icterícia + sangramento + oligúria;
+coagulopatia;
+letalidade de 20% a 50% na forma grave;
+diagnóstico temporal da febre amarela;
+viremia até 5º dia;
+isolamento viral em centro de referência;
+IgM por ELISA a partir do 6º dia;
+tratamento de suporte da febre amarela;
+manejo hemodinâmico;
+terapia dialítica;
+manejo de sangramento;
+plaquetas se necessário;
+ausência de antiviral específico estabelecido;
+sofosbuvir como estudado/promissor, mas inconclusivo;
+por que o caso não fecha bem com febre amarela;
+leptospirose;
+Leptospira interrogans;
+bactéria espiroqueta;
+formato espiralado/interrogação;
+comparação lateral com sífilis como espiroqueta, se presente;
+ausência de vetor clássico;
+rato/camundongo como reservatório;
+adaptação ao rim do rato;
+eliminação pela urina;
+água contaminada;
+enchente;
+esgoto;
+saneamento básico;
+limpeza urbana;
+construção civil;
+“você só diagnostica o que lembra”;
+forma anictérica;
+sufusão conjuntival;
+vasculite infecciosa secundária;
+mialgia de panturrilha;
+analogia da espiroqueta como broca/furadeira;
+forma ictero-hemorrágica;
+síndrome de Weil;
+cerca de 10% dos casos, conforme roteiro;
+icterícia rubínica;
+hemorragia;
+síndrome pulmão-rim;
+hemorragia alveolar;
+hemoptise;
+insuficiência renal;
+comparação com Goodpasture;
+comparação com granulomatose com poliangiite;
+componente pulmonar como causa importante de óbito;
+laboratório da leptospirose;
+CPK elevada;
+tubulopatia;
+padrão colestático/canalicular;
+“lambidinha” no fígado versus lesão hepatocelular intensa;
+diagnóstico da leptospirose;
+exames inespecíficos;
+cultura possível, mas difícil;
+meio específico;
+teste de microaglutinação;
+lógica de antígeno + anticorpo + aglutinação;
+meningite asséptica;
+fase imune;
+líquor sem bactéria clássica;
+bom prognóstico;
+tratamento da leptospirose leve;
+doxiciclina;
+amoxicilina;
+tratamento da leptospirose grave;
+penicilina cristalina EV;
+não confundir com penicilina G benzatina;
+ceftriaxona como alternativa;
+antibiótico precoce;
+tratar mesmo se diagnóstico tardio;
+diálise precoce quando indicada;
+suporte intensivo;
+fechamento do caso;
+pegadinhas;
+analogias;
+tabelas;
+fluxogramas;
+mapa mental;
+revisão ativa;
+checklist final;
+mapa de fidelidade.
+Se o conteúdo ficar grande, divida em mais páginas, abas, accordions, modais, seções expansíveis, timelines, simuladores, painéis comparativos e revisões ativas.
+É proibido resumir para caber.
+
+4. Regra de granulação obrigatória
+O módulo deve ter no mínimo 13 páginas principais nesta execução.
+O mínimo técnico do pipeline era 12, mas este módulo deve entregar também a página integradora final para consolidar febre amarela versus leptospirose. Portanto, implemente as 13 páginas abaixo.
+É proibido entregar 6, 7 ou 8 páginas. É proibido condensar raciocínios diferentes em uma única página longa. É permitido criar mais de 13 páginas se a fidelidade exigir.
+Critério de divisão:
+uma página = um raciocínio dominante;
+se houver dois raciocínios dominantes, dividir;
+se uma página ficar densa demais, quebrar em subpáginas;
+não trocar profundidade por compactação visual.
+Estrutura obrigatória:
+Caso-guia e entrada na síndrome febril ictérica
+Síndrome febril ictérica e diferencial inicial
+Febre amarela: agente, Flavivírus e lógica epidemiológica
+Ciclos da febre amarela: silvestre versus urbano
+Febre amarela: formas clínicas e sinal de Faget
+Febre amarela grave: padrão laboratorial, diagnóstico e suporte
+Por que o caso não fecha bem com febre amarela
+Leptospirose: agente, reservatório e transmissão
+Leptospirose anictérica: sufusão conjuntival e mialgia de panturrilha
+Síndrome de Weil: leptospirose ictero-hemorrágica
+Laboratório da leptospirose: colestase, tubulopatia e CPK
+Diagnóstico, microaglutinação, tratamento e fechamento do caso
+Comparador final, simulador integrador e revisão ativa
+
+5. Requisitos universais de cada página principal
+Cada uma das 13 páginas principais deve conter obrigatoriamente:
+Título claro.
+Pergunta central.
+Objetivo pedagógico.
+Microcaso, caso-guia ou problema clínico.
+Explicação didática em camadas.
+Pelo menos 1 SVG didático autoral.
+Hotspots interativos no SVG.
+Pelo menos 1 componente interativo adicional além do SVG.
+Pelo menos 1 tabela, quadro, matriz ou comparador.
+Bloco “Não confunda”.
+Bloco “Pegadinha de prova”.
+Quiz com feedback explicativo.
+Flashcards ou revisão ativa local.
+Chamada para a próxima página.
+Responsividade mobile.
+Acessibilidade básica.
+Coerência visual com o projeto existente, se houver.
+O SVG não pode ser decorativo. O SVG precisa ensinar raciocínio.
+Cada hotspot deve conter:
+título;
+explicação curta;
+importância clínica;
+pegadinha de prova ou aplicação prática, quando pertinente.
+Hotspot superficial conta como falha.
+
+6. Proibição absoluta de metalinguagem na interface
+Na interface visível ao estudante, é proibido usar frases como:
+“a aula menciona”;
+“o professor explica”;
+“segundo o roteiro”;
+“na transcrição”;
+“o material diz”;
+“foi abordado que”;
+“baseado no arquivo”;
+“o roteiro mostra”.
+A plataforma deve parecer um material didático autônomo.
+Transforme linguagem de relatório em linguagem de ensino direto.
+Errado:
+“O roteiro explica que sufusão conjuntival sugere leptospirose.”
+Certo:
+“Sufusão conjuntival é uma pista semiológica forte. Em uma síndrome febril ictérica com exposição a água contaminada, esse achado deve puxar leptospirose para o topo do raciocínio.”
+Errado:
+“A aula menciona que macacos são sentinelas.”
+Certo:
+“Macacos funcionam como sentinelas de circulação viral: a morte de macacos sinaliza risco ambiental, mas quem transmite febre amarela é o mosquito.”
+Errado:
+“Segundo a transcrição, penicilina benzatina está errada.”
+Certo:
+“Na leptospirose grave, a penicilina indicada é cristalina intravenosa; penicilina benzatina não é a escolha para esse cenário.”
+A metalinguagem só é permitida em documentos internos de QA, como matriz de cobertura.
+
+7. Arquitetura técnica mínima
+Antes de editar, inspecione o projeto.
+Se já existir arquitetura global:
+preservar estrutura;
+inserir o módulo no local apropriado;
+respeitar rotas, padrões de estilo, componentes e dados;
+não refatorar globalmente.
+Se NÃO existir arquitetura global: criar uma estrutura local mínima e autônoma para o módulo, por exemplo:
+/febre-amarela-leptospirose/
+  index.html
+  febre-amarela-leptospirose.css
+  febre-amarela-leptospirose.js
+  febre-amarela-leptospirose-data.js
+  assets/
+    svg/
+  docs/
+    matriz-conteudo-febre-amarela-leptospirose.md
+    qa-febre-amarela-leptospirose.md
+Ou, se o projeto já usa outra convenção, adaptar mantendo consistência.
+Regras técnicas:
+usar HTML/CSS/JS vanilla se esse for o padrão;
+evitar dependências externas;
+não usar CDN;
+não criar backend;
+não criar banco de dados;
+não criar autenticação;
+não criar prontuário;
+não criar ferramenta de decisão clínica real;
+não criar PWA;
+não mexer em service worker;
+não mexer em manifest;
+não mexer em cache;
+não quebrar navegação existente;
+não quebrar páginas já existentes;
+garantir funcionamento local;
+garantir responsividade;
+garantir foco visível;
+garantir navegação por teclado;
+garantir aria-label em botões e hotspots;
+garantir que SVGs sejam responsivos;
+garantir que hotspots funcionem por mouse, toque e teclado;
+garantir que tooltips/modais funcionem em mobile;
+respeitar prefers-reduced-motion;
+evitar animações contínuas;
+evitar scripts em loop;
+evitar travar o preview;
+evitar overflow horizontal.
+
+8. Página 1 — Caso-guia e entrada na síndrome febril ictérica
+Pergunta central
+Quando uma febre sem foco deixa de parecer dengue típica e entra na gaveta das síndromes febris ictéricas?
+Objetivo
+Introduzir o caso clínico-guia e mostrar por que ele muda o raciocínio em relação à dengue.
+Conteúdo obrigatório
+Preservar:
+paciente com febre sem sinal localizatório inicial;
+morador de área litorânea;
+trabalhador de firma de limpeza urbana;
+10 dias de evolução;
+febre de 39 °C;
+PA 120 × 70 mmHg, se presente no roteiro;
+FC 106 bpm, se presente no roteiro;
+FR 20 irpm, se presente no roteiro;
+icterícia;
+sufusão conjuntival;
+diurese reduzida;
+piora clínica;
+hemoptise;
+transferência para UTI;
+hematócrito sem papel central;
+leucocitose com desvio à esquerda;
+plaquetopenia em torno de 80.000;
+creatinina 2,5;
+potássio 3,1;
+creatinina alta + potássio baixo como pista de tubulopatia;
+bilirrubina direta elevada;
+FA e GGT elevadas;
+padrão colestático/canalicular;
+aminotransferases sem aumento tão importante;
+pergunta central do caso: febre amarela ou leptospirose?
+resposta progressiva: leptospirose grave/síndrome de Weil;
+tratamento de escolha: penicilina cristalina EV, suporte intensivo e diálise precoce quando indicada;
+mensagem central: febre + icterícia não basta; o padrão clínico-laboratorial decide.
+SVG obrigatório
+Criar SVG autoral:
+“Febre sem foco → febre ictérica → pistas que mudam a hipótese”
+Elementos:
+entrada: febre sem foco;
+ramificação: dengue típica versus síndrome febril ictérica;
+caso-guia;
+icterícia;
+sufusão conjuntival;
+limpeza urbana;
+leucocitose;
+creatinina alta + potássio baixo;
+hemoptise;
+hipótese final: leptospirose grave.
+Hotspots mínimos
+icterícia;
+sufusão conjuntival;
+limpeza urbana;
+leucocitose com desvio;
+plaquetopenia;
+creatinina alta + potássio baixo;
+FA/GGT;
+hemoptise;
+UTI.
+Interação obrigatória
+Mini-simulador:
+“Qual dado muda o rumo do diagnóstico?”
+O estudante recebe dados progressivos:
+febre;
+icterícia;
+plaquetopenia;
+limpeza urbana;
+sufusão conjuntival;
+creatinina 2,5 + K 3,1;
+FA/GGT elevadas;
+hemoptise.
+Para cada dado, o estudante deve dizer se aproxima:
+dengue;
+febre amarela;
+leptospirose;
+hepatite viral;
+malária.
+Feedback obrigatório:
+plaquetopenia não fecha dengue;
+icterícia não fecha febre amarela;
+sufusão conjuntival + exposição ocupacional + IRA com hipocalemia + hemoptise puxa leptospirose.
+Tabela obrigatória
+Tabela:
+Dado do caso × interpretação didática × hipótese que sobe
+Não confunda
+febre + plaquetopenia não é dengue obrigatória;
+febre + icterícia não é febre amarela automática;
+creatinina alta com potássio baixo é pista forte de leptospirose;
+hemoptise não é detalhe menor.
+Pegadinha de prova
+O caso começa parecendo uma síndrome febril inespecífica, mas a combinação sufusão conjuntival + limpeza urbana + padrão canalicular + IRA com hipocalemia + hemoptise desloca o raciocínio para leptospirose grave.
+
+9. Página 2 — Síndrome febril ictérica e diferencial inicial
+Pergunta central
+Diante de febre + icterícia, qual padrão laboratorial organiza o diferencial?
+Objetivo
+Construir o raciocínio sindrômico de febre + icterícia, diferenciando hepatocelular, colestático/canalicular e hemolítico.
+Conteúdo obrigatório
+Preservar:
+conceito de síndrome febril ictérica;
+febre;
+icterícia;
+ausência ou não de sinal localizatório claro;
+necessidade de diferenciar mecanismos diferentes;
+febre amarela como diferencial intuitivo;
+leptospirose grave como hipótese importante no Brasil;
+hepatite viral como diferencial;
+malária como diferencial;
+dengue grave como possibilidade mais distante no caso;
+diferença em relação à dengue típica;
+dengue típica: febre abrupta até 7 dias, dor retro-orbital, mialgia, leucopenia, plaquetopenia, extravasamento;
+caso atual: 10 dias, icterícia, leucocitose com desvio, IRA com hipocalemia, padrão colestático, sufusão conjuntival, hemoptise;
+bilirrubina direta;
+bilirrubina indireta;
+padrão hepatocelular;
+padrão colestático/canalicular;
+padrão hemolítico;
+malária associada à hemólise e bilirrubina indireta;
+hepatite viral com padrão hepatocelular;
+leptospirose com padrão mais colestático/canalicular;
+febre amarela grave com padrão hepatocelular intenso.
+SVG obrigatório
+Criar SVG autoral:
+“Febre + icterícia → qual padrão?”
+Elementos:
+entrada: febre + icterícia;
+três trilhas:
+hepatocelular;
+colestático/canalicular;
+hemolítico;
+hipóteses associadas:
+febre amarela/hepatite viral;
+leptospirose;
+malária;
+ramificação para dengue grave como diferencial distante.
+Hotspots mínimos
+bilirrubina direta;
+bilirrubina indireta;
+AST/ALT;
+FA/GGT;
+hepatocelular;
+colestático/canalicular;
+hemólise;
+síndrome pulmão-rim.
+Interação obrigatória
+Tabela interativa:
+“Aproxima ou afasta?”
+O estudante recebe achados e marca se aproximam/afastam:
+febre amarela;
+leptospirose;
+hepatite viral;
+malária;
+dengue grave.
+Achados obrigatórios:
+AST/ALT ≥ 2.000;
+FA/GGT elevadas;
+bilirrubina indireta;
+bilirrubina direta;
+sufusão conjuntival;
+leucocitose com desvio;
+leucopenia;
+hemoptise;
+creatinina alta + K baixo;
+mata/ecoturismo/não vacinado.
+Tabela obrigatória
+Tabela:
+Febre amarela × leptospirose × hepatite viral × malária × dengue grave
+Colunas:
+padrão de bilirrubina;
+padrão de transaminases;
+padrão colestático/canalicular;
+contexto epidemiológico;
+pistas clínicas;
+pistas laboratoriais;
+por que entra no diferencial;
+por que fica mais ou menos provável no caso.
+Não confunda
+icterícia pode ser hepatocelular, colestática ou hemolítica;
+malária puxa bilirrubina indireta por hemólise;
+leptospirose puxa bilirrubina direta + FA/GGT;
+febre amarela grave puxa AST/ALT muito elevadas.
+Pegadinha de prova
+A primeira hipótese que aparece no nome da síndrome nem sempre é a hipótese que melhor explica o caso. O diagnóstico correto é o que explica o conjunto com menos esforço.
+
+10. Página 3 — Febre amarela: agente, Flavivírus e lógica epidemiológica
+Pergunta central
+Por que febre amarela é mais do que “dengue com icterícia”?
+Objetivo
+Apresentar febre amarela como diferencial central de síndrome febril ictérica, reposicionando seu agente, história, família viral e contexto epidemiológico.
+Conteúdo obrigatório
+Preservar:
+febre amarela causada por Flavivírus;
+material genético RNA;
+alternativa dizendo DNA estaria errada;
+significado de “flavi” = amarelo;
+ligamento flavo como associação lateral se útil;
+febre amarela dá nome ao grupo dos flavivírus;
+não é a febre amarela que se parece com dengue; dengue é que pertence ao grupo nomeado pela febre amarela;
+dengue também é Flavivírus;
+zika também é Flavivírus, se útil na ponte futura;
+hepatite C como menção lateral no contexto de sofosbuvir, sem desviar;
+febre amarela como doença histórica;
+descrita desde o século XVIII;
+“praga amarela”;
+alta letalidade nas formas graves;
+febre amarela como doença que exige pista epidemiológica;
+ecoturismo;
+trabalho em mata;
+área silvestre;
+ausência de vacinação;
+gravidade como motivo de medo do ciclo urbano.
+SVG obrigatório
+Criar SVG autoral:
+“Flavivírus: a febre amarela dá nome ao grupo”
+Elementos:
+núcleo “flavi = amarelo”;
+febre amarela;
+dengue;
+zika;
+hepatite C como menção lateral;
+RNA;
+linha histórica “século XVIII/praga amarela”;
+gravidade/letalidade;
+pista epidemiológica.
+Hotspots mínimos
+Flavivírus;
+RNA;
+flavi = amarelo;
+praga amarela;
+dengue;
+zika;
+letalidade;
+ecoturismo/mata;
+vacinação.
+Interação obrigatória
+Quiz conceitual:
+“Febre amarela e dengue: quem se parece com quem?”
+Perguntas obrigatórias:
+febre amarela é DNA ou RNA?
+quem dá nome aos flavivírus?
+febre amarela é simplesmente dengue ictérica?
+qual pista epidemiológica aumenta suspeita?
+ausência de vacinação entra como pista?
+Tabela obrigatória
+Tabela:
+Flavivírus citados × doença × pista clínica/epidemiológica × cuidado de prova
+Não confunda
+febre amarela não é “dengue com icterícia”;
+dengue pertence ao grupo dos flavivírus;
+febre amarela exige contexto epidemiológico, especialmente em formas leves.
+Pegadinha de prova
+Febre amarela leve pode parecer virose comum. Sem pista epidemiológica ou sinal de Faget, a banca não deve exigir esse diagnóstico isoladamente.
+
+11. Página 4 — Ciclos da febre amarela: silvestre versus urbano
+Pergunta central
+Quem transmite, quem adoece e por que o macaco não é o vilão?
+Objetivo
+Ensinar ciclos, vetores, hospedeiros, sentinelas e risco epidemiológico da febre amarela.
+Conteúdo obrigatório
+Preservar:
+Ciclo silvestre
+vetores: Haemagogus e Sabethes;
+corrigir silenciosamente distorções de transcrição;
+macacos como hospedeiros principais;
+ciclo “macaco ↔ mosquito silvestre ↔ macaco”;
+humano como hospedeiro acidental;
+humano entra no ambiente silvestre;
+ecoturismo;
+trabalho em mata;
+invasão de área silvestre;
+não imunizado;
+mosquito pode picar humano.
+Ciclo urbano
+vetor: Aedes aegypti;
+hospedeiro principal: humano;
+ambiente urbano;
+medo de epidemia urbana;
+Aedes aegypti adaptado à cidade;
+risco de calamidade pública;
+febre amarela grave com alta letalidade;
+ausência de casos urbanos no Brasil desde 1942, conforme roteiro;
+risco de reurbanização;
+urbanização/periurbanização.
+Saúde pública
+expansão do mapa vacinal;
+desmatamento;
+rodovias;
+hidrelétricas;
+invasão humana de áreas silvestres;
+vacinação como barreira contra reurbanização;
+epizootia;
+macacos como sentinelas;
+morte de macacos sinaliza circulação viral;
+matar macacos é absurdo;
+macacos são importantes para o bioma;
+analogia: matar macacos para acabar com febre amarela é tão absurdo quanto matar pessoas com tuberculose para acabar com tuberculose.
+SVG obrigatório
+Criar SVG autoral:
+“Ciclo silvestre × ciclo urbano da febre amarela”
+Elementos:
+lado esquerdo: mata;
+macaco;
+Haemagogus/Sabethes;
+humano acidental;
+lado direito: cidade;
+humano;
+Aedes aegypti;
+risco de epidemia;
+linha de barreira: vacinação.
+Hotspots mínimos
+macaco;
+epizootia;
+Haemagogus;
+Sabethes;
+humano acidental;
+Aedes aegypti;
+ciclo urbano;
+1942;
+expansão vacinal;
+não matar macacos.
+Interação obrigatória
+Painel:
+“Culpa do macaco?”
+O estudante escolhe afirmações:
+macaco transmite diretamente para humano;
+macaco funciona como sentinela;
+mosquito transmite;
+matar macacos resolve;
+morte de macacos alerta circulação viral.
+Feedback obrigatório:
+macacos não são vilões;
+quem transmite é o mosquito;
+macacos ajudam a detectar epizootia.
+Tabela obrigatória
+Tabela:
+Ciclo silvestre × ciclo urbano da febre amarela
+Colunas:
+vetores;
+hospedeiro principal;
+papel do humano;
+ambiente;
+situação de risco;
+importância em saúde pública;
+situação no Brasil;
+animal sentinela;
+erro comum;
+medida estratégica.
+Não confunda
+Haemagogus/Sabethes = ciclo silvestre;
+Aedes aegypti = ciclo urbano;
+macaco é sentinela/hospedeiro, não transmissor direto;
+ausência de casos urbanos desde 1942 não elimina o medo de reurbanização.
+Pegadinha de prova
+Se a questão falar em ciclo silvestre, não marque Aedes aegypti como vetor principal do ciclo. Aedes aegypti é o medo urbano.
+
+12. Página 5 — Febre amarela: formas clínicas e sinal de Faget
+Pergunta central
+Quando uma “virose febril” pode ser febre amarela — e quando vira forma grave?
+Objetivo
+Ensinar forma leve, forma moderada e forma grave, com foco em pistas de prova e sinal de Faget.
+Conteúdo obrigatório
+Forma leve
+Preservar:
+maioria dos casos;
+síndrome febril pura;
+pode passar como virose;
+precisa de pista epidemiológica em prova;
+ecoturismo;
+trabalho em mata;
+não vacinado;
+sinal de Faget.
+Sinal de Faget
+Preservar:
+dissociação pulso-temperatura;
+febre alta sem taquicardia proporcional;
+normalmente febre aumenta frequência cardíaca;
+referência didática: para cada 1 °C, aumento aproximado de 8 bpm;
+exemplo mental: 39 °C com FC 70 bpm;
+hipótese de tropismo pelo sistema de condução cardíaco como comentário, sem transformar em certeza;
+não específico;
+febre amarela;
+febre tifoide;
+legionella;
+brucelose;
+mnemônicos F-A e F-A-G-E-T com T lembrando tifoide.
+Forma moderada
+Preservar:
+sinais de alarme próprios da febre amarela, não os mesmos da dengue;
+vômitos importantes;
+diarreia;
+dor abdominal;
+aumento de aminotransferases;
+AST/ALT geralmente ≥ 500;
+disfunção renal moderada;
+creatinina aumentada, mas não tão alta quanto grave;
+INR abaixo de 1,5 se presente na lógica do roteiro;
+vírus pode dar “lambidinha” no rim na forma moderada.
+Forma grave
+Preservar:
+mais cobrada;
+lesão hepatorrenal;
+tríade: icterícia + sangramento + oligúria;
+bilirrubina direta;
+AST/ALT geralmente ≥ 2.000;
+AST maior que ALT;
+creatinina geralmente ≥ 2;
+plaquetopenia;
+coagulopatia;
+letalidade 20% a 50%;
+forma grave justifica medo do ciclo urbano.
+SVG obrigatório
+Criar SVG autoral:
+“Escada de gravidade da febre amarela”
+Degraus:
+leve;
+moderada;
+grave.
+Incluir:
+Faget como marcador transversal;
+AST/ALT <500, ≥500, ≥2.000;
+creatinina;
+icterícia/sangramento/oligúria.
+Hotspots mínimos
+forma leve;
+Faget;
+forma moderada;
+AST/ALT ≥ 500;
+forma grave;
+icterícia;
+sangramento;
+oligúria;
+AST/ALT ≥ 2.000;
+AST > ALT;
+letalidade.
+Interação obrigatória
+Classificador:
+“Qual forma clínica da febre amarela?”
+Cenários:
+febre pura + ecoturismo + não vacinado;
+febre alta + FC baixa/inadequada;
+vômitos importantes + AST/ALT 600 + creatinina levemente aumentada;
+icterícia + sangramento + oligúria + AST/ALT 2.500;
+AST > ALT com contexto febre amarela.
+Tabelas obrigatórias
+Febre amarela leve × moderada × grave
+Sinal de Faget: doenças associadas e pegadinhas
+Padrão laboratorial da febre amarela nas formas clínicas
+Não confunda
+sinais de alarme da febre amarela não são os mesmos da dengue;
+Faget sugere, mas não confirma febre amarela;
+AST > ALT nem sempre é hepatite alcoólica;
+forma grave não é apenas icterícia.
+Pegadinha de prova
+A tríade da febre amarela grave é:
+icterícia + sangramento + oligúria.
+
+13. Página 6 — Febre amarela grave: padrão laboratorial, diagnóstico e suporte
+Pergunta central
+Como reconhecer febre amarela grave no laboratório — e por que não inventar antiviral?
+Objetivo
+Ensinar padrão laboratorial, diagnóstico temporal e tratamento de suporte da febre amarela grave.
+Conteúdo obrigatório
+Padrão laboratorial
+Preservar:
+lesão hepatorrenal;
+bilirrubina direta;
+padrão hepatocelular;
+AST/ALT geralmente ≥ 2.000;
+AST > ALT;
+AST presente no fígado e no rim;
+ALT mais restrita ao fígado;
+AST sobe por componente hepático e renal;
+não confundir automaticamente AST > ALT com alcoolismo;
+creatinina geralmente ≥ 2;
+plaquetopenia;
+coagulopatia;
+INR como parte da lógica se presente;
+sangramento por queda de fatores de coagulação e plaquetopenia;
+oligúria.
+Diagnóstico temporal
+Preservar:
+mesma lógica temporal geral da dengue, mas não igual nos marcadores;
+fase inicial: viremia até 5º dia;
+procurar vírus/material viral em centro de referência;
+isolamento viral;
+isolamento não é rotina de pronto-socorro/UPA;
+soroconversão a partir do 6º dia;
+IgM por ELISA;
+não inventar NS1 para febre amarela como rotina;
+diagnóstico depende de clínica, epidemiologia, forma clínica e laboratório, mas sem inventar protocolo externo.
+Tratamento
+Preservar:
+tratamento é de suporte;
+não há antiviral específico estabelecido;
+suporte clínico;
+manejo hemodinâmico;
+terapia dialítica quando necessário;
+manejo de sangramento;
+transfusão de plaquetas se necessário;
+cuidados intensivos na forma grave;
+prognóstico reservado;
+sofosbuvir como possibilidade estudada/promissora, mas inconclusiva;
+sofosbuvir não é conduta padrão;
+não inventar doses, esquemas, metas hemodinâmicas ou limiares transfusionais não citados.
+SVG obrigatório
+Criar SVG autoral:
+“Painel hepatorrenal da febre amarela grave”
+Elementos:
+fígado;
+rim;
+AST/ALT;
+bilirrubina direta;
+coagulação;
+plaquetas;
+oligúria;
+linha temporal de diagnóstico;
+suporte.
+Hotspots mínimos
+AST;
+ALT;
+AST > ALT;
+bilirrubina direta;
+coagulopatia;
+plaquetopenia;
+creatinina;
+viremia;
+IgM ELISA;
+suporte;
+sofosbuvir.
+Interação obrigatória
+Comparador:
+“Hepatite alcoólica? Hepatite viral? Febre amarela grave?”
+O estudante recebe padrões:
+AST > ALT;
+AST/ALT ≥ 2.000;
+icterícia + sangramento + oligúria;
+contexto de mata/não vacinado;
+coagulopatia;
+creatinina ≥ 2.
+Feedback:
+AST > ALT não basta para álcool;
+contexto e lesão hepatorrenal apontam febre amarela grave.
+Tabelas obrigatórias
+Diagnóstico temporal da febre amarela
+Suporte na febre amarela grave por complicação
+Febre amarela grave × hepatite viral × hepatite alcoólica — cuidado com AST > ALT
+Não confunda
+febre amarela não tem antiviral específico estabelecido no roteiro;
+sofosbuvir é estudado/promissor, mas inconclusivo;
+isolamento viral não é rotina;
+IgM não é exame de primeiro dia;
+NS1 é marcador trabalhado para dengue, não rotina de febre amarela neste roteiro.
+Pegadinha de prova
+Se a questão perguntar tratamento específico da febre amarela grave, a resposta do roteiro é suporte intensivo, não antiviral.
+
+14. Página 7 — Por que o caso não fecha bem com febre amarela
+Pergunta central
+Se o paciente tem febre e icterícia, por que não marcar febre amarela automaticamente?
+Objetivo
+Fazer o estudante afastar febre amarela com raciocínio clínico-laboratorial, não por exclusão superficial.
+Conteúdo obrigatório
+Preservar:
+febre amarela entra no diferencial porque há febre + icterícia;
+o caso não fecha bem com febre amarela;
+ausência de história forte de mata;
+ausência de ecoturismo;
+ausência de trabalho silvestre;
+ausência de eixo de não vacinação;
+história de limpeza urbana;
+área litorânea como contexto ambiental, não mata;
+sufusão conjuntival;
+padrão mais colestático/canalicular;
+FA/GGT mais proeminentes;
+transaminases não tão altas;
+ausência de AST/ALT ≥ 2.000;
+leucocitose com desvio à esquerda;
+processo bacteriano mais provável;
+creatinina elevada com potássio baixo;
+tubulopatia;
+hemoptise;
+síndrome pulmão-rim;
+leptospirose subindo no diferencial;
+resposta correta não é a primeira hipótese que aparece, mas a que explica mais dados com menos esforço.
+SVG obrigatório
+Criar SVG autoral:
+“Balança diagnóstica: febre amarela versus leptospirose”
+Lado febre amarela:
+febre;
+icterícia;
+plaquetopenia;
+oligúria possível.
+Lado leptospirose:
+limpeza urbana;
+sufusão conjuntival;
+FA/GGT;
+K baixo;
+leucocitose;
+hemoptise;
+padrão canalicular.
+Hotspots mínimos
+hepatocelular;
+canalicular;
+mata/ecoturismo;
+limpeza urbana;
+sufusão conjuntival;
+hipocalemia;
+FA/GGT;
+hemoptise;
+AST/ALT.
+Interação obrigatória
+Painel:
+“Aproxima ou afasta febre amarela?”
+O estudante arrasta dados do caso para:
+aproxima febre amarela;
+afasta febre amarela;
+inespecífico;
+puxa leptospirose.
+Tabela obrigatória
+Tabela:
+Dados que aproximam e afastam febre amarela no caso clínico
+Não confunda
+febre amarela entra no diferencial, mas não domina se o padrão é canalicular;
+plaquetopenia não é exclusiva;
+hemoptise e sufusão conjuntival não são detalhes periféricos.
+Pegadinha de prova
+A banca pode começar com febre + icterícia para induzir febre amarela e depois colocar limpeza urbana, sufusão conjuntival, K baixo, FA/GGT e hemoptise. Esses dados deslocam o raciocínio para leptospirose.
+
+15. Página 8 — Leptospirose: agente, reservatório e transmissão
+Pergunta central
+Por que limpeza urbana, enchente e esgoto devem acender leptospirose?
+Objetivo
+Introduzir leptospirose como doença bacteriana ambiental, com reservatório em roedores e transmissão por urina contaminando água/lama/esgoto.
+Conteúdo obrigatório
+Preservar:
+leptospirose;
+Leptospira interrogans;
+bactéria;
+espiroqueta;
+formato espiralado;
+formato lembrando interrogação;
+comparação lateral com sífilis como outra espiroqueta, se presente;
+leptospirose não é arbovirose;
+ausência de vetor clássico;
+reservatório: rato/camundongo;
+rato é adaptado à leptospira;
+rato não fica doente e ictérico como humano;
+leptospira adapta-se ao rim do rato;
+eliminação pela urina;
+urina contamina água, lama, esgoto;
+enchentes;
+esgoto;
+saneamento básico;
+lixo;
+limpeza urbana;
+construção civil;
+contato com água contaminada;
+entrada por pele ou mucosa;
+importância de lembrar após chuvas/enchentes;
+“você só diagnostica o que lembra”.
+SVG obrigatório
+Criar SVG autoral:
+“Ciclo epidemiológico da leptospirose”
+Elementos:
+rato/camundongo;
+rim do rato;
+urina;
+esgoto/lama/enchente;
+pele/mucosa humana;
+corrente sanguínea;
+órgãos-alvo.
+Hotspots mínimos
+Leptospira interrogans;
+espiroqueta;
+rato;
+rim do rato;
+urina;
+enchente;
+esgoto;
+limpeza urbana;
+pele/mucosa;
+saneamento.
+Interação obrigatória
+Simulador:
+“Qual exposição aumenta risco?”
+Cenários:
+limpeza urbana;
+enchente;
+água de esgoto;
+construção civil em área alagada;
+ecoturismo em mata;
+mosquito em área urbana;
+contato com macaco;
+viagem para área malárica.
+Feedback:
+distinguir leptospirose de febre amarela e arboviroses.
+Tabela obrigatória
+Tabela:
+Agente × reservatório × transmissão × exposição de risco
+Não confunda
+leptospirose não tem vetor mosquito na lógica do roteiro;
+rato é reservatório, não vetor;
+febre amarela tem vetores; leptospirose tem reservatório ambiental.
+Pegadinha de prova
+Limpeza urbana, enchente, esgoto e urina de rato são pistas epidemiológicas fortes. Sem lembrar da doença, o diagnóstico passa batido.
+
+16. Página 9 — Leptospirose anictérica: sufusão conjuntival e mialgia de panturrilha
+Pergunta central
+Qual é a assinatura clínica da leptospirose antes da icterícia grave?
+Objetivo
+Ensinar a forma leve/anictérica, destacando sufusão conjuntival, mialgia de panturrilha e exposição ambiental.
+Conteúdo obrigatório
+Preservar:
+forma anictérica;
+forma mais leve;
+febre;
+pode passar despercebida;
+pode ser tratada como virose/dengue se não houver suspeita epidemiológica;
+sufusão conjuntival;
+olho vermelho;
+não é conjuntivite simples no contexto certo;
+vasculite infecciosa secundária;
+lesão vascular;
+diagnóstico diferencial de olho vermelho sem desviar demais;
+mialgia de panturrilha;
+mialgia generalizada possível;
+panturrilha como pista;
+entrada pela pele/mucosa;
+espiroqueta atravessando barreiras;
+analogia da espiroqueta como broca/furadeira;
+CPK pode subir por lesão muscular, preparando página 11;
+“olho vermelho + panturrilha + exposição” como tríade didática.
+SVG obrigatório
+Criar SVG autoral:
+“Assinatura corporal da leptospirose anictérica”
+Elementos:
+olhos;
+conjuntiva;
+vasos;
+panturrilhas;
+pele/mucosa;
+espiroqueta atravessando;
+exposição ambiental.
+Hotspots mínimos
+sufusão conjuntival;
+vasculite;
+panturrilha;
+mialgia;
+pele;
+mucosa;
+espiroqueta-broca;
+exposição ambiental.
+Interação obrigatória
+Classificador:
+“Dengue, conjuntivite comum ou leptospirose?”
+Cenários:
+olho vermelho isolado sem febre;
+febre + dor retro-orbital + leucopenia;
+febre + enchente + sufusão conjuntival;
+febre + panturrilha + limpeza urbana;
+febre + exantema/prurido/conjuntivite não purulenta.
+Tabela obrigatória
+Tabela:
+Pista clínica × mecanismo × erro comum
+Não confunda
+sufusão conjuntival não é conjuntivite comum quando há febre e exposição ambiental;
+mialgia de panturrilha é pista, não simples dor no corpo genérica;
+leptospirose leve pode parecer virose.
+Pegadinha de prova
+“Sufusão conjuntival” é palavra-chave. Não é patognomônica, mas em contexto de febre + exposição ambiental, puxa leptospirose.
+
+17. Página 10 — Síndrome de Weil: leptospirose ictero-hemorrágica
+Pergunta central
+Quando a leptospirose vira síndrome de Weil e ameaça pulmão e rim?
+Objetivo
+Ensinar a forma grave ictero-hemorrágica da leptospirose, com icterícia rubínica, hemorragia e síndrome pulmão-rim.
+Conteúdo obrigatório
+Preservar:
+forma ictero-hemorrágica;
+síndrome de Weil;
+forma grave;
+cerca de 10% dos casos, conforme roteiro;
+icterícia rubínica;
+mistura de amarelo da icterícia com vermelho da sufusão conjuntival;
+tom alaranjado/rubínico;
+hemorragia;
+insuficiência renal;
+síndrome pulmão-rim;
+hemoptise;
+hemorragia alveolar;
+componente pulmonar como causa importante de óbito;
+UTI;
+comparação com Goodpasture;
+comparação com granulomatose com poliangiite;
+não desviar para detalhes dessas vasculites, usar apenas como comparação;
+curiosidade de Adolf Weil, se presente no roteiro;
+caso-guia como exemplo de forma grave;
+hemoptise + IRA = leptospirose grave/síndrome pulmão-rim.
+SVG obrigatório
+Criar SVG autoral:
+“Síndrome pulmão-rim da leptospirose grave”
+Elementos:
+olho com sufusão;
+pele/olhos ictéricos;
+pulmões com hemorragia alveolar;
+rins com IRA/tubulopatia;
+sangue/hemorragia;
+síndrome de Weil.
+Hotspots mínimos
+icterícia rubínica;
+sufusão conjuntival;
+pulmão;
+hemoptise;
+hemorragia alveolar;
+rim;
+IRA;
+Weil;
+UTI;
+Goodpasture/GPA como comparação.
+Interação obrigatória
+Simulador:
+“Forma anictérica ou síndrome de Weil?”
+Itens:
+febre + sufusão conjuntival;
+mialgia de panturrilha;
+icterícia rubínica;
+hemoptise;
+creatinina elevada;
+potássio baixo;
+UTI;
+exposição a enchente;
+CPK elevada.
+Tabela obrigatória
+Tabela:
+Leptospirose anictérica × síndrome de Weil
+Não confunda
+síndrome de Weil não é forma leve;
+icterícia rubínica não é icterícia comum;
+hemoptise no caso é marcador de gravidade;
+síndrome pulmão-rim não é o eixo da febre amarela no roteiro.
+Pegadinha de prova
+Hemoptise + insuficiência renal em síndrome febril ictérica com sufusão conjuntival deve acender síndrome pulmão-rim da leptospirose grave.
+
+18. Página 11 — Laboratório da leptospirose: colestase, tubulopatia e CPK
+Pergunta central
+Qual padrão laboratorial faz leptospirose vencer febre amarela no diferencial?
+Objetivo
+Ensinar o padrão laboratorial que fecha o raciocínio: colestase/canalicular, tubulopatia renal, leucocitose e CPK.
+Conteúdo obrigatório
+Preservar:
+bilirrubina direta elevada;
+prejuízo na excreção de bilirrubina direta;
+padrão colestático/canalicular;
+FA elevada;
+GGT elevada;
+transaminases podem subir;
+transaminases não sobem como na febre amarela grave;
+“lambidinha” no fígado versus “mordida”/lesão hepatocelular intensa, se presente;
+leptospirose grave não tem AST/ALT sempre altíssimas;
+febre amarela grave é mais hepatocelular;
+leptospirose grave é mais canalicular/colestática;
+IRA;
+tubulopatia;
+creatinina elevada;
+potássio baixo;
+potássio inapropriadamente normal;
+por que isso é estranho em insuficiência renal;
+túbulo perde capacidade de reabsorver potássio;
+leucocitose com desvio à esquerda;
+processo bacteriano;
+dengue típica costuma ter leucopenia;
+plaquetopenia;
+plaquetopenia não é sinônimo de dengue;
+CPK elevada por lesão muscular;
+mialgia de panturrilha conectada à CPK;
+hemoptise como marcador pulmonar grave;
+laboratório do caso.
+SVG obrigatório
+Criar SVG autoral:
+“Painel laboratorial da leptospirose”
+Elementos:
+fígado/canalículos;
+bilirrubina direta;
+FA/GGT;
+músculo/CPK;
+rim/túbulo;
+K baixo;
+hemograma;
+plaquetas.
+Hotspots mínimos
+FA/GGT;
+bilirrubina direta;
+AST/ALT moderadas;
+túbulo renal;
+potássio baixo;
+potássio normal inapropriado;
+CPK;
+leucocitose;
+plaquetopenia.
+Interação obrigatória
+Jogo laboratorial:
+“Interprete o laboratório: qual padrão aponta para leptospirose?”
+O estudante classifica painéis como:
+febre amarela grave;
+leptospirose grave;
+hepatite viral;
+malária;
+dengue típica.
+Painéis obrigatórios:
+AST/ALT ≥ 2.000 + AST > ALT;
+FA/GGT + bilirrubina direta + K baixo;
+bilirrubina indireta/hemólise;
+leucopenia + plaquetopenia;
+leucocitose + desvio + plaquetopenia + CPK.
+Tabelas obrigatórias
+Padrão laboratorial: hepatocelular × colestático/canalicular × hemolítico
+Febre amarela grave × leptospirose grave
+Achado laboratorial × mecanismo × pegadinha
+Não confunda
+FA/GGT elevadas favorecem leptospirose no caso;
+AST/ALT ≥ 2.000 favorecem febre amarela grave/hepatocelular;
+creatinina alta com K baixo é pista de ouro;
+plaquetopenia pode ocorrer em leptospirose, febre amarela e dengue.
+Pegadinha de prova
+Em insuficiência renal, espera-se potássio alto. Se há creatinina alta com potássio baixo ou normal inapropriado, pense em tubulopatia por leptospirose.
+
+19. Página 12 — Diagnóstico, microaglutinação, tratamento e fechamento do caso
+Pergunta central
+Como confirmar, tratar e fechar o caso como leptospirose grave?
+Objetivo
+Ensinar diagnóstico específico, microaglutinação, meningite asséptica, tratamento e fechamento do caso clínico.
+Conteúdo obrigatório
+Diagnóstico da leptospirose
+Preservar:
+diagnóstico nasce da suspeita clínico-epidemiológica;
+febre;
+exposição a enchente, esgoto, água contaminada, limpeza urbana ou construção civil;
+sufusão conjuntival;
+mialgia de panturrilha;
+icterícia;
+insuficiência renal;
+hemoptise na forma grave;
+exames iniciais inespecíficos;
+hemograma;
+leucocitose com desvio à esquerda;
+plaquetopenia;
+CPK;
+função renal;
+eletrólitos;
+bilirrubinas;
+FA/GGT;
+cultura possível, mas difícil;
+leptospira exige meio específico;
+não depender de cultura na rotina;
+teste de microaglutinação;
+microaglutinação como teste específico de escolha conforme roteiro;
+lógica: antígeno + anticorpo + aglutinação;
+não inventar outros testes como eixo principal se não estiverem no roteiro.
+Meningite asséptica
+Preservar:
+detalhe da leptospirose;
+fase imune;
+induzida por anticorpos;
+líquor sem bactéria clássica;
+meningite asséptica não é meningite bacteriana clássica;
+bom prognóstico;
+detalhe que vale guardar.
+Tratamento
+Preservar:
+forma leve: doxiciclina ou amoxicilina;
+forma grave: penicilina cristalina EV;
+não confundir penicilina cristalina com penicilina G benzatina;
+ceftriaxona como segunda opção/alternativa;
+antibiótico precoce;
+idealmente nos primeiros dias/primeira semana;
+diagnóstico tardio não significa não tratar;
+terapia dialítica precoce quando indicada;
+suporte intensivo quando necessário;
+não inventar dose se não estiver no roteiro;
+não inventar critérios externos de diálise;
+não transformar em protocolo hospitalar real.
+Fechamento do caso
+Preservar:
+caso fecha com leptospirose grave/síndrome de Weil;
+limpeza urbana;
+área litorânea;
+febre há 10 dias;
+sufusão conjuntival;
+icterícia;
+leucocitose com desvio;
+plaquetopenia;
+padrão canalicular;
+bilirrubina direta;
+FA/GGT;
+creatinina alta;
+potássio baixo;
+hemoptise;
+UTI;
+tratamento: penicilina cristalina EV + suporte intensivo + diálise precoce se indicada.
+SVG obrigatório
+Criar SVG autoral:
+“Suspeita de leptospirose → diagnóstico → tratamento”
+Elementos:
+suspeita clínico-epidemiológica;
+exames inespecíficos;
+microaglutinação;
+forma leve;
+forma grave;
+meningite asséptica;
+penicilina cristalina;
+ceftriaxona;
+diálise;
+fechamento do caso.
+Hotspots mínimos
+microaglutinação;
+exames inespecíficos;
+cultura difícil;
+meningite asséptica;
+forma leve;
+doxiciclina/amoxicilina;
+forma grave;
+penicilina cristalina;
+benzatina como erro;
+ceftriaxona;
+diálise precoce.
+Interação obrigatória
+Simulador:
+“Feche o caso e escolha o tratamento”
+Etapas:
+escolher hipótese principal;
+justificar com epidemiologia;
+justificar com clínica;
+justificar com laboratório;
+escolher teste específico;
+escolher tratamento;
+evitar erro penicilina benzatina;
+decidir suporte/diálise quando indicada.
+Tabelas obrigatórias
+Diagnóstico: febre amarela × leptospirose
+Tratamento: febre amarela × leptospirose leve × leptospirose grave
+Penicilina cristalina × penicilina benzatina — não confunda
+Exame inespecífico × utilidade na suspeita de leptospirose
+Não confunda
+microaglutinação é o teste específico destacado no roteiro;
+cultura é possível, mas difícil;
+meningite asséptica não é meningite bacteriana clássica;
+leptospirose grave usa penicilina cristalina EV, não benzatina;
+antibiótico idealmente precoce, mas diagnóstico tardio não significa não tratar.
+Pegadinha de prova
+“Penicilina para leptospirose grave” não significa penicilina benzatina. A forma grave pede penicilina cristalina intravenosa.
+
+20. Página 13 — Comparador final, simulador integrador e revisão ativa
+Pergunta central
+Diante de febre + icterícia, você consegue diferenciar febre amarela grave de leptospirose grave sem cair nas armadilhas?
+Objetivo
+Integrar o módulo inteiro em raciocínio de prova, comparando febre amarela grave e leptospirose grave, retomando o caso e consolidando revisão ativa.
+Conteúdo obrigatório
+Preservar e transformar em experiência:
+tabela final febre amarela grave × leptospirose grave;
+hepatocelular × colestático/canalicular;
+AST/ALT muito elevadas × FA/GGT mais marcantes;
+AST > ALT por lesão hepatorrenal na febre amarela;
+sinal de Faget × sufusão conjuntival;
+mata/ecoturismo/não vacinado × enchente/limpeza urbana/esgoto;
+tríade icterícia + sangramento + oligúria;
+icterícia rubínica;
+síndrome pulmão-rim;
+hemoptise;
+creatinina alta com potássio baixo;
+tratamento suporte × antibiótico + suporte;
+sofosbuvir como estudado/inconclusivo;
+microaglutinação;
+penicilina cristalina;
+não confunda;
+pegadinhas;
+algoritmo mental de questão de residência;
+mapa mental final;
+revisão ativa;
+checklist de domínio;
+mapa de fidelidade.
+SVG obrigatório
+Criar SVG autoral:
+“Mapa mental final: síndrome febril ictérica”
+Estrutura:
+febre sem foco;
+icterícia;
+padrão laboratorial;
+febre amarela;
+leptospirose;
+hepatite viral;
+malária;
+dengue grave;
+diagnóstico;
+tratamento;
+pegadinhas.
+Hotspots mínimos
+febre + icterícia;
+hepatocelular;
+colestático/canalicular;
+hemolítico;
+Faget;
+sufusão conjuntival;
+ciclo silvestre;
+limpeza urbana;
+AST/ALT ≥ 2.000;
+FA/GGT;
+K baixo;
+hemoptise;
+microaglutinação;
+penicilina cristalina;
+suporte.
+Interação obrigatória
+Simulador completo:
+“Resolva a síndrome febril ictérica”
+Fluxo:
+identificar febre sem foco;
+reconhecer icterícia;
+classificar padrão laboratorial;
+selecionar principais hipóteses;
+analisar epidemiologia;
+comparar febre amarela versus leptospirose;
+interpretar rim e potássio;
+interpretar pulmão/hemoptise;
+escolher exame;
+escolher tratamento;
+evitar armadilhas;
+fechar o caso.
+Quiz integrador obrigatório
+Criar pelo menos 15 questões clínicas, com feedback explicativo, incluindo:
+febre + icterícia + AST/ALT ≥ 2.000 + AST > ALT;
+febre + icterícia + FA/GGT altas + bilirrubina direta;
+febre + icterícia + bilirrubina indireta;
+febre + plaquetopenia isolada;
+limpeza urbana + sufusão conjuntival;
+mata/ecoturismo/não vacinado;
+febre alta com FC baixa/inadequada;
+Faget exclusivo ou não;
+macaco como transmissor direto;
+vetores silvestres;
+vetor urbano;
+ausência de casos urbanos desde 1942;
+creatinina 2,5 + K 3,1;
+icterícia rubínica;
+hemoptise + IRA;
+microaglutinação;
+penicilina cristalina versus benzatina;
+sofosbuvir como tratamento padrão;
+antibiótico tardio;
+diálise precoce.
+Tabela obrigatória
+Tabela final:
+Febre amarela grave × leptospirose grave
+Colunas:
+natureza do agente;
+agente;
+morfologia;
+transmissão;
+vetor/reservatório;
+contexto clássico;
+palavra-chave clínica;
+icterícia;
+sangramento;
+rim;
+pulmão;
+síndrome pulmão-rim;
+AST/ALT;
+AST > ALT;
+FA/GGT;
+potássio;
+hemograma;
+CPK;
+diagnóstico;
+tratamento;
+prognóstico;
+pegadinha.
+Não confunda
+Consolidar todos:
+febre + icterícia sempre é febre amarela;
+febre + plaquetopenia sempre é dengue;
+macaco transmite diretamente;
+Faget é exclusivo;
+AST > ALT sempre é álcool;
+febre amarela grave é colestática;
+leptospirose grave tem AST/ALT sempre altíssimas;
+FA/GGT elevadas favorecem febre amarela grave;
+malária causa icterícia direta;
+creatinina alta sempre vem com K alto;
+penicilina cristalina é igual à benzatina;
+síndrome de Weil é forma leve;
+meningite asséptica é meningite bacteriana clássica;
+sofosbuvir é tratamento estabelecido;
+diagnóstico tardio não deve receber antibiótico.
+Pegadinha de prova
+A questão não pergunta apenas “qual doença dá febre e icterícia?”. Ela pergunta qual doença explica todo o padrão e qual delas muda tratamento imediatamente.
+
+21. Componentes interativos mínimos do módulo inteiro
+Implementar no mínimo:
+Mini-simulador “qual dado muda o rumo do diagnóstico?”
+Classificador febre sem foco × síndrome febril ictérica.
+Simulador de padrão laboratorial hepatocelular/colestático/hemolítico.
+Tabela interativa “aproxima ou afasta” para cinco diagnósticos.
+Quiz conceitual de Flavivírus.
+Comparador ciclo silvestre × ciclo urbano.
+Painel “culpa do macaco?”.
+Simulador pulso-temperatura/sinal de Faget.
+Classificador de formas clínicas da febre amarela.
+Comparador AST > ALT.
+Painel “aproxima ou afasta febre amarela?”.
+Simulador epidemiológico da leptospirose.
+Classificador dengue/conjuntivite/leptospirose.
+Simulador forma anictérica × síndrome de Weil.
+Jogo de interpretação laboratorial da leptospirose.
+Simulador “feche o caso e escolha tratamento”.
+Simulador integrador final de síndrome febril ictérica.
+Deck final de flashcards.
+Checklist clicável de domínio.
+Mapa de fidelidade do conteúdo.
+Todas as interações devem ter função cognitiva. Não criar interação apenas estética.
+
+22. SVGs obrigatórios do módulo
+Criar no mínimo 13 SVGs autorais, um por página:
+Febre sem foco → febre ictérica → pistas que mudam a hipótese.
+Febre + icterícia → qual padrão?
+Flavivírus: a febre amarela dá nome ao grupo.
+Ciclo silvestre × ciclo urbano da febre amarela.
+Escada de gravidade da febre amarela.
+Painel hepatorrenal da febre amarela grave.
+Balança diagnóstica: febre amarela versus leptospirose.
+Ciclo epidemiológico da leptospirose.
+Assinatura corporal da leptospirose anictérica.
+Síndrome pulmão-rim da leptospirose grave.
+Painel laboratorial da leptospirose.
+Suspeita de leptospirose → diagnóstico → tratamento.
+Mapa mental final: síndrome febril ictérica.
+Requisitos:
+SVG inline ou asset local;
+responsivo;
+legível em mobile;
+hotspots interativos;
+suporte a toque;
+suporte a teclado;
+aria-label;
+área clicável adequada;
+tooltips ou painéis laterais;
+sem dependência externa;
+sem imagem baixada da internet;
+sem decoração vazia.
+
+23. Quizzes obrigatórios
+Criar quizzes por página e simulado final.
+Mínimo:
+pelo menos 2 questões por página principal;
+pelo menos 15 questões no simulado final;
+pelo menos 1 questão clínica por página;
+feedback explicativo em todas;
+explicar por que a alternativa correta está certa;
+explicar por que as erradas são armadilhas.
+Cobrir obrigatoriamente:
+caso-guia;
+síndrome febril ictérica;
+bilirrubina direta versus indireta;
+hepatocelular versus colestático/canalicular versus hemolítico;
+febre amarela;
+ciclos;
+vetores;
+macacos sentinelas;
+sinal de Faget;
+formas clínicas;
+AST/ALT ≥ 500;
+AST/ALT ≥ 2.000;
+AST > ALT;
+diagnóstico temporal da febre amarela;
+tratamento de suporte;
+sofosbuvir inconclusivo;
+por que o caso não fecha com febre amarela;
+leptospirose;
+reservatório;
+transmissão;
+sufusão conjuntival;
+mialgia de panturrilha;
+síndrome de Weil;
+icterícia rubínica;
+síndrome pulmão-rim;
+tubulopatia;
+K baixo;
+CPK;
+microaglutinação;
+meningite asséptica;
+tratamento leve;
+tratamento grave;
+penicilina cristalina versus benzatina;
+ceftriaxona;
+diálise precoce.
+Evite perguntas rasas como:
+“Qual é o agente da leptospirose?”
+Prefira:
+“Paciente com febre há 10 dias, icterícia, sufusão conjuntival, limpeza urbana, creatinina 2,5, potássio 3,1, FA/GGT elevadas e hemoptise. Qual hipótese explica melhor o conjunto e qual tratamento deve ser lembrado?”
+
+24. Flashcards obrigatórios
+Criar flashcards locais por página e deck final.
+Mínimo:
+5 flashcards por página;
+deck final com pelo menos 60 flashcards.
+Flashcards obrigatórios:
+síndrome febril ictérica;
+febre + icterícia não fecha diagnóstico;
+bilirrubina direta;
+bilirrubina indireta;
+padrão hepatocelular;
+padrão colestático/canalicular;
+padrão hemolítico;
+febre amarela;
+Flavivírus RNA;
+flavi = amarelo;
+praga amarela;
+dengue como Flavivírus;
+ciclo silvestre;
+ciclo urbano;
+Haemagogus;
+Sabethes;
+Aedes aegypti;
+macaco sentinela;
+epizootia;
+humano acidental;
+humano central no ciclo urbano;
+1942;
+expansão vacinal;
+sinal de Faget;
+febre tifoide;
+legionella;
+brucelose;
+forma leve da febre amarela;
+forma moderada;
+forma grave;
+AST/ALT ≥ 500;
+AST/ALT ≥ 2.000;
+AST > ALT;
+icterícia + sangramento + oligúria;
+creatinina ≥ 2;
+coagulopatia;
+letalidade 20% a 50%;
+viremia até 5º dia;
+IgM ELISA a partir do 6º dia;
+suporte na febre amarela;
+sofosbuvir inconclusivo;
+Leptospira interrogans;
+espiroqueta;
+rato/camundongo;
+urina de rato;
+enchente;
+esgoto;
+limpeza urbana;
+construção civil;
+sufusão conjuntival;
+vasculite infecciosa;
+mialgia de panturrilha;
+forma anictérica;
+síndrome de Weil;
+icterícia rubínica;
+síndrome pulmão-rim;
+hemoptise;
+hemorragia alveolar;
+tubulopatia;
+potássio baixo;
+potássio normal inapropriado;
+CPK;
+microaglutinação;
+meningite asséptica;
+doxiciclina;
+amoxicilina;
+penicilina cristalina;
+penicilina benzatina como erro;
+ceftriaxona;
+diálise precoce.
+
+25. Tabelas obrigatórias
+Implementar como tabelas responsivas ou cards comparativos em mobile:
+Febre amarela × leptospirose × hepatite viral × malária × dengue grave.
+Padrão hepatocelular × colestático/canalicular × hemolítico.
+Flavivírus citados × doença × pista clínica/epidemiológica.
+Ciclo silvestre × ciclo urbano da febre amarela.
+Sinal de Faget: doenças associadas e pegadinhas.
+Febre amarela leve × moderada × grave.
+Padrão laboratorial da febre amarela nas formas clínicas.
+Diagnóstico temporal da febre amarela.
+Suporte na febre amarela grave por complicação.
+Dados que aproximam e afastam febre amarela no caso.
+Agente × reservatório × transmissão × exposição de risco na leptospirose.
+Leptospirose anictérica × síndrome de Weil.
+Achado laboratorial × mecanismo × pegadinha na leptospirose.
+Febre amarela grave × leptospirose grave.
+Diagnóstico: febre amarela × leptospirose.
+Tratamento: febre amarela × leptospirose leve × leptospirose grave.
+Penicilina cristalina × penicilina benzatina.
+Matriz “não confunda”.
+Pegadinhas de prova.
+Mapa de fidelidade do conteúdo.
+
+26. Fluxogramas obrigatórios
+Criar fluxogramas visuais ou interativos para:
+Febre sem foco → icterícia → síndrome febril ictérica.
+Febre + icterícia → hepatocelular/colestático/hemolítico.
+Diferencial inicial: febre amarela/leptospirose/hepatite/malária/dengue grave.
+Ciclo silvestre versus ciclo urbano da febre amarela.
+Febre amarela leve → moderada → grave.
+Diagnóstico temporal da febre amarela.
+Tratamento de suporte da febre amarela grave.
+Por que o caso sai de febre amarela e vai para leptospirose.
+Transmissão da leptospirose.
+Leptospirose anictérica → síndrome de Weil.
+Laboratório da leptospirose.
+Diagnóstico da leptospirose → microaglutinação.
+Tratamento da leptospirose leve versus grave.
+Fechamento final do caso.
+
+27. Painéis “Não confunda” obrigatórios
+Criar painéis explícitos para:
+Febre + icterícia × febre amarela automática.
+Febre + plaquetopenia × dengue automática.
+Febre amarela × leptospirose como doenças “parecidas”.
+Febre amarela bactéria × Flavivírus RNA.
+Leptospirose arbovirose × bactéria espiroqueta.
+Vetor × reservatório.
+Macaco transmissor direto × macaco sentinela.
+Haemagogus/Sabethes × Aedes aegypti.
+Sinal de Faget × diagnóstico específico.
+Faget febre amarela × Faget tifoide/legionella/brucelose.
+AST > ALT × hepatite alcoólica automática.
+Febre amarela grave hepatocelular × leptospirose canalicular.
+FA/GGT na leptospirose × febre amarela grave.
+Bilirrubina direta × indireta.
+Malária hemolítica × leptospirose colestática.
+Sufusão conjuntival × conjuntivite simples.
+Icterícia rubínica × icterícia comum.
+Síndrome de Weil × forma leve.
+Creatinina alta + K baixo × insuficiência renal comum.
+Plaquetopenia × dengue.
+Microaglutinação × cultura de rotina.
+Meningite asséptica × meningite bacteriana clássica.
+Penicilina cristalina × benzatina.
+Sofosbuvir estudado × conduta estabelecida.
+Antibiótico tardio × não tratar.
+
+28. Critérios objetivos de aceite
+A entrega só será aceita se:
+tiver no mínimo 13 páginas principais;
+cada página tiver pergunta central;
+cada página tiver objetivo pedagógico;
+cada página tiver SVG didático autoral;
+cada SVG tiver hotspots reais;
+cada página tiver interação adicional;
+cada página tiver quiz;
+cada página tiver revisão ativa ou flashcards;
+cada página tiver “Não confunda”;
+cada página tiver “Pegadinha de prova”;
+o caso-guia estiver presente e retomado no fechamento;
+a síndrome febril ictérica estiver clara;
+o diferencial inicial estiver completo;
+febre amarela estiver completa;
+ciclos da febre amarela estiverem completos;
+macacos forem preservados como sentinelas, não vilões;
+sinal de Faget estiver incluído e marcado como não específico;
+formas clínicas da febre amarela estiverem incluídas;
+padrão AST/ALT da febre amarela grave estiver preservado;
+diagnóstico temporal da febre amarela estiver preservado;
+tratamento de suporte da febre amarela estiver preservado;
+sofosbuvir estiver descrito como estudado/promissor, mas inconclusivo;
+por que o caso não fecha com febre amarela estiver claro;
+leptospirose estiver completa;
+Leptospira interrogans estiver preservada;
+reservatório em rato/camundongo estiver preservado;
+sufusão conjuntival estiver destacada;
+mialgia de panturrilha estiver destacada;
+síndrome de Weil estiver destacada;
+icterícia rubínica estiver incluída;
+síndrome pulmão-rim estiver incluída;
+hemoptise estiver destacada como gravidade;
+creatinina alta com potássio baixo estiver explicada;
+padrão colestático/canalicular estiver explicado;
+CPK estiver incluída;
+microaglutinação estiver incluída;
+meningite asséptica estiver incluída;
+tratamento da leptospirose leve e grave estiver completo;
+penicilina cristalina não for confundida com benzatina;
+ceftriaxona estiver como alternativa;
+diálise precoce estiver incluída quando indicada;
+houver tabela final comparativa;
+houver simulador final;
+não houver resumo superficial;
+não houver cards genéricos substituindo conteúdo;
+não houver metalinguagem;
+não houver conduta inventada;
+não houver perda de valores numéricos;
+os quizzes testarem raciocínio clínico, não memorização rasa;
+houver checklist final;
+houver revisão ativa;
+houver mapa de fidelidade.
+
+29. Critérios de falha
+A entrega será considerada falha se:
+reduzir o módulo para 7 páginas;
+entregar menos de 13 páginas principais;
+juntar raciocínios diferentes em páginas genéricas;
+resumir o roteiro;
+apagar minúcias;
+omitir caso-guia;
+omitir febre sem foco;
+omitir síndrome febril ictérica;
+omitir diferencial com hepatite viral, malária e dengue grave;
+omitir febre amarela como diferencial;
+omitir leptospirose como diagnóstico final provável;
+omitir ciclos da febre amarela;
+culpar macacos pela transmissão direta;
+omitir Haemagogus e Sabethes;
+omitir Aedes aegypti no ciclo urbano;
+omitir ausência de casos urbanos desde 1942;
+omitir sinal de Faget;
+tratar Faget como específico;
+omitir formas clínicas da febre amarela;
+omitir AST/ALT ≥ 500 na forma moderada;
+omitir AST/ALT ≥ 2.000 na forma grave;
+omitir AST > ALT;
+omitir suporte da febre amarela;
+transformar sofosbuvir em conduta;
+inventar antiviral;
+omitir por que o caso não fecha com febre amarela;
+omitir Leptospira interrogans;
+omitir rato/camundongo como reservatório;
+omitir urina de rato;
+omitir limpeza urbana/enxente/esgoto;
+omitir sufusão conjuntival;
+omitir mialgia de panturrilha;
+omitir síndrome de Weil;
+omitir icterícia rubínica;
+omitir síndrome pulmão-rim;
+omitir hemoptise;
+omitir creatinina alta com potássio baixo;
+omitir tubulopatia;
+omitir FA/GGT;
+omitir CPK;
+omitir microaglutinação;
+omitir meningite asséptica;
+omitir penicilina cristalina;
+confundir penicilina cristalina com benzatina;
+omitir ceftriaxona;
+omitir diálise precoce;
+criar SVG meramente decorativo;
+criar hotspots superficiais;
+usar “a aula menciona” ou equivalentes;
+inventar guidelines externos;
+quebrar a navegação;
+mexer em PWA/service worker;
+priorizar visual sobre conteúdo.
+
+30. Auditoria final obrigatória antes de concluir
+Antes de finalizar, faça auditoria em três camadas.
+Camada 1 — Cobertura de conteúdo
+Verificar se todos estes blocos existem:
+Caso clínico-guia.
+Febre sem foco.
+Síndrome febril ictérica.
+Diferencial inicial.
+Febre amarela.
+Flavivírus RNA.
+Flavi = amarelo.
+Ciclo silvestre.
+Ciclo urbano.
+Haemagogus.
+Sabethes.
+Aedes aegypti.
+Macacos como sentinelas.
+1942.
+Sinal de Faget.
+Formas clínicas da febre amarela.
+Forma leve.
+Forma moderada.
+Forma grave.
+AST/ALT ≥ 500.
+AST/ALT ≥ 2.000.
+AST > ALT.
+Icterícia + sangramento + oligúria.
+Diagnóstico temporal da febre amarela.
+Tratamento de suporte.
+Sofosbuvir inconclusivo.
+Caso não fecha com febre amarela.
+Leptospirose.
+Leptospira interrogans.
+Espiroqueta.
+Rato/camundongo.
+Urina.
+Enchente/esgoto/limpeza urbana.
+Forma anictérica.
+Sufusão conjuntival.
+Mialgia de panturrilha.
+Síndrome de Weil.
+Icterícia rubínica.
+Síndrome pulmão-rim.
+Hemoptise.
+Laboratório da leptospirose.
+FA/GGT.
+Bilirrubina direta.
+Creatinina alta + K baixo.
+CPK.
+Microaglutinação.
+Meningite asséptica.
+Tratamento leve.
+Tratamento grave.
+Penicilina cristalina.
+Benzatina como erro.
+Ceftriaxona.
+Diálise precoce.
+Fechamento do caso.
+Pegadinhas.
+Algoritmo mental.
+Mini mapa mental.
+Revisão ativa.
+Checklist.
+Mapa de fidelidade.
+Camada 2 — Valores e dados específicos
+Verificar:
+Caso com 10 dias de evolução.
+Febre 39 °C.
+PA 120 × 70 mmHg, se usada.
+FC 106 bpm, se usada.
+FR 20 irpm, se usada.
+Plaquetas em torno de 80.000, se usadas.
+Creatinina 2,5.
+Potássio 3,1.
+Febre amarela urbana ausente desde 1942, conforme roteiro.
+Forma moderada: AST/ALT geralmente ≥ 500.
+Forma grave: AST/ALT geralmente ≥ 2.000.
+Forma grave: creatinina geralmente ≥ 2.
+Letalidade da forma grave: 20% a 50%.
+Faget: febre alta sem taquicardia proporcional.
+Referência didática: 1 °C ≈ 8 bpm.
+Viremia febre amarela até 5º dia.
+IgM ELISA a partir do 6º dia.
+Síndrome de Weil: cerca de 10% dos casos, conforme roteiro.
+Tratamento leve: doxiciclina ou amoxicilina.
+Tratamento grave: penicilina cristalina EV.
+Ceftriaxona como alternativa.
+Não inventou dose.
+Camada 3 — Técnica e UX
+Verificar:
+13 páginas principais.
+13 SVGs.
+Hotspots em todos os SVGs.
+Interação adicional em todas as páginas.
+Quizzes em todas as páginas.
+Flashcards/revisão ativa.
+Sem metalinguagem.
+Sem dependências externas desnecessárias.
+Sem PWA.
+Sem service worker.
+Sem alteração de manifest/cache.
+Sem overflow horizontal.
+Hotspots funcionam em toque.
+Hotspots funcionam por teclado.
+Foco visível.
+Contraste aceitável.
+Reduced motion respeitado.
+Navegação local funcional.
+Mapa de fidelidade criado.
+
+31. Busca textual obrigatória por metalinguagem
+Antes de encerrar, buscar nos arquivos visíveis da interface e remover qualquer ocorrência de:
+“a aula”
+“o professor”
+“a transcrição”
+“o roteiro”
+“segundo”
+“baseado no material”
+“foi abordado”
+“foi mencionado”
+“o arquivo”
+Esses termos só podem permanecer em documentos internos de QA, nunca na interface do estudante.
+
+32. Documentação interna obrigatória
+Criar ou atualizar:
+docs/matriz-conteudo-febre-amarela-leptospirose.md
+docs/qa-febre-amarela-leptospirose.md
+Se não existir pasta docs/, criar dentro do módulo.
+matriz-conteudo-febre-amarela-leptospirose.md
+Deve conter:
+bloco do roteiro;
+página implementada;
+componente associado;
+SVG associado;
+interação associada;
+status de cobertura;
+observações.
+Blocos obrigatórios:
+caso clínico inicial;
+síndrome febril ictérica;
+diferencial inicial;
+febre amarela;
+ciclos e vetores;
+macacos como sentinelas;
+formas clínicas da febre amarela;
+diagnóstico da febre amarela;
+tratamento da febre amarela;
+sofosbuvir como estudado/inconclusivo;
+por que o caso não fecha com febre amarela;
+leptospirose;
+agente etiológico;
+transmissão;
+reservatório;
+sufusão conjuntival;
+mialgia de panturrilha;
+síndrome de Weil;
+icterícia rubínica;
+síndrome pulmão-rim;
+laboratório da leptospirose;
+creatinina alta com potássio baixo;
+diagnóstico da leptospirose;
+microaglutinação;
+meningite asséptica;
+tratamento da leptospirose;
+fechamento do caso;
+pegadinhas;
+tabelas;
+fluxos;
+revisão ativa;
+checklist final.
+qa-febre-amarela-leptospirose.md
+Deve conter:
+checklist de conteúdo;
+checklist de números;
+checklist técnico;
+checklist de metalinguagem;
+checklist de responsividade;
+checklist de hotspots;
+checklist de interações;
+pendências.
+
+33. Relatório final esperado do Codex
+Ao final, responder com relatório curto e objetivo contendo:
+Arquivos criados/modificados.
+Estrutura de páginas criada.
+Lista dos 13 SVGs e seus hotspots.
+Componentes interativos implementados.
+Tabelas implementadas.
+Fluxogramas implementados.
+Quizzes/flashcards implementados.
+Como o caso-guia foi preservado.
+Como a síndrome febril ictérica foi preservada.
+Como febre amarela foi diferenciada de leptospirose.
+Como os padrões laboratoriais foram preservados.
+Como o tratamento da leptospirose foi preservado.
+Como foi validado que não houve perda de conteúdo.
+Confirmação de que PWA/service worker/manifest/cache não foram alterados.
+Pendências, se existirem.
+Não responder apenas “feito”. A entrega precisa provar fidelidade, cobertura, granularidade e estabilidade.
