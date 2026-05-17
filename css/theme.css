@@ -41,6 +41,11 @@
   --sidebar-radius: 22px;
   --sidebar-margin: 12px;
 
+  /* Area segura do iOS/PWA: evita colisao com status bar e Dynamic Island. */
+  --safe-area-top: env(safe-area-inset-top, 0px);
+  --safe-area-left: env(safe-area-inset-left, 0px);
+  --safe-area-right: env(safe-area-inset-right, 0px);
+
   /* Header premium — card flutuante */
   --header-bg: rgba(255,255,255,0.72);
   --header-border: rgba(15,23,42,0.06);
@@ -486,7 +491,7 @@ body.sidebar-compact .main-content {
 .header {
   left: calc(var(--sidebar-width) + var(--sidebar-margin) + var(--sidebar-margin));
   right: var(--sidebar-margin);
-  top: var(--sidebar-margin);
+  top: calc(var(--sidebar-margin) + var(--safe-area-top));
   height: var(--header-height);
   background: var(--header-bg);
   -webkit-backdrop-filter: blur(24px) saturate(180%);
@@ -503,12 +508,12 @@ body.sidebar-compact .main-content {
     box-shadow 0.3s ease;
 }
 
-.header.hidden { transform: translateY(calc(-100% - var(--sidebar-margin) - 4px)); }
+.header.hidden { transform: translateY(calc(-100% - var(--sidebar-margin) - var(--safe-area-top) - 4px)); }
 
 .main-content {
   margin-left: calc(var(--sidebar-width) + var(--sidebar-margin) + var(--sidebar-margin));
-  margin-top: calc(var(--header-height) + var(--sidebar-margin) + 8px);
-  min-height: calc(100vh - var(--header-height) - var(--sidebar-margin) - 8px);
+  margin-top: calc(var(--header-height) + var(--sidebar-margin) + var(--safe-area-top) + 8px);
+  min-height: calc(100vh - var(--header-height) - var(--sidebar-margin) - var(--safe-area-top) - 8px);
   padding-right: var(--sidebar-margin);
   transition: margin-left 0.36s var(--ease-out);
 }
@@ -965,21 +970,21 @@ button:focus-visible,
   .sidebar.open { transform: translateX(0); }
 
   .header {
-    left: 8px;
-    right: 8px;
-    top: 8px;
+    left: max(8px, var(--safe-area-left));
+    right: max(8px, var(--safe-area-right));
+    top: calc(8px + var(--safe-area-top));
     border-radius: 16px;
   }
 
   .main-content {
     margin-left: 0;
-    margin-top: calc(var(--header-height) + 16px);
+    margin-top: calc(var(--header-height) + var(--safe-area-top) + 16px);
     padding-right: 0;
   }
 
   /* Compactação não se aplica em mobile */
   body.sidebar-compact .sidebar { width: 280px; }
-  body.sidebar-compact .header { left: 8px; }
+  body.sidebar-compact .header { left: max(8px, var(--safe-area-left)); }
   body.sidebar-compact .main-content { margin-left: 0; }
   body.sidebar-compact .logo-text,
   body.sidebar-compact .nav-group-title,

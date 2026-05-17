@@ -1,9 +1,9 @@
 /* =========================================
    SINDROMES FEBRIS — SERVICE WORKER PWA
-   Cache versionado: infecto-pwa-v20260517-2
+   Cache versionado: infecto-pwa-v20260517-3
    ========================================= */
 
-const CACHE_NAME = 'infecto-pwa-v20260517-2';
+const CACHE_NAME = 'infecto-pwa-v20260517-3';
 const CACHE_PREFIX = 'infecto-pwa-';
 
 const APP_SHELL = [
